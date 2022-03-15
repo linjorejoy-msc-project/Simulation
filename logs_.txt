@@ -1,0 +1,9 @@
+Logs for Simulation
+Start Time     :2022-03-13 18:20:53.778246
+
+INFO      : 2022-03-13 18:20:53.785208 - Attempting to Connect to server in 1 in host DESKTOP-RTTDHS7 at port 1234
+INFO      : 2022-03-13 18:20:53.785208 - Server in 1 in host DESKTOP-RTTDHS7 at port 1234 is started
+
+
+Simulation Ended
+End Time       :2022-03-13 18:20:53.787223
