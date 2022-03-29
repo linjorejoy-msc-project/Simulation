@@ -1,0 +1,4 @@
+DEBUG      2022-03-16 19:18:55,007: This message should go to the log file
+INFO       2022-03-16 19:18:55,008: So should this
+WARNING    2022-03-16 19:18:55,008: And this, too
+ERROR      2022-03-16 19:18:55,008: And non-ASCII stuff, too, like resund and Malm

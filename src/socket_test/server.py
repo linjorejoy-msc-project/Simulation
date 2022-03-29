@@ -1,7 +1,7 @@
 import socket
 import time
 
-HEADERSIZE = 10
+HEADERSIZE = 5
 
 server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 server_socket.bind((socket.gethostname(), 1234))
@@ -53,13 +53,13 @@ def connect_to_client_2():
             client_socket.send(bytes(reply_msg, "utf-8"))
             print(f"{'SENDING':<10}: {reply_msg=}")
             print(f"{count=}")
-            if count >= 5:
-                print("Closing----")
-                # client_socket.shutdown(socket.SHUT_RDWR)
-                # client_socket.close()
-                # server_socket.shutdown(socket.SHUT_RD)
-                # server_socket.close()
-                # break
+            # if count >= 5:
+            #     print("Closing----")
+            # client_socket.shutdown(socket.SHUT_RDWR)
+            # client_socket.close()
+            # server_socket.shutdown(socket.SHUT_RD)
+            # server_socket.close()
+            # break
         break
 
 

@@ -1,7 +1,7 @@
 import socket
 import time
 
-HEADERSIZE = 10
+HEADERSIZE = 5
 
 server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 server_socket.connect((socket.gethostname(), 1234))
