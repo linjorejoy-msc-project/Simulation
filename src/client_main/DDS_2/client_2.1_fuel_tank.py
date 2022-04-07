@@ -131,13 +131,6 @@ def listen_analysis():
             topic_func_dict[topic](data_dict, info)
         else:
             logging.error(f"{CONFIG_DATA['name']} is not subscribed to {topic}")
-        # if check_to_run_cycle(cycle_flags):
-        #     # Run a cycle
-        #     logging.info(f"All flags are up, so cycle running thread started")
-        #     cycle_thread = threading.Thread(target=run_one_cycle)
-        #     cycle_thread.start()
-        #     make_all_cycle_flags_default(cycle_flags)
-        #     logging.info(f"Flags made to default {cycle_flags=}")
 
 
 # Helper Functions
@@ -175,12 +168,8 @@ def main():
     listening_thread = threading.Thread(
         target=listening_function, args=(server_socket,)
     )
-    # sending_thread = threading.Thread()
-    # analysis_thread = threading.Thread()
 
     listening_thread.start()
-    # sending_thread.start()
-    # analysis_thread.start()
 
 
 if __name__ == "__main__":

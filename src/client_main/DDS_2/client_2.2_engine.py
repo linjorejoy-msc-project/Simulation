@@ -107,11 +107,6 @@ def listen_analysis():
             topic_func_dict[topic](data_dict, info)
         else:
             print(f"{CONFIG_DATA['name']} is not subscribed to {topic}")
-        # if check_to_run_cycle(cycle_flags):
-        #     # Run a cycle
-        #     cycle_thread = threading.Thread(target=run_one_cycle)
-        #     cycle_thread.start()
-        #     make_all_cycle_flags_default(cycle_flags)
 
 
 def listening_function(server_socket):
@@ -139,12 +134,8 @@ def main():
     listening_thread = threading.Thread(
         target=listening_function, args=(server_socket,)
     )
-    # sending_thread = threading.Thread()
-    # analysis_thread = threading.Thread()
 
     listening_thread.start()
-    # sending_thread.start()
-    # analysis_thread.start()
 
 
 if __name__ == "__main__":

@@ -131,9 +131,7 @@ def listening_function(server_socket):
             elif msg == "CONSTANTS":
                 send_constants(server_socket)
             elif msg == "START":
-                # analysis_thread = threading.Thread(target=start_a_cycle)
                 analysis_listening_thread = threading.Thread(target=listen_analysis)
-                # analysis_thread.start()
                 analysis_listening_thread.start()
                 break
             else:
@@ -145,18 +143,11 @@ def listening_function(server_socket):
 
 
 def main():
-    # logging.info(f"Calculating constants")
     calculate_constants()
-    # logging.info("listening function Thread created and started")
+
     listening_thread = threading.Thread(
         target=listening_function, args=(server_socket,)
     )
-    # sending_thread = threading.Thread()
-    # analysis_thread = threading.Thread()
-
-    listening_thread.start()
-    # sending_thread.start()
-    # analysis_thread.start()
 
 
 if __name__ == "__main__":
