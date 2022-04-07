@@ -2,12 +2,41 @@ import socket
 import threading
 import json
 
+from client_main.DDS_2.common_functions import (
+    check_to_run_cycle,
+    drag_received,
+    field_received,
+    format_msg_with_header,
+    fuel_flow_received,
+    make_all_cycle_flags_default,
+    recv_msg,
+    recv_topic_data,
+    send_config,
+    request_constants,
+    send_topic_data,
+    thrust_received,
+)
+
+# Logging
+import logging
+
+FORMAT = "%(levelname)-10s %(asctime)s: %(message)s"
+logging.basicConfig(
+    filename="logs_motion.log",
+    encoding="utf-8",
+    level=logging.DEBUG,
+    format=FORMAT,
+    filemode="w",
+)
+
+# Logging end
+
 
 HEADERSIZE = 5
 CONFIG_DATA = {
     "id": "CLIENT_3",
     "name": "motion",
-    "subscribed_topics": ["drag", "thrust", "field"],
+    "subscribed_topics": ["drag", "thrust", "fuel_flow", "field"],
     "published_topics": ["motion"],
     "constants_required": [
         "gravitationalAcceleration",
@@ -17,52 +46,102 @@ CONFIG_DATA = {
     ],
     "variables_subscribed": [],
 }
+
 server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 server_socket.connect((socket.gethostname(), 1234))
 
+CONSTANTS = {}
+
+topic_data = {
+    "netThrust": 0,
+    "currentAcceleration": 0,
+    "currentVelocityDelta": 0,
+    "currentVelocity": 0,
+    "currentAltitudeDelta": 0,
+    "currentAltitude": 0,
+    "requiredThrustChange": 0,
+}
+
+data_dict = {}
+
+cycle_flags = {"drag": False, "thrust": False, "fuel_flow": False, "field": False}
+topic_func_dict = {
+    "drag": drag_received,
+    "thrust": thrust_received,
+    "fuel_flow": fuel_flow_received,
+    "field": field_received,
+}
+
+
+def fill_init_topic_data():
+    global topic_data
+    topic_data["currentAcceleration"] = 0
+    topic_data["currentVelocity"] = 0
+    topic_data["currentAltitude"] = 0
+
+
+def run_one_cycle():
+    topic_data["netThrust"] = (
+        CONSTANTS["requiredThrust"]
+        - data_dict["currentRocketTotalMass"] * CONSTANTS["gravitationalAcceleration"]
+        - data_dict["drag"]
+    )
+    topic_data["requiredThrustChange"] = (
+        (CONSTANTS["requiredThrust"] - topic_data["netThrust"])
+        * 100
+        / CONSTANTS["requiredThrust"]
+    )
+    topic_data["currentAcceleration"] = (
+        topic_data["netThrust"] / data_dict["currentRocketTotalMass"]
+    )
+    topic_data["currentVelocityDelta"] = (
+        topic_data["currentAcceleration"] * CONSTANTS["timestepSize"]
+    )
+    topic_data["currentVelocity"] = (
+        topic_data["currentVelocity"] + topic_data["currentVelocityDelta"]
+    )
+    topic_data["currentAltitudeDelta"] = (
+        topic_data["currentVelocity"] * CONSTANTS["timestepSize"]
+    )
+    topic_data["currentAltitude"] = (
+        topic_data["currentAltitude"] + topic_data["currentAltitudeDelta"]
+    )
+    send_topic_data(server_socket, "motion", json.dumps(topic_data))
+    logging.info(f"{topic_data=}")
+    print(f"Altitude : {topic_data['currentAltitude']}")
+
+
 # Helper Functions
-def format_msg_with_header(msg: str, header_size: int = HEADERSIZE):
-    return bytes(f"{len(msg):<{header_size}}" + msg, "utf-8")
-
-
-def recv_msg(server_socket: socket.socket) -> str:
-    try:
-        msg_len = int(server_socket.recv(HEADERSIZE))
-        return server_socket.recv(msg_len).decode("utf-8")
-    except Exception as e:
-        print(f"Error Occured\n{e}")
-        return None
-
-
-def send_config(server_socket: socket.socket):
-    global CONFIG_DATA
-
-    data = json.dumps(CONFIG_DATA)
-    print(f"Trying to send {data=}")
-    server_socket.send(format_msg_with_header(json.dumps(CONFIG_DATA)))
-    print("Data Sent")
-
-
-def subscribed_data_receive(msg: str):
-    pass
-
-
-def request_constants(server_socket: socket.socket):
-    server_socket.send(format_msg_with_header("CONSTANTS"))
-    constants_received = recv_msg(server_socket)
-    print(f"{constants_received=}")
+def listen_analysis():
+    global data_dict
+    global cycle_flags
+    while True:
+        topic, info = recv_topic_data(server_socket)
+        if topic in cycle_flags.keys():
+            cycle_flags[topic] = True
+            topic_func_dict[topic](data_dict, info)
+        else:
+            print(f"{CONFIG_DATA['name']} is not subscribed to {topic}")
+        if check_to_run_cycle(cycle_flags):
+            # Run a cycle
+            cycle_thread = threading.Thread(target=run_one_cycle)
+            cycle_thread.start()
+            make_all_cycle_flags_default(cycle_flags)
 
 
 def listening_function(server_socket):
+    global CONFIG_DATA
+    global CONSTANTS
     while True:
         try:
             msg = recv_msg(server_socket)
             if msg == "CONFIG":
-                send_config(server_socket)
-                request_constants(server_socket)
-            else:
-                subscribed_data_receive(msg)
-                print(f"subscribed_data_receive called")
+                send_config(server_socket, CONFIG_DATA)
+                CONSTANTS = request_constants(server_socket)
+                fill_init_topic_data()
+            elif msg == "START":
+                analysis_listening_thread = threading.Thread(target=listen_analysis)
+                analysis_listening_thread.start()
                 break
         except Exception as e:
             print(f"Error Occured\n{e}")

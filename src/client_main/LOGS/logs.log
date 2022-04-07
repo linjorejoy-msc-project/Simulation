@@ -1,0 +1,6 @@
+INFO       2022-04-06 18:00:12,326: Calculating constants
+INFO       2022-04-06 18:00:12,327: listening function Thread created and started
+INFO       2022-04-06 18:00:12,328: Listening while loop started
+INFO       2022-04-06 18:00:12,328: Received msg='CONFIG'
+INFO       2022-04-06 18:00:12,328: Sending config 
+config={'id': 'CLIENT_5', 'name': 'fields', 'subscribed_topics': ['field_update'], 'published_topics': ['field'], 'constants_required': [], 'variables_subscribed': []}

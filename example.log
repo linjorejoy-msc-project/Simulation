@@ -2,3 +2,12 @@ DEBUG      2022-03-16 19:18:55,007: This message should go to the log file
 INFO       2022-03-16 19:18:55,008: So should this
 WARNING    2022-03-16 19:18:55,008: And this, too
 ERROR      2022-03-16 19:18:55,008: And non-ASCII stuff, too, like resund and Malm
+DEBUG      2022-04-06 13:24:03,308: This message should go to the log file
+INFO       2022-04-06 13:24:03,310: So should this
+WARNING    2022-04-06 13:24:03,311: And this, too
+ERROR      2022-04-06 13:24:03,312: And non-ASCII stuff, too, like resund and Malm
+DEBUG      2022-04-06 13:44:50,482: This message should go to the log 
+file
+INFO       2022-04-06 13:44:50,483: So should this
+WARNING    2022-04-06 13:44:50,485: And this, too
+ERROR      2022-04-06 13:44:50,487: And non-ASCII stuff, too, like resund and Malm

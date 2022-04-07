@@ -1,0 +1,6 @@
+INFO       2022-04-07 00:51:30,506: Sending config 
+config={'id': 'CLIENT_2', 'name': 'engine', 'subscribed_topics': ['fuel_flow', 'field'], 'published_topics': ['thrust'], 'constants_required': ['requiredThrust', 'specificImpulse', 'gravitationalAcceleration', 'timestepSize', 'totalTimesteps'], 'variables_subscribed': []}
+INFO       2022-04-07 00:51:34,607: topic='thrust' sending data='{"currentThrust": 123191000.0}'
+INFO       2022-04-07 00:51:34,610: as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+INFO       2022-04-07 00:51:34,722: Received msg='field                    {"currentTimestep": 0}'
+DEBUG      2022-04-07 00:51:34,723: Check (topic,info) = (field,{"currentTimestep": 0})

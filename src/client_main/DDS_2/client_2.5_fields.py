@@ -3,12 +3,39 @@ import socket
 import threading
 import json
 
+from client_main.DDS_2.common_functions import (
+    format_msg_with_header,
+    format_msg_with_header_and_topic,
+    recv_msg,
+    recv_topic_data,
+    send_config,
+    request_constants,
+    send_topic_data,
+)
+
+# Logging
+import logging
+import os
+
+file_path = os.path.join(os.path.abspath(os.curdir), "src\\client_main\\LOGS")
+print(f"{file_path=}")
+
+FORMAT = "%(levelname)-10s %(asctime)s: %(message)s"
+logging.basicConfig(
+    filename=f"logs_fields.log",
+    encoding="utf-8",
+    level=logging.DEBUG,
+    format=FORMAT,
+    filemode="w",
+)
+
+# Logging end
 
 HEADERSIZE = 5
 CONFIG_DATA = {
     "id": "CLIENT_5",
-    "name": "fields",
-    "subscribed_topics": ["field"],
+    "name": "field",
+    "subscribed_topics": ["field_update"],
     "published_topics": ["field"],
     "constants_required": [],
     "variables_subscribed": [],
@@ -20,7 +47,6 @@ CONSTANTS = {
     "timestepSize": 1,
     "totalTimesteps": 500,
     "requiredThrust": 123_191_000.0,
-    "initialDrag": 0,
     "dragCoefficient": 0.75,
     "rocketTotalMass": 7_982_000,
     "rocketUnfuelledMass": 431_000,
@@ -35,14 +61,9 @@ CONSTANTS = {
     "initialRequiredMassFlowRate": 0,
 }
 
-
-class FieldTopic:
-    def __init__(self) -> None:
-        self.current_timestep
-        self.current_time
-
-    def to_dict(self, obj):
-        return json.dumps(obj, default=lambda o: o.__dict__, indent=2)
+variables = {
+    "currentTimestep": 0,
+}
 
 
 def calculate_constants():
@@ -65,52 +86,58 @@ def calculate_constants():
     )
 
 
-def subscribed_data_receive(msg: str):
-    pass
+def process_topic_field(data: str):
+    try:
+        dataObj: dict = json.loads(data)
+        for key in dataObj.keys():
+            variables[key] = dataObj[key]
+    except Exception as e:
+        logging.error(e)
+        print(e)
+
+
+def start_a_cycle():
+    logging.info(f"Senfing topic 'field' as :{variables=}")
+    send_topic_data(server_socket, "field", json.dumps(variables))
+
+
+def listen_analysis():
+    logging.info(f"Listening thread started...")
+    while True:
+        topic, info = recv_topic_data(server_socket)
+        if topic == "field_update":
+            process_topic_field(info)
+            start_a_cycle()
 
 
 # Helper Functions
-def format_msg_with_header(msg: str, header_size: int = HEADERSIZE):
-    return bytes(f"{len(msg):<{header_size}}" + msg, "utf-8")
-
-
-def recv_msg(server_socket: socket.socket) -> str:
-    try:
-        msg_len = int(server_socket.recv(HEADERSIZE))
-        return server_socket.recv(msg_len).decode("utf-8")
-    except Exception as e:
-        print(f"Error Occured\n{e}")
-        return None
-
-
-def send_config(server_socket: socket.socket):
-    global CONFIG_DATA
-
-    data = json.dumps(CONFIG_DATA)
-    server_socket.send(format_msg_with_header(json.dumps(CONFIG_DATA)))
-
-
 def send_constants(server_socket: socket.socket):
+    global CONSTANTS
+    logging.info(
+        f"Sending CONSTANTS :\n{str(format_msg_with_header(json.dumps(CONSTANTS)))}"
+    )
     server_socket.send(format_msg_with_header(json.dumps(CONSTANTS)))
 
 
-def request_constants(server_socket: socket.socket):
-    server_socket.send(format_msg_with_header("CONSTANTS"))
-    constants_received = recv_msg(server_socket)
-    print(f"{constants_received=}")
-
-
 def listening_function(server_socket):
+    global CONFIG_DATA
+    logging.info("Listening while loop started")
     while True:
         try:
             msg = recv_msg(server_socket)
+            logging.info(f"Received {msg=}")
             if msg == "CONFIG":
-                send_config(server_socket)
+                send_config(server_socket, CONFIG_DATA)
                 # request_constants(server_socket)
             elif msg == "CONSTANTS":
                 send_constants(server_socket)
+            elif msg == "START":
+                analysis_thread = threading.Thread(target=start_a_cycle)
+                analysis_listening_thread = threading.Thread(target=listen_analysis)
+                analysis_thread.start()
+                analysis_listening_thread.start()
+                break
             else:
-                subscribed_data_receive(msg)
                 print(f"subscribed_data_receive called")
                 break
         except Exception as e:
@@ -119,7 +146,9 @@ def listening_function(server_socket):
 
 
 def main():
+    logging.info(f"Calculating constants")
     calculate_constants()
+    logging.info("listening function Thread created and started")
     listening_thread = threading.Thread(
         target=listening_function, args=(server_socket,)
     )
@@ -133,3 +162,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+    # pass
