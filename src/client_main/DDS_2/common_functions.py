@@ -37,7 +37,6 @@ def recv_msg(server_socket: socket.socket) -> str:
         while True:
             len_str = server_socket.recv(HEADERSIZE)
             if len_str:
-                print(f"{len_str=}")
                 msg_len = int(len_str)
                 return_str = server_socket.recv(msg_len).decode("utf-8")
                 if return_str:
@@ -49,15 +48,15 @@ def recv_msg(server_socket: socket.socket) -> str:
 
 def recv_topic_data(server_socket: socket.socket) -> Tuple[str, str]:
     msg = recv_msg(server_socket)
-    logging.info(f"Received {msg=}")
-    logging.debug(
-        f"Check (topic,info) = ({str(msg[:TOPICLABELSIZE]).strip()},{msg[TOPICLABELSIZE:]})"
-    )
+    # logging.info(f"Received {msg=}")
+    # logging.debug(
+    #     f"Check (topic,info) = ({str(msg[:TOPICLABELSIZE]).strip()},{msg[TOPICLABELSIZE:]})"
+    # )
     return str(msg[:TOPICLABELSIZE]).strip(), msg[TOPICLABELSIZE:]
 
 
 def send_config(server_socket: socket.socket, config: dict):
-    logging.info(f"Sending config \n{config=}")
+    # logging.info(f"Sending config \n{config=}")
     server_socket.send(format_msg_with_header(json.dumps(config)))
 
 
@@ -70,10 +69,10 @@ def request_constants(server_socket: socket.socket):
 
 
 def send_topic_data(server_socket: socket.socket, topic: str, data: str):
-    logging.info(f"{topic=} sending {data=}")
+    # logging.info(f"{topic=} sending {data=}")
     msgToSend = f"{topic:25}{data}"
     server_socket.send(format_msg_with_header(msgToSend))
-    logging.info(f"as {format_msg_with_header(msgToSend)=}")
+    logging.info(f"{topic=} sending {data=} as {format_msg_with_header(msgToSend)=}")
 
 
 def check_to_run_cycle(cycle_flags: dict):

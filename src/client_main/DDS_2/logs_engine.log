@@ -1,6 +1,7 @@
-INFO       2022-04-07 00:51:30,506: Sending config 
-config={'id': 'CLIENT_2', 'name': 'engine', 'subscribed_topics': ['fuel_flow', 'field'], 'published_topics': ['thrust'], 'constants_required': ['requiredThrust', 'specificImpulse', 'gravitationalAcceleration', 'timestepSize', 'totalTimesteps'], 'variables_subscribed': []}
-INFO       2022-04-07 00:51:34,607: topic='thrust' sending data='{"currentThrust": 123191000.0}'
-INFO       2022-04-07 00:51:34,610: as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-INFO       2022-04-07 00:51:34,722: Received msg='field                    {"currentTimestep": 0}'
-DEBUG      2022-04-07 00:51:34,723: Check (topic,info) = (field,{"currentTimestep": 0})
+INFO       2022-04-07 23:15:43,099: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-04-07 23:15:43,129: Timestep:     0-{'currentThrust': 123191000.0}
+INFO       2022-04-07 23:15:43,129: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-04-07 23:15:43,209: Timestep:     1-{'currentThrust': 123191000.0}
+INFO       2022-04-07 23:15:43,209: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-04-07 23:15:43,289: Timestep:     2-{'currentThrust': 123191000.0}
+INFO       2022-04-07 23:15:43,289: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'

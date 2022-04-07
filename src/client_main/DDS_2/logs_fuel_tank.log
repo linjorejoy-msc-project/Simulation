@@ -1,15 +1,7 @@
-INFO       2022-04-07 00:51:22,496: first listening function started
-INFO       2022-04-07 00:51:25,488: Received msg='CONFIG'
-INFO       2022-04-07 00:51:25,489: Sending Config Data CONFIG_DATA={'id': 'CLIENT_1', 'name': 'fuel_tank', 'subscribed_topics': ['thrust', 'field'], 'published_topics': ['fuel_flow'], 'constants_required': ['specificImpulse', 'gravitationalAcceleration', 'O2FRatio', 'initialOxidiserMass', 'initialFuelMass', 'rocketTotalMass', 'timestepSize', 'totalTimesteps'], 'variables_subscribed': []}
-INFO       2022-04-07 00:51:25,489: Sending config 
-config={'id': 'CLIENT_1', 'name': 'fuel_tank', 'subscribed_topics': ['thrust', 'field'], 'published_topics': ['fuel_flow'], 'constants_required': ['specificImpulse', 'gravitationalAcceleration', 'O2FRatio', 'initialOxidiserMass', 'initialFuelMass', 'rocketTotalMass', 'timestepSize', 'totalTimesteps'], 'variables_subscribed': []}
-INFO       2022-04-07 00:51:25,489: Requesting Constants
-INFO       2022-04-07 00:51:25,498: Constants received CONSTANTS={'specificImpulse': 410, 'gravitationalAcceleration': 9.81, 'O2FRatio': 6, 'initialOxidiserMass': 6472285.714285715, 'initialFuelMass': 1078714.2857142857, 'rocketTotalMass': 7982000, 'timestepSize': 1, 'totalTimesteps': 500}
-INFO       2022-04-07 00:51:25,499: Filling initial topic data
-INFO       2022-04-07 00:51:34,620: Received msg='thrust                   {"currentThrust": 123191000.0}'
-INFO       2022-04-07 00:51:34,681: Received msg='START'
-INFO       2022-04-07 00:51:34,682: Analysis Starting and thread created
-INFO       2022-04-07 00:51:34,697: Started Listening for analysis
-INFO       2022-04-07 00:51:34,718: Received msg='field                    {"currentTimestep": 0}'
-DEBUG      2022-04-07 00:51:34,719: Check (topic,info) = (field,{"currentTimestep": 0})
-INFO       2022-04-07 00:51:34,720: Data received of topic='field' with info='{"currentTimestep": 0}'
+INFO       2022-04-07 23:15:43,098: Started Listening for analysis
+DEBUG      2022-04-07 23:15:43,100: Timestep:     0-{'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 6446032.690811836, 'currentFuelMass': 1074338.7818019725, 'currentRocketTotalMass': 7951371.472613809}
+INFO       2022-04-07 23:15:43,101: topic='fuel_flow' sending data='{"currentMassFlowRate": 30628.52738619129, "currentOxidiserMass": 6446032.690811836, "currentFuelMass": 1074338.7818019725, "currentRocketTotalMass": 7951371.472613809}' as format_msg_with_header(msgToSend)=b'193  fuel_flow                {"currentMassFlowRate": 30628.52738619129, "currentOxidiserMass": 6446032.690811836, "currentFuelMass": 1074338.7818019725, "currentRocketTotalMass": 7951371.472613809}'
+DEBUG      2022-04-07 23:15:43,193: Timestep:     1-{'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 6419779.667337958, 'currentFuelMass': 1069963.2778896594, 'currentRocketTotalMass': 7920742.945227617}
+INFO       2022-04-07 23:15:43,193: topic='fuel_flow' sending data='{"currentMassFlowRate": 30628.52738619129, "currentOxidiserMass": 6419779.667337958, "currentFuelMass": 1069963.2778896594, "currentRocketTotalMass": 7920742.945227617}' as format_msg_with_header(msgToSend)=b'193  fuel_flow                {"currentMassFlowRate": 30628.52738619129, "currentOxidiserMass": 6419779.667337958, "currentFuelMass": 1069963.2778896594, "currentRocketTotalMass": 7920742.945227617}'
+DEBUG      2022-04-07 23:15:43,273: Timestep:     2-{'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 6393526.643864079, 'currentFuelMass': 1065587.7739773463, 'currentRocketTotalMass': 7890114.417841426}
+INFO       2022-04-07 23:15:43,273: topic='fuel_flow' sending data='{"currentMassFlowRate": 30628.52738619129, "currentOxidiserMass": 6393526.643864079, "currentFuelMass": 1065587.7739773463, "currentRocketTotalMass": 7890114.417841426}' as format_msg_with_header(msgToSend)=b'193  fuel_flow                {"currentMassFlowRate": 30628.52738619129, "currentOxidiserMass": 6393526.643864079, "currentFuelMass": 1065587.7739773463, "currentRocketTotalMass": 7890114.417841426}'

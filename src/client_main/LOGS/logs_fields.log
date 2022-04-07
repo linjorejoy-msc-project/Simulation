@@ -1,0 +1,47 @@
+INFO       2022-04-07 20:11:36,739: Listening while loop started
+INFO       2022-04-07 20:12:15,114: Sending topic 'field' as :variables={'currentTimestep': 0}
+INFO       2022-04-07 20:12:15,118: topic='field' sending data='{"currentTimestep": 0}' as format_msg_with_header(msgToSend)=b'47   field                    {"currentTimestep": 0}'
+INFO       2022-04-07 20:12:15,263: Sending topic 'field' as :variables={'currentTimestep': 1}
+INFO       2022-04-07 20:12:15,264: topic='field' sending data='{"currentTimestep": 1}' as format_msg_with_header(msgToSend)=b'47   field                    {"currentTimestep": 1}'
+INFO       2022-04-07 20:12:15,422: Sending topic 'field' as :variables={'currentTimestep': 2}
+INFO       2022-04-07 20:12:15,423: topic='field' sending data='{"currentTimestep": 2}' as format_msg_with_header(msgToSend)=b'47   field                    {"currentTimestep": 2}'
+INFO       2022-04-07 20:12:15,567: Sending topic 'field' as :variables={'currentTimestep': 3}
+INFO       2022-04-07 20:12:15,569: topic='field' sending data='{"currentTimestep": 3}' as format_msg_with_header(msgToSend)=b'47   field                    {"currentTimestep": 3}'
+INFO       2022-04-07 20:12:15,801: Sending topic 'field' as :variables={'currentTimestep': 4}
+INFO       2022-04-07 20:12:15,802: topic='field' sending data='{"currentTimestep": 4}' as format_msg_with_header(msgToSend)=b'47   field                    {"currentTimestep": 4}'
+INFO       2022-04-07 20:12:15,998: Sending topic 'field' as :variables={'currentTimestep': 5}
+INFO       2022-04-07 20:12:16,000: topic='field' sending data='{"currentTimestep": 5}' as format_msg_with_header(msgToSend)=b'47   field                    {"currentTimestep": 5}'
+INFO       2022-04-07 20:12:16,174: Sending topic 'field' as :variables={'currentTimestep': 6}
+INFO       2022-04-07 20:12:16,176: topic='field' sending data='{"currentTimestep": 6}' as format_msg_with_header(msgToSend)=b'47   field                    {"currentTimestep": 6}'
+INFO       2022-04-07 20:12:16,375: Sending topic 'field' as :variables={'currentTimestep': 7}
+INFO       2022-04-07 20:12:16,377: topic='field' sending data='{"currentTimestep": 7}' as format_msg_with_header(msgToSend)=b'47   field                    {"currentTimestep": 7}'
+INFO       2022-04-07 20:12:16,563: Sending topic 'field' as :variables={'currentTimestep': 8}
+INFO       2022-04-07 20:12:16,564: topic='field' sending data='{"currentTimestep": 8}' as format_msg_with_header(msgToSend)=b'47   field                    {"currentTimestep": 8}'
+INFO       2022-04-07 20:12:16,764: Sending topic 'field' as :variables={'currentTimestep': 9}
+INFO       2022-04-07 20:12:16,766: topic='field' sending data='{"currentTimestep": 9}' as format_msg_with_header(msgToSend)=b'47   field                    {"currentTimestep": 9}'
+INFO       2022-04-07 20:12:16,939: Sending topic 'field' as :variables={'currentTimestep': 10}
+INFO       2022-04-07 20:12:16,941: topic='field' sending data='{"currentTimestep": 10}' as format_msg_with_header(msgToSend)=b'48   field                    {"currentTimestep": 10}'
+INFO       2022-04-07 20:12:17,145: Sending topic 'field' as :variables={'currentTimestep': 11}
+INFO       2022-04-07 20:12:17,146: topic='field' sending data='{"currentTimestep": 11}' as format_msg_with_header(msgToSend)=b'48   field                    {"currentTimestep": 11}'
+INFO       2022-04-07 20:12:17,366: Sending topic 'field' as :variables={'currentTimestep': 12}
+INFO       2022-04-07 20:12:17,367: topic='field' sending data='{"currentTimestep": 12}' as format_msg_with_header(msgToSend)=b'48   field                    {"currentTimestep": 12}'
+INFO       2022-04-07 20:12:17,526: Sending topic 'field' as :variables={'currentTimestep': 13}
+INFO       2022-04-07 20:12:17,526: topic='field' sending data='{"currentTimestep": 13}' as format_msg_with_header(msgToSend)=b'48   field                    {"currentTimestep": 13}'
+INFO       2022-04-07 20:12:17,636: Sending topic 'field' as :variables={'currentTimestep': 14}
+INFO       2022-04-07 20:12:17,636: topic='field' sending data='{"currentTimestep": 14}' as format_msg_with_header(msgToSend)=b'48   field                    {"currentTimestep": 14}'
+INFO       2022-04-07 20:12:17,856: Sending topic 'field' as :variables={'currentTimestep': 15}
+INFO       2022-04-07 20:12:17,856: topic='field' sending data='{"currentTimestep": 15}' as format_msg_with_header(msgToSend)=b'48   field                    {"currentTimestep": 15}'
+INFO       2022-04-07 20:12:18,059: Sending topic 'field' as :variables={'currentTimestep': 16}
+INFO       2022-04-07 20:12:18,060: topic='field' sending data='{"currentTimestep": 16}' as format_msg_with_header(msgToSend)=b'48   field                    {"currentTimestep": 16}'
+INFO       2022-04-07 20:12:18,233: Sending topic 'field' as :variables={'currentTimestep': 17}
+INFO       2022-04-07 20:12:18,234: topic='field' sending data='{"currentTimestep": 17}' as format_msg_with_header(msgToSend)=b'48   field                    {"currentTimestep": 17}'
+INFO       2022-04-07 20:12:18,394: Sending topic 'field' as :variables={'currentTimestep': 18}
+INFO       2022-04-07 20:12:18,394: topic='field' sending data='{"currentTimestep": 18}' as format_msg_with_header(msgToSend)=b'48   field                    {"currentTimestep": 18}'
+INFO       2022-04-07 20:12:18,569: Sending topic 'field' as :variables={'currentTimestep': 19}
+INFO       2022-04-07 20:12:18,570: topic='field' sending data='{"currentTimestep": 19}' as format_msg_with_header(msgToSend)=b'48   field                    {"currentTimestep": 19}'
+INFO       2022-04-07 20:12:18,741: Sending topic 'field' as :variables={'currentTimestep': 20}
+INFO       2022-04-07 20:12:18,742: topic='field' sending data='{"currentTimestep": 20}' as format_msg_with_header(msgToSend)=b'48   field                    {"currentTimestep": 20}'
+INFO       2022-04-07 20:12:18,931: Sending topic 'field' as :variables={'currentTimestep': 21}
+INFO       2022-04-07 20:12:18,931: topic='field' sending data='{"currentTimestep": 21}' as format_msg_with_header(msgToSend)=b'48   field                    {"currentTimestep": 21}'
+INFO       2022-04-07 20:12:19,120: Sending topic 'field' as :variables={'currentTimestep': 22}
+INFO       2022-04-07 20:12:19,121: topic='field' sending data='{"currentTimestep": 22}' as format_msg_with_header(msgToSend)=b'48   field                    {"currentTimestep": 22}'

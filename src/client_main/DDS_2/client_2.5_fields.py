@@ -18,7 +18,6 @@ import logging
 import os
 
 file_path = os.path.join(os.path.abspath(os.curdir), "src\\client_main\\LOGS")
-print(f"{file_path=}")
 
 FORMAT = "%(levelname)-10s %(asctime)s: %(message)s"
 logging.basicConfig(
@@ -93,16 +92,16 @@ def process_topic_field(data: str):
             variables[key] = dataObj[key]
     except Exception as e:
         logging.error(e)
-        print(e)
 
 
 def start_a_cycle():
-    logging.info(f"Senfing topic 'field' as :{variables=}")
+    logging.info(f"Sending topic 'field' as :{variables=}")
     send_topic_data(server_socket, "field", json.dumps(variables))
 
 
 def listen_analysis():
-    logging.info(f"Listening thread started...")
+    start_a_cycle()
+    # logging.info(f"Listening thread started...")
     while True:
         topic, info = recv_topic_data(server_socket)
         if topic == "field_update":
@@ -113,9 +112,9 @@ def listen_analysis():
 # Helper Functions
 def send_constants(server_socket: socket.socket):
     global CONSTANTS
-    logging.info(
-        f"Sending CONSTANTS :\n{str(format_msg_with_header(json.dumps(CONSTANTS)))}"
-    )
+    # logging.info(
+    #     f"Sending CONSTANTS :\n{str(format_msg_with_header(json.dumps(CONSTANTS)))}"
+    # )
     server_socket.send(format_msg_with_header(json.dumps(CONSTANTS)))
 
 
@@ -125,16 +124,16 @@ def listening_function(server_socket):
     while True:
         try:
             msg = recv_msg(server_socket)
-            logging.info(f"Received {msg=}")
+            # logging.info(f"Received {msg=}")
             if msg == "CONFIG":
                 send_config(server_socket, CONFIG_DATA)
                 # request_constants(server_socket)
             elif msg == "CONSTANTS":
                 send_constants(server_socket)
             elif msg == "START":
-                analysis_thread = threading.Thread(target=start_a_cycle)
+                # analysis_thread = threading.Thread(target=start_a_cycle)
                 analysis_listening_thread = threading.Thread(target=listen_analysis)
-                analysis_thread.start()
+                # analysis_thread.start()
                 analysis_listening_thread.start()
                 break
             else:
@@ -146,9 +145,9 @@ def listening_function(server_socket):
 
 
 def main():
-    logging.info(f"Calculating constants")
+    # logging.info(f"Calculating constants")
     calculate_constants()
-    logging.info("listening function Thread created and started")
+    # logging.info("listening function Thread created and started")
     listening_thread = threading.Thread(
         target=listening_function, args=(server_socket,)
     )
@@ -161,5 +160,7 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
-    # pass
+    try:
+        main()
+    except:
+        server_socket.close()

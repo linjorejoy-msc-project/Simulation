@@ -64,11 +64,6 @@ def fill_init_topic_data():
     pass
 
 
-def start_initiation():
-    global topic_data
-    send_topic_data(server_socket, "drag", json.dumps(topic_data))
-
-
 def run_one_cycle():
     topic_data["drag"] = (
         CONSTANTS["dragCoefficient"]
@@ -84,8 +79,21 @@ def run_one_cycle():
         "field_update",
         json.dumps({"currentTimestep": data_dict["currentTimestep"] + 1}),
     )
-    print(f"currentTimestep = {data_dict['currentTimestep'] + 1}")
-    logging.info(f"{topic_data=}")
+    logging.debug(f"Timestep: {data_dict['currentTimestep']:5}-{topic_data}")
+
+
+def run_cycle():
+    global cycle_flags
+    while True:
+        if check_to_run_cycle(cycle_flags):
+            run_one_cycle()
+            make_all_cycle_flags_default(cycle_flags)
+
+
+def start_initiation():
+    global topic_data
+    send_topic_data(server_socket, "drag", json.dumps(topic_data))
+    run_cycle()
 
 
 def listen_analysis():
@@ -98,11 +106,11 @@ def listen_analysis():
             topic_func_dict[topic](data_dict, info)
         else:
             print(f"{CONFIG_DATA['name']} is not subscribed to {topic}")
-        if check_to_run_cycle(cycle_flags):
-            # Run a cycle
-            cycle_thread = threading.Thread(target=run_one_cycle)
-            cycle_thread.start()
-            make_all_cycle_flags_default(cycle_flags)
+        # if check_to_run_cycle(cycle_flags):
+        #     # Run a cycle
+        #     cycle_thread = threading.Thread(target=run_one_cycle)
+        #     cycle_thread.start()
+        #     make_all_cycle_flags_default(cycle_flags)
 
 
 def listening_function(server_socket):
@@ -116,10 +124,10 @@ def listening_function(server_socket):
                 CONSTANTS = request_constants(server_socket)
                 fill_init_topic_data()
             elif msg == "START":
-                analysis_thread = threading.Thread(target=start_initiation)
                 analysis_listening_thread = threading.Thread(target=listen_analysis)
-                analysis_thread.start()
+                analysis_thread = threading.Thread(target=start_initiation)
                 analysis_listening_thread.start()
+                analysis_thread.start()
                 break
         except Exception as e:
             print(f"Error Occured\n{e}")
@@ -139,16 +147,7 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
-
-
-"""
-one
-two
-three
-four
-
-"a"
-
-
-"""
+    try:
+        main()
+    except:
+        server_socket.close()

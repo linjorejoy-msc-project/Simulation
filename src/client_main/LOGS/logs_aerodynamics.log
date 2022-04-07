@@ -1,0 +1,67 @@
+INFO       2022-04-07 20:12:15,115: topic='drag' sending data='{"drag": 0}' as format_msg_with_header(msgToSend)=b'36   drag                     {"drag": 0}'
+INFO       2022-04-07 20:12:15,247: topic='drag' sending data='{"drag": 21162.87234873467}' as format_msg_with_header(msgToSend)=b'52   drag                     {"drag": 21162.87234873467}'
+INFO       2022-04-07 20:12:15,248: topic='field_update' sending data='{"currentTimestep": 1}' as format_msg_with_header(msgToSend)=b'47   field_update             {"currentTimestep": 1}'
+DEBUG      2022-04-07 20:12:15,249: Timestep:     0-{'drag': 21162.87234873467}
+INFO       2022-04-07 20:12:15,416: topic='drag' sending data='{"drag": 85412.61213504327}' as format_msg_with_header(msgToSend)=b'52   drag                     {"drag": 85412.61213504327}'
+INFO       2022-04-07 20:12:15,420: topic='field_update' sending data='{"currentTimestep": 2}' as format_msg_with_header(msgToSend)=b'47   field_update             {"currentTimestep": 2}'
+DEBUG      2022-04-07 20:12:15,425: Timestep:     1-{'drag': 85412.61213504327}
+INFO       2022-04-07 20:12:15,563: topic='drag' sending data='{"drag": 193675.91162581768}' as format_msg_with_header(msgToSend)=b'53   drag                     {"drag": 193675.91162581768}'
+INFO       2022-04-07 20:12:15,565: topic='field_update' sending data='{"currentTimestep": 3}' as format_msg_with_header(msgToSend)=b'47   field_update             {"currentTimestep": 3}'
+DEBUG      2022-04-07 20:12:15,565: Timestep:     2-{'drag': 193675.91162581768}
+INFO       2022-04-07 20:12:15,797: topic='drag' sending data='{"drag": 346579.3852323482}' as format_msg_with_header(msgToSend)=b'52   drag                     {"drag": 346579.3852323482}'
+INFO       2022-04-07 20:12:15,798: topic='field_update' sending data='{"currentTimestep": 4}' as format_msg_with_header(msgToSend)=b'47   field_update             {"currentTimestep": 4}'
+DEBUG      2022-04-07 20:12:15,799: Timestep:     3-{'drag': 346579.3852323482}
+INFO       2022-04-07 20:12:15,994: topic='drag' sending data='{"drag": 544436.0057446223}' as format_msg_with_header(msgToSend)=b'52   drag                     {"drag": 544436.0057446223}'
+INFO       2022-04-07 20:12:15,995: topic='field_update' sending data='{"currentTimestep": 5}' as format_msg_with_header(msgToSend)=b'47   field_update             {"currentTimestep": 5}'
+DEBUG      2022-04-07 20:12:15,996: Timestep:     4-{'drag': 544436.0057446223}
+INFO       2022-04-07 20:12:16,170: topic='drag' sending data='{"drag": 787235.7079968007}' as format_msg_with_header(msgToSend)=b'52   drag                     {"drag": 787235.7079968007}'
+INFO       2022-04-07 20:12:16,171: topic='field_update' sending data='{"currentTimestep": 6}' as format_msg_with_header(msgToSend)=b'47   field_update             {"currentTimestep": 6}'
+DEBUG      2022-04-07 20:12:16,172: Timestep:     5-{'drag': 787235.7079968007}
+INFO       2022-04-07 20:12:16,372: topic='drag' sending data='{"drag": 1074640.4397494195}' as format_msg_with_header(msgToSend)=b'53   drag                     {"drag": 1074640.4397494195}'
+INFO       2022-04-07 20:12:16,372: topic='field_update' sending data='{"currentTimestep": 7}' as format_msg_with_header(msgToSend)=b'47   field_update             {"currentTimestep": 7}'
+DEBUG      2022-04-07 20:12:16,373: Timestep:     6-{'drag': 1074640.4397494195}
+INFO       2022-04-07 20:12:16,559: topic='drag' sending data='{"drag": 1405983.834658426}' as format_msg_with_header(msgToSend)=b'52   drag                     {"drag": 1405983.834658426}'
+INFO       2022-04-07 20:12:16,560: topic='field_update' sending data='{"currentTimestep": 8}' as format_msg_with_header(msgToSend)=b'47   field_update             {"currentTimestep": 8}'
+DEBUG      2022-04-07 20:12:16,561: Timestep:     7-{'drag': 1405983.834658426}
+INFO       2022-04-07 20:12:16,760: topic='drag' sending data='{"drag": 1780275.5691828388}' as format_msg_with_header(msgToSend)=b'53   drag                     {"drag": 1780275.5691828388}'
+INFO       2022-04-07 20:12:16,761: topic='field_update' sending data='{"currentTimestep": 9}' as format_msg_with_header(msgToSend)=b'47   field_update             {"currentTimestep": 9}'
+DEBUG      2022-04-07 20:12:16,763: Timestep:     8-{'drag': 1780275.5691828388}
+INFO       2022-04-07 20:12:16,935: topic='drag' sending data='{"drag": 2196210.348340471}' as format_msg_with_header(msgToSend)=b'52   drag                     {"drag": 2196210.348340471}'
+INFO       2022-04-07 20:12:16,936: topic='field_update' sending data='{"currentTimestep": 10}' as format_msg_with_header(msgToSend)=b'48   field_update             {"currentTimestep": 10}'
+DEBUG      2022-04-07 20:12:16,937: Timestep:     9-{'drag': 2196210.348340471}
+INFO       2022-04-07 20:12:17,143: topic='drag' sending data='{"drag": 2652181.3488092422}' as format_msg_with_header(msgToSend)=b'53   drag                     {"drag": 2652181.3488092422}'
+INFO       2022-04-07 20:12:17,143: topic='field_update' sending data='{"currentTimestep": 11}' as format_msg_with_header(msgToSend)=b'48   field_update             {"currentTimestep": 11}'
+DEBUG      2022-04-07 20:12:17,144: Timestep:    10-{'drag': 2652181.3488092422}
+INFO       2022-04-07 20:12:17,364: topic='drag' sending data='{"drag": 3146297.8364813365}' as format_msg_with_header(msgToSend)=b'53   drag                     {"drag": 3146297.8364813365}'
+INFO       2022-04-07 20:12:17,365: topic='field_update' sending data='{"currentTimestep": 12}' as format_msg_with_header(msgToSend)=b'48   field_update             {"currentTimestep": 12}'
+DEBUG      2022-04-07 20:12:17,365: Timestep:    11-{'drag': 3146297.8364813365}
+INFO       2022-04-07 20:12:17,524: topic='drag' sending data='{"drag": 3676406.573490233}' as format_msg_with_header(msgToSend)=b'52   drag                     {"drag": 3676406.573490233}'
+INFO       2022-04-07 20:12:17,525: topic='field_update' sending data='{"currentTimestep": 13}' as format_msg_with_header(msgToSend)=b'48   field_update             {"currentTimestep": 13}'
+DEBUG      2022-04-07 20:12:17,525: Timestep:    12-{'drag': 3676406.573490233}
+INFO       2022-04-07 20:12:17,634: topic='drag' sending data='{"drag": 4240116.540785224}' as format_msg_with_header(msgToSend)=b'52   drag                     {"drag": 4240116.540785224}'
+INFO       2022-04-07 20:12:17,635: topic='field_update' sending data='{"currentTimestep": 14}' as format_msg_with_header(msgToSend)=b'48   field_update             {"currentTimestep": 14}'
+DEBUG      2022-04-07 20:12:17,635: Timestep:    13-{'drag': 4240116.540785224}
+INFO       2022-04-07 20:12:17,854: topic='drag' sending data='{"drag": 4834826.429714125}' as format_msg_with_header(msgToSend)=b'52   drag                     {"drag": 4834826.429714125}'
+INFO       2022-04-07 20:12:17,855: topic='field_update' sending data='{"currentTimestep": 15}' as format_msg_with_header(msgToSend)=b'48   field_update             {"currentTimestep": 15}'
+DEBUG      2022-04-07 20:12:17,855: Timestep:    14-{'drag': 4834826.429714125}
+INFO       2022-04-07 20:12:18,058: topic='drag' sending data='{"drag": 5457754.302172077}' as format_msg_with_header(msgToSend)=b'52   drag                     {"drag": 5457754.302172077}'
+INFO       2022-04-07 20:12:18,058: topic='field_update' sending data='{"currentTimestep": 16}' as format_msg_with_header(msgToSend)=b'48   field_update             {"currentTimestep": 16}'
+DEBUG      2022-04-07 20:12:18,059: Timestep:    15-{'drag': 5457754.302172077}
+INFO       2022-04-07 20:12:18,232: topic='drag' sending data='{"drag": 6105968.785145606}' as format_msg_with_header(msgToSend)=b'52   drag                     {"drag": 6105968.785145606}'
+INFO       2022-04-07 20:12:18,232: topic='field_update' sending data='{"currentTimestep": 17}' as format_msg_with_header(msgToSend)=b'48   field_update             {"currentTimestep": 17}'
+DEBUG      2022-04-07 20:12:18,233: Timestep:    16-{'drag': 6105968.785145606}
+INFO       2022-04-07 20:12:18,393: topic='drag' sending data='{"drag": 6776421.152425291}' as format_msg_with_header(msgToSend)=b'52   drag                     {"drag": 6776421.152425291}'
+INFO       2022-04-07 20:12:18,393: topic='field_update' sending data='{"currentTimestep": 18}' as format_msg_with_header(msgToSend)=b'48   field_update             {"currentTimestep": 18}'
+DEBUG      2022-04-07 20:12:18,396: Timestep:    17-{'drag': 6776421.152425291}
+INFO       2022-04-07 20:12:18,568: topic='drag' sending data='{"drag": 7465977.653429087}' as format_msg_with_header(msgToSend)=b'52   drag                     {"drag": 7465977.653429087}'
+INFO       2022-04-07 20:12:18,568: topic='field_update' sending data='{"currentTimestep": 19}' as format_msg_with_header(msgToSend)=b'48   field_update             {"currentTimestep": 19}'
+DEBUG      2022-04-07 20:12:18,569: Timestep:    18-{'drag': 7465977.653429087}
+INFO       2022-04-07 20:12:18,740: topic='drag' sending data='{"drag": 8171451.47514789}' as format_msg_with_header(msgToSend)=b'51   drag                     {"drag": 8171451.47514789}'
+INFO       2022-04-07 20:12:18,740: topic='field_update' sending data='{"currentTimestep": 20}' as format_msg_with_header(msgToSend)=b'48   field_update             {"currentTimestep": 20}'
+DEBUG      2022-04-07 20:12:18,741: Timestep:    19-{'drag': 8171451.47514789}
+INFO       2022-04-07 20:12:18,930: topic='drag' sending data='{"drag": 8889633.76611934}' as format_msg_with_header(msgToSend)=b'51   drag                     {"drag": 8889633.76611934}'
+INFO       2022-04-07 20:12:18,930: topic='field_update' sending data='{"currentTimestep": 21}' as format_msg_with_header(msgToSend)=b'48   field_update             {"currentTimestep": 21}'
+DEBUG      2022-04-07 20:12:18,930: Timestep:    20-{'drag': 8889633.76611934}
+INFO       2022-04-07 20:12:19,119: topic='drag' sending data='{"drag": 9617323.208385415}' as format_msg_with_header(msgToSend)=b'52   drag                     {"drag": 9617323.208385415}'
+INFO       2022-04-07 20:12:19,119: topic='field_update' sending data='{"currentTimestep": 22}' as format_msg_with_header(msgToSend)=b'48   field_update             {"currentTimestep": 22}'
+DEBUG      2022-04-07 20:12:19,120: Timestep:    21-{'drag': 9617323.208385415}
