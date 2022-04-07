@@ -144,10 +144,11 @@ def listening_function(server_socket):
 
 def main():
     calculate_constants()
-
     listening_thread = threading.Thread(
         target=listening_function, args=(server_socket,)
     )
+
+    listening_thread.start()
 
 
 if __name__ == "__main__":
