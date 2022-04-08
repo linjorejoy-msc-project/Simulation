@@ -1,7 +1,9 @@
-INFO       2022-04-07 23:15:16,363: Listening while loop started
-INFO       2022-04-07 23:15:43,098: Sending topic 'field' as :variables={'currentTimestep': 0}
-INFO       2022-04-07 23:15:43,099: topic='field' sending data='{"currentTimestep": 0}' as format_msg_with_header(msgToSend)=b'47   field                    {"currentTimestep": 0}'
-INFO       2022-04-07 23:15:43,161: Sending topic 'field' as :variables={'currentTimestep': 1}
-INFO       2022-04-07 23:15:43,161: topic='field' sending data='{"currentTimestep": 1}' as format_msg_with_header(msgToSend)=b'47   field                    {"currentTimestep": 1}'
-INFO       2022-04-07 23:15:43,241: Sending topic 'field' as :variables={'currentTimestep': 2}
-INFO       2022-04-07 23:15:43,242: topic='field' sending data='{"currentTimestep": 2}' as format_msg_with_header(msgToSend)=b'47   field                    {"currentTimestep": 2}'
+INFO       2022-04-08 11:29:40,365: Listening while loop started
+INFO       2022-04-08 11:30:21,041: Sending topic 'field' as :variables={'currentTimestep': 0}
+INFO       2022-04-08 11:30:21,042: topic='field' sending data='{"currentTimestep": 0}' as format_msg_with_header(msgToSend)=b'47   field                    {"currentTimestep": 0}'
+INFO       2022-04-08 11:30:21,263: Sending topic 'field' as :variables={'currentTimestep': 1}
+INFO       2022-04-08 11:30:21,263: topic='field' sending data='{"currentTimestep": 1}' as format_msg_with_header(msgToSend)=b'47   field                    {"currentTimestep": 1}'
+INFO       2022-04-08 11:30:21,375: Sending topic 'field' as :variables={'currentTimestep': 2}
+INFO       2022-04-08 11:30:21,375: topic='field' sending data='{"currentTimestep": 2}' as format_msg_with_header(msgToSend)=b'47   field                    {"currentTimestep": 2}'
+INFO       2022-04-08 11:30:21,554: Sending topic 'field' as :variables={'currentTimestep': 3}
+INFO       2022-04-08 11:30:21,556: topic='field' sending data='{"currentTimestep": 3}' as format_msg_with_header(msgToSend)=b'47   field                    {"currentTimestep": 3}'

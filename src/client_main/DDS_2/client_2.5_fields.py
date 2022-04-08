@@ -131,15 +131,13 @@ def listening_function(server_socket):
             elif msg == "CONSTANTS":
                 send_constants(server_socket)
             elif msg == "START":
-                analysis_listening_thread = threading.Thread(target=listen_analysis)
-                analysis_listening_thread.start()
-                break
-            else:
-                print(f"subscribed_data_receive called")
+                # analysis_listening_thread = threading.Thread(target=listen_analysis)
+                # analysis_listening_thread.start()
                 break
         except Exception as e:
             print(f"Error Occured\n{e}")
             break
+    listen_analysis()
 
 
 def main():

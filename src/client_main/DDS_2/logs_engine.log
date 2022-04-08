@@ -1,7 +1,9 @@
-INFO       2022-04-07 23:15:43,099: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-07 23:15:43,129: Timestep:     0-{'currentThrust': 123191000.0}
-INFO       2022-04-07 23:15:43,129: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-07 23:15:43,209: Timestep:     1-{'currentThrust': 123191000.0}
-INFO       2022-04-07 23:15:43,209: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-07 23:15:43,289: Timestep:     2-{'currentThrust': 123191000.0}
-INFO       2022-04-07 23:15:43,289: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+INFO       2022-04-08 11:30:21,043: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-04-08 11:30:21,230: Timestep:     0-{'currentThrust': 123191000.0}
+INFO       2022-04-08 11:30:21,230: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-04-08 11:30:21,326: Timestep:     1-{'currentThrust': 123191000.0}
+INFO       2022-04-08 11:30:21,326: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-04-08 11:30:21,406: Timestep:     2-{'currentThrust': 123191000.0}
+INFO       2022-04-08 11:30:21,406: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-04-08 11:30:21,582: Timestep:     3-{'currentThrust': 123191000.0}
+INFO       2022-04-08 11:30:21,583: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'

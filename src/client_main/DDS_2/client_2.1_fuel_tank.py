@@ -154,13 +154,14 @@ def listening_function(server_socket):
             elif msg == "START":
                 # logging.info(f"Analysis Starting and thread created")
                 analysis_listening_thread = threading.Thread(target=listen_analysis)
-                analysis_thread = threading.Thread(target=run_cycle)
+                # analysis_thread = threading.Thread(target=run_cycle)
                 analysis_listening_thread.start()
-                analysis_thread.start()
+                # analysis_thread.start()
                 break
         except Exception as e:
             logging.error(f"listening_function error: {str(e)}")
             break
+    run_cycle()
 
 
 def main():
