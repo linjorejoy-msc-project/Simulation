@@ -19,7 +19,6 @@ from client_main.DDS_2.common_functions import (
 import logging
 import os
 
-# logger2 = logging.getLogger("fuel_tank")
 
 file_path = os.path.join(os.path.abspath(os.curdir), "src\\client_main\\LOGS")
 
@@ -87,7 +86,6 @@ def fill_init_topic_data():
 # Actual Analysis
 def run_one_cycle():
     global data_dict
-    # currentMassFlowRate = thrust / (specificImpulse * gravitationalAcceleration)
     data_dict["currentMassFlowRate"] = data_dict["currentThrust"] / (
         CONSTANTS["specificImpulse"] * CONSTANTS["gravitationalAcceleration"]
     )
@@ -125,7 +123,6 @@ def listen_analysis():
     logging.info(f"Started Listening for analysis")
     while True:
         topic, info = recv_topic_data(server_socket)
-        # logging.info(f"Data received of {topic=} with {info=}")
         if topic in cycle_flags.keys():
             cycle_flags[topic] = True
             topic_func_dict[topic](data_dict, info)
@@ -143,20 +140,13 @@ def listening_function(server_socket):
     while True:
         try:
             msg = recv_msg(server_socket)
-            # logging.info(f"Received {msg=}")
             if msg == "CONFIG":
-                # logging.info(f"Sending Config Data {CONFIG_DATA=}")
                 send_config(server_socket, CONFIG_DATA)
-                # logging.info(f"Requesting Constants")
                 CONSTANTS = request_constants(server_socket)
-                # logging.info(f"Constants received {CONSTANTS=}")
                 fill_init_topic_data()
             elif msg == "START":
-                # logging.info(f"Analysis Starting and thread created")
                 analysis_listening_thread = threading.Thread(target=listen_analysis)
-                # analysis_thread = threading.Thread(target=run_cycle)
                 analysis_listening_thread.start()
-                # analysis_thread.start()
                 break
         except Exception as e:
             logging.error(f"listening_function error: {str(e)}")
@@ -165,7 +155,6 @@ def listening_function(server_socket):
 
 
 def main():
-    # logging.info(f"first listening function started")
     listening_thread = threading.Thread(
         target=listening_function, args=(server_socket,)
     )

@@ -78,7 +78,6 @@ def run_one_cycle():
         * CONSTANTS["gravitationalAcceleration"]
         * data_dict["currentMassFlowRate"]
     )
-    # send_topic_data after dumping to string
     logging.debug(f"Timestep: {data_dict['currentTimestep']:5}-{topic_data}")
     send_topic_data(server_socket, "thrust", json.dumps(topic_data))
 
@@ -121,9 +120,7 @@ def listening_function(server_socket):
                 fill_init_topic_data()
             elif msg == "START":
                 analysis_listening_thread = threading.Thread(target=listen_analysis)
-                # analysis_thread = threading.Thread(target=start_initiation)
                 analysis_listening_thread.start()
-                # analysis_thread.start()
                 break
         except Exception as e:
             print(f"Error Occured\n{e}")
