@@ -165,7 +165,6 @@ def listening_function(server_socket):
 
 
 def main():
-    # logging.info(f"first listening function started")
     listening_thread = threading.Thread(
         target=listening_function, args=(server_socket,)
     )
