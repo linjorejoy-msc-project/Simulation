@@ -86,8 +86,8 @@ def run_cycle():
     global cycle_flags
     while True:
         if check_to_run_cycle(cycle_flags):
-            run_one_cycle()
             make_all_cycle_flags_default(cycle_flags)
+            run_one_cycle()
 
 
 def start_initiation():
