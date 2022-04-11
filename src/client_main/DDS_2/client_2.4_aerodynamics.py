@@ -106,11 +106,6 @@ def listen_analysis():
             topic_func_dict[topic](data_dict, info)
         else:
             print(f"{CONFIG_DATA['name']} is not subscribed to {topic}")
-        # if check_to_run_cycle(cycle_flags):
-        #     # Run a cycle
-        #     cycle_thread = threading.Thread(target=run_one_cycle)
-        #     cycle_thread.start()
-        #     make_all_cycle_flags_default(cycle_flags)
 
 
 def listening_function(server_socket):
@@ -125,9 +120,7 @@ def listening_function(server_socket):
                 fill_init_topic_data()
             elif msg == "START":
                 analysis_listening_thread = threading.Thread(target=listen_analysis)
-                # analysis_thread = threading.Thread(target=start_initiation)
                 analysis_listening_thread.start()
-                # analysis_thread.start()
                 break
         except Exception as e:
             print(f"Error Occured\n{e}")
