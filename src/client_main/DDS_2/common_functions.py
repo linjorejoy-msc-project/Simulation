@@ -119,6 +119,13 @@ def motion_received(data_dict: dict, info: str):
     data_dict["requiredThrustChange"] = info_obj["requiredThrustChange"]
 
 
+def atmosphere_received(data_dict: dict, info: str):
+    info_obj = json.loads(info)
+    data_dict["pressure"] = info_obj["pressure"]
+    data_dict["temperature"] = info_obj["temperature"]
+    data_dict["density"] = info_obj["density"]
+
+
 # Calculation Functions
 def external_pressure_temperature(altitude: float):
     T = 0.0
@@ -135,6 +142,8 @@ def external_pressure_temperature(altitude: float):
     return P, T
 
 
-def get_air_density(altitude: float):
+def get_air_density(altitude: float = 0, pressure=0, temperature=0):
+    if pressure and temperature:
+        return pressure / (0.2869 * (temperature + 273.1))
     P, T = external_pressure_temperature(altitude)
     return P / (0.2869 * (T + 273.1))

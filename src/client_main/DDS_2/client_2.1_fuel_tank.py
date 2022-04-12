@@ -23,12 +23,19 @@ import os
 file_path = os.path.join(os.path.abspath(os.curdir), "src\\client_main\\LOGS")
 
 FORMAT = "%(levelname)-10s %(asctime)s: %(message)s"
+# logging.basicConfig(
+#     filename=f"logs_fuel_tank.log",
+#     encoding="utf-8",
+#     level=logging.DEBUG,
+#     format=FORMAT,
+#     filemode="w",
+# )
 logging.basicConfig(
-    filename=f"logs_fuel_tank.log",
-    encoding="utf-8",
+    handlers=[
+        logging.FileHandler(filename="logs_fuel_tank.log", encoding="utf-8", mode="w")
+    ],
     level=logging.DEBUG,
     format=FORMAT,
-    filemode="w",
 )
 
 # Logging end
