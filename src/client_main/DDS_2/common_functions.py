@@ -133,9 +133,9 @@ def external_pressure_temperature(altitude: float):
     if altitude < 11000:
         T = 15.04 - 0.00649 * altitude
         P = 101.29 * ((T + 273.1) / 288.08) ** 5.256
-    elif 11000 <= altitude < 25000:
+    elif altitude >= 11000 and altitude < 25000:
         T = -56.46
-        p = 22.65 * math.exp(1.73 - 0.000157 * altitude)
+        P = 22.65 * math.exp(1.73 - 0.000157 * altitude)
     else:
         T = -131.21 + 0.00299 * altitude
         P = 2.488 * ((T + 273.1) / 216.6) ** -11.388
