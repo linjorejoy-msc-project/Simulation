@@ -45,7 +45,7 @@ CONFIG_DATA = {
     "id": "CLIENT_1",
     "name": "fuel_tank",
     "subscribed_topics": ["thrust", "field"],
-    "published_topics": ["fuel_flow"],
+    "published_topics": ["fuel_flow", "field"],
     "constants_required": [
         "specificImpulse",
         "gravitationalAcceleration",
@@ -108,6 +108,10 @@ def run_one_cycle():
     )
     topic_data["currentFuelMass"] = data_dict["currentFuelMass"]
     # TODO: if fuel empty, send "STOP" of timestep = -1 to field, thus stopping analysis
+    if topic_data["currentFuelMass"] <= 0:
+        send_topic_data(
+            server_socket, "field_update", json.dumps({"currentTimestep": -1})
+        )
     data_dict["currentRocketTotalMass"] = (
         data_dict["currentRocketTotalMass"] - massReduced
     )
