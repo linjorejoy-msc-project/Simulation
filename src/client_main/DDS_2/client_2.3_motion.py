@@ -21,14 +21,20 @@ from client_main.DDS_2.common_functions import (
 import logging
 
 FORMAT = "%(levelname)-10s %(asctime)s: %(message)s"
+# logging.basicConfig(
+#     filename="logs_motion.log",
+#     encoding="utf-8",
+#     level=logging.DEBUG,
+#     format=FORMAT,
+#     filemode="w",
+# )
 logging.basicConfig(
-    filename="logs_motion.log",
-    encoding="utf-8",
+    handlers=[
+        logging.FileHandler(filename="logs_motion.log", encoding="utf-8", mode="w")
+    ],
     level=logging.DEBUG,
     format=FORMAT,
-    filemode="w",
 )
-
 # Logging end
 
 

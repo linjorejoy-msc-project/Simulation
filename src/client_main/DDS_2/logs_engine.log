@@ -1,555 +1,495 @@
-INFO       2022-04-11 11:25:00,007: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:00,127: Timestep:     0-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:00,127: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:00,205: Timestep:     1-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:00,205: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:00,252: Timestep:     2-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:00,252: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:00,315: Timestep:     3-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:00,315: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:00,455: Timestep:     4-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:00,455: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:00,549: Timestep:     5-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:00,549: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:00,629: Timestep:     6-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:00,629: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:00,708: Timestep:     7-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:00,714: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:00,835: Timestep:     8-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:00,835: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:00,932: Timestep:     9-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:00,933: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:01,162: Timestep:    10-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:01,162: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:01,296: Timestep:    11-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:01,297: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:01,366: Timestep:    12-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:01,366: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:01,666: Timestep:    13-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:01,666: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:01,760: Timestep:    14-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:01,760: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:01,870: Timestep:    15-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:01,870: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:01,947: Timestep:    16-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:01,947: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:02,056: Timestep:    17-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:02,056: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:02,134: Timestep:    18-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:02,134: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:02,268: Timestep:    19-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:02,268: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:02,355: Timestep:    20-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:02,355: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:02,482: Timestep:    21-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:02,482: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:02,590: Timestep:    22-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:02,590: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:02,701: Timestep:    23-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:02,701: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:02,828: Timestep:    24-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:02,828: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:02,922: Timestep:    25-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:02,922: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:03,034: Timestep:    26-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:03,034: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:03,162: Timestep:    27-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:03,162: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:03,240: Timestep:    28-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:03,240: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:03,301: Timestep:    29-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:03,305: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:03,353: Timestep:    30-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:03,354: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:03,420: Timestep:    31-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:03,421: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:03,508: Timestep:    32-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:03,509: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:03,571: Timestep:    33-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:03,572: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:03,660: Timestep:    34-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:03,660: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:03,790: Timestep:    35-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:03,790: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:03,840: Timestep:    36-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:03,841: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:03,919: Timestep:    37-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:03,920: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:04,043: Timestep:    38-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:04,043: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:04,152: Timestep:    39-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:04,153: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:04,276: Timestep:    40-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:04,277: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:04,385: Timestep:    41-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:04,385: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:04,480: Timestep:    42-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:04,480: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:04,606: Timestep:    43-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:04,606: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:04,683: Timestep:    44-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:04,684: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:04,871: Timestep:    45-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:04,871: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:04,981: Timestep:    46-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:04,981: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:05,044: Timestep:    47-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:05,044: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:05,152: Timestep:    48-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:05,153: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:05,296: Timestep:    49-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:05,296: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:05,408: Timestep:    50-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:05,408: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:05,518: Timestep:    51-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:05,519: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:05,639: Timestep:    52-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:05,639: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:05,780: Timestep:    53-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:05,780: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:05,875: Timestep:    54-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:05,876: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:06,109: Timestep:    55-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:06,109: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:06,269: Timestep:    56-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:06,269: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:06,424: Timestep:    57-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:06,425: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:06,522: Timestep:    58-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:06,526: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:06,691: Timestep:    59-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:06,691: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:06,816: Timestep:    60-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:06,817: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:06,928: Timestep:    61-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:06,928: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:07,056: Timestep:    62-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:07,056: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:07,210: Timestep:    63-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:07,211: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:07,309: Timestep:    64-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:07,309: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:07,398: Timestep:    65-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:07,398: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:07,540: Timestep:    66-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:07,540: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:07,678: Timestep:    67-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:07,678: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:07,776: Timestep:    68-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:07,776: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:07,887: Timestep:    69-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:07,887: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:08,012: Timestep:    70-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:08,012: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:08,122: Timestep:    71-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:08,122: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:08,232: Timestep:    72-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:08,232: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:08,342: Timestep:    73-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:08,342: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:08,516: Timestep:    74-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:08,516: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:08,594: Timestep:    75-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:08,594: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:08,736: Timestep:    76-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:08,737: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:08,862: Timestep:    77-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:08,865: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:08,938: Timestep:    78-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:08,938: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:09,039: Timestep:    79-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:09,040: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:09,154: Timestep:    80-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:09,155: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:09,253: Timestep:    81-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:09,253: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:09,332: Timestep:    82-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:09,332: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:09,402: Timestep:    83-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:09,403: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:09,490: Timestep:    84-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:09,490: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:09,553: Timestep:    85-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:09,554: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:09,744: Timestep:    86-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:09,745: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:09,859: Timestep:    87-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:09,859: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:09,930: Timestep:    88-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:09,931: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:10,010: Timestep:    89-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:10,010: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:10,152: Timestep:    90-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:10,153: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:10,247: Timestep:    91-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:10,248: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:10,294: Timestep:    92-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:10,294: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:10,403: Timestep:    93-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:10,403: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:10,482: Timestep:    94-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:10,483: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:10,600: Timestep:    95-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:10,600: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:10,690: Timestep:    96-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:10,690: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:10,770: Timestep:    97-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:10,770: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:10,882: Timestep:    98-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:10,882: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:10,992: Timestep:    99-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:10,992: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:11,148: Timestep:   100-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:11,148: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:11,196: Timestep:   101-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:11,196: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:11,276: Timestep:   102-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:11,276: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:11,340: Timestep:   103-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:11,341: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:11,480: Timestep:   104-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:11,480: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:11,606: Timestep:   105-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:11,606: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:11,719: Timestep:   106-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:11,720: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:11,814: Timestep:   107-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:11,815: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:11,883: Timestep:   108-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:11,884: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:12,002: Timestep:   109-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:12,002: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:12,130: Timestep:   110-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:12,130: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:12,208: Timestep:   111-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:12,208: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:12,286: Timestep:   112-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:12,286: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:12,396: Timestep:   113-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:12,396: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:12,524: Timestep:   114-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:12,524: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:12,621: Timestep:   115-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:12,622: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:12,744: Timestep:   116-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:12,745: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:12,853: Timestep:   117-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:12,853: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:12,932: Timestep:   118-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:12,932: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:13,027: Timestep:   119-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:13,027: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:13,122: Timestep:   120-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:13,122: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:13,232: Timestep:   121-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:13,232: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:13,279: Timestep:   122-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:13,280: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:13,432: Timestep:   123-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:13,432: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:13,574: Timestep:   124-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:13,574: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:13,668: Timestep:   125-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:13,668: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:13,766: Timestep:   126-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:13,767: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:13,871: Timestep:   127-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:13,871: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:13,934: Timestep:   128-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:13,935: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:14,074: Timestep:   129-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:14,076: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:14,184: Timestep:   130-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:14,185: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:14,358: Timestep:   131-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:14,358: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:14,457: Timestep:   132-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:14,457: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:14,532: Timestep:   133-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:14,532: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:14,679: Timestep:   134-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:14,680: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:14,775: Timestep:   135-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:14,775: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:14,850: Timestep:   136-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:14,850: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:14,959: Timestep:   137-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:14,959: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:15,055: Timestep:   138-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:15,055: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:15,150: Timestep:   139-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:15,151: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:15,260: Timestep:   140-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:15,260: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:15,387: Timestep:   141-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:15,387: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:15,498: Timestep:   142-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:15,498: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:15,609: Timestep:   143-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:15,609: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:15,719: Timestep:   144-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:15,720: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:15,841: Timestep:   145-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:15,842: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:15,933: Timestep:   146-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:15,933: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:16,051: Timestep:   147-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:16,052: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:16,123: Timestep:   148-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:16,124: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:16,248: Timestep:   149-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:16,248: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:16,351: Timestep:   150-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:16,352: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:16,434: Timestep:   151-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:16,434: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:16,544: Timestep:   152-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:16,544: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:16,637: Timestep:   153-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:16,637: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:16,716: Timestep:   154-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:16,716: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:16,840: Timestep:   155-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:16,840: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:16,932: Timestep:   156-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:16,932: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:16,995: Timestep:   157-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:16,995: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:17,124: Timestep:   158-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:17,125: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:17,227: Timestep:   159-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:17,227: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:17,326: Timestep:   160-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:17,326: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:17,404: Timestep:   161-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:17,404: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:17,482: Timestep:   162-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:17,482: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:17,606: Timestep:   163-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:17,607: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:17,767: Timestep:   164-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:17,767: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:17,859: Timestep:   165-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:17,859: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:17,975: Timestep:   166-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:17,975: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:18,081: Timestep:   167-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:18,081: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:18,205: Timestep:   168-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:18,205: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:18,299: Timestep:   169-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:18,299: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:18,379: Timestep:   170-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:18,379: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:18,535: Timestep:   171-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:18,535: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:18,663: Timestep:   172-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:18,663: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:18,757: Timestep:   173-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:18,757: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:18,883: Timestep:   174-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:18,883: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:18,963: Timestep:   175-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:18,963: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:19,025: Timestep:   176-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:19,025: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:19,106: Timestep:   177-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:19,107: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:19,181: Timestep:   178-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:19,182: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:19,292: Timestep:   179-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:19,292: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:19,372: Timestep:   180-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:19,373: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:19,497: Timestep:   181-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:19,497: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:19,624: Timestep:   182-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:19,624: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:19,811: Timestep:   183-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:19,811: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:19,921: Timestep:   184-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:19,921: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:20,017: Timestep:   185-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:20,017: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:20,129: Timestep:   186-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:20,129: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:20,222: Timestep:   187-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:20,222: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:20,346: Timestep:   188-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:20,346: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:20,455: Timestep:   189-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:20,455: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:20,552: Timestep:   190-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:20,554: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:20,645: Timestep:   191-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:20,645: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:20,738: Timestep:   192-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:20,739: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:20,893: Timestep:   193-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:20,893: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:21,042: Timestep:   194-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:21,042: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:21,145: Timestep:   195-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:21,145: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:21,367: Timestep:   196-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:21,367: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:21,477: Timestep:   197-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:21,477: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:21,571: Timestep:   198-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:21,571: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:21,686: Timestep:   199-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:21,686: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:21,763: Timestep:   200-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:21,763: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:21,826: Timestep:   201-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:21,826: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:21,951: Timestep:   202-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:21,951: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:22,078: Timestep:   203-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:22,078: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:22,187: Timestep:   204-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:22,187: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:22,266: Timestep:   205-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:22,267: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:22,373: Timestep:   206-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:22,373: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:22,461: Timestep:   207-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:22,461: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:22,548: Timestep:   208-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:22,552: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:22,636: Timestep:   209-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:22,637: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:22,797: Timestep:   210-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:22,797: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:22,891: Timestep:   211-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:22,891: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:23,001: Timestep:   212-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:23,001: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:23,047: Timestep:   213-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:23,047: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:23,171: Timestep:   214-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:23,171: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:23,361: Timestep:   215-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:23,361: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:23,442: Timestep:   216-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:23,442: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:23,628: Timestep:   217-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:23,629: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:23,707: Timestep:   218-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:23,707: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:23,823: Timestep:   219-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:23,824: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:23,882: Timestep:   220-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:23,882: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:24,008: Timestep:   221-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:24,008: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:24,131: Timestep:   222-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:24,132: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:24,179: Timestep:   223-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:24,179: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:24,211: Timestep:   224-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:24,211: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:24,279: Timestep:   225-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:24,279: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:24,385: Timestep:   226-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:24,385: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:24,476: Timestep:   227-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:24,476: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:24,581: Timestep:   228-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:24,582: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:24,684: Timestep:   229-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:24,685: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:24,884: Timestep:   230-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:24,885: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:24,924: Timestep:   231-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:24,924: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:25,043: Timestep:   232-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:25,043: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:25,135: Timestep:   233-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:25,135: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:25,198: Timestep:   234-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:25,198: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:25,277: Timestep:   235-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:25,277: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:25,324: Timestep:   236-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:25,324: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:25,499: Timestep:   237-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:25,499: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:25,595: Timestep:   238-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:25,595: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:25,707: Timestep:   239-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:25,707: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:25,819: Timestep:   240-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:25,819: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:25,913: Timestep:   241-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:25,913: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:26,053: Timestep:   242-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:26,053: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:26,180: Timestep:   243-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:26,183: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:26,275: Timestep:   244-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:26,275: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:26,354: Timestep:   245-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:26,354: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:26,433: Timestep:   246-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:26,433: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:26,545: Timestep:   247-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:26,545: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:26,655: Timestep:   248-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:26,655: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:26,799: Timestep:   249-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:26,799: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:26,894: Timestep:   250-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:26,894: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:27,005: Timestep:   251-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:27,005: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:27,099: Timestep:   252-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:27,099: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:27,252: Timestep:   253-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:27,253: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:27,470: Timestep:   254-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:27,470: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:27,591: Timestep:   255-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:27,591: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:27,688: Timestep:   256-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:27,688: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:27,772: Timestep:   257-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:27,772: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:27,831: Timestep:   258-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:27,831: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:27,895: Timestep:   259-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:27,895: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:28,004: Timestep:   260-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:28,004: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:28,082: Timestep:   261-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:28,082: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:28,145: Timestep:   262-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:28,145: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:28,239: Timestep:   263-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:28,239: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:28,364: Timestep:   264-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:28,364: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:28,457: Timestep:   265-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:28,457: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:28,581: Timestep:   266-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:28,581: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:28,675: Timestep:   267-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:28,675: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:28,736: Timestep:   268-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:28,736: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:29,019: Timestep:   269-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:29,020: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:29,179: Timestep:   270-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:29,179: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:29,263: Timestep:   271-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:29,264: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:29,342: Timestep:   272-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:29,343: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:29,465: Timestep:   273-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:29,465: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:29,621: Timestep:   274-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:29,622: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:29,733: Timestep:   275-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:29,734: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-04-11 11:25:29,833: Timestep:   276-{'currentThrust': 123191000.0}
-INFO       2022-04-11 11:25:29,834: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+INFO       2022-06-27 18:42:20,665: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:20,709: Timestep:     0-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:20,709: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:20,923: Timestep:     1-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:20,923: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:21,075: Timestep:     2-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:21,075: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:21,211: Timestep:     3-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:21,211: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:21,377: Timestep:     4-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:21,377: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:21,518: Timestep:     5-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:21,518: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:21,698: Timestep:     6-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:21,698: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:21,858: Timestep:     7-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:21,858: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:22,021: Timestep:     8-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:22,021: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:22,189: Timestep:     9-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:22,189: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:22,328: Timestep:    10-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:22,328: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:22,489: Timestep:    11-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:22,489: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:22,641: Timestep:    12-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:22,641: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:22,784: Timestep:    13-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:22,784: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:22,965: Timestep:    14-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:22,965: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:23,141: Timestep:    15-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:23,141: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:23,282: Timestep:    16-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:23,282: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:23,429: Timestep:    17-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:23,429: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:23,577: Timestep:    18-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:23,577: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:23,737: Timestep:    19-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:23,737: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:23,881: Timestep:    20-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:23,881: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:24,048: Timestep:    21-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:24,048: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:24,248: Timestep:    22-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:24,248: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:24,380: Timestep:    23-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:24,380: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:24,560: Timestep:    24-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:24,560: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:24,724: Timestep:    25-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:24,724: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:24,884: Timestep:    26-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:24,884: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:25,019: Timestep:    27-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:25,019: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:25,163: Timestep:    28-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:25,163: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:25,323: Timestep:    29-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:25,323: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:25,490: Timestep:    30-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:25,490: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:25,638: Timestep:    31-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:25,638: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:25,805: Timestep:    32-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:25,805: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:25,989: Timestep:    33-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:25,989: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:26,140: Timestep:    34-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:26,140: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:26,296: Timestep:    35-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:26,296: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:26,439: Timestep:    36-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:26,439: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:26,568: Timestep:    37-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:26,568: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:26,720: Timestep:    38-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:26,720: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:26,870: Timestep:    39-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:26,870: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:27,003: Timestep:    40-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:27,003: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:27,135: Timestep:    41-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:27,135: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:27,291: Timestep:    42-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:27,291: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:27,452: Timestep:    43-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:27,452: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:27,604: Timestep:    44-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:27,604: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:27,775: Timestep:    45-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:27,775: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:27,915: Timestep:    46-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:27,915: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:28,079: Timestep:    47-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:28,079: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:28,230: Timestep:    48-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:28,230: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:28,379: Timestep:    49-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:28,379: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:28,519: Timestep:    50-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:28,519: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:28,650: Timestep:    51-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:28,650: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:28,810: Timestep:    52-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:28,810: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:28,954: Timestep:    53-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:28,954: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:29,098: Timestep:    54-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:29,098: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:29,262: Timestep:    55-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:29,262: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:29,398: Timestep:    56-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:29,398: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:29,542: Timestep:    57-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:29,542: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:29,694: Timestep:    58-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:29,694: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:29,854: Timestep:    59-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:29,854: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:30,002: Timestep:    60-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:30,002: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:30,162: Timestep:    61-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:30,162: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:30,282: Timestep:    62-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:30,282: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:30,406: Timestep:    63-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:30,406: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:30,557: Timestep:    64-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:30,557: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:30,725: Timestep:    65-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:30,725: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:30,877: Timestep:    66-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:30,877: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:31,061: Timestep:    67-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:31,061: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:31,189: Timestep:    68-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:31,189: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:31,345: Timestep:    69-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:31,345: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:31,489: Timestep:    70-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:31,489: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:31,645: Timestep:    71-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:31,645: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:31,804: Timestep:    72-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:31,804: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:31,972: Timestep:    73-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:31,972: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:32,112: Timestep:    74-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:32,112: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:32,264: Timestep:    75-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:32,264: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:32,447: Timestep:    76-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:32,447: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:32,604: Timestep:    77-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:32,604: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:32,748: Timestep:    78-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:32,748: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:32,884: Timestep:    79-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:32,884: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:33,028: Timestep:    80-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:33,028: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:33,212: Timestep:    81-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:33,212: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:33,367: Timestep:    82-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:33,367: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:33,524: Timestep:    83-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:33,524: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:33,674: Timestep:    84-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:33,674: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:33,828: Timestep:    85-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:33,828: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:33,955: Timestep:    86-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:33,955: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:34,135: Timestep:    87-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:34,135: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:34,303: Timestep:    88-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:34,303: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:34,443: Timestep:    89-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:34,443: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:34,607: Timestep:    90-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:34,607: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:34,763: Timestep:    91-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:34,763: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:34,907: Timestep:    92-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:34,907: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:35,114: Timestep:    93-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:35,114: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:35,275: Timestep:    94-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:35,275: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:35,427: Timestep:    95-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:35,427: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:35,575: Timestep:    96-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:35,575: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:35,735: Timestep:    97-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:35,735: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:35,878: Timestep:    98-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:35,878: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:36,030: Timestep:    99-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:36,030: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:36,174: Timestep:   100-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:36,174: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:36,326: Timestep:   101-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:36,326: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:36,489: Timestep:   102-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:36,489: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:36,638: Timestep:   103-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:36,638: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:36,798: Timestep:   104-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:36,798: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:36,974: Timestep:   105-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:36,974: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:37,102: Timestep:   106-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:37,102: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:37,230: Timestep:   107-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:37,230: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:37,381: Timestep:   108-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:37,381: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:37,538: Timestep:   109-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:37,538: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:37,680: Timestep:   110-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:37,680: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:37,820: Timestep:   111-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:37,820: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:37,989: Timestep:   112-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:37,989: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:38,145: Timestep:   113-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:38,145: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:38,297: Timestep:   114-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:38,297: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:38,461: Timestep:   115-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:38,461: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:38,609: Timestep:   116-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:38,609: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:38,777: Timestep:   117-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:38,777: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:38,928: Timestep:   118-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:38,928: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:39,103: Timestep:   119-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:39,103: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:39,244: Timestep:   120-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:39,244: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:39,412: Timestep:   121-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:39,412: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:39,556: Timestep:   122-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:39,556: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:39,696: Timestep:   123-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:39,696: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:39,849: Timestep:   124-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:39,849: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:40,013: Timestep:   125-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:40,013: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:40,165: Timestep:   126-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:40,165: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:40,321: Timestep:   127-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:40,321: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:40,452: Timestep:   128-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:40,452: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:40,605: Timestep:   129-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:40,605: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:40,781: Timestep:   130-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:40,781: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:40,933: Timestep:   131-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:40,933: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:41,097: Timestep:   132-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:41,097: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:41,265: Timestep:   133-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:41,265: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:41,409: Timestep:   134-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:41,409: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:41,561: Timestep:   135-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:41,561: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:41,728: Timestep:   136-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:41,728: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:41,887: Timestep:   137-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:41,887: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:42,072: Timestep:   138-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:42,072: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:42,240: Timestep:   139-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:42,240: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:42,396: Timestep:   140-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:42,396: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:42,536: Timestep:   141-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:42,536: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:42,680: Timestep:   142-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:42,680: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:42,848: Timestep:   143-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:42,848: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:42,984: Timestep:   144-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:42,984: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:43,156: Timestep:   145-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:43,156: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:43,331: Timestep:   146-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:43,331: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:43,459: Timestep:   147-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:43,459: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:43,615: Timestep:   148-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:43,615: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:43,775: Timestep:   149-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:43,775: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:43,923: Timestep:   150-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:43,923: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:44,107: Timestep:   151-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:44,107: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:44,250: Timestep:   152-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:44,250: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:44,434: Timestep:   153-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:44,434: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:44,585: Timestep:   154-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:44,585: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:44,722: Timestep:   155-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:44,722: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:44,874: Timestep:   156-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:44,874: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:45,042: Timestep:   157-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:45,042: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:45,217: Timestep:   158-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:45,217: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:45,381: Timestep:   159-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:45,381: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:45,545: Timestep:   160-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:45,545: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:45,697: Timestep:   161-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:45,697: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:45,824: Timestep:   162-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:45,824: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:45,976: Timestep:   163-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:45,976: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:46,145: Timestep:   164-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:46,145: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:46,313: Timestep:   165-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:46,313: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:46,457: Timestep:   166-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:46,457: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:46,629: Timestep:   167-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:46,629: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:46,785: Timestep:   168-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:46,785: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:46,925: Timestep:   169-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:46,925: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:47,088: Timestep:   170-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:47,088: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:47,249: Timestep:   171-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:47,249: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:47,424: Timestep:   172-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:47,424: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:47,572: Timestep:   173-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:47,572: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:47,713: Timestep:   174-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:47,713: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:47,901: Timestep:   175-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:47,901: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:48,059: Timestep:   176-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:48,059: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:48,216: Timestep:   177-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:48,216: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:48,344: Timestep:   178-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:48,344: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:48,519: Timestep:   179-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:48,519: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:48,687: Timestep:   180-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:48,687: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:48,820: Timestep:   181-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:48,820: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:48,984: Timestep:   182-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:48,984: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:49,143: Timestep:   183-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:49,143: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:49,271: Timestep:   184-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:49,271: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:49,419: Timestep:   185-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:49,419: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:49,591: Timestep:   186-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:49,591: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:49,755: Timestep:   187-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:49,755: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:49,915: Timestep:   188-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:49,915: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:50,110: Timestep:   189-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:50,110: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:50,267: Timestep:   190-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:50,267: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:50,431: Timestep:   191-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:50,431: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:50,555: Timestep:   192-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:50,555: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:50,742: Timestep:   193-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:50,742: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:50,894: Timestep:   194-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:50,894: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:51,046: Timestep:   195-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:51,046: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:51,222: Timestep:   196-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:51,222: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:51,401: Timestep:   197-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:51,401: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:51,570: Timestep:   198-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:51,570: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:51,734: Timestep:   199-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:51,734: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:51,906: Timestep:   200-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:51,906: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:52,054: Timestep:   201-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:52,054: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:52,206: Timestep:   202-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:52,206: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:52,366: Timestep:   203-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:52,366: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:52,528: Timestep:   204-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:52,528: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:52,693: Timestep:   205-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:52,694: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:52,893: Timestep:   206-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:52,893: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:53,049: Timestep:   207-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:53,049: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:53,205: Timestep:   208-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:53,205: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:53,341: Timestep:   209-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:53,341: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:53,497: Timestep:   210-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:53,497: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:53,661: Timestep:   211-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:53,661: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:53,801: Timestep:   212-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:53,801: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:53,944: Timestep:   213-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:53,944: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:54,111: Timestep:   214-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:54,111: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:54,272: Timestep:   215-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:54,272: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:54,416: Timestep:   216-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:54,416: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:54,528: Timestep:   217-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:54,528: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:54,680: Timestep:   218-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:54,680: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:54,840: Timestep:   219-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:54,840: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:54,976: Timestep:   220-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:54,976: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:55,127: Timestep:   221-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:55,127: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:55,303: Timestep:   222-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:55,303: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:55,487: Timestep:   223-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:55,487: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:55,656: Timestep:   224-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:55,656: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:55,823: Timestep:   225-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:55,823: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:55,959: Timestep:   226-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:55,959: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:56,111: Timestep:   227-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:56,111: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:56,279: Timestep:   228-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:56,279: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:56,439: Timestep:   229-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:56,439: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:56,591: Timestep:   230-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:56,591: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:56,742: Timestep:   231-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:56,742: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:56,911: Timestep:   232-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:56,911: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:57,047: Timestep:   233-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:57,047: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:57,214: Timestep:   234-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:57,214: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:57,390: Timestep:   235-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:57,390: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:57,539: Timestep:   236-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:57,539: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:57,675: Timestep:   237-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:57,675: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:57,850: Timestep:   238-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:57,850: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:57,986: Timestep:   239-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:57,986: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:58,126: Timestep:   240-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:58,126: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:58,261: Timestep:   241-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:58,261: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:58,426: Timestep:   242-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:58,426: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:58,582: Timestep:   243-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:58,582: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:58,750: Timestep:   244-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:58,750: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:58,910: Timestep:   245-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:58,910: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+DEBUG      2022-06-27 18:42:59,054: Timestep:   246-{'currentThrust': 123191000.0}
+INFO       2022-06-27 18:42:59,054: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'

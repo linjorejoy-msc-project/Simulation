@@ -20,14 +20,20 @@ import os
 file_path = os.path.join(os.path.abspath(os.curdir), "src\\client_main\\LOGS")
 
 FORMAT = "%(levelname)-10s %(asctime)s: %(message)s"
+# logging.basicConfig(
+#     filename=f"logs_fields.log",
+#     encoding="utf-8",
+#     level=logging.DEBUG,
+#     format=FORMAT,
+#     filemode="w",
+# )
 logging.basicConfig(
-    filename=f"logs_fields.log",
-    encoding="utf-8",
+    handlers=[
+        logging.FileHandler(filename="logs_fields.log", encoding="utf-8", mode="w")
+    ],
     level=logging.DEBUG,
     format=FORMAT,
-    filemode="w",
 )
-
 # Logging end
 
 HEADERSIZE = 5
@@ -86,12 +92,19 @@ def calculate_constants():
 
 
 def process_topic_field(data: str):
+
     try:
         dataObj: dict = json.loads(data)
         for key in dataObj.keys():
             variables[key] = dataObj[key]
+        if dataObj["currentTimestep"] == -1:
+            return False
+        else:
+            return True
+
     except Exception as e:
         logging.error(e)
+    return False
 
 
 def start_a_cycle():
@@ -104,8 +117,11 @@ def listen_analysis():
     while True:
         topic, info = recv_topic_data(server_socket)
         if topic == "field_update":
-            process_topic_field(info)
-            start_a_cycle()
+            can_continue = process_topic_field(info)
+            if can_continue:
+                start_a_cycle()
+            else:
+                break
 
 
 # Helper Functions

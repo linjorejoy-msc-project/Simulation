@@ -3,6 +3,7 @@ import threading
 import json
 
 from client_main.DDS_2.common_functions import (
+    atmosphere_received,
     check_to_run_cycle,
     field_received,
     format_msg_with_header,
@@ -20,14 +21,22 @@ from client_main.DDS_2.common_functions import (
 import logging
 
 FORMAT = "%(levelname)-10s %(asctime)s: %(message)s"
+# logging.basicConfig(
+#     filename="logs_aerodynamics.log",
+#     encoding="utf-8",
+#     level=logging.DEBUG,
+#     format=FORMAT,
+#     filemode="w",
+# )
 logging.basicConfig(
-    filename="logs_aerodynamics.log",
-    encoding="utf-8",
+    handlers=[
+        logging.FileHandler(
+            filename="logs_aerodynamics.log", encoding="utf-8", mode="w"
+        )
+    ],
     level=logging.DEBUG,
     format=FORMAT,
-    filemode="w",
 )
-
 # Logging end
 
 
@@ -35,7 +44,7 @@ HEADERSIZE = 5
 CONFIG_DATA = {
     "id": "CLIENT_4",
     "name": "aerodynamics",
-    "subscribed_topics": ["motion", "field"],
+    "subscribed_topics": ["motion", "atmosphere", "field"],
     "published_topics": ["drag", "field_update"],
     "constants_required": [
         "dragCoefficient",
@@ -52,9 +61,13 @@ CONSTANTS = {}
 
 topic_data = {"drag": 0}
 
-cycle_flags = {"motion": False, "field": False}
+cycle_flags = {"motion": False, "atmosphere": False, "field": False}
 
-topic_func_dict = {"motion": motion_received, "field": field_received}
+topic_func_dict = {
+    "motion": motion_received,
+    "atmosphere": atmosphere_received,
+    "field": field_received,
+}
 
 data_dict = {}
 # Helper Functions
@@ -67,7 +80,7 @@ def fill_init_topic_data():
 def run_one_cycle():
     topic_data["drag"] = (
         CONSTANTS["dragCoefficient"]
-        * get_air_density(data_dict["currentAltitude"])
+        * data_dict["density"]
         * data_dict["currentVelocity"]
         * data_dict["currentVelocity"]
         * CONSTANTS["rocketFrontalArea"]
