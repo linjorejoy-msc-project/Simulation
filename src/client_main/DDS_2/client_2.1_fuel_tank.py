@@ -5,7 +5,6 @@ import json
 from client_main.DDS_2.common_functions import (
     check_to_run_cycle,
     field_received,
-    format_msg_with_header,
     make_all_cycle_flags_default,
     recv_msg,
     recv_topic_data,
