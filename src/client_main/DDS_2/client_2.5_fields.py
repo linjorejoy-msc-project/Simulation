@@ -27,6 +27,7 @@ FORMAT = "%(levelname)-10s %(asctime)s: %(message)s"
 #     format=FORMAT,
 #     filemode="w",
 # )
+
 logging.basicConfig(
     handlers=[
         logging.FileHandler(filename="logs_fields.log", encoding="utf-8", mode="w")
