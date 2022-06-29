@@ -5,9 +5,11 @@ import json
 
 from client_main.DDS_2.common_functions import (
     format_msg_with_header,
+    format_msg_with_header_and_topic,
     recv_msg,
     recv_topic_data,
     send_config,
+    request_constants,
     send_topic_data,
 )
 
@@ -44,8 +46,8 @@ CONFIG_DATA = {
     "variables_subscribed": [],
 }
 server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-# server_socket.bind((socket.gethostname(), 55_004))
-server_socket.connect(("192.168.1.2", 1234))
+server_socket.connect(('192.168.56.1', 1234))
+
 CONSTANTS = {
     "timestepSize": 1,
     "totalTimesteps": 500,
