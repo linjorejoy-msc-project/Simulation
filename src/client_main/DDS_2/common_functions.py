@@ -126,6 +126,22 @@ def atmosphere_received(data_dict: dict, info: str):
     data_dict["density"] = info_obj["density"]
 
 
+def process_topic_field_update(data: str, variables):
+
+    try:
+        dataObj: dict = json.loads(data)
+        for key in dataObj.keys():
+            variables[key] = dataObj[key]
+        if dataObj["currentTimestep"] == -1:
+            return False
+        else:
+            return True
+
+    except Exception as e:
+        logging.error(e)
+    return False
+
+
 # Calculation Functions
 def external_pressure_temperature(altitude: float):
     T = 0.0

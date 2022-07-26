@@ -5,6 +5,7 @@ import json
 
 from client_main.DDS_2.common_functions import (
     format_msg_with_header,
+    process_topic_field_update,
     recv_msg,
     recv_topic_data,
     send_config,
@@ -45,7 +46,7 @@ CONFIG_DATA = {
 }
 server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 # server_socket.bind((socket.gethostname(), 55_004))
-server_socket.connect(("192.168.1.4", 1234))
+server_socket.connect(("localhost", 1234))
 CONSTANTS = {
     "timestepSize": 1,
     "totalTimesteps": 500,
@@ -89,20 +90,20 @@ def calculate_constants():
     )
 
 
-def process_topic_field(data: str):
+# def process_topic_field_update(data: str):
 
-    try:
-        dataObj: dict = json.loads(data)
-        for key in dataObj.keys():
-            variables[key] = dataObj[key]
-        if dataObj["currentTimestep"] == -1:
-            return False
-        else:
-            return True
+#     try:
+#         dataObj: dict = json.loads(data)
+#         for key in dataObj.keys():
+#             variables[key] = dataObj[key]
+#         if dataObj["currentTimestep"] == -1:
+#             return False
+#         else:
+#             return True
 
-    except Exception as e:
-        logging.error(e)
-    return False
+#     except Exception as e:
+#         logging.error(e)
+#     return False
 
 
 def start_a_cycle():
@@ -115,7 +116,7 @@ def listen_analysis():
     while True:
         topic, info = recv_topic_data(server_socket)
         if topic == "field_update":
-            can_continue = process_topic_field(info)
+            can_continue = process_topic_field_update(info, variables)
             if can_continue:
                 start_a_cycle()
             else:
