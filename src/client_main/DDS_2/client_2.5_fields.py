@@ -115,9 +115,11 @@ def start_a_cycle():
 def listen_analysis():
     start_a_cycle()
     while True:
-        topic, info = recv_topic_data(server_socket)
+        topic, sent_time, recv_time, info = recv_topic_data(server_socket)
         if topic == "field_update":
-            can_continue = process_topic_field_update(info, variables)
+            can_continue = process_topic_field_update(
+                info, sent_time, recv_time, variables
+            )
             if can_continue:
                 start_a_cycle()
             else:

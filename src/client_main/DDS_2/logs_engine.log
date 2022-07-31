@@ -1,495 +1,494 @@
-INFO       2022-07-30 22:31:25,719: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:25,799: Timestep:     0-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:25,799: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:25,922: Timestep:     1-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:25,922: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:26,033: Timestep:     2-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:26,033: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:26,186: Timestep:     3-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:26,186: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:26,341: Timestep:     4-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:26,341: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:26,498: Timestep:     5-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:26,498: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:26,657: Timestep:     6-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:26,657: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:26,782: Timestep:     7-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:26,782: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:26,906: Timestep:     8-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:26,906: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:27,030: Timestep:     9-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:27,030: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:27,186: Timestep:    10-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:27,186: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:27,341: Timestep:    11-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:27,341: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:27,494: Timestep:    12-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:27,494: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:27,634: Timestep:    13-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:27,634: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:27,798: Timestep:    14-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:27,798: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:27,950: Timestep:    15-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:27,950: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:28,104: Timestep:    16-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:28,104: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:28,261: Timestep:    17-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:28,261: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:28,415: Timestep:    18-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:28,415: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:28,555: Timestep:    19-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:28,555: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:28,708: Timestep:    20-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:28,708: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:28,859: Timestep:    21-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:28,859: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:28,981: Timestep:    22-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:28,981: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:29,139: Timestep:    23-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:29,139: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:29,276: Timestep:    24-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:29,276: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:29,445: Timestep:    25-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:29,445: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:29,598: Timestep:    26-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:29,598: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:29,736: Timestep:    27-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:29,736: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:29,890: Timestep:    28-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:29,890: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:29,996: Timestep:    29-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:29,996: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:30,151: Timestep:    30-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:30,151: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:30,276: Timestep:    31-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:30,276: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:30,431: Timestep:    32-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:30,431: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:30,586: Timestep:    33-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:30,586: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:30,739: Timestep:    34-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:30,739: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:30,859: Timestep:    35-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:30,859: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:31,079: Timestep:    36-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:31,079: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:31,249: Timestep:    37-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:31,249: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:31,406: Timestep:    38-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:31,406: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:31,544: Timestep:    39-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:31,544: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:31,685: Timestep:    40-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:31,685: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:31,871: Timestep:    41-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:31,871: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:32,027: Timestep:    42-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:32,027: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:32,166: Timestep:    43-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:32,166: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:32,321: Timestep:    44-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:32,321: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:32,477: Timestep:    45-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:32,477: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:32,628: Timestep:    46-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:32,628: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:32,766: Timestep:    47-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:32,766: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:32,890: Timestep:    48-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:32,890: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:33,047: Timestep:    49-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:33,047: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:33,204: Timestep:    50-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:33,204: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:33,392: Timestep:    51-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:33,392: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:33,578: Timestep:    52-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:33,578: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:33,766: Timestep:    53-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:33,766: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:33,953: Timestep:    54-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:33,953: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:34,124: Timestep:    55-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:34,124: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:34,278: Timestep:    56-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:34,278: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:34,432: Timestep:    57-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:34,432: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:34,617: Timestep:    58-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:34,617: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:34,806: Timestep:    59-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:34,806: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:34,978: Timestep:    60-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:34,978: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:35,167: Timestep:    61-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:35,167: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:35,322: Timestep:    62-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:35,322: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:35,475: Timestep:    63-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:35,475: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:35,614: Timestep:    64-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:35,614: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:35,784: Timestep:    65-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:35,784: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:35,939: Timestep:    66-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:35,939: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:36,125: Timestep:    67-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:36,125: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:36,264: Timestep:    68-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:36,264: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:36,451: Timestep:    69-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:36,451: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:36,607: Timestep:    70-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:36,607: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:36,761: Timestep:    71-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:36,761: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:36,918: Timestep:    72-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:36,918: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:37,123: Timestep:    73-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:37,123: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:37,276: Timestep:    74-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:37,276: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:37,430: Timestep:    75-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:37,430: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:37,584: Timestep:    76-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:37,584: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:37,722: Timestep:    77-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:37,722: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:37,832: Timestep:    78-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:37,832: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:37,971: Timestep:    79-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:37,971: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:38,126: Timestep:    80-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:38,126: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:38,282: Timestep:    81-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:38,282: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:38,406: Timestep:    82-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:38,406: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:38,575: Timestep:    83-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:38,575: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:38,715: Timestep:    84-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:38,715: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:38,857: Timestep:    85-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:38,857: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:39,044: Timestep:    86-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:39,044: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:39,199: Timestep:    87-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:39,199: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:39,370: Timestep:    88-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:39,370: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:39,495: Timestep:    89-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:39,495: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:39,634: Timestep:    90-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:39,634: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:39,774: Timestep:    91-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:39,774: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:39,898: Timestep:    92-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:39,898: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:40,023: Timestep:    93-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:40,023: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:40,165: Timestep:    94-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:40,165: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:40,319: Timestep:    95-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:40,319: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:40,487: Timestep:    96-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:40,487: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:40,642: Timestep:    97-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:40,642: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:40,812: Timestep:    98-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:40,812: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:40,969: Timestep:    99-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:40,969: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:41,123: Timestep:   100-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:41,123: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:41,248: Timestep:   101-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:41,248: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:41,403: Timestep:   102-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:41,403: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:41,554: Timestep:   103-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:41,554: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:41,697: Timestep:   104-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:41,697: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:41,851: Timestep:   105-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:41,851: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:42,003: Timestep:   106-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:42,003: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:42,156: Timestep:   107-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:42,156: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:42,281: Timestep:   108-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:42,281: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:42,437: Timestep:   109-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:42,437: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:42,578: Timestep:   110-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:42,578: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:42,735: Timestep:   111-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:42,735: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:42,891: Timestep:   112-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:42,891: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:43,029: Timestep:   113-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:43,029: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:43,139: Timestep:   114-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:43,139: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:43,292: Timestep:   115-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:43,292: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:43,446: Timestep:   116-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:43,446: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:43,582: Timestep:   117-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:43,582: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:43,767: Timestep:   118-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:43,767: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:43,907: Timestep:   119-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:43,907: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:44,060: Timestep:   120-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:44,060: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:44,216: Timestep:   121-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:44,216: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:44,373: Timestep:   122-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:44,373: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:44,514: Timestep:   123-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:44,514: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:44,637: Timestep:   124-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:44,637: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:44,809: Timestep:   125-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:44,809: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:44,950: Timestep:   126-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:44,950: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:45,076: Timestep:   127-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:45,076: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:45,232: Timestep:   128-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:45,232: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:45,355: Timestep:   129-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:45,355: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:45,510: Timestep:   130-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:45,510: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:45,650: Timestep:   131-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:45,650: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:45,805: Timestep:   132-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:45,805: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:45,916: Timestep:   133-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:45,916: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:46,087: Timestep:   134-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:46,087: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:46,246: Timestep:   135-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:46,246: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:46,383: Timestep:   136-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:46,383: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:46,565: Timestep:   137-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:46,565: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:46,735: Timestep:   138-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:46,735: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:46,873: Timestep:   139-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:46,873: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:47,028: Timestep:   140-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:47,028: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:47,183: Timestep:   141-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:47,183: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:47,351: Timestep:   142-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:47,351: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:47,504: Timestep:   143-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:47,504: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:47,688: Timestep:   144-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:47,688: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:47,829: Timestep:   145-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:47,829: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:47,970: Timestep:   146-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:47,970: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:48,141: Timestep:   147-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:48,141: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:48,267: Timestep:   148-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:48,267: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:48,439: Timestep:   149-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:48,439: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:48,578: Timestep:   150-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:48,578: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:48,670: Timestep:   151-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:48,670: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:48,841: Timestep:   152-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:48,841: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:48,978: Timestep:   153-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:48,978: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:49,121: Timestep:   154-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:49,121: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:49,276: Timestep:   155-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:49,276: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:49,434: Timestep:   156-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:49,434: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:49,620: Timestep:   157-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:49,620: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:49,773: Timestep:   158-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:49,773: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:49,945: Timestep:   159-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:49,945: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:50,129: Timestep:   160-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:50,129: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:50,313: Timestep:   161-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:50,313: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:50,483: Timestep:   162-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:50,483: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:50,642: Timestep:   163-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:50,642: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:50,781: Timestep:   164-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:50,781: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:50,903: Timestep:   165-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:50,903: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:51,062: Timestep:   166-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:51,062: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:51,185: Timestep:   167-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:51,185: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:51,327: Timestep:   168-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:51,327: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:51,483: Timestep:   169-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:51,483: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:51,623: Timestep:   170-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:51,623: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:51,808: Timestep:   171-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:51,808: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:51,965: Timestep:   172-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:51,965: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:52,134: Timestep:   173-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:52,134: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:52,321: Timestep:   174-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:52,321: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:52,494: Timestep:   175-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:52,494: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:52,651: Timestep:   176-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:52,651: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:52,820: Timestep:   177-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:52,820: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:52,976: Timestep:   178-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:52,976: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:53,132: Timestep:   179-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:53,132: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:53,339: Timestep:   180-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:53,339: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:53,477: Timestep:   181-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:53,477: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:53,648: Timestep:   182-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:53,648: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:53,834: Timestep:   183-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:53,834: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:53,974: Timestep:   184-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:53,974: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:54,111: Timestep:   185-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:54,111: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:54,265: Timestep:   186-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:54,265: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:54,405: Timestep:   187-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:54,405: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:54,575: Timestep:   188-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:54,575: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:54,762: Timestep:   189-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:54,762: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:54,889: Timestep:   190-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:54,889: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:55,025: Timestep:   191-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:55,025: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:55,195: Timestep:   192-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:55,195: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:55,377: Timestep:   193-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:55,377: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:55,560: Timestep:   194-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:55,560: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:55,748: Timestep:   195-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:55,748: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:55,889: Timestep:   196-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:55,889: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:56,041: Timestep:   197-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:56,041: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:56,229: Timestep:   198-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:56,229: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:56,384: Timestep:   199-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:56,384: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:56,541: Timestep:   200-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:56,541: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:56,714: Timestep:   201-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:56,714: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:56,868: Timestep:   202-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:56,868: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:57,007: Timestep:   203-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:57,007: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:57,102: Timestep:   204-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:57,102: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:57,228: Timestep:   205-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:57,228: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:57,368: Timestep:   206-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:57,368: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:57,539: Timestep:   207-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:57,539: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:57,650: Timestep:   208-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:57,650: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:57,836: Timestep:   209-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:57,836: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:57,990: Timestep:   210-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:57,990: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:58,127: Timestep:   211-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:58,127: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:58,251: Timestep:   212-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:58,251: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:58,467: Timestep:   213-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:58,467: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:58,620: Timestep:   214-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:58,620: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:58,794: Timestep:   215-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:58,794: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:58,932: Timestep:   216-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:58,932: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:59,058: Timestep:   217-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:59,058: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:59,167: Timestep:   218-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:59,167: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:59,324: Timestep:   219-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:59,324: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:59,496: Timestep:   220-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:59,496: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:59,649: Timestep:   221-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:59,649: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:59,820: Timestep:   222-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:59,820: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:31:59,957: Timestep:   223-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:31:59,957: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:32:00,111: Timestep:   224-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:32:00,111: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:32:00,248: Timestep:   225-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:32:00,248: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:32:00,434: Timestep:   226-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:32:00,434: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:32:00,587: Timestep:   227-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:32:00,587: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:32:00,740: Timestep:   228-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:32:00,740: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:32:00,861: Timestep:   229-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:32:00,861: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:32:00,999: Timestep:   230-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:32:00,999: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:32:01,153: Timestep:   231-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:32:01,153: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:32:01,277: Timestep:   232-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:32:01,277: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:32:01,400: Timestep:   233-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:32:01,400: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:32:01,602: Timestep:   234-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:32:01,602: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:32:01,782: Timestep:   235-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:32:01,782: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:32:01,935: Timestep:   236-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:32:01,935: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:32:02,090: Timestep:   237-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:32:02,090: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:32:02,246: Timestep:   238-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:32:02,246: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:32:02,406: Timestep:   239-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:32:02,406: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:32:02,561: Timestep:   240-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:32:02,561: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:32:02,734: Timestep:   241-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:32:02,734: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:32:02,890: Timestep:   242-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:32:02,890: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:32:03,029: Timestep:   243-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:32:03,029: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:32:03,172: Timestep:   244-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:32:03,172: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:32:03,359: Timestep:   245-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:32:03,359: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
-DEBUG      2022-07-30 22:32:03,497: Timestep:   246-{'currentThrust': 123191000.0}
-INFO       2022-07-30 22:32:03,497: topic='thrust' sending data='{"currentThrust": 123191000.0}' as format_msg_with_header(msgToSend)=b'55   thrust                   {"currentThrust": 123191000.0}'
+INFO       2022-07-31 21:27:32,189: Received data_dict={'currentTimestep': 0, 'sent_time': 345169284433300, 'recv_time': 345169331754200, 'latency': 47320900, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 6446032.690811836, 'currentFuelMass': 1074338.7818019725, 'currentRocketTotalMass': 7951371.472613809}
+INFO       2022-07-31 21:27:32,189: Timestep:     0-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:32,330: Received data_dict={'currentTimestep': 1, 'sent_time': 345169441998400, 'recv_time': 345169473547800, 'latency': 31549400, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 6419779.667337958, 'currentFuelMass': 1069963.2778896594, 'currentRocketTotalMass': 7920742.945227617}
+INFO       2022-07-31 21:27:32,330: Timestep:     1-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:32,456: Received data_dict={'currentTimestep': 2, 'sent_time': 345169568071400, 'recv_time': 345169599531800, 'latency': 31460400, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 6393526.643864079, 'currentFuelMass': 1065587.7739773463, 'currentRocketTotalMass': 7890114.417841426}
+INFO       2022-07-31 21:27:32,456: Timestep:     2-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:32,658: Received data_dict={'currentTimestep': 3, 'sent_time': 345169753996700, 'recv_time': 345169801498500, 'latency': 47501800, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 6367273.620390201, 'currentFuelMass': 1061212.270065033, 'currentRocketTotalMass': 7859485.890455235}
+INFO       2022-07-31 21:27:32,658: Timestep:     3-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:32,814: Received data_dict={'currentTimestep': 4, 'sent_time': 345169941370300, 'recv_time': 345169957058500, 'latency': 15688200, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 6341020.596916323, 'currentFuelMass': 1056836.76615272, 'currentRocketTotalMass': 7828857.3630690435}
+INFO       2022-07-31 21:27:32,814: Timestep:     4-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:32,952: Received data_dict={'currentTimestep': 5, 'sent_time': 345170080005400, 'recv_time': 345170095551700, 'latency': 15546300, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 6314767.573442444, 'currentFuelMass': 1052461.2622404068, 'currentRocketTotalMass': 7798228.835682852}
+INFO       2022-07-31 21:27:32,952: Timestep:     5-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:33,142: Received data_dict={'currentTimestep': 6, 'sent_time': 345170253593800, 'recv_time': 345170284916500, 'latency': 31322700, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 6288514.549968566, 'currentFuelMass': 1048085.7583280938, 'currentRocketTotalMass': 7767600.308296661}
+INFO       2022-07-31 21:27:33,142: Timestep:     6-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:33,330: Received data_dict={'currentTimestep': 7, 'sent_time': 345170442802600, 'recv_time': 345170473265300, 'latency': 30462700, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 6262261.526494687, 'currentFuelMass': 1043710.2544157808, 'currentRocketTotalMass': 7736971.78091047}
+INFO       2022-07-31 21:27:33,330: Timestep:     7-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:33,515: Received data_dict={'currentTimestep': 8, 'sent_time': 345170628133500, 'recv_time': 345170658693000, 'latency': 30559500, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 6236008.503020809, 'currentFuelMass': 1039334.7505034677, 'currentRocketTotalMass': 7706343.253524278}
+INFO       2022-07-31 21:27:33,515: Timestep:     8-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:33,704: Received data_dict={'currentTimestep': 9, 'sent_time': 345170816427100, 'recv_time': 345170847033400, 'latency': 30606300, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 6209755.479546931, 'currentFuelMass': 1034959.2465911547, 'currentRocketTotalMass': 7675714.726138087}
+INFO       2022-07-31 21:27:33,704: Timestep:     9-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:33,893: Received data_dict={'currentTimestep': 10, 'sent_time': 345171004888000, 'recv_time': 345171036409000, 'latency': 31521000, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 6183502.456073052, 'currentFuelMass': 1030583.7426788417, 'currentRocketTotalMass': 7645086.198751896}
+INFO       2022-07-31 21:27:33,893: Timestep:    10-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:34,082: Received data_dict={'currentTimestep': 11, 'sent_time': 345171193232200, 'recv_time': 345171224781300, 'latency': 31549100, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 6157249.432599174, 'currentFuelMass': 1026208.2387665287, 'currentRocketTotalMass': 7614457.671365704}
+INFO       2022-07-31 21:27:34,082: Timestep:    11-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:34,270: Received data_dict={'currentTimestep': 12, 'sent_time': 345171382952800, 'recv_time': 345171413175800, 'latency': 30223000, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 6130996.4091252955, 'currentFuelMass': 1021832.7348542156, 'currentRocketTotalMass': 7583829.143979513}
+INFO       2022-07-31 21:27:34,270: Timestep:    12-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:34,458: Received data_dict={'currentTimestep': 13, 'sent_time': 345171570237600, 'recv_time': 345171601528900, 'latency': 31291300, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 6104743.385651417, 'currentFuelMass': 1017457.2309419026, 'currentRocketTotalMass': 7553200.616593322}
+INFO       2022-07-31 21:27:34,458: Timestep:    13-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:34,643: Received data_dict={'currentTimestep': 14, 'sent_time': 345171754351500, 'recv_time': 345171785904800, 'latency': 31553300, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 6078490.362177539, 'currentFuelMass': 1013081.7270295896, 'currentRocketTotalMass': 7522572.0892071305}
+INFO       2022-07-31 21:27:34,643: Timestep:    14-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:34,830: Received data_dict={'currentTimestep': 15, 'sent_time': 345171942748600, 'recv_time': 345171973307200, 'latency': 30558600, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 6052237.33870366, 'currentFuelMass': 1008706.2231172766, 'currentRocketTotalMass': 7491943.561820939}
+INFO       2022-07-31 21:27:34,830: Timestep:    15-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:35,001: Received data_dict={'currentTimestep': 16, 'sent_time': 345172114171600, 'recv_time': 345172144724700, 'latency': 30553100, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 6025984.315229782, 'currentFuelMass': 1004330.7192049635, 'currentRocketTotalMass': 7461315.034434748}
+INFO       2022-07-31 21:27:35,001: Timestep:    16-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:35,159: Received data_dict={'currentTimestep': 17, 'sent_time': 345172254727300, 'recv_time': 345172302222800, 'latency': 47495500, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 5999731.2917559035, 'currentFuelMass': 999955.2152926505, 'currentRocketTotalMass': 7430686.507048557}
+INFO       2022-07-31 21:27:35,159: Timestep:    17-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:35,345: Received data_dict={'currentTimestep': 18, 'sent_time': 345172458044400, 'recv_time': 345172488563400, 'latency': 30519000, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 5973478.268282025, 'currentFuelMass': 995579.7113803375, 'currentRocketTotalMass': 7400057.979662365}
+INFO       2022-07-31 21:27:35,345: Timestep:    18-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:35,534: Received data_dict={'currentTimestep': 19, 'sent_time': 345172646476900, 'recv_time': 345172676974700, 'latency': 30497800, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 5947225.244808147, 'currentFuelMass': 991204.2074680245, 'currentRocketTotalMass': 7369429.452276174}
+INFO       2022-07-31 21:27:35,534: Timestep:    19-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:35,722: Received data_dict={'currentTimestep': 20, 'sent_time': 345172835760900, 'recv_time': 345172865328100, 'latency': 29567200, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 5920972.221334268, 'currentFuelMass': 986828.7035557114, 'currentRocketTotalMass': 7338800.924889983}
+INFO       2022-07-31 21:27:35,722: Timestep:    20-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:35,847: Received data_dict={'currentTimestep': 21, 'sent_time': 345172960352300, 'recv_time': 345172989898900, 'latency': 29546600, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 5894719.19786039, 'currentFuelMass': 982453.1996433984, 'currentRocketTotalMass': 7308172.397503791}
+INFO       2022-07-31 21:27:35,847: Timestep:    21-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:36,001: Received data_dict={'currentTimestep': 22, 'sent_time': 345173114853600, 'recv_time': 345173144463500, 'latency': 29609900, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 5868466.174386512, 'currentFuelMass': 978077.6957310854, 'currentRocketTotalMass': 7277543.8701176}
+INFO       2022-07-31 21:27:36,001: Timestep:    22-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:36,158: Received data_dict={'currentTimestep': 23, 'sent_time': 345173269455100, 'recv_time': 345173300893600, 'latency': 31438500, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 5842213.150912633, 'currentFuelMass': 973702.1918187723, 'currentRocketTotalMass': 7246915.342731409}
+INFO       2022-07-31 21:27:36,158: Timestep:    23-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:36,298: Received data_dict={'currentTimestep': 24, 'sent_time': 345173409987400, 'recv_time': 345173441472800, 'latency': 31485400, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 5815960.127438755, 'currentFuelMass': 969326.6879064593, 'currentRocketTotalMass': 7216286.8153452175}
+INFO       2022-07-31 21:27:36,298: Timestep:    24-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:36,486: Received data_dict={'currentTimestep': 25, 'sent_time': 345173599254500, 'recv_time': 345173628803600, 'latency': 29549100, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 5789707.103964876, 'currentFuelMass': 964951.1839941463, 'currentRocketTotalMass': 7185658.287959026}
+INFO       2022-07-31 21:27:36,486: Timestep:    25-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:36,674: Received data_dict={'currentTimestep': 26, 'sent_time': 345173786585500, 'recv_time': 345173817212200, 'latency': 30626700, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 5763454.080490998, 'currentFuelMass': 960575.6800818333, 'currentRocketTotalMass': 7155029.760572835}
+INFO       2022-07-31 21:27:36,674: Timestep:    26-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:36,846: Received data_dict={'currentTimestep': 27, 'sent_time': 345173959164900, 'recv_time': 345173989605900, 'latency': 30441000, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 5737201.05701712, 'currentFuelMass': 956200.1761695202, 'currentRocketTotalMass': 7124401.233186644}
+INFO       2022-07-31 21:27:36,846: Timestep:    27-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:37,001: Received data_dict={'currentTimestep': 28, 'sent_time': 345174113687500, 'recv_time': 345174144092100, 'latency': 30404600, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 5710948.033543241, 'currentFuelMass': 951824.6722572072, 'currentRocketTotalMass': 7093772.705800452}
+INFO       2022-07-31 21:27:37,001: Timestep:    28-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:37,190: Received data_dict={'currentTimestep': 29, 'sent_time': 345174301963700, 'recv_time': 345174333453600, 'latency': 31489900, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 5684695.010069363, 'currentFuelMass': 947449.1683448942, 'currentRocketTotalMass': 7063144.178414261}
+INFO       2022-07-31 21:27:37,190: Timestep:    29-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:37,346: Received data_dict={'currentTimestep': 30, 'sent_time': 345174457465400, 'recv_time': 345174488938200, 'latency': 31472800, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 5658441.986595484, 'currentFuelMass': 943073.6644325812, 'currentRocketTotalMass': 7032515.65102807}
+INFO       2022-07-31 21:27:37,346: Timestep:    30-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:37,517: Received data_dict={'currentTimestep': 31, 'sent_time': 345174628895400, 'recv_time': 345174660358400, 'latency': 31463000, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 5632188.963121606, 'currentFuelMass': 938698.1605202681, 'currentRocketTotalMass': 7001887.123641878}
+INFO       2022-07-31 21:27:37,517: Timestep:    31-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:37,705: Received data_dict={'currentTimestep': 32, 'sent_time': 345174818210900, 'recv_time': 345174847725600, 'latency': 29514700, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 5605935.939647728, 'currentFuelMass': 934322.6566079551, 'currentRocketTotalMass': 6971258.596255687}
+INFO       2022-07-31 21:27:37,705: Timestep:    32-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:37,861: Received data_dict={'currentTimestep': 33, 'sent_time': 345174972730900, 'recv_time': 345175004239900, 'latency': 31509000, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 5579682.916173849, 'currentFuelMass': 929947.1526956421, 'currentRocketTotalMass': 6940630.068869496}
+INFO       2022-07-31 21:27:37,861: Timestep:    33-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:38,048: Received data_dict={'currentTimestep': 34, 'sent_time': 345175162077300, 'recv_time': 345175191581500, 'latency': 29504200, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 5553429.892699971, 'currentFuelMass': 925571.6487833291, 'currentRocketTotalMass': 6910001.541483304}
+INFO       2022-07-31 21:27:38,048: Timestep:    34-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:38,204: Received data_dict={'currentTimestep': 35, 'sent_time': 345175316622000, 'recv_time': 345175347068500, 'latency': 30446500, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 5527176.8692260925, 'currentFuelMass': 921196.144871016, 'currentRocketTotalMass': 6879373.014097113}
+INFO       2022-07-31 21:27:38,204: Timestep:    35-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:38,391: Received data_dict={'currentTimestep': 36, 'sent_time': 345175502960600, 'recv_time': 345175534451700, 'latency': 31491100, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 5500923.845752214, 'currentFuelMass': 916820.640958703, 'currentRocketTotalMass': 6848744.486710922}
+INFO       2022-07-31 21:27:38,391: Timestep:    36-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:38,549: Received data_dict={'currentTimestep': 37, 'sent_time': 345175660340800, 'recv_time': 345175691760900, 'latency': 31420100, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 5474670.822278336, 'currentFuelMass': 912445.13704639, 'currentRocketTotalMass': 6818115.959324731}
+INFO       2022-07-31 21:27:38,549: Timestep:    37-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:38,736: Received data_dict={'currentTimestep': 38, 'sent_time': 345175848712900, 'recv_time': 345175879147600, 'latency': 30434700, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 5448417.798804457, 'currentFuelMass': 908069.633134077, 'currentRocketTotalMass': 6787487.431938539}
+INFO       2022-07-31 21:27:38,736: Timestep:    38-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:38,892: Received data_dict={'currentTimestep': 39, 'sent_time': 345176003416700, 'recv_time': 345176034907400, 'latency': 31490700, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 5422164.775330579, 'currentFuelMass': 903694.1292217639, 'currentRocketTotalMass': 6756858.904552348}
+INFO       2022-07-31 21:27:38,892: Timestep:    39-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:39,079: Received data_dict={'currentTimestep': 40, 'sent_time': 345176191701800, 'recv_time': 345176222267800, 'latency': 30566000, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 5395911.7518567005, 'currentFuelMass': 899318.6253094509, 'currentRocketTotalMass': 6726230.377166157}
+INFO       2022-07-31 21:27:39,079: Timestep:    40-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:39,220: Received data_dict={'currentTimestep': 41, 'sent_time': 345176333259300, 'recv_time': 345176362830000, 'latency': 29570700, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 5369658.728382822, 'currentFuelMass': 894943.1213971379, 'currentRocketTotalMass': 6695601.849779965}
+INFO       2022-07-31 21:27:39,220: Timestep:    41-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:39,377: Received data_dict={'currentTimestep': 42, 'sent_time': 345176488799100, 'recv_time': 345176520367900, 'latency': 31568800, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 5343405.704908944, 'currentFuelMass': 890567.6174848248, 'currentRocketTotalMass': 6664973.322393774}
+INFO       2022-07-31 21:27:39,377: Timestep:    42-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:39,517: Received data_dict={'currentTimestep': 43, 'sent_time': 345176630391000, 'recv_time': 345176659814800, 'latency': 29423800, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 5317152.681435065, 'currentFuelMass': 886192.1135725118, 'currentRocketTotalMass': 6634344.795007583}
+INFO       2022-07-31 21:27:39,517: Timestep:    43-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:39,673: Received data_dict={'currentTimestep': 44, 'sent_time': 345176784704200, 'recv_time': 345176816408300, 'latency': 31704100, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 5290899.657961187, 'currentFuelMass': 881816.6096601988, 'currentRocketTotalMass': 6603716.267621391}
+INFO       2022-07-31 21:27:39,673: Timestep:    44-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:39,860: Received data_dict={'currentTimestep': 45, 'sent_time': 345176972157000, 'recv_time': 345177003672200, 'latency': 31515200, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 5264646.634487309, 'currentFuelMass': 877441.1057478858, 'currentRocketTotalMass': 6573087.7402352}
+INFO       2022-07-31 21:27:39,860: Timestep:    45-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:40,049: Received data_dict={'currentTimestep': 46, 'sent_time': 345177161446000, 'recv_time': 345177192132600, 'latency': 30686600, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 5238393.61101343, 'currentFuelMass': 873065.6018355727, 'currentRocketTotalMass': 6542459.212849009}
+INFO       2022-07-31 21:27:40,049: Timestep:    46-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:40,188: Received data_dict={'currentTimestep': 47, 'sent_time': 345177302041800, 'recv_time': 345177331599900, 'latency': 29558100, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 5212140.587539552, 'currentFuelMass': 868690.0979232597, 'currentRocketTotalMass': 6511830.685462818}
+INFO       2022-07-31 21:27:40,188: Timestep:    47-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:40,377: Received data_dict={'currentTimestep': 48, 'sent_time': 345177489394200, 'recv_time': 345177519961500, 'latency': 30567300, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 5185887.564065673, 'currentFuelMass': 864314.5940109467, 'currentRocketTotalMass': 6481202.158076626}
+INFO       2022-07-31 21:27:40,377: Timestep:    48-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:40,517: Received data_dict={'currentTimestep': 49, 'sent_time': 345177630023100, 'recv_time': 345177660496100, 'latency': 30473000, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 5159634.540591795, 'currentFuelMass': 859939.0900986337, 'currentRocketTotalMass': 6450573.630690435}
+INFO       2022-07-31 21:27:40,517: Timestep:    49-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:40,642: Received data_dict={'currentTimestep': 50, 'sent_time': 345177753477600, 'recv_time': 345177785087500, 'latency': 31609900, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 5133381.517117917, 'currentFuelMass': 855563.5861863206, 'currentRocketTotalMass': 6419945.103304244}
+INFO       2022-07-31 21:27:40,642: Timestep:    50-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:40,782: Received data_dict={'currentTimestep': 51, 'sent_time': 345177910174800, 'recv_time': 345177925662800, 'latency': 15488000, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 5107128.493644038, 'currentFuelMass': 851188.0822740076, 'currentRocketTotalMass': 6389316.575918052}
+INFO       2022-07-31 21:27:40,782: Timestep:    51-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:40,954: Received data_dict={'currentTimestep': 52, 'sent_time': 345178066519300, 'recv_time': 345178097045000, 'latency': 30525700, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 5080875.47017016, 'currentFuelMass': 846812.5783616946, 'currentRocketTotalMass': 6358688.048531861}
+INFO       2022-07-31 21:27:40,954: Timestep:    52-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:41,126: Received data_dict={'currentTimestep': 53, 'sent_time': 345178237906900, 'recv_time': 345178269482100, 'latency': 31575200, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 5054622.446696281, 'currentFuelMass': 842437.0744493816, 'currentRocketTotalMass': 6328059.52114567}
+INFO       2022-07-31 21:27:41,126: Timestep:    53-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:41,283: Received data_dict={'currentTimestep': 54, 'sent_time': 345178395463400, 'recv_time': 345178425986700, 'latency': 30523300, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 5028369.423222403, 'currentFuelMass': 838061.5705370685, 'currentRocketTotalMass': 6297430.993759478}
+INFO       2022-07-31 21:27:41,283: Timestep:    54-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:41,468: Received data_dict={'currentTimestep': 55, 'sent_time': 345178580906300, 'recv_time': 345178611363600, 'latency': 30457300, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 5002116.399748525, 'currentFuelMass': 833686.0666247555, 'currentRocketTotalMass': 6266802.466373287}
+INFO       2022-07-31 21:27:41,468: Timestep:    55-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:41,611: Received data_dict={'currentTimestep': 56, 'sent_time': 345178738322800, 'recv_time': 345178753889000, 'latency': 15566200, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 4975863.376274646, 'currentFuelMass': 829310.5627124425, 'currentRocketTotalMass': 6236173.938987096}
+INFO       2022-07-31 21:27:41,611: Timestep:    56-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:41,767: Received data_dict={'currentTimestep': 57, 'sent_time': 345178862904500, 'recv_time': 345178910380500, 'latency': 47476000, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 4949610.352800768, 'currentFuelMass': 824935.0588001295, 'currentRocketTotalMass': 6205545.411600905}
+INFO       2022-07-31 21:27:41,767: Timestep:    57-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:41,953: Received data_dict={'currentTimestep': 58, 'sent_time': 345179065265000, 'recv_time': 345179095784800, 'latency': 30519800, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 4923357.3293268895, 'currentFuelMass': 820559.5548878164, 'currentRocketTotalMass': 6174916.884214713}
+INFO       2022-07-31 21:27:41,953: Timestep:    58-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:42,141: Received data_dict={'currentTimestep': 59, 'sent_time': 345179252643400, 'recv_time': 345179284143600, 'latency': 31500200, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 4897104.305853011, 'currentFuelMass': 816184.0509755034, 'currentRocketTotalMass': 6144288.356828522}
+INFO       2022-07-31 21:27:42,141: Timestep:    59-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:42,298: Received data_dict={'currentTimestep': 60, 'sent_time': 345179410062200, 'recv_time': 345179441635200, 'latency': 31573000, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 4870851.282379133, 'currentFuelMass': 811808.5470631904, 'currentRocketTotalMass': 6113659.829442331}
+INFO       2022-07-31 21:27:42,298: Timestep:    60-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:42,438: Received data_dict={'currentTimestep': 61, 'sent_time': 345179551775900, 'recv_time': 345179581141500, 'latency': 29365600, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 4844598.258905254, 'currentFuelMass': 807433.0431508773, 'currentRocketTotalMass': 6083031.302056139}
+INFO       2022-07-31 21:27:42,438: Timestep:    61-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:42,595: Received data_dict={'currentTimestep': 62, 'sent_time': 345179709078700, 'recv_time': 345179738627200, 'latency': 29548500, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 4818345.235431376, 'currentFuelMass': 803057.5392385643, 'currentRocketTotalMass': 6052402.774669948}
+INFO       2022-07-31 21:27:42,595: Timestep:    62-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:42,750: Received data_dict={'currentTimestep': 63, 'sent_time': 345179862614100, 'recv_time': 345179893599800, 'latency': 30985700, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 4792092.2119574975, 'currentFuelMass': 798682.0353262513, 'currentRocketTotalMass': 6021774.247283757}
+INFO       2022-07-31 21:27:42,750: Timestep:    63-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:42,903: Received data_dict={'currentTimestep': 64, 'sent_time': 345180016105700, 'recv_time': 345180046614800, 'latency': 30509100, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 4765839.188483619, 'currentFuelMass': 794306.5314139383, 'currentRocketTotalMass': 5991145.719897565}
+INFO       2022-07-31 21:27:42,903: Timestep:    64-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:43,076: Received data_dict={'currentTimestep': 65, 'sent_time': 345180204370200, 'recv_time': 345180219022000, 'latency': 14651800, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 4739586.165009741, 'currentFuelMass': 789931.0275016252, 'currentRocketTotalMass': 5960517.192511374}
+INFO       2022-07-31 21:27:43,076: Timestep:    65-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:43,218: Received data_dict={'currentTimestep': 66, 'sent_time': 345180314010300, 'recv_time': 345180361545500, 'latency': 47535200, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 4713333.141535862, 'currentFuelMass': 785555.5235893122, 'currentRocketTotalMass': 5929888.665125183}
+INFO       2022-07-31 21:27:43,218: Timestep:    66-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:43,374: Received data_dict={'currentTimestep': 67, 'sent_time': 345180486497200, 'recv_time': 345180517041800, 'latency': 30544600, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 4687080.118061984, 'currentFuelMass': 781180.0196769992, 'currentRocketTotalMass': 5899260.1377389915}
+INFO       2022-07-31 21:27:43,374: Timestep:    67-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:43,483: Received data_dict={'currentTimestep': 68, 'sent_time': 345180611123200, 'recv_time': 345180626775400, 'latency': 15652200, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 4660827.094588106, 'currentFuelMass': 776804.5157646862, 'currentRocketTotalMass': 5868631.6103528}
+INFO       2022-07-31 21:27:43,483: Timestep:    68-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:43,639: Received data_dict={'currentTimestep': 69, 'sent_time': 345180736682300, 'recv_time': 345180782168800, 'latency': 45486500, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 4634574.071114227, 'currentFuelMass': 772429.0118523731, 'currentRocketTotalMass': 5838003.082966609}
+INFO       2022-07-31 21:27:43,639: Timestep:    69-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:43,777: Received data_dict={'currentTimestep': 70, 'sent_time': 345180891217700, 'recv_time': 345180920686600, 'latency': 29468900, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 4608321.047640349, 'currentFuelMass': 768053.5079400601, 'currentRocketTotalMass': 5807374.555580418}
+INFO       2022-07-31 21:27:43,777: Timestep:    70-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:43,921: Received data_dict={'currentTimestep': 71, 'sent_time': 345181032664500, 'recv_time': 345181064217300, 'latency': 31552800, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 4582068.02416647, 'currentFuelMass': 763678.0040277471, 'currentRocketTotalMass': 5776746.028194226}
+INFO       2022-07-31 21:27:43,921: Timestep:    71-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:44,065: Received data_dict={'currentTimestep': 72, 'sent_time': 345181176126300, 'recv_time': 345181207729000, 'latency': 31602700, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 4555815.000692592, 'currentFuelMass': 759302.500115434, 'currentRocketTotalMass': 5746117.500808035}
+INFO       2022-07-31 21:27:44,065: Timestep:    72-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:44,174: Received data_dict={'currentTimestep': 73, 'sent_time': 345181302738900, 'recv_time': 345181317395400, 'latency': 14656500, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 4529561.977218714, 'currentFuelMass': 754926.996203121, 'currentRocketTotalMass': 5715488.973421844}
+INFO       2022-07-31 21:27:44,174: Timestep:    73-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:44,313: Received data_dict={'currentTimestep': 74, 'sent_time': 345181440950800, 'recv_time': 345181456534600, 'latency': 15583800, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 4503308.953744835, 'currentFuelMass': 750551.492290808, 'currentRocketTotalMass': 5684860.446035652}
+INFO       2022-07-31 21:27:44,313: Timestep:    74-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:44,439: Received data_dict={'currentTimestep': 75, 'sent_time': 345181566458500, 'recv_time': 345181582103900, 'latency': 15645400, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 4477055.930270957, 'currentFuelMass': 746175.988378495, 'currentRocketTotalMass': 5654231.918649461}
+INFO       2022-07-31 21:27:44,439: Timestep:    75-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:44,594: Received data_dict={'currentTimestep': 76, 'sent_time': 345181721910200, 'recv_time': 345181737546000, 'latency': 15635800, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 4450802.906797078, 'currentFuelMass': 741800.484466182, 'currentRocketTotalMass': 5623603.39126327}
+INFO       2022-07-31 21:27:44,594: Timestep:    76-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:44,704: Received data_dict={'currentTimestep': 77, 'sent_time': 345181831641300, 'recv_time': 345181847213100, 'latency': 15571800, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 4424549.8833232, 'currentFuelMass': 737424.9805538689, 'currentRocketTotalMass': 5592974.8638770785}
+INFO       2022-07-31 21:27:44,704: Timestep:    77-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:44,830: Received data_dict={'currentTimestep': 78, 'sent_time': 345181941214500, 'recv_time': 345181972746900, 'latency': 31532400, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 4398296.859849322, 'currentFuelMass': 733049.4766415559, 'currentRocketTotalMass': 5562346.336490887}
+INFO       2022-07-31 21:27:44,830: Timestep:    78-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:44,969: Received data_dict={'currentTimestep': 79, 'sent_time': 345182082791200, 'recv_time': 345182112306500, 'latency': 29515300, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 4372043.836375443, 'currentFuelMass': 728673.9727292429, 'currentRocketTotalMass': 5531717.809104696}
+INFO       2022-07-31 21:27:44,969: Timestep:    79-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:45,156: Received data_dict={'currentTimestep': 80, 'sent_time': 345182270067600, 'recv_time': 345182299671100, 'latency': 29603500, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 4345790.812901565, 'currentFuelMass': 724298.4688169298, 'currentRocketTotalMass': 5501089.281718505}
+INFO       2022-07-31 21:27:45,156: Timestep:    80-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:45,344: Received data_dict={'currentTimestep': 81, 'sent_time': 345182457506500, 'recv_time': 345182487050800, 'latency': 29544300, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 4319537.7894276865, 'currentFuelMass': 719922.9649046168, 'currentRocketTotalMass': 5470460.754332313}
+INFO       2022-07-31 21:27:45,344: Timestep:    81-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:45,502: Received data_dict={'currentTimestep': 82, 'sent_time': 345182614001200, 'recv_time': 345182645507500, 'latency': 31506300, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 4293284.765953808, 'currentFuelMass': 715547.4609923038, 'currentRocketTotalMass': 5439832.226946122}
+INFO       2022-07-31 21:27:45,502: Timestep:    82-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:45,656: Received data_dict={'currentTimestep': 83, 'sent_time': 345182769489600, 'recv_time': 345182799014400, 'latency': 29524800, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 4267031.74247993, 'currentFuelMass': 711171.9570799908, 'currentRocketTotalMass': 5409203.699559931}
+INFO       2022-07-31 21:27:45,656: Timestep:    83-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:45,845: Received data_dict={'currentTimestep': 84, 'sent_time': 345182956956700, 'recv_time': 345182988454700, 'latency': 31498000, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 4240778.719006051, 'currentFuelMass': 706796.4531676777, 'currentRocketTotalMass': 5378575.172173739}
+INFO       2022-07-31 21:27:45,845: Timestep:    84-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:46,003: Received data_dict={'currentTimestep': 85, 'sent_time': 345183114329800, 'recv_time': 345183145882500, 'latency': 31552700, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 4214525.695532173, 'currentFuelMass': 702420.9492553647, 'currentRocketTotalMass': 5347946.644787548}
+INFO       2022-07-31 21:27:46,003: Timestep:    85-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:46,141: Received data_dict={'currentTimestep': 86, 'sent_time': 345183268968400, 'recv_time': 345183283456300, 'latency': 14487900, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 4188272.6720582945, 'currentFuelMass': 698045.4453430517, 'currentRocketTotalMass': 5317318.117401357}
+INFO       2022-07-31 21:27:46,141: Timestep:    86-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:46,279: Received data_dict={'currentTimestep': 87, 'sent_time': 345183392424400, 'recv_time': 345183421951000, 'latency': 29526600, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 4162019.648584416, 'currentFuelMass': 693669.9414307387, 'currentRocketTotalMass': 5286689.5900151655}
+INFO       2022-07-31 21:27:46,279: Timestep:    87-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:46,466: Received data_dict={'currentTimestep': 88, 'sent_time': 345183577846600, 'recv_time': 345183609321400, 'latency': 31474800, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 4135766.6251105377, 'currentFuelMass': 689294.4375184256, 'currentRocketTotalMass': 5256061.062628974}
+INFO       2022-07-31 21:27:46,466: Timestep:    88-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:46,651: Received data_dict={'currentTimestep': 89, 'sent_time': 345183763176000, 'recv_time': 345183794713800, 'latency': 31537800, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 4109513.6016366594, 'currentFuelMass': 684918.9336061126, 'currentRocketTotalMass': 5225432.535242783}
+INFO       2022-07-31 21:27:46,651: Timestep:    89-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:46,839: Received data_dict={'currentTimestep': 90, 'sent_time': 345183936250300, 'recv_time': 345183982100300, 'latency': 45850000, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 4083260.578162781, 'currentFuelMass': 680543.4296937996, 'currentRocketTotalMass': 5194804.007856592}
+INFO       2022-07-31 21:27:46,839: Timestep:    90-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:46,994: Received data_dict={'currentTimestep': 91, 'sent_time': 345184090308500, 'recv_time': 345184137598700, 'latency': 47290200, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 4057007.5546889026, 'currentFuelMass': 676167.9257814866, 'currentRocketTotalMass': 5164175.4804704}
+INFO       2022-07-31 21:27:46,994: Timestep:    91-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:47,182: Received data_dict={'currentTimestep': 92, 'sent_time': 345184294477200, 'recv_time': 345184324952400, 'latency': 30475200, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 4030754.531215024, 'currentFuelMass': 671792.4218691735, 'currentRocketTotalMass': 5133546.953084209}
+INFO       2022-07-31 21:27:47,182: Timestep:    92-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:47,368: Received data_dict={'currentTimestep': 93, 'sent_time': 345184480756800, 'recv_time': 345184511347100, 'latency': 30590300, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 4004501.507741146, 'currentFuelMass': 667416.9179568605, 'currentRocketTotalMass': 5102918.425698018}
+INFO       2022-07-31 21:27:47,368: Timestep:    93-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:47,528: Received data_dict={'currentTimestep': 94, 'sent_time': 345184639388500, 'recv_time': 345184670809900, 'latency': 31421400, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 3978248.4842672674, 'currentFuelMass': 663041.4140445475, 'currentRocketTotalMass': 5072289.898311826}
+INFO       2022-07-31 21:27:47,528: Timestep:    94-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:47,685: Received data_dict={'currentTimestep': 95, 'sent_time': 345184812836400, 'recv_time': 345184828273600, 'latency': 15437200, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 3951995.460793389, 'currentFuelMass': 658665.9101322345, 'currentRocketTotalMass': 5041661.370925635}
+INFO       2022-07-31 21:27:47,685: Timestep:    95-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:47,905: Received data_dict={'currentTimestep': 96, 'sent_time': 345185017156400, 'recv_time': 345185048604700, 'latency': 31448300, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 3925742.4373195106, 'currentFuelMass': 654290.4062199214, 'currentRocketTotalMass': 5011032.843539444}
+INFO       2022-07-31 21:27:47,905: Timestep:    96-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:48,095: Received data_dict={'currentTimestep': 97, 'sent_time': 345185206360600, 'recv_time': 345185237959800, 'latency': 31599200, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 3899489.413845632, 'currentFuelMass': 649914.9023076084, 'currentRocketTotalMass': 4980404.3161532525}
+INFO       2022-07-31 21:27:48,095: Timestep:    97-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:48,252: Received data_dict={'currentTimestep': 98, 'sent_time': 345185364010000, 'recv_time': 345185395422600, 'latency': 31412600, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 3873236.390371754, 'currentFuelMass': 645539.3983952954, 'currentRocketTotalMass': 4949775.788767061}
+INFO       2022-07-31 21:27:48,252: Timestep:    98-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:48,424: Received data_dict={'currentTimestep': 99, 'sent_time': 345185536397500, 'recv_time': 345185566882300, 'latency': 30484800, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 3846983.3668978754, 'currentFuelMass': 641163.8944829823, 'currentRocketTotalMass': 4919147.26138087}
+INFO       2022-07-31 21:27:48,424: Timestep:    99-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:48,611: Received data_dict={'currentTimestep': 100, 'sent_time': 345185722659900, 'recv_time': 345185754156000, 'latency': 31496100, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 3820730.343423997, 'currentFuelMass': 636788.3905706693, 'currentRocketTotalMass': 4888518.733994679}
+INFO       2022-07-31 21:27:48,611: Timestep:   100-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:48,768: Received data_dict={'currentTimestep': 101, 'sent_time': 345185880051700, 'recv_time': 345185911606400, 'latency': 31554700, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 3794477.3199501187, 'currentFuelMass': 632412.8866583563, 'currentRocketTotalMass': 4857890.206608487}
+INFO       2022-07-31 21:27:48,768: Timestep:   101-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:48,923: Received data_dict={'currentTimestep': 102, 'sent_time': 345186035449100, 'recv_time': 345186066112000, 'latency': 30662900, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 3768224.2964762403, 'currentFuelMass': 628037.3827460433, 'currentRocketTotalMass': 4827261.679222296}
+INFO       2022-07-31 21:27:48,923: Timestep:   102-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:49,078: Received data_dict={'currentTimestep': 103, 'sent_time': 345186190991200, 'recv_time': 345186221616000, 'latency': 30624800, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 3741971.273002362, 'currentFuelMass': 623661.8788337302, 'currentRocketTotalMass': 4796633.151836105}
+INFO       2022-07-31 21:27:49,078: Timestep:   103-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:49,234: Received data_dict={'currentTimestep': 104, 'sent_time': 345186345485900, 'recv_time': 345186377064200, 'latency': 31578300, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 3715718.2495284835, 'currentFuelMass': 619286.3749214172, 'currentRocketTotalMass': 4766004.624449913}
+INFO       2022-07-31 21:27:49,234: Timestep:   104-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:49,374: Received data_dict={'currentTimestep': 105, 'sent_time': 345186487863300, 'recv_time': 345186517336900, 'latency': 29473600, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 3689465.226054605, 'currentFuelMass': 614910.8710091042, 'currentRocketTotalMass': 4735376.097063722}
+INFO       2022-07-31 21:27:49,374: Timestep:   105-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:49,516: Received data_dict={'currentTimestep': 106, 'sent_time': 345186628266000, 'recv_time': 345186658840300, 'latency': 30574300, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 3663212.2025807267, 'currentFuelMass': 610535.3670967912, 'currentRocketTotalMass': 4704747.569677531}
+INFO       2022-07-31 21:27:49,516: Timestep:   106-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:49,657: Received data_dict={'currentTimestep': 107, 'sent_time': 345186769408200, 'recv_time': 345186799906200, 'latency': 30498000, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 3636959.1791068483, 'currentFuelMass': 606159.8631844781, 'currentRocketTotalMass': 4674119.0422913395}
+INFO       2022-07-31 21:27:49,657: Timestep:   107-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:49,813: Received data_dict={'currentTimestep': 108, 'sent_time': 345186925707300, 'recv_time': 345186956426100, 'latency': 30718800, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 3610706.15563297, 'currentFuelMass': 601784.3592721651, 'currentRocketTotalMass': 4643490.514905148}
+INFO       2022-07-31 21:27:49,813: Timestep:   108-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:50,002: Received data_dict={'currentTimestep': 109, 'sent_time': 345187113659400, 'recv_time': 345187145221000, 'latency': 31561600, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 3584453.1321590915, 'currentFuelMass': 597408.8553598521, 'currentRocketTotalMass': 4612861.987518957}
+INFO       2022-07-31 21:27:50,002: Timestep:   109-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:50,142: Received data_dict={'currentTimestep': 110, 'sent_time': 345187255161500, 'recv_time': 345187284805100, 'latency': 29643600, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 3558200.108685213, 'currentFuelMass': 593033.351447539, 'currentRocketTotalMass': 4582233.460132766}
+INFO       2022-07-31 21:27:50,142: Timestep:   110-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:50,281: Received data_dict={'currentTimestep': 111, 'sent_time': 345187393673000, 'recv_time': 345187423784800, 'latency': 30111800, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 3531947.0852113348, 'currentFuelMass': 588657.847535226, 'currentRocketTotalMass': 4551604.932746574}
+INFO       2022-07-31 21:27:50,281: Timestep:   111-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:50,423: Received data_dict={'currentTimestep': 112, 'sent_time': 345187535915900, 'recv_time': 345187566340100, 'latency': 30424200, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 3505694.0617374564, 'currentFuelMass': 584282.343622913, 'currentRocketTotalMass': 4520976.405360383}
+INFO       2022-07-31 21:27:50,423: Timestep:   112-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:50,549: Received data_dict={'currentTimestep': 113, 'sent_time': 345187676288500, 'recv_time': 345187691916300, 'latency': 15627800, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 3479441.038263578, 'currentFuelMass': 579906.8397106, 'currentRocketTotalMass': 4490347.877974192}
+INFO       2022-07-31 21:27:50,549: Timestep:   113-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:50,687: Received data_dict={'currentTimestep': 114, 'sent_time': 345187799403400, 'recv_time': 345187829961900, 'latency': 30558500, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 3453188.0147896996, 'currentFuelMass': 575531.335798287, 'currentRocketTotalMass': 4459719.350588}
+INFO       2022-07-31 21:27:50,687: Timestep:   114-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:50,841: Received data_dict={'currentTimestep': 115, 'sent_time': 345187953860300, 'recv_time': 345187984485400, 'latency': 30625100, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 3426934.991315821, 'currentFuelMass': 571155.8318859739, 'currentRocketTotalMass': 4429090.823201809}
+INFO       2022-07-31 21:27:50,841: Timestep:   115-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:50,999: Received data_dict={'currentTimestep': 116, 'sent_time': 345188110276000, 'recv_time': 345188141920700, 'latency': 31644700, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 3400681.967841943, 'currentFuelMass': 566780.3279736609, 'currentRocketTotalMass': 4398462.295815618}
+INFO       2022-07-31 21:27:50,999: Timestep:   116-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:51,155: Received data_dict={'currentTimestep': 117, 'sent_time': 345188267822800, 'recv_time': 345188298381700, 'latency': 30558900, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 3374428.9443680644, 'currentFuelMass': 562404.8240613479, 'currentRocketTotalMass': 4367833.7684294265}
+INFO       2022-07-31 21:27:51,155: Timestep:   117-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:51,265: Received data_dict={'currentTimestep': 118, 'sent_time': 345188377430300, 'recv_time': 345188408092400, 'latency': 30662100, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 3348175.920894186, 'currentFuelMass': 558029.3201490348, 'currentRocketTotalMass': 4337205.241043235}
+INFO       2022-07-31 21:27:51,265: Timestep:   118-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:51,435: Received data_dict={'currentTimestep': 119, 'sent_time': 345188547000800, 'recv_time': 345188578472100, 'latency': 31471300, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 3321922.8974203076, 'currentFuelMass': 553653.8162367218, 'currentRocketTotalMass': 4306576.713657044}
+INFO       2022-07-31 21:27:51,435: Timestep:   119-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:51,561: Received data_dict={'currentTimestep': 120, 'sent_time': 345188672447400, 'recv_time': 345188704038300, 'latency': 31590900, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 3295669.873946429, 'currentFuelMass': 549278.3123244088, 'currentRocketTotalMass': 4275948.186270853}
+INFO       2022-07-31 21:27:51,561: Timestep:   120-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:51,718: Received data_dict={'currentTimestep': 121, 'sent_time': 345188814276100, 'recv_time': 345188861612100, 'latency': 47336000, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 3269416.850472551, 'currentFuelMass': 544902.8084120958, 'currentRocketTotalMass': 4245319.658884661}
+INFO       2022-07-31 21:27:51,718: Timestep:   121-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:51,875: Received data_dict={'currentTimestep': 122, 'sent_time': 345188987432500, 'recv_time': 345189018047400, 'latency': 30614900, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 3243163.8269986724, 'currentFuelMass': 540527.3044997827, 'currentRocketTotalMass': 4214691.13149847}
+INFO       2022-07-31 21:27:51,875: Timestep:   122-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:51,986: Received data_dict={'currentTimestep': 123, 'sent_time': 345189098020500, 'recv_time': 345189129646200, 'latency': 31625700, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 3216910.803524794, 'currentFuelMass': 536151.8005874697, 'currentRocketTotalMass': 4184062.6041122787}
+INFO       2022-07-31 21:27:51,986: Timestep:   123-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:52,142: Received data_dict={'currentTimestep': 124, 'sent_time': 345189253617000, 'recv_time': 345189285123800, 'latency': 31506800, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 3190657.7800509157, 'currentFuelMass': 531776.2966751567, 'currentRocketTotalMass': 4153434.0767260874}
+INFO       2022-07-31 21:27:52,142: Timestep:   124-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:52,268: Received data_dict={'currentTimestep': 125, 'sent_time': 345189395078300, 'recv_time': 345189410725600, 'latency': 15647300, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 3164404.7565770373, 'currentFuelMass': 527400.7927628437, 'currentRocketTotalMass': 4122805.549339896}
+INFO       2022-07-31 21:27:52,268: Timestep:   125-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:52,405: Received data_dict={'currentTimestep': 126, 'sent_time': 345189517829000, 'recv_time': 345189548305300, 'latency': 30476300, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 3138151.733103159, 'currentFuelMass': 523025.28885053063, 'currentRocketTotalMass': 4092177.0219537048}
+INFO       2022-07-31 21:27:52,405: Timestep:   126-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:52,579: Received data_dict={'currentTimestep': 127, 'sent_time': 345189690211100, 'recv_time': 345189721730700, 'latency': 31519600, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 3111898.7096292805, 'currentFuelMass': 518649.7849382176, 'currentRocketTotalMass': 4061548.4945675135}
+INFO       2022-07-31 21:27:52,579: Timestep:   127-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:52,780: Received data_dict={'currentTimestep': 128, 'sent_time': 345189891583500, 'recv_time': 345189923052000, 'latency': 31468500, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 3085645.686155402, 'currentFuelMass': 514274.2810259046, 'currentRocketTotalMass': 4030919.967181322}
+INFO       2022-07-31 21:27:52,780: Timestep:   128-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:52,937: Received data_dict={'currentTimestep': 129, 'sent_time': 345190048945700, 'recv_time': 345190080612500, 'latency': 31666800, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 3059392.6626815237, 'currentFuelMass': 509898.77711359155, 'currentRocketTotalMass': 4000291.439795131}
+INFO       2022-07-31 21:27:52,937: Timestep:   129-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:53,078: Received data_dict={'currentTimestep': 130, 'sent_time': 345190190520400, 'recv_time': 345190221070600, 'latency': 30550200, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 3033139.6392076453, 'currentFuelMass': 505523.2732012785, 'currentRocketTotalMass': 3969662.9124089396}
+INFO       2022-07-31 21:27:53,078: Timestep:   130-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:53,235: Received data_dict={'currentTimestep': 131, 'sent_time': 345190346976300, 'recv_time': 345190378530200, 'latency': 31553900, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 3006886.615733767, 'currentFuelMass': 501147.7692889655, 'currentRocketTotalMass': 3939034.3850227483}
+INFO       2022-07-31 21:27:53,235: Timestep:   131-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:53,391: Received data_dict={'currentTimestep': 132, 'sent_time': 345190502532500, 'recv_time': 345190534062100, 'latency': 31529600, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 2980633.5922598885, 'currentFuelMass': 496772.2653766525, 'currentRocketTotalMass': 3908405.857636557}
+INFO       2022-07-31 21:27:53,391: Timestep:   132-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:53,548: Received data_dict={'currentTimestep': 133, 'sent_time': 345190659498000, 'recv_time': 345190691059400, 'latency': 31561400, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 2954380.56878601, 'currentFuelMass': 492396.76146433945, 'currentRocketTotalMass': 3877777.3302503657}
+INFO       2022-07-31 21:27:53,548: Timestep:   133-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:53,686: Received data_dict={'currentTimestep': 134, 'sent_time': 345190815053100, 'recv_time': 345190829584300, 'latency': 14531200, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 2928127.5453121318, 'currentFuelMass': 488021.2575520264, 'currentRocketTotalMass': 3847148.8028641744}
+INFO       2022-07-31 21:27:53,686: Timestep:   134-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:53,858: Received data_dict={'currentTimestep': 135, 'sent_time': 345190985493600, 'recv_time': 345191001034900, 'latency': 15541300, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 2901874.5218382534, 'currentFuelMass': 483645.7536397134, 'currentRocketTotalMass': 3816520.275477983}
+INFO       2022-07-31 21:27:53,858: Timestep:   135-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:54,046: Received data_dict={'currentTimestep': 136, 'sent_time': 345191143025400, 'recv_time': 345191189382800, 'latency': 46357400, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 2875621.498364375, 'currentFuelMass': 479270.24972740037, 'currentRocketTotalMass': 3785891.7480917918}
+INFO       2022-07-31 21:27:54,046: Timestep:   136-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:54,201: Received data_dict={'currentTimestep': 137, 'sent_time': 345191312333000, 'recv_time': 345191343862500, 'latency': 31529500, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 2849368.4748904966, 'currentFuelMass': 474894.74581508734, 'currentRocketTotalMass': 3755263.2207056005}
+INFO       2022-07-31 21:27:54,201: Timestep:   137-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:54,392: Received data_dict={'currentTimestep': 138, 'sent_time': 345191503727200, 'recv_time': 345191535211700, 'latency': 31484500, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 2823115.451416618, 'currentFuelMass': 470519.2419027743, 'currentRocketTotalMass': 3724634.693319409}
+INFO       2022-07-31 21:27:54,392: Timestep:   138-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:54,549: Received data_dict={'currentTimestep': 139, 'sent_time': 345191660663200, 'recv_time': 345191692197300, 'latency': 31534100, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 2796862.42794274, 'currentFuelMass': 466143.7379904613, 'currentRocketTotalMass': 3694006.165933218}
+INFO       2022-07-31 21:27:54,549: Timestep:   139-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:54,734: Received data_dict={'currentTimestep': 140, 'sent_time': 345191848091600, 'recv_time': 345191877600000, 'latency': 29508400, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 2770609.4044688614, 'currentFuelMass': 461768.23407814826, 'currentRocketTotalMass': 3663377.6385470266}
+INFO       2022-07-31 21:27:54,734: Timestep:   140-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:54,892: Received data_dict={'currentTimestep': 141, 'sent_time': 345191987569400, 'recv_time': 345192035065900, 'latency': 47496500, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 2744356.380994983, 'currentFuelMass': 457392.73016583524, 'currentRocketTotalMass': 3632749.1111608353}
+INFO       2022-07-31 21:27:54,892: Timestep:   141-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:55,050: Received data_dict={'currentTimestep': 142, 'sent_time': 345192162008000, 'recv_time': 345192193525700, 'latency': 31517700, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 2718103.3575211046, 'currentFuelMass': 453017.2262535222, 'currentRocketTotalMass': 3602120.583774644}
+INFO       2022-07-31 21:27:55,050: Timestep:   142-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:55,204: Received data_dict={'currentTimestep': 143, 'sent_time': 345192316576300, 'recv_time': 345192347023300, 'latency': 30447000, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 2691850.3340472262, 'currentFuelMass': 448641.7223412092, 'currentRocketTotalMass': 3571492.0563884526}
+INFO       2022-07-31 21:27:55,204: Timestep:   143-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:55,328: Received data_dict={'currentTimestep': 144, 'sent_time': 345192441244400, 'recv_time': 345192471591600, 'latency': 30347200, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 2665597.310573348, 'currentFuelMass': 444266.21842889616, 'currentRocketTotalMass': 3540863.5290022613}
+INFO       2022-07-31 21:27:55,328: Timestep:   144-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:55,484: Received data_dict={'currentTimestep': 145, 'sent_time': 345192595662600, 'recv_time': 345192627075500, 'latency': 31412900, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 2639344.2870994695, 'currentFuelMass': 439890.71451658313, 'currentRocketTotalMass': 3510235.00161607}
+INFO       2022-07-31 21:27:55,484: Timestep:   145-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:55,641: Received data_dict={'currentTimestep': 146, 'sent_time': 345192753013000, 'recv_time': 345192784394100, 'latency': 31381100, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 2613091.263625591, 'currentFuelMass': 435515.2106042701, 'currentRocketTotalMass': 3479606.4742298787}
+INFO       2022-07-31 21:27:55,641: Timestep:   146-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:55,830: Received data_dict={'currentTimestep': 147, 'sent_time': 345192941329800, 'recv_time': 345192972774600, 'latency': 31444800, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 2586838.2401517127, 'currentFuelMass': 431139.7066919571, 'currentRocketTotalMass': 3448977.9468436874}
+INFO       2022-07-31 21:27:55,830: Timestep:   147-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:55,986: Received data_dict={'currentTimestep': 148, 'sent_time': 345193097321600, 'recv_time': 345193128817600, 'latency': 31496000, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 2560585.2166778343, 'currentFuelMass': 426764.20277964405, 'currentRocketTotalMass': 3418349.419457496}
+INFO       2022-07-31 21:27:55,986: Timestep:   148-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:56,138: Received data_dict={'currentTimestep': 149, 'sent_time': 345193251760400, 'recv_time': 345193281342100, 'latency': 29581700, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 2534332.193203956, 'currentFuelMass': 422388.698867331, 'currentRocketTotalMass': 3387720.892071305}
+INFO       2022-07-31 21:27:56,138: Timestep:   149-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:56,293: Received data_dict={'currentTimestep': 150, 'sent_time': 345193406124200, 'recv_time': 345193436286300, 'latency': 30162100, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 2508079.1697300775, 'currentFuelMass': 418013.194955018, 'currentRocketTotalMass': 3357092.3646851135}
+INFO       2022-07-31 21:27:56,293: Timestep:   150-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:56,416: Received data_dict={'currentTimestep': 151, 'sent_time': 345193544812700, 'recv_time': 345193559398500, 'latency': 14585800, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 2481826.146256199, 'currentFuelMass': 413637.691042705, 'currentRocketTotalMass': 3326463.8372989222}
+INFO       2022-07-31 21:27:56,416: Timestep:   151-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:56,575: Received data_dict={'currentTimestep': 152, 'sent_time': 345193686363100, 'recv_time': 345193717876100, 'latency': 31513000, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 2455573.1227823207, 'currentFuelMass': 409262.18713039195, 'currentRocketTotalMass': 3295835.309912731}
+INFO       2022-07-31 21:27:56,575: Timestep:   152-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:56,732: Received data_dict={'currentTimestep': 153, 'sent_time': 345193828775200, 'recv_time': 345193875313100, 'latency': 46537900, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 2429320.0993084423, 'currentFuelMass': 404886.6832180789, 'currentRocketTotalMass': 3265206.7825265396}
+INFO       2022-07-31 21:27:56,732: Timestep:   153-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:56,887: Received data_dict={'currentTimestep': 154, 'sent_time': 345194000193300, 'recv_time': 345194029812900, 'latency': 29619600, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 2403067.075834564, 'currentFuelMass': 400511.1793057659, 'currentRocketTotalMass': 3234578.2551403483}
+INFO       2022-07-31 21:27:56,887: Timestep:   154-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:57,077: Received data_dict={'currentTimestep': 155, 'sent_time': 345194189166700, 'recv_time': 345194220695200, 'latency': 31528500, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 2376814.0523606855, 'currentFuelMass': 396135.67539345287, 'currentRocketTotalMass': 3203949.727754157}
+INFO       2022-07-31 21:27:57,077: Timestep:   155-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:57,233: Received data_dict={'currentTimestep': 156, 'sent_time': 345194344599000, 'recv_time': 345194376171200, 'latency': 31572200, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 2350561.028886807, 'currentFuelMass': 391760.17148113984, 'currentRocketTotalMass': 3173321.2003679657}
+INFO       2022-07-31 21:27:57,233: Timestep:   156-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:57,390: Received data_dict={'currentTimestep': 157, 'sent_time': 345194518288500, 'recv_time': 345194533395100, 'latency': 15106600, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 2324308.0054129288, 'currentFuelMass': 387384.6675688268, 'currentRocketTotalMass': 3142692.6729817744}
+INFO       2022-07-31 21:27:57,390: Timestep:   157-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:57,530: Received data_dict={'currentTimestep': 158, 'sent_time': 345194641343400, 'recv_time': 345194672974400, 'latency': 31631000, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 2298054.9819390504, 'currentFuelMass': 383009.1636565138, 'currentRocketTotalMass': 3112064.145595583}
+INFO       2022-07-31 21:27:57,530: Timestep:   158-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:57,687: Received data_dict={'currentTimestep': 159, 'sent_time': 345194799398700, 'recv_time': 345194829946000, 'latency': 30547300, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 2271801.958465172, 'currentFuelMass': 378633.65974420076, 'currentRocketTotalMass': 3081435.618209392}
+INFO       2022-07-31 21:27:57,687: Timestep:   159-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:57,828: Received data_dict={'currentTimestep': 160, 'sent_time': 345194939980500, 'recv_time': 345194971447700, 'latency': 31467200, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 2245548.9349912936, 'currentFuelMass': 374258.15583188774, 'currentRocketTotalMass': 3050807.0908232005}
+INFO       2022-07-31 21:27:57,828: Timestep:   160-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:58,002: Received data_dict={'currentTimestep': 161, 'sent_time': 345195114336900, 'recv_time': 345195144955500, 'latency': 30618600, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 2219295.911517415, 'currentFuelMass': 369882.6519195747, 'currentRocketTotalMass': 3020178.563437009}
+INFO       2022-07-31 21:27:58,002: Timestep:   161-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:58,125: Received data_dict={'currentTimestep': 162, 'sent_time': 345195238948300, 'recv_time': 345195268546000, 'latency': 29597700, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 2193042.888043537, 'currentFuelMass': 365507.1480072617, 'currentRocketTotalMass': 2989550.036050818}
+INFO       2022-07-31 21:27:58,125: Timestep:   162-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:58,251: Received data_dict={'currentTimestep': 163, 'sent_time': 345195378409100, 'recv_time': 345195394050900, 'latency': 15641800, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 2166789.8645696584, 'currentFuelMass': 361131.64409494866, 'currentRocketTotalMass': 2958921.5086646266}
+INFO       2022-07-31 21:27:58,251: Timestep:   163-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:58,423: Received data_dict={'currentTimestep': 164, 'sent_time': 345195535952200, 'recv_time': 345195566486300, 'latency': 30534100, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 2140536.84109578, 'currentFuelMass': 356756.14018263563, 'currentRocketTotalMass': 2928292.9812784353}
+INFO       2022-07-31 21:27:58,423: Timestep:   164-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:58,548: Received data_dict={'currentTimestep': 165, 'sent_time': 345195659563400, 'recv_time': 345195691100000, 'latency': 31536600, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 2114283.8176219016, 'currentFuelMass': 352380.6362703226, 'currentRocketTotalMass': 2897664.453892244}
+INFO       2022-07-31 21:27:58,548: Timestep:   165-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:58,736: Received data_dict={'currentTimestep': 166, 'sent_time': 345195848812500, 'recv_time': 345195879455500, 'latency': 30643000, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 2088030.7941480235, 'currentFuelMass': 348005.1323580096, 'currentRocketTotalMass': 2867035.9265060527}
+INFO       2022-07-31 21:27:58,736: Timestep:   166-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:58,877: Received data_dict={'currentTimestep': 167, 'sent_time': 345195988431700, 'recv_time': 345196019983100, 'latency': 31551400, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 2061777.7706741453, 'currentFuelMass': 343629.62844569655, 'currentRocketTotalMass': 2836407.3991198614}
+INFO       2022-07-31 21:27:58,877: Timestep:   167-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:59,031: Received data_dict={'currentTimestep': 168, 'sent_time': 345196159788600, 'recv_time': 345196174485800, 'latency': 14697200, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 2035524.7472002672, 'currentFuelMass': 339254.1245333835, 'currentRocketTotalMass': 2805778.87173367}
+INFO       2022-07-31 21:27:59,031: Timestep:   168-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:59,203: Received data_dict={'currentTimestep': 169, 'sent_time': 345196314409500, 'recv_time': 345196345914400, 'latency': 31504900, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 2009271.723726389, 'currentFuelMass': 334878.6206210705, 'currentRocketTotalMass': 2775150.344347479}
+INFO       2022-07-31 21:27:59,203: Timestep:   169-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:59,359: Received data_dict={'currentTimestep': 170, 'sent_time': 345196470933300, 'recv_time': 345196502365900, 'latency': 31432600, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 1983018.7002525108, 'currentFuelMass': 330503.1167087575, 'currentRocketTotalMass': 2744521.8169612875}
+INFO       2022-07-31 21:27:59,359: Timestep:   170-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:59,501: Received data_dict={'currentTimestep': 171, 'sent_time': 345196612453600, 'recv_time': 345196643996500, 'latency': 31542900, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 1956765.6767786327, 'currentFuelMass': 326127.61279644445, 'currentRocketTotalMass': 2713893.289575096}
+INFO       2022-07-31 21:27:59,501: Timestep:   171-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:59,655: Received data_dict={'currentTimestep': 172, 'sent_time': 345196767782800, 'recv_time': 345196798399300, 'latency': 30616500, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 1930512.6533047545, 'currentFuelMass': 321752.1088841314, 'currentRocketTotalMass': 2683264.762188905}
+INFO       2022-07-31 21:27:59,655: Timestep:   172-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:59,795: Received data_dict={'currentTimestep': 173, 'sent_time': 345196906474000, 'recv_time': 345196937930600, 'latency': 31456600, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 1904259.6298308764, 'currentFuelMass': 317376.6049718184, 'currentRocketTotalMass': 2652636.2348027136}
+INFO       2022-07-31 21:27:59,795: Timestep:   173-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:27:59,952: Received data_dict={'currentTimestep': 174, 'sent_time': 345197063697800, 'recv_time': 345197095167200, 'latency': 31469400, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 1878006.6063569982, 'currentFuelMass': 313001.10105950537, 'currentRocketTotalMass': 2622007.7074165223}
+INFO       2022-07-31 21:27:59,952: Timestep:   174-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:28:00,107: Received data_dict={'currentTimestep': 175, 'sent_time': 345197220977700, 'recv_time': 345197250653200, 'latency': 29675500, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 1851753.58288312, 'currentFuelMass': 308625.59714719234, 'currentRocketTotalMass': 2591379.180030331}
+INFO       2022-07-31 21:28:00,107: Timestep:   175-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:28:00,265: Received data_dict={'currentTimestep': 176, 'sent_time': 345197376678600, 'recv_time': 345197408122200, 'latency': 31443600, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 1825500.559409242, 'currentFuelMass': 304250.0932348793, 'currentRocketTotalMass': 2560750.6526441397}
+INFO       2022-07-31 21:28:00,265: Timestep:   176-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:28:00,437: Received data_dict={'currentTimestep': 177, 'sent_time': 345197548985200, 'recv_time': 345197580533600, 'latency': 31548400, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 1799247.5359353637, 'currentFuelMass': 299874.5893225663, 'currentRocketTotalMass': 2530122.1252579484}
+INFO       2022-07-31 21:28:00,437: Timestep:   177-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:28:00,563: Received data_dict={'currentTimestep': 178, 'sent_time': 345197675617500, 'recv_time': 345197706163300, 'latency': 30545800, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 1772994.5124614856, 'currentFuelMass': 295499.08541025326, 'currentRocketTotalMass': 2499493.597871757}
+INFO       2022-07-31 21:28:00,563: Timestep:   178-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:28:00,704: Received data_dict={'currentTimestep': 179, 'sent_time': 345197817104500, 'recv_time': 345197847750900, 'latency': 30646400, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 1746741.4889876074, 'currentFuelMass': 291123.58149794023, 'currentRocketTotalMass': 2468865.070485566}
+INFO       2022-07-31 21:28:00,704: Timestep:   179-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:28:00,828: Received data_dict={'currentTimestep': 180, 'sent_time': 345197955570900, 'recv_time': 345197971386300, 'latency': 15815400, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 1720488.4655137293, 'currentFuelMass': 286748.0775856272, 'currentRocketTotalMass': 2438236.5430993745}
+INFO       2022-07-31 21:28:00,828: Timestep:   180-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:28:00,985: Received data_dict={'currentTimestep': 181, 'sent_time': 345198096182000, 'recv_time': 345198127746500, 'latency': 31564500, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 1694235.442039851, 'currentFuelMass': 282372.5736733142, 'currentRocketTotalMass': 2407608.015713183}
+INFO       2022-07-31 21:28:00,985: Timestep:   181-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:28:01,128: Received data_dict={'currentTimestep': 182, 'sent_time': 345198255729700, 'recv_time': 345198271350100, 'latency': 15620400, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 1667982.418565973, 'currentFuelMass': 277997.06976100116, 'currentRocketTotalMass': 2376979.488326992}
+INFO       2022-07-31 21:28:01,128: Timestep:   182-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:28:01,252: Received data_dict={'currentTimestep': 183, 'sent_time': 345198347345100, 'recv_time': 345198394862500, 'latency': 47517400, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 1641729.3950920948, 'currentFuelMass': 273621.56584868813, 'currentRocketTotalMass': 2346350.9609408006}
+INFO       2022-07-31 21:28:01,252: Timestep:   183-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:28:01,391: Received data_dict={'currentTimestep': 184, 'sent_time': 345198503900500, 'recv_time': 345198534439300, 'latency': 30538800, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 1615476.3716182166, 'currentFuelMass': 269246.0619363751, 'currentRocketTotalMass': 2315722.4335546093}
+INFO       2022-07-31 21:28:01,391: Timestep:   184-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:28:01,546: Received data_dict={'currentTimestep': 185, 'sent_time': 345198658309200, 'recv_time': 345198688853500, 'latency': 30544300, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 1589223.3481443385, 'currentFuelMass': 264870.5580240621, 'currentRocketTotalMass': 2285093.906168418}
+INFO       2022-07-31 21:28:01,546: Timestep:   185-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:28:01,686: Received data_dict={'currentTimestep': 186, 'sent_time': 345198799068600, 'recv_time': 345198829436200, 'latency': 30367600, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 1562970.3246704603, 'currentFuelMass': 260495.05411174902, 'currentRocketTotalMass': 2254465.3787822267}
+INFO       2022-07-31 21:28:01,686: Timestep:   186-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:28:01,828: Received data_dict={'currentTimestep': 187, 'sent_time': 345198956261800, 'recv_time': 345198970989000, 'latency': 14727200, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 1536717.3011965821, 'currentFuelMass': 256119.55019943597, 'currentRocketTotalMass': 2223836.8513960354}
+INFO       2022-07-31 21:28:01,828: Timestep:   187-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:28:02,015: Received data_dict={'currentTimestep': 188, 'sent_time': 345199113947600, 'recv_time': 345199158346100, 'latency': 44398500, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 1510464.277722704, 'currentFuelMass': 251744.0462871229, 'currentRocketTotalMass': 2193208.324009844}
+INFO       2022-07-31 21:28:02,015: Timestep:   188-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:28:02,173: Received data_dict={'currentTimestep': 189, 'sent_time': 345199286205900, 'recv_time': 345199315804500, 'latency': 29598600, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 1484211.2542488258, 'currentFuelMass': 247368.54237480985, 'currentRocketTotalMass': 2162579.796623653}
+INFO       2022-07-31 21:28:02,173: Timestep:   189-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:28:02,327: Received data_dict={'currentTimestep': 190, 'sent_time': 345199440767900, 'recv_time': 345199470294500, 'latency': 29526600, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 1457958.2307749477, 'currentFuelMass': 242993.0384624968, 'currentRocketTotalMass': 2131951.2692374615}
+INFO       2022-07-31 21:28:02,327: Timestep:   190-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:28:02,499: Received data_dict={'currentTimestep': 191, 'sent_time': 345199610247000, 'recv_time': 345199641745600, 'latency': 31498600, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 1431705.2073010695, 'currentFuelMass': 238617.53455018374, 'currentRocketTotalMass': 2101322.74185127}
+INFO       2022-07-31 21:28:02,499: Timestep:   191-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:28:02,642: Received data_dict={'currentTimestep': 192, 'sent_time': 345199753812100, 'recv_time': 345199785250100, 'latency': 31438000, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 1405452.1838271914, 'currentFuelMass': 234242.0306378707, 'currentRocketTotalMass': 2070694.214465079}
+INFO       2022-07-31 21:28:02,642: Timestep:   192-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:28:02,799: Received data_dict={'currentTimestep': 193, 'sent_time': 345199911214700, 'recv_time': 345199941740800, 'latency': 30526100, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 1379199.1603533132, 'currentFuelMass': 229866.52672555763, 'currentRocketTotalMass': 2040065.6870788876}
+INFO       2022-07-31 21:28:02,799: Timestep:   193-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:28:02,954: Received data_dict={'currentTimestep': 194, 'sent_time': 345200066671000, 'recv_time': 345200097233900, 'latency': 30562900, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 1352946.136879435, 'currentFuelMass': 225491.02281324458, 'currentRocketTotalMass': 2009437.1596926963}
+INFO       2022-07-31 21:28:02,954: Timestep:   194-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:28:03,143: Received data_dict={'currentTimestep': 195, 'sent_time': 345200255056300, 'recv_time': 345200286106400, 'latency': 31050100, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 1326693.113405557, 'currentFuelMass': 221115.51890093152, 'currentRocketTotalMass': 1978808.632306505}
+INFO       2022-07-31 21:28:03,143: Timestep:   195-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:28:03,298: Received data_dict={'currentTimestep': 196, 'sent_time': 345200410143400, 'recv_time': 345200441594300, 'latency': 31450900, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 1300440.0899316787, 'currentFuelMass': 216740.01498861847, 'currentRocketTotalMass': 1948180.1049203137}
+INFO       2022-07-31 21:28:03,298: Timestep:   196-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:28:03,452: Received data_dict={'currentTimestep': 197, 'sent_time': 345200549677900, 'recv_time': 345200595137700, 'latency': 45459800, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 1274187.0664578006, 'currentFuelMass': 212364.5110763054, 'currentRocketTotalMass': 1917551.5775341224}
+INFO       2022-07-31 21:28:03,452: Timestep:   197-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:28:03,608: Received data_dict={'currentTimestep': 198, 'sent_time': 345200704127600, 'recv_time': 345200751559000, 'latency': 47431400, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 1247934.0429839224, 'currentFuelMass': 207989.00716399236, 'currentRocketTotalMass': 1886923.050147931}
+INFO       2022-07-31 21:28:03,608: Timestep:   198-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:28:03,748: Received data_dict={'currentTimestep': 199, 'sent_time': 345200876467600, 'recv_time': 345200891106700, 'latency': 14639100, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 1221681.0195100443, 'currentFuelMass': 203613.5032516793, 'currentRocketTotalMass': 1856294.5227617398}
+INFO       2022-07-31 21:28:03,748: Timestep:   199-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:28:03,907: Received data_dict={'currentTimestep': 200, 'sent_time': 345201019002500, 'recv_time': 345201050647000, 'latency': 31644500, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 1195427.996036166, 'currentFuelMass': 199237.99933936624, 'currentRocketTotalMass': 1825665.9953755485}
+INFO       2022-07-31 21:28:03,907: Timestep:   200-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:28:04,063: Received data_dict={'currentTimestep': 201, 'sent_time': 345201174462400, 'recv_time': 345201206124500, 'latency': 31662100, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 1169174.972562288, 'currentFuelMass': 194862.4954270532, 'currentRocketTotalMass': 1795037.4679893572}
+INFO       2022-07-31 21:28:04,063: Timestep:   201-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:28:04,218: Received data_dict={'currentTimestep': 202, 'sent_time': 345201346947500, 'recv_time': 345201361592400, 'latency': 14644900, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 1142921.9490884098, 'currentFuelMass': 190486.99151474013, 'currentRocketTotalMass': 1764408.940603166}
+INFO       2022-07-31 21:28:04,218: Timestep:   202-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:28:04,374: Received data_dict={'currentTimestep': 203, 'sent_time': 345201485472300, 'recv_time': 345201517045400, 'latency': 31573100, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 1116668.9256145316, 'currentFuelMass': 186111.48760242708, 'currentRocketTotalMass': 1733780.4132169746}
+INFO       2022-07-31 21:28:04,374: Timestep:   203-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:28:04,501: Received data_dict={'currentTimestep': 204, 'sent_time': 345201628593100, 'recv_time': 345201644149900, 'latency': 15556800, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 1090415.9021406535, 'currentFuelMass': 181735.98369011402, 'currentRocketTotalMass': 1703151.8858307833}
+INFO       2022-07-31 21:28:04,501: Timestep:   204-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:28:04,640: Received data_dict={'currentTimestep': 205, 'sent_time': 345201738131900, 'recv_time': 345201783641500, 'latency': 45509600, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 1064162.8786667753, 'currentFuelMass': 177360.47977780097, 'currentRocketTotalMass': 1672523.358444592}
+INFO       2022-07-31 21:28:04,640: Timestep:   205-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:28:04,780: Received data_dict={'currentTimestep': 206, 'sent_time': 345201891595400, 'recv_time': 345201923187700, 'latency': 31592300, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 1037909.855192897, 'currentFuelMass': 172984.9758654879, 'currentRocketTotalMass': 1641894.8310584007}
+INFO       2022-07-31 21:28:04,780: Timestep:   206-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:28:04,923: Received data_dict={'currentTimestep': 207, 'sent_time': 345202051140000, 'recv_time': 345202066700800, 'latency': 15560800, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 1011656.8317190188, 'currentFuelMass': 168609.47195317486, 'currentRocketTotalMass': 1611266.3036722094}
+INFO       2022-07-31 21:28:04,923: Timestep:   207-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:28:05,079: Received data_dict={'currentTimestep': 208, 'sent_time': 345202192665200, 'recv_time': 345202222275000, 'latency': 29609800, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 985403.8082451405, 'currentFuelMass': 164233.9680408618, 'currentRocketTotalMass': 1580637.776286018}
+INFO       2022-07-31 21:28:05,079: Timestep:   208-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:28:05,234: Received data_dict={'currentTimestep': 209, 'sent_time': 345202346009300, 'recv_time': 345202377561500, 'latency': 31552200, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 959150.7847712622, 'currentFuelMass': 159858.46412854875, 'currentRocketTotalMass': 1550009.2488998268}
+INFO       2022-07-31 21:28:05,234: Timestep:   209-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:28:05,376: Received data_dict={'currentTimestep': 210, 'sent_time': 345202503448500, 'recv_time': 345202519194300, 'latency': 15745800, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 932897.7612973839, 'currentFuelMass': 155482.9602162357, 'currentRocketTotalMass': 1519380.7215136355}
+INFO       2022-07-31 21:28:05,376: Timestep:   210-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:28:05,519: Received data_dict={'currentTimestep': 211, 'sent_time': 345202630754800, 'recv_time': 345202662143600, 'latency': 31388800, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 906644.7378235057, 'currentFuelMass': 151107.45630392263, 'currentRocketTotalMass': 1488752.1941274442}
+INFO       2022-07-31 21:28:05,519: Timestep:   211-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:28:05,672: Received data_dict={'currentTimestep': 212, 'sent_time': 345202785048300, 'recv_time': 345202815605800, 'latency': 30557500, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 880391.7143496274, 'currentFuelMass': 146731.95239160958, 'currentRocketTotalMass': 1458123.6667412529}
+INFO       2022-07-31 21:28:05,672: Timestep:   212-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:28:05,830: Received data_dict={'currentTimestep': 213, 'sent_time': 345202941624600, 'recv_time': 345202973074400, 'latency': 31449800, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 854138.6908757491, 'currentFuelMass': 142356.44847929652, 'currentRocketTotalMass': 1427495.1393550616}
+INFO       2022-07-31 21:28:05,830: Timestep:   213-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:28:05,971: Received data_dict={'currentTimestep': 214, 'sent_time': 345203083059200, 'recv_time': 345203114635200, 'latency': 31576000, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 827885.6674018708, 'currentFuelMass': 137980.94456698347, 'currentRocketTotalMass': 1396866.6119688703}
+INFO       2022-07-31 21:28:05,971: Timestep:   214-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:28:06,127: Received data_dict={'currentTimestep': 215, 'sent_time': 345203238472200, 'recv_time': 345203270115700, 'latency': 31643500, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 801632.6439279926, 'currentFuelMass': 133605.4406546704, 'currentRocketTotalMass': 1366238.084582679}
+INFO       2022-07-31 21:28:06,127: Timestep:   215-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:28:06,283: Received data_dict={'currentTimestep': 216, 'sent_time': 345203395979500, 'recv_time': 345203426581100, 'latency': 30601600, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 775379.6204541143, 'currentFuelMass': 129229.93674235737, 'currentRocketTotalMass': 1335609.5571964877}
+INFO       2022-07-31 21:28:06,283: Timestep:   216-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:28:06,455: Received data_dict={'currentTimestep': 217, 'sent_time': 345203566422600, 'recv_time': 345203597993900, 'latency': 31571300, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 749126.596980236, 'currentFuelMass': 124854.43283004433, 'currentRocketTotalMass': 1304981.0298102964}
+INFO       2022-07-31 21:28:06,455: Timestep:   217-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:28:06,627: Received data_dict={'currentTimestep': 218, 'sent_time': 345203739407600, 'recv_time': 345203770008900, 'latency': 30601300, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 722873.5735063577, 'currentFuelMass': 120478.92891773129, 'currentRocketTotalMass': 1274352.502424105}
+INFO       2022-07-31 21:28:06,627: Timestep:   218-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:28:06,782: Received data_dict={'currentTimestep': 219, 'sent_time': 345203895823700, 'recv_time': 345203925426700, 'latency': 29603000, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 696620.5500324795, 'currentFuelMass': 116103.42500541825, 'currentRocketTotalMass': 1243723.9750379138}
+INFO       2022-07-31 21:28:06,782: Timestep:   219-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:28:06,937: Received data_dict={'currentTimestep': 220, 'sent_time': 345204048514100, 'recv_time': 345204080008100, 'latency': 31494000, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 670367.5265586012, 'currentFuelMass': 111727.92109310521, 'currentRocketTotalMass': 1213095.4476517225}
+INFO       2022-07-31 21:28:06,937: Timestep:   220-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:28:07,094: Received data_dict={'currentTimestep': 221, 'sent_time': 345204206057600, 'recv_time': 345204237507400, 'latency': 31449800, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 644114.5030847229, 'currentFuelMass': 107352.41718079217, 'currentRocketTotalMass': 1182466.9202655312}
+INFO       2022-07-31 21:28:07,094: Timestep:   221-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:28:07,266: Received data_dict={'currentTimestep': 222, 'sent_time': 345204393325100, 'recv_time': 345204408935400, 'latency': 15610300, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 617861.4796108446, 'currentFuelMass': 102976.91326847913, 'currentRocketTotalMass': 1151838.3928793399}
+INFO       2022-07-31 21:28:07,266: Timestep:   222-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:28:07,455: Received data_dict={'currentTimestep': 223, 'sent_time': 345204582737700, 'recv_time': 345204598275100, 'latency': 15537400, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 591608.4561369664, 'currentFuelMass': 98601.40935616608, 'currentRocketTotalMass': 1121209.8654931486}
+INFO       2022-07-31 21:28:07,455: Timestep:   223-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:28:07,658: Received data_dict={'currentTimestep': 224, 'sent_time': 345204754108700, 'recv_time': 345204801114500, 'latency': 47005800, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 565355.4326630881, 'currentFuelMass': 94225.90544385304, 'currentRocketTotalMass': 1090581.3381069573}
+INFO       2022-07-31 21:28:07,658: Timestep:   224-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:28:07,843: Received data_dict={'currentTimestep': 225, 'sent_time': 345204957065600, 'recv_time': 345204986555400, 'latency': 29489800, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 539102.4091892098, 'currentFuelMass': 89850.40153154, 'currentRocketTotalMass': 1059952.810720766}
+INFO       2022-07-31 21:28:07,843: Timestep:   225-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:28:08,001: Received data_dict={'currentTimestep': 226, 'sent_time': 345205112562100, 'recv_time': 345205144002400, 'latency': 31440300, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 512849.38571533153, 'currentFuelMass': 85474.89761922696, 'currentRocketTotalMass': 1029324.2833345747}
+INFO       2022-07-31 21:28:08,001: Timestep:   226-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:28:08,189: Received data_dict={'currentTimestep': 227, 'sent_time': 345205284990000, 'recv_time': 345205332372800, 'latency': 47382800, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 486596.36224145326, 'currentFuelMass': 81099.39370691392, 'currentRocketTotalMass': 998695.7559483834}
+INFO       2022-07-31 21:28:08,189: Timestep:   227-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:28:08,379: Received data_dict={'currentTimestep': 228, 'sent_time': 345205490189400, 'recv_time': 345205521744600, 'latency': 31555200, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 460343.338767575, 'currentFuelMass': 76723.88979460088, 'currentRocketTotalMass': 968067.2285621921}
+INFO       2022-07-31 21:28:08,379: Timestep:   228-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:28:08,535: Received data_dict={'currentTimestep': 229, 'sent_time': 345205646700500, 'recv_time': 345205678213900, 'latency': 31513400, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 434090.3152936967, 'currentFuelMass': 72348.38588228784, 'currentRocketTotalMass': 937438.7011760008}
+INFO       2022-07-31 21:28:08,535: Timestep:   229-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:28:08,689: Received data_dict={'currentTimestep': 230, 'sent_time': 345205802160400, 'recv_time': 345205832688100, 'latency': 30527700, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 407837.29181981843, 'currentFuelMass': 67972.8819699748, 'currentRocketTotalMass': 906810.1737898095}
+INFO       2022-07-31 21:28:08,689: Timestep:   230-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:28:08,830: Received data_dict={'currentTimestep': 231, 'sent_time': 345205926286300, 'recv_time': 345205972722900, 'latency': 46436600, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 381584.26834594016, 'currentFuelMass': 63597.37805766176, 'currentRocketTotalMass': 876181.6464036182}
+INFO       2022-07-31 21:28:08,830: Timestep:   231-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:28:09,001: Received data_dict={'currentTimestep': 232, 'sent_time': 345206112658500, 'recv_time': 345206144188000, 'latency': 31529500, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 355331.2448720619, 'currentFuelMass': 59221.87414534872, 'currentRocketTotalMass': 845553.1190174269}
+INFO       2022-07-31 21:28:09,001: Timestep:   232-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:28:09,155: Received data_dict={'currentTimestep': 233, 'sent_time': 345206269279000, 'recv_time': 345206298638100, 'latency': 29359100, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 329078.2213981836, 'currentFuelMass': 54846.370233035675, 'currentRocketTotalMass': 814924.5916312356}
+INFO       2022-07-31 21:28:09,155: Timestep:   233-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:28:09,315: Received data_dict={'currentTimestep': 234, 'sent_time': 345206426548600, 'recv_time': 345206458140300, 'latency': 31591700, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 302825.19792430534, 'currentFuelMass': 50470.866320722635, 'currentRocketTotalMass': 784296.0642450443}
+INFO       2022-07-31 21:28:09,315: Timestep:   234-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:28:09,485: Received data_dict={'currentTimestep': 235, 'sent_time': 345206612961600, 'recv_time': 345206628579400, 'latency': 15617800, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 276572.17445042706, 'currentFuelMass': 46095.36240840959, 'currentRocketTotalMass': 753667.536858853}
+INFO       2022-07-31 21:28:09,485: Timestep:   235-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:28:09,689: Received data_dict={'currentTimestep': 236, 'sent_time': 345206800306900, 'recv_time': 345206831870900, 'latency': 31564000, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 250319.15097654882, 'currentFuelMass': 41719.85849609655, 'currentRocketTotalMass': 723039.0094726617}
+INFO       2022-07-31 21:28:09,689: Timestep:   236-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:28:09,877: Received data_dict={'currentTimestep': 237, 'sent_time': 345206989686600, 'recv_time': 345207020221600, 'latency': 30535000, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 224066.12750267057, 'currentFuelMass': 37344.35458378351, 'currentRocketTotalMass': 692410.4820864704}
+INFO       2022-07-31 21:28:09,877: Timestep:   237-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:28:10,030: Received data_dict={'currentTimestep': 238, 'sent_time': 345207142214000, 'recv_time': 345207173704700, 'latency': 31490700, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 197813.10402879232, 'currentFuelMass': 32968.85067147047, 'currentRocketTotalMass': 661781.954700279}
+INFO       2022-07-31 21:28:10,030: Timestep:   238-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:28:10,203: Received data_dict={'currentTimestep': 239, 'sent_time': 345207330702900, 'recv_time': 345207346220500, 'latency': 15517600, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 171560.08055491408, 'currentFuelMass': 28593.34675915743, 'currentRocketTotalMass': 631153.4273140877}
+INFO       2022-07-31 21:28:10,203: Timestep:   239-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:28:10,374: Received data_dict={'currentTimestep': 240, 'sent_time': 345207470041400, 'recv_time': 345207517561100, 'latency': 47519700, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 145307.05708103583, 'currentFuelMass': 24217.84284684439, 'currentRocketTotalMass': 600524.8999278964}
+INFO       2022-07-31 21:28:10,374: Timestep:   240-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:28:10,531: Received data_dict={'currentTimestep': 241, 'sent_time': 345207642556000, 'recv_time': 345207674036500, 'latency': 31480500, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 119054.03360715759, 'currentFuelMass': 19842.338934531348, 'currentRocketTotalMass': 569896.3725417051}
+INFO       2022-07-31 21:28:10,531: Timestep:   241-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:28:10,686: Received data_dict={'currentTimestep': 242, 'sent_time': 345207798896400, 'recv_time': 345207829532400, 'latency': 30636000, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 92801.01013327934, 'currentFuelMass': 15466.835022218307, 'currentRocketTotalMass': 539267.8451555138}
+INFO       2022-07-31 21:28:10,686: Timestep:   242-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:28:10,844: Received data_dict={'currentTimestep': 243, 'sent_time': 345207955423400, 'recv_time': 345207987000200, 'latency': 31576800, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 66547.9866594011, 'currentFuelMass': 11091.331109905266, 'currentRocketTotalMass': 508639.31776932254}
+INFO       2022-07-31 21:28:10,844: Timestep:   243-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:28:11,000: Received data_dict={'currentTimestep': 244, 'sent_time': 345208111925400, 'recv_time': 345208143415900, 'latency': 31490500, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 40294.96318552285, 'currentFuelMass': 6715.827197592224, 'currentRocketTotalMass': 478010.79038313124}
+INFO       2022-07-31 21:28:11,000: Timestep:   244-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:28:11,158: Received data_dict={'currentTimestep': 245, 'sent_time': 345208269491900, 'recv_time': 345208300861200, 'latency': 31369300, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': 14041.939711644602, 'currentFuelMass': 2340.3232852791825, 'currentRocketTotalMass': 447382.26299693994}
+INFO       2022-07-31 21:28:11,158: Timestep:   245-{'currentThrust': 123191000.0}
+INFO       2022-07-31 21:28:11,297: Received data_dict={'currentTimestep': 246, 'sent_time': 345208408976500, 'recv_time': 345208440453700, 'latency': 31477200, 'currentMassFlowRate': 30628.52738619129, 'currentOxidiserMass': -12211.083762233648, 'currentFuelMass': -2035.1806270338593, 'currentRocketTotalMass': 416753.73561074864}
+INFO       2022-07-31 21:28:11,297: Timestep:   246-{'currentThrust': 123191000.0}

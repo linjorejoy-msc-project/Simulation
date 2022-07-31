@@ -86,7 +86,8 @@ def run_one_cycle():
         * CONSTANTS["gravitationalAcceleration"]
         * data_dict["currentMassFlowRate"]
     )
-    logging.debug(f"Timestep: {data_dict['currentTimestep']:5}-{topic_data}")
+    logging.info(f"Received {data_dict=}")
+    logging.info(f"Timestep: {data_dict['currentTimestep']:5}-{topic_data}")
     send_topic_data(server_socket, "thrust", json.dumps(topic_data))
 
 
@@ -108,10 +109,10 @@ def listen_analysis():
     global data_dict
     global cycle_flags
     while True:
-        topic, info = recv_topic_data(server_socket)
+        topic, sent_time, recv_time, info = recv_topic_data(server_socket)
         if topic in cycle_flags.keys():
             cycle_flags[topic] = True
-            topic_func_dict[topic](data_dict, info)
+            topic_func_dict[topic](data_dict, sent_time, recv_time, info)
         else:
             print(f"{CONFIG_DATA['name']} is not subscribed to {topic}")
 

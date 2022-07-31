@@ -103,10 +103,10 @@ def listen_analysis():
     global cycle_flags
     logging.info(f"Started Listening for analysis")
     while True:
-        topic, info = recv_topic_data(server_socket)
+        topic, sent_time, recv_time, info = recv_topic_data(server_socket)
         if topic in cycle_flags.keys():
             cycle_flags[topic] = True
-            topic_func_dict[topic](data_dict, info)
+            topic_func_dict[topic](data_dict, sent_time, recv_time, info)
         else:
             logging.error(f"{CONFIG_DATA['name']} is not subscribed to {topic}")
 

@@ -2,6 +2,7 @@ import socket
 import math
 import json
 from typing import Tuple
+import time
 
 # Logging
 import logging
@@ -21,6 +22,7 @@ import os
 
 HEADERSIZE = 5
 TOPICLABELSIZE = 25
+TIMEDATASIZE = 20
 
 
 # Helper Functions
@@ -37,6 +39,7 @@ def recv_msg(server_socket: socket.socket) -> str:
         while True:
             len_str = server_socket.recv(HEADERSIZE)
             if len_str:
+                recv_time = time.perf_counter_ns()
                 msg_len = int(len_str)
                 return_str = server_socket.recv(msg_len).decode("utf-8")
                 if return_str:
@@ -46,13 +49,25 @@ def recv_msg(server_socket: socket.socket) -> str:
         return None
 
 
-def recv_topic_data(server_socket: socket.socket) -> Tuple[str, str]:
+def recv_topic_data(server_socket: socket.socket) -> Tuple[str, int, int, str]:
     msg = recv_msg(server_socket)
     # logging.info(f"Received {msg=}")
     # logging.debug(
     #     f"Check (topic,info) = ({str(msg[:TOPICLABELSIZE]).strip()},{msg[TOPICLABELSIZE:]})"
     # )
-    return str(msg[:TOPICLABELSIZE]).strip(), msg[TOPICLABELSIZE:]
+    # return_data = (
+    #     str(msg[:TOPICLABELSIZE]).strip(),
+    #     int(str(msg[TOPICLABELSIZE : TOPICLABELSIZE + TIMEDATASIZE]).strip()),
+    #     time.perf_counter_ns(),
+    #     msg[TOPICLABELSIZE:],
+    # )
+    # logging.debug(f"Received {msg=} converted to Tuple {return_data=}")
+    return (
+        str(msg[:TOPICLABELSIZE]).strip(),
+        int(str(msg[TOPICLABELSIZE : TOPICLABELSIZE + TIMEDATASIZE]).strip()),
+        time.perf_counter_ns(),
+        msg[TOPICLABELSIZE + TIMEDATASIZE :],
+    )
 
 
 def send_config(server_socket: socket.socket, config: dict):
@@ -70,9 +85,14 @@ def request_constants(server_socket: socket.socket):
 
 def send_topic_data(server_socket: socket.socket, topic: str, data: str):
     # logging.info(f"{topic=} sending {data=}")
-    msgToSend = f"{topic:25}{data}"
-    server_socket.send(format_msg_with_header(msgToSend))
-    logging.info(f"{topic=} sending {data=} as {format_msg_with_header(msgToSend)=}")
+    msgToSend = (
+        f"{topic:{TOPICLABELSIZE}}{str(time.perf_counter_ns()):{TIMEDATASIZE}}{data}"
+    )
+    formatted_msg = format_msg_with_header(msgToSend)
+    server_socket.send(formatted_msg)
+    # logging.debug(
+    #     f"{topic=} sending {data=} as format_msg_with_header(msgToSend)= {formatted_msg}"
+    # )
 
 
 def check_to_run_cycle(cycle_flags: dict):
@@ -85,30 +105,42 @@ def make_all_cycle_flags_default(cycle_flags: dict):
 
 
 # Topic specific functions
-def field_received(data_dict: dict, info: str):
+def field_received(data_dict: dict, sent_time: int, recv_time: int, info: str):
     info_obj = json.loads(info)
     data_dict["currentTimestep"] = info_obj["currentTimestep"]
+    data_dict["sent_time_ns"] = sent_time
+    data_dict["recv_time_ns"] = recv_time
+    data_dict["latency"] = recv_time - sent_time
 
 
-def fuel_flow_received(data_dict: dict, info: str):
+def fuel_flow_received(data_dict: dict, sent_time: int, recv_time: int, info: str):
     info_obj = json.loads(info)
     data_dict["currentMassFlowRate"] = info_obj["currentMassFlowRate"]
     data_dict["currentOxidiserMass"] = info_obj["currentOxidiserMass"]
     data_dict["currentFuelMass"] = info_obj["currentFuelMass"]
     data_dict["currentRocketTotalMass"] = info_obj["currentRocketTotalMass"]
+    data_dict["sent_time_ns"] = sent_time
+    data_dict["recv_time_ns"] = recv_time
+    data_dict["latency"] = recv_time - sent_time
 
 
-def thrust_received(data_dict: dict, info: str):
+def thrust_received(data_dict: dict, sent_time: int, recv_time: int, info: str):
     info_obj = json.loads(info)
     data_dict["currentThrust"] = info_obj["currentThrust"]
+    data_dict["sent_time_ns"] = sent_time
+    data_dict["recv_time_ns"] = recv_time
+    data_dict["latency"] = recv_time - sent_time
 
 
-def drag_received(data_dict: dict, info: str):
+def drag_received(data_dict: dict, sent_time: int, recv_time: int, info: str):
     info_obj = json.loads(info)
     data_dict["drag"] = info_obj["drag"]
+    data_dict["sent_time_ns"] = sent_time
+    data_dict["recv_time_ns"] = recv_time
+    data_dict["latency"] = recv_time - sent_time
 
 
-def motion_received(data_dict: dict, info: str):
+def motion_received(data_dict: dict, sent_time: int, recv_time: int, info: str):
     info_obj = json.loads(info)
     data_dict["netThrust"] = info_obj["netThrust"]
     data_dict["currentAcceleration"] = info_obj["currentAcceleration"]
@@ -117,21 +149,30 @@ def motion_received(data_dict: dict, info: str):
     data_dict["currentAltitudeDelta"] = info_obj["currentAltitudeDelta"]
     data_dict["currentAltitude"] = info_obj["currentAltitude"]
     data_dict["requiredThrustChange"] = info_obj["requiredThrustChange"]
+    data_dict["sent_time_ns"] = sent_time
+    data_dict["recv_time_ns"] = recv_time
+    data_dict["latency"] = recv_time - sent_time
 
 
-def atmosphere_received(data_dict: dict, info: str):
+def atmosphere_received(data_dict: dict, sent_time: int, recv_time: int, info: str):
     info_obj = json.loads(info)
     data_dict["pressure"] = info_obj["pressure"]
     data_dict["temperature"] = info_obj["temperature"]
     data_dict["density"] = info_obj["density"]
+    data_dict["sent_time_ns"] = sent_time
+    data_dict["recv_time_ns"] = recv_time
+    data_dict["latency"] = recv_time - sent_time
 
 
-def process_topic_field_update(data: str, variables):
+def process_topic_field_update(data: str, sent_time: int, recv_time: int, variables):
 
     try:
         dataObj: dict = json.loads(data)
         for key in dataObj.keys():
             variables[key] = dataObj[key]
+        variables["sent_time_ns"] = sent_time
+        variables["recv_time_ns"] = recv_time
+        variables["latency"] = recv_time - sent_time
         if dataObj["currentTimestep"] == -1:
             return False
         else:
