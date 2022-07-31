@@ -57,7 +57,8 @@ CONFIG_DATA = {
 }
 server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 # server_socket.bind((socket.gethostname(), 55_001))
-server_socket.connect(("localhost", 1234))
+server_socket.connect(("192.168.1.2", 1234))
+# server_socket.connect(("localhost", 1234))
 
 CONSTANTS = {}
 
