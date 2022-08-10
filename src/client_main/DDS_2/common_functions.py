@@ -96,7 +96,13 @@ def send_topic_data(server_socket: socket.socket, topic: str, data: str):
 
 
 def check_to_run_cycle(cycle_flags: dict):
-    return all(cycle_flags.values())
+    if cycle_flags:
+        return all(cycle_flags.values())
+    else:
+        return False
+
+
+print(check_to_run_cycle({}))
 
 
 def make_all_cycle_flags_default(cycle_flags: dict):
@@ -110,6 +116,7 @@ def field_received(data_dict: dict, sent_time: int, recv_time: int, info: str):
     data_dict["currentTimestep"] = info_obj["currentTimestep"]
     data_dict["currentTime"] = info_obj["currentTime"]
     data_dict["totalTimestepsRun"] = info_obj["totalTimestepsRun"]
+    data_dict["versions"] = info_obj["versions"]
     data_dict["sent_time_ns"] = sent_time
     data_dict["recv_time_ns"] = recv_time
     data_dict["latency"] = recv_time - sent_time
@@ -183,6 +190,36 @@ def process_topic_field_update(data: str, sent_time: int, recv_time: int, variab
     except Exception as e:
         logging.error(e)
     return False
+
+
+def generate_field_update_data(response_dict):
+    return_dict = {}
+    return_dict["currentTimestep"] = response_dict["currentTimestep"]
+    return_dict["currentTime"] = response_dict["currentTime"]
+    return_dict["totalTimestepsRun"] = response_dict["totalTimestepsRun"]
+    return_dict["versions"] = response_dict["versions"]
+    return return_dict
+
+
+def generate_motion_update_data(response_dict):
+    return_dict = {}
+    return_dict["netThrust"] = response_dict["netThrust"]
+    return_dict["currentAcceleration"] = response_dict["currentAcceleration"]
+    return_dict["currentVelocityDelta"] = response_dict["currentVelocityDelta"]
+    return_dict["currentVelocity"] = response_dict["currentVelocity"]
+    return_dict["currentAltitudeDelta"] = response_dict["currentAltitudeDelta"]
+    return_dict["currentAltitude"] = response_dict["currentAltitude"]
+    return_dict["requiredThrustChange"] = response_dict["requiredThrustChange"]
+    return return_dict
+
+
+def generate_fuel_flow_update_data(response_dict):
+    return_dict = {}
+    return_dict["currentMassFlowRate"] = response_dict["currentMassFlowRate"]
+    return_dict["currentOxidiserMass"] = response_dict["currentOxidiserMass"]
+    return_dict["currentFuelMass"] = response_dict["currentFuelMass"]
+    return_dict["currentRocketTotalMass"] = response_dict["currentRocketTotalMass"]
+    return return_dict
 
 
 # Calculation Functions

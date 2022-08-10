@@ -72,6 +72,8 @@ topic_data = {
 
 data_dict = {}
 
+all_data_dict = {}
+
 cycle_flags = {"drag": False, "thrust": False, "fuel_flow": False, "field": False}
 topic_func_dict = {
     "drag": drag_received,
@@ -114,12 +116,20 @@ def run_one_cycle():
     topic_data["currentAltitude"] = (
         topic_data["currentAltitude"] + topic_data["currentAltitudeDelta"]
     )
-    if data_dict["currentTimestep"] in [60, 105, 185]:
-        print(f'Reduced at {data_dict["currentTimestep"]=}')
-        topic_data["currentAltitude"] -= 250
+    # if data_dict["currentTimestep"] in [60, 105, 185]:
+    #     print(f'Reduced at {data_dict["currentTimestep"]=}')
+    #     topic_data["currentAltitude"] -= 250
+
+    all_data_dict[
+        f"{data_dict['versions']}.{data_dict['currentTimestep']}"
+    ] = topic_data.copy()
+
     send_topic_data(server_socket, "motion", json.dumps(topic_data))
     logging.info(f"Received {data_dict=}")
     logging.info(f"Timestep: {data_dict['currentTimestep']:5}-{topic_data}")
+
+    if data_dict["currentTimestep"] == 246:
+        logging.info(f"\n\n\n{all_data_dict}")
 
 
 def run_cycle():

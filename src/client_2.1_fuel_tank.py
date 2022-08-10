@@ -43,7 +43,7 @@ HEADERSIZE = 5
 CONFIG_DATA = {
     "id": "CLIENT_1",
     "name": "fuel_tank",
-    "subscribed_topics": ["thrust", "field"],
+    "subscribed_topics": ["thrust", "field", "fuel_flow_update"],
     "published_topics": ["fuel_flow", "field"],
     "constants_required": [
         "specificImpulse",

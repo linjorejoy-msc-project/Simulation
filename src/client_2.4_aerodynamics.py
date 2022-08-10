@@ -99,6 +99,7 @@ def run_one_cycle():
                 "currentTime": CONSTANTS["timestepSize"]
                 * (data_dict["currentTimestep"] + 1),
                 "totalTimestepsRun": data_dict["totalTimestepsRun"] + 1,
+                "versions": data_dict["versions"],
             }
         ),
     )
