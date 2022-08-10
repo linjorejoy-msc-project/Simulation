@@ -68,6 +68,8 @@ CONSTANTS = {
 
 variables = {
     "currentTimestep": 0,
+    "currentTime": 0,
+    "totalTimestepsRun": 0,
 }
 
 

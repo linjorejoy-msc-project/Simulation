@@ -93,7 +93,14 @@ def run_one_cycle():
     send_topic_data(
         server_socket,
         "field_update",
-        json.dumps({"currentTimestep": data_dict["currentTimestep"] + 1}),
+        json.dumps(
+            {
+                "currentTimestep": data_dict["currentTimestep"] + 1,
+                "currentTime": CONSTANTS["timestepSize"]
+                * (data_dict["currentTimestep"] + 1),
+                "totalTimestepsRun": data_dict["totalTimestepsRun"] + 1,
+            }
+        ),
     )
     logging.info(f"Timestep: {data_dict['currentTimestep']:5}-{topic_data}")
 

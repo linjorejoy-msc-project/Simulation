@@ -108,6 +108,8 @@ def make_all_cycle_flags_default(cycle_flags: dict):
 def field_received(data_dict: dict, sent_time: int, recv_time: int, info: str):
     info_obj = json.loads(info)
     data_dict["currentTimestep"] = info_obj["currentTimestep"]
+    data_dict["currentTime"] = info_obj["currentTime"]
+    data_dict["totalTimestepsRun"] = info_obj["totalTimestepsRun"]
     data_dict["sent_time_ns"] = sent_time
     data_dict["recv_time_ns"] = recv_time
     data_dict["latency"] = recv_time - sent_time

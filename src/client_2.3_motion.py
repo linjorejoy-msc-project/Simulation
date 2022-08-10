@@ -42,7 +42,7 @@ HEADERSIZE = 5
 CONFIG_DATA = {
     "id": "CLIENT_3",
     "name": "motion",
-    "subscribed_topics": ["drag", "thrust", "fuel_flow", "field", "update_motion"],
+    "subscribed_topics": ["drag", "thrust", "fuel_flow", "field", "motion_update"],
     "published_topics": ["motion"],
     "constants_required": [
         "gravitationalAcceleration",
@@ -139,7 +139,7 @@ def listen_analysis():
         if topic in cycle_flags.keys():
             cycle_flags[topic] = True
             topic_func_dict[topic](data_dict, sent_time, recv_time, info)
-        elif topic == "update_motion":
+        elif topic == "motion_update":
             pass
         else:
             print(f"{CONFIG_DATA['name']} is not subscribed to {topic}")
