@@ -5,6 +5,7 @@ import json
 from client_main.DDS_2.common_functions import (
     check_to_run_cycle,
     field_received,
+    initialize_cmd_window,
     make_all_cycle_flags_default,
     recv_msg,
     recv_topic_data,
@@ -12,6 +13,7 @@ from client_main.DDS_2.common_functions import (
     request_constants,
     send_topic_data,
     thrust_received,
+    update_fuel_flow_topic_data,
 )
 
 # Logging
@@ -43,7 +45,7 @@ HEADERSIZE = 5
 CONFIG_DATA = {
     "id": "CLIENT_1",
     "name": "fuel_tank",
-    "subscribed_topics": ["thrust", "field", "fuel_flow_update"],
+    "subscribed_topics": ["thrust", "field", "fuel_flow_update_realtime"],
     "published_topics": ["fuel_flow", "field"],
     "constants_required": [
         "specificImpulse",
@@ -57,7 +59,7 @@ CONFIG_DATA = {
     ],
     "variables_subscribed": [],
 }
-
+initialize_cmd_window(CONFIG_DATA)
 server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 # server_socket.bind((socket.gethostname(), 55_000))
 # server_socket.connect(("192.168.1.2", 1234))
@@ -76,6 +78,8 @@ topic_func_dict = {"thrust": thrust_received, "field": field_received}
 
 # to store data received
 data_dict = {}
+
+all_data_dict = {}
 
 
 def fill_init_topic_data():
@@ -117,9 +121,17 @@ def run_one_cycle():
         data_dict["currentRocketTotalMass"] - massReduced
     )
     topic_data["currentRocketTotalMass"] = data_dict["currentRocketTotalMass"]
+
+    all_data_dict[
+        f"{data_dict['versions']}.{data_dict['currentTimestep']}"
+    ] = topic_data.copy()
+
     logging.info(f"Received {data_dict=}")
     logging.info(f"Timestep: {data_dict['currentTimestep']:5}-{topic_data}")
     send_topic_data(server_socket, "fuel_flow", json.dumps(topic_data))
+
+    if data_dict["currentTimestep"] == 246:
+        logging.info(f"\n\n\n{json.dumps(all_data_dict, indent=4)}")
 
 
 def run_cycle():
@@ -133,12 +145,44 @@ def run_cycle():
 def listen_analysis():
     global data_dict
     global cycle_flags
+    global data_dict
+
     logging.info(f"Started Listening for analysis")
     while True:
         topic, sent_time, recv_time, info = recv_topic_data(server_socket)
         if topic in cycle_flags.keys():
             cycle_flags[topic] = True
             topic_func_dict[topic](data_dict, sent_time, recv_time, info)
+        elif topic == "fuel_flow_update_realtime":
+            make_all_cycle_flags_default(cycle_flags)
+
+            # increase version no
+            data_dict["versions"] = data_dict["versions"] + 1
+
+            # Make json file
+            logging.debug(f"Received Updation : {info=}")
+            topic_data_to_update = json.loads(info)
+            topic_data_to_update["sent_time_ns"] = sent_time
+            topic_data_to_update["recv_time_ns"] = recv_time
+            topic_data_to_update["latency"] = recv_time - sent_time
+
+            # add new branch
+            all_data_dict[
+                f"{data_dict['versions']}.{topic_data_to_update['currentTimestep']}"
+            ] = topic_data_to_update
+
+            # Update topic Data
+            update_fuel_flow_topic_data(data_dict, topic_data_to_update)
+
+            # Cycle flags to def
+            make_all_cycle_flags_default(cycle_flags)
+
+            # send received info as motion topic_data
+            send_topic_data(
+                server_socket,
+                "fuel_flow",
+                json.dumps(topic_data_to_update),
+            )
         else:
             logging.error(f"{CONFIG_DATA['name']} is not subscribed to {topic}")
 

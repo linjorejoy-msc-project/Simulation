@@ -6,6 +6,7 @@ from client_main.DDS_2.common_functions import (
     check_to_run_cycle,
     format_msg_with_header,
     format_msg_with_header_and_topic,
+    initialize_cmd_window,
     make_all_cycle_flags_default,
     recv_msg,
     recv_topic_data,
@@ -55,6 +56,7 @@ CONFIG_DATA = {
     ],
     "variables_subscribed": [],
 }
+initialize_cmd_window(CONFIG_DATA)
 server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 # server_socket.bind((socket.gethostname(), 55_001))
 # server_socket.connect(("192.168.1.2", 1234))

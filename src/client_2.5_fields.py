@@ -5,6 +5,7 @@ import json
 
 from client_main.DDS_2.common_functions import (
     format_msg_with_header,
+    initialize_cmd_window,
     process_topic_field_update,
     recv_msg,
     recv_topic_data,
@@ -39,11 +40,15 @@ HEADERSIZE = 5
 CONFIG_DATA = {
     "id": "CLIENT_5",
     "name": "field",
-    "subscribed_topics": ["field_update"],
+    "subscribed_topics": [
+        "field_update",
+        "field_update_realtime",
+    ],
     "published_topics": ["field"],
     "constants_required": [],
     "variables_subscribed": [],
 }
+initialize_cmd_window(CONFIG_DATA)
 server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 # server_socket.bind((socket.gethostname(), 55_004))
 # server_socket.connect(("192.168.1.2", 1234))
@@ -72,6 +77,8 @@ variables = {
     "totalTimestepsRun": 0,
     "versions": 1,
 }
+
+all_data_dict = {}
 
 
 def calculate_constants():
@@ -112,7 +119,20 @@ def calculate_constants():
 
 def start_a_cycle():
     logging.info(f"Sending topic 'field' as :{variables=}")
+    if all_data_dict and (
+        all_data_dict[[key for key in all_data_dict.keys()][-1]]["currentTimestep"] + 1
+        != variables["currentTimestep"]
+    ):
+        logging.debug(f"Received Updation : {variables=}")
+        variables["versions"] = variables["versions"] + 1
+
+    all_data_dict[
+        f"{variables['versions']}.{variables['currentTimestep']}"
+    ] = variables.copy()
     send_topic_data(server_socket, "field", json.dumps(variables))
+
+    if variables["currentTimestep"] == 246:
+        logging.info(f"\n\n\n{json.dumps(all_data_dict, indent=4)}")
 
 
 def listen_analysis():
@@ -123,6 +143,16 @@ def listen_analysis():
             can_continue = process_topic_field_update(
                 info, sent_time, recv_time, variables
             )
+
+            if can_continue:
+                start_a_cycle()
+            else:
+                break
+        elif topic == "field_update_realtime":
+            can_continue = process_topic_field_update(
+                info, sent_time, recv_time, variables
+            )
+
             if can_continue:
                 start_a_cycle()
             else:

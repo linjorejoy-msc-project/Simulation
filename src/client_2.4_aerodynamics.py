@@ -8,6 +8,7 @@ from client_main.DDS_2.common_functions import (
     field_received,
     format_msg_with_header,
     get_air_density,
+    initialize_cmd_window,
     make_all_cycle_flags_default,
     motion_received,
     recv_msg,
@@ -54,6 +55,7 @@ CONFIG_DATA = {
     ],
     "variables_subscribed": [],
 }
+initialize_cmd_window(CONFIG_DATA)
 server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 # server_socket.bind((socket.gethostname(), 55_003))
 # server_socket.connect(("192.168.1.2", 1234))

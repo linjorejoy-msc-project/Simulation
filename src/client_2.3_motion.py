@@ -8,6 +8,7 @@ from client_main.DDS_2.common_functions import (
     field_received,
     format_msg_with_header,
     fuel_flow_received,
+    initialize_cmd_window,
     make_all_cycle_flags_default,
     recv_msg,
     recv_topic_data,
@@ -15,6 +16,8 @@ from client_main.DDS_2.common_functions import (
     request_constants,
     send_topic_data,
     thrust_received,
+    update_field_topic_date,
+    update_motion_topic_data,
 )
 
 # Logging
@@ -42,7 +45,13 @@ HEADERSIZE = 5
 CONFIG_DATA = {
     "id": "CLIENT_3",
     "name": "motion",
-    "subscribed_topics": ["drag", "thrust", "fuel_flow", "field", "motion_update"],
+    "subscribed_topics": [
+        "drag",
+        "thrust",
+        "fuel_flow",
+        "field",
+        "motion_update_realtime",
+    ],
     "published_topics": ["motion"],
     "constants_required": [
         "gravitationalAcceleration",
@@ -52,7 +61,7 @@ CONFIG_DATA = {
     ],
     "variables_subscribed": [],
 }
-
+initialize_cmd_window(CONFIG_DATA)
 server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 # server_socket.bind((socket.gethostname(), 55_002))
 # server_socket.connect(("192.168.1.2", 1234))
@@ -118,7 +127,7 @@ def run_one_cycle():
     )
     # if data_dict["currentTimestep"] in [60, 105, 185]:
     #     print(f'Reduced at {data_dict["currentTimestep"]=}')
-    #     topic_data["currentAltitude"] -= 250
+    #     topic_data["currentAltitude"] -= topic_data["currentAltitude"] * 0.05
 
     all_data_dict[
         f"{data_dict['versions']}.{data_dict['currentTimestep']}"
@@ -128,8 +137,8 @@ def run_one_cycle():
     logging.info(f"Received {data_dict=}")
     logging.info(f"Timestep: {data_dict['currentTimestep']:5}-{topic_data}")
 
-    if data_dict["currentTimestep"] == 246:
-        logging.info(f"\n\n\n{all_data_dict}")
+    if data_dict["currentTimestep"] == 245:
+        logging.info(f"\n\n\n{json.dumps(all_data_dict, indent=4)}")
 
 
 def run_cycle():
@@ -144,20 +153,43 @@ def run_cycle():
 def listen_analysis():
     global data_dict
     global cycle_flags
+    global topic_data
+
     while True:
         topic, sent_time, recv_time, info = recv_topic_data(server_socket)
         if topic in cycle_flags.keys():
             cycle_flags[topic] = True
             topic_func_dict[topic](data_dict, sent_time, recv_time, info)
-        elif topic == "motion_update":
-            pass
+        elif topic == "motion_update_realtime":
+            # increase version no
+            data_dict["versions"] = data_dict["versions"] + 1
+
+            # Make json file
+            logging.debug(f"Received Updation : {info=}")
+            topic_data_to_update = json.loads(info)
+            topic_data_to_update["sent_time_ns"] = sent_time
+            topic_data_to_update["recv_time_ns"] = recv_time
+            topic_data_to_update["latency"] = recv_time - sent_time
+
+            # add new branch
+            all_data_dict[
+                f"{data_dict['versions']}.{topic_data_to_update['currentTimestep']}"
+            ] = topic_data_to_update
+
+            # Change current topic_data
+            update_motion_topic_data(topic_data, topic_data_to_update)
+
+            # Cycle flags to def
+            make_all_cycle_flags_default(cycle_flags)
+
+            # send received info as motion topic_data
+            send_topic_data(
+                server_socket,
+                "motion",
+                json.dumps(topic_data_to_update),
+            )
         else:
             print(f"{CONFIG_DATA['name']} is not subscribed to {topic}")
-        # if check_to_run_cycle(cycle_flags):
-        #     # Run a cycle
-        #     cycle_thread = threading.Thread(target=run_one_cycle)
-        #     cycle_thread.start()
-        #     make_all_cycle_flags_default(cycle_flags)
 
 
 def listening_function(server_socket):

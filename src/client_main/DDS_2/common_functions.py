@@ -65,7 +65,7 @@ def recv_topic_data(server_socket: socket.socket) -> Tuple[str, int, int, str]:
     return (
         str(msg[:TOPICLABELSIZE]).strip(),
         int(str(msg[TOPICLABELSIZE : TOPICLABELSIZE + TIMEDATASIZE]).strip()),
-        time.perf_counter_ns(),
+        int(time.time() * 1000),
         msg[TOPICLABELSIZE + TIMEDATASIZE :],
     )
 
@@ -86,7 +86,7 @@ def request_constants(server_socket: socket.socket):
 def send_topic_data(server_socket: socket.socket, topic: str, data: str):
     # logging.info(f"{topic=} sending {data=}")
     msgToSend = (
-        f"{topic:{TOPICLABELSIZE}}{str(time.perf_counter_ns()):{TIMEDATASIZE}}{data}"
+        f"{topic:{TOPICLABELSIZE}}{str(int(time.time()*1000)):{TIMEDATASIZE}}{data}"
     )
     formatted_msg = format_msg_with_header(msgToSend)
     server_socket.send(formatted_msg)
@@ -100,9 +100,6 @@ def check_to_run_cycle(cycle_flags: dict):
         return all(cycle_flags.values())
     else:
         return False
-
-
-print(check_to_run_cycle({}))
 
 
 def make_all_cycle_flags_default(cycle_flags: dict):
@@ -119,7 +116,7 @@ def field_received(data_dict: dict, sent_time: int, recv_time: int, info: str):
     data_dict["versions"] = info_obj["versions"]
     data_dict["sent_time_ns"] = sent_time
     data_dict["recv_time_ns"] = recv_time
-    data_dict["latency"] = recv_time - sent_time
+    data_dict["latency_ms"] = recv_time - sent_time
 
 
 def fuel_flow_received(data_dict: dict, sent_time: int, recv_time: int, info: str):
@@ -130,7 +127,7 @@ def fuel_flow_received(data_dict: dict, sent_time: int, recv_time: int, info: st
     data_dict["currentRocketTotalMass"] = info_obj["currentRocketTotalMass"]
     data_dict["sent_time_ns"] = sent_time
     data_dict["recv_time_ns"] = recv_time
-    data_dict["latency"] = recv_time - sent_time
+    data_dict["latency_ms"] = recv_time - sent_time
 
 
 def thrust_received(data_dict: dict, sent_time: int, recv_time: int, info: str):
@@ -138,7 +135,7 @@ def thrust_received(data_dict: dict, sent_time: int, recv_time: int, info: str):
     data_dict["currentThrust"] = info_obj["currentThrust"]
     data_dict["sent_time_ns"] = sent_time
     data_dict["recv_time_ns"] = recv_time
-    data_dict["latency"] = recv_time - sent_time
+    data_dict["latency_ms"] = recv_time - sent_time
 
 
 def drag_received(data_dict: dict, sent_time: int, recv_time: int, info: str):
@@ -146,7 +143,7 @@ def drag_received(data_dict: dict, sent_time: int, recv_time: int, info: str):
     data_dict["drag"] = info_obj["drag"]
     data_dict["sent_time_ns"] = sent_time
     data_dict["recv_time_ns"] = recv_time
-    data_dict["latency"] = recv_time - sent_time
+    data_dict["latency_ms"] = recv_time - sent_time
 
 
 def motion_received(data_dict: dict, sent_time: int, recv_time: int, info: str):
@@ -160,7 +157,7 @@ def motion_received(data_dict: dict, sent_time: int, recv_time: int, info: str):
     data_dict["requiredThrustChange"] = info_obj["requiredThrustChange"]
     data_dict["sent_time_ns"] = sent_time
     data_dict["recv_time_ns"] = recv_time
-    data_dict["latency"] = recv_time - sent_time
+    data_dict["latency_ms"] = recv_time - sent_time
 
 
 def atmosphere_received(data_dict: dict, sent_time: int, recv_time: int, info: str):
@@ -170,7 +167,7 @@ def atmosphere_received(data_dict: dict, sent_time: int, recv_time: int, info: s
     data_dict["density"] = info_obj["density"]
     data_dict["sent_time_ns"] = sent_time
     data_dict["recv_time_ns"] = recv_time
-    data_dict["latency"] = recv_time - sent_time
+    data_dict["latency_ms"] = recv_time - sent_time
 
 
 def process_topic_field_update(data: str, sent_time: int, recv_time: int, variables):
@@ -196,13 +193,19 @@ def generate_field_update_data(response_dict):
     return_dict = {}
     return_dict["currentTimestep"] = response_dict["currentTimestep"]
     return_dict["currentTime"] = response_dict["currentTime"]
-    return_dict["totalTimestepsRun"] = response_dict["totalTimestepsRun"]
     return_dict["versions"] = response_dict["versions"]
-    return return_dict
+    return json.dumps(return_dict)
+
+
+def update_field_topic_date(topic_data, updated_dict):
+    topic_data["currentTimestep"] = updated_dict["currentTimestep"]
+    topic_data["currentTime"] = updated_dict["currentTime"]
+    topic_data["versions"] = updated_dict["versions"]
 
 
 def generate_motion_update_data(response_dict):
     return_dict = {}
+    return_dict["currentTimestep"] = response_dict["currentTimestep"]
     return_dict["netThrust"] = response_dict["netThrust"]
     return_dict["currentAcceleration"] = response_dict["currentAcceleration"]
     return_dict["currentVelocityDelta"] = response_dict["currentVelocityDelta"]
@@ -210,16 +213,36 @@ def generate_motion_update_data(response_dict):
     return_dict["currentAltitudeDelta"] = response_dict["currentAltitudeDelta"]
     return_dict["currentAltitude"] = response_dict["currentAltitude"]
     return_dict["requiredThrustChange"] = response_dict["requiredThrustChange"]
-    return return_dict
+    return json.dumps(return_dict)
+
+
+def update_motion_topic_data(topic_data, updated_dict):
+    topic_data["currentTimestep"] = updated_dict["currentTimestep"]
+    topic_data["netThrust"] = updated_dict["netThrust"]
+    topic_data["currentAcceleration"] = updated_dict["currentAcceleration"]
+    topic_data["currentVelocityDelta"] = updated_dict["currentVelocityDelta"]
+    topic_data["currentVelocity"] = updated_dict["currentVelocity"]
+    topic_data["currentAltitudeDelta"] = updated_dict["currentAltitudeDelta"]
+    topic_data["currentAltitude"] = updated_dict["currentAltitude"]
+    topic_data["requiredThrustChange"] = updated_dict["requiredThrustChange"]
 
 
 def generate_fuel_flow_update_data(response_dict):
     return_dict = {}
+    return_dict["currentTimestep"] = response_dict["currentTimestep"]
     return_dict["currentMassFlowRate"] = response_dict["currentMassFlowRate"]
     return_dict["currentOxidiserMass"] = response_dict["currentOxidiserMass"]
     return_dict["currentFuelMass"] = response_dict["currentFuelMass"]
     return_dict["currentRocketTotalMass"] = response_dict["currentRocketTotalMass"]
-    return return_dict
+    return json.dumps(return_dict)
+
+
+def update_fuel_flow_topic_data(topic_data, updated_dict):
+    topic_data["currentTimestep"] = updated_dict["currentTimestep"]
+    topic_data["currentMassFlowRate"] = updated_dict["currentMassFlowRate"]
+    topic_data["currentOxidiserMass"] = updated_dict["currentOxidiserMass"]
+    topic_data["currentFuelMass"] = updated_dict["currentFuelMass"]
+    topic_data["currentRocketTotalMass"] = updated_dict["currentRocketTotalMass"]
 
 
 # Calculation Functions
@@ -243,3 +266,59 @@ def get_air_density(altitude: float = 0, pressure=0, temperature=0):
         return pressure / (0.2869 * (temperature + 273.1))
     P, T = external_pressure_temperature(altitude)
     return P / (0.2869 * (T + 273.1))
+
+
+CONFIG_DATA = {
+    "id": "CLIENT_3",
+    "name": "motion",
+    "subscribed_topics": [
+        "drag",
+        "thrust",
+        "fuel_flow",
+        "field",
+        "motion_update_realtime",
+    ],
+    "published_topics": ["motion"],
+    "constants_required": [
+        "gravitationalAcceleration",
+        "requiredThrust",
+        "timestepSize",
+        "totalTimesteps",
+    ],
+    "variables_subscribed": [],
+}
+
+
+def initialize_cmd_window(CONFIGDATA: dict):
+
+    width = 50
+    fill_char = "."
+
+    # Print name
+    print(fill_char * width)
+    print(f" {CONFIGDATA['name']} ".center(width, fill_char))
+    print(fill_char * width)
+
+    # Print id
+    print(f"{CONFIGDATA['id']} ".ljust(width, fill_char))
+    print(fill_char * width)
+    print(fill_char * width)
+    print(fill_char * width)
+
+    # Subscribed topics
+    print("SUBSCRIBED TOPICS".center(width, fill_char))
+    for i, topic in enumerate(CONFIGDATA["subscribed_topics"]):
+        print(f"{i+1}. {topic}".ljust(width, fill_char))
+    print(fill_char * width)
+    print(fill_char * width)
+
+    # Published topics
+    print("PUBLISHED TOPICS".center(width, fill_char))
+    for i, topic in enumerate(CONFIGDATA["published_topics"]):
+        print(f"{i+1}. {topic}".ljust(width, fill_char))
+    print(fill_char * width)
+    print(fill_char * width)
+
+
+if __name__ == "__main__":
+    initialize_cmd_window(CONFIG_DATA)
