@@ -115,10 +115,13 @@ def calculate_constants():
 #     except Exception as e:
 #         logging.error(e)
 #     return False
+received_updation = False
 
 
 def start_a_cycle():
+
     logging.info(f"Sending topic 'field' as :{variables=}")
+
     if all_data_dict and (
         all_data_dict[[key for key in all_data_dict.keys()][-1]]["currentTimestep"] + 1
         != variables["currentTimestep"]
@@ -136,6 +139,7 @@ def start_a_cycle():
 
 
 def listen_analysis():
+    global received_updation
     start_a_cycle()
     while True:
         topic, sent_time, recv_time, info = recv_topic_data(server_socket)
@@ -143,7 +147,6 @@ def listen_analysis():
             can_continue = process_topic_field_update(
                 info, sent_time, recv_time, variables
             )
-
             if can_continue:
                 start_a_cycle()
             else:
@@ -152,6 +155,7 @@ def listen_analysis():
             can_continue = process_topic_field_update(
                 info, sent_time, recv_time, variables
             )
+            received_updation = True
 
             if can_continue:
                 start_a_cycle()

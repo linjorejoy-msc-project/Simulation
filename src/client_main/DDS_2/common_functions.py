@@ -3,6 +3,7 @@ import math
 import json
 from typing import Tuple
 import time
+import datetime
 
 # Logging
 import logging
@@ -65,7 +66,7 @@ def recv_topic_data(server_socket: socket.socket) -> Tuple[str, int, int, str]:
     return (
         str(msg[:TOPICLABELSIZE]).strip(),
         int(str(msg[TOPICLABELSIZE : TOPICLABELSIZE + TIMEDATASIZE]).strip()),
-        int(time.time() * 1000),
+        get_current_time(),
         msg[TOPICLABELSIZE + TIMEDATASIZE :],
     )
 
@@ -86,7 +87,7 @@ def request_constants(server_socket: socket.socket):
 def send_topic_data(server_socket: socket.socket, topic: str, data: str):
     # logging.info(f"{topic=} sending {data=}")
     msgToSend = (
-        f"{topic:{TOPICLABELSIZE}}{str(int(time.time()*1000)):{TIMEDATASIZE}}{data}"
+        f"{topic:{TOPICLABELSIZE}}{str(int(get_current_time())):{TIMEDATASIZE}}{data}"
     )
     formatted_msg = format_msg_with_header(msgToSend)
     server_socket.send(formatted_msg)
@@ -268,6 +269,18 @@ def get_air_density(altitude: float = 0, pressure=0, temperature=0):
     return P / (0.2869 * (T + 273.1))
 
 
+def get_current_time():
+    return int(
+        (
+            datetime.datetime.now().hour * 60 * 60
+            + datetime.datetime.now().minute * 60
+            + datetime.datetime.now().second
+        )
+        * 1000
+        + datetime.datetime.now().microsecond / 1000
+    )
+
+
 CONFIG_DATA = {
     "id": "CLIENT_3",
     "name": "motion",
@@ -321,4 +334,5 @@ def initialize_cmd_window(CONFIGDATA: dict):
 
 
 if __name__ == "__main__":
-    initialize_cmd_window(CONFIG_DATA)
+    # initialize_cmd_window(CONFIG_DATA)
+    print(get_current_time())

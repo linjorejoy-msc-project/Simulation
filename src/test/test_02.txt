@@ -1,0 +1,24 @@
+plot1 = containers.Map;
+plot1('xaxis') = 'currentTimestep';
+plot1('yaxis') = 'drag';
+plot1('title') = 'Drag vs Timestep';
+plot2 = containers.Map;
+plot2('xaxis') = 'currentTimestep';
+plot2('yaxis') = 'currentVelocity';
+plot2('title') = 'Drag vs Timestep';
+plot3 = containers.Map;
+plot3('xaxis') = 'currentTimestep';
+plot3('yaxis') = 'currentAltitude';
+plot3('title') = 'Drag vs Timestep';
+plot4 = containers.Map;
+plot4('xaxis') = 'currentTimestep';
+plot4('yaxis') = 'pressure';
+plot4('title') = 'Drag vs Timestep';
+
+
+
+
+plots('1') = plot1;
+plots('2') = plot2;
+plots('3') = plot3;
+plots('4') = plot4;

@@ -54,9 +54,9 @@ CONFIG_DATA = {
     "name": "visualization",
     "subscribed_topics": [],
     "published_topics": [
-        "field_update",
-        "motion_update",
-        "fuel_flow_update",
+        "field_update_realtime",
+        "motion_update_realtime",
+        "fuel_flow_update_realtime",
     ],
     "constants_required": [],
     "variables_subscribed": [],
@@ -131,9 +131,7 @@ def api_listener():
         # try:
         time.sleep(1)
         response_json = requests.get(API_ROUTE_SELECTED, params=param).json()
-        print(f"\n\n\n\n\n{response_json=}")
         received_data = response_json["data"]
-        print(f"\n\n{received_data=}")
         if received_data["currentTimestep"] is not current_response["currentTimestep"]:
             current_response = received_data
             send_topic_data(

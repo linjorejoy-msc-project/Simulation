@@ -1,2473 +1,332 @@
-INFO       2022-08-14 19:53:02,338: Listening while loop started
-INFO       2022-08-14 19:53:37,611: Sending topic 'field' as :variables={'currentTimestep': 0, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1}
-INFO       2022-08-14 19:53:37,924: Sending topic 'field' as :variables={'currentTimestep': 1, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506817908, 'recv_time_ns': 1660503217924, 'latency': -3599984}
-INFO       2022-08-14 19:53:38,096: Sending topic 'field' as :variables={'currentTimestep': 2, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506818080, 'recv_time_ns': 1660503218096, 'latency': -3599984}
-INFO       2022-08-14 19:53:38,252: Sending topic 'field' as :variables={'currentTimestep': 3, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506818236, 'recv_time_ns': 1660503218252, 'latency': -3599984}
-INFO       2022-08-14 19:53:38,406: Sending topic 'field' as :variables={'currentTimestep': 4, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506818391, 'recv_time_ns': 1660503218406, 'latency': -3599985}
-INFO       2022-08-14 19:53:38,579: Sending topic 'field' as :variables={'currentTimestep': 5, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506818564, 'recv_time_ns': 1660503218579, 'latency': -3599985}
-INFO       2022-08-14 19:53:38,737: Sending topic 'field' as :variables={'currentTimestep': 6, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506818721, 'recv_time_ns': 1660503218737, 'latency': -3599984}
-INFO       2022-08-14 19:53:38,861: Sending topic 'field' as :variables={'currentTimestep': 7, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506818845, 'recv_time_ns': 1660503218861, 'latency': -3599984}
-INFO       2022-08-14 19:53:39,034: Sending topic 'field' as :variables={'currentTimestep': 8, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506819018, 'recv_time_ns': 1660503219034, 'latency': -3599984}
-INFO       2022-08-14 19:53:39,160: Sending topic 'field' as :variables={'currentTimestep': 9, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506819144, 'recv_time_ns': 1660503219160, 'latency': -3599984}
-INFO       2022-08-14 19:53:39,330: Sending topic 'field' as :variables={'currentTimestep': 10, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506819314, 'recv_time_ns': 1660503219330, 'latency': -3599984}
-INFO       2022-08-14 19:53:39,473: Sending topic 'field' as :variables={'currentTimestep': 11, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506819458, 'recv_time_ns': 1660503219473, 'latency': -3599985}
-INFO       2022-08-14 19:53:39,645: Sending topic 'field' as :variables={'currentTimestep': 12, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506819629, 'recv_time_ns': 1660503219645, 'latency': -3599984}
-INFO       2022-08-14 19:53:39,817: Sending topic 'field' as :variables={'currentTimestep': 13, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506819801, 'recv_time_ns': 1660503219817, 'latency': -3599984}
-INFO       2022-08-14 19:53:39,957: Sending topic 'field' as :variables={'currentTimestep': 14, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506819942, 'recv_time_ns': 1660503219957, 'latency': -3599985}
-INFO       2022-08-14 19:53:40,129: Sending topic 'field' as :variables={'currentTimestep': 15, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506820113, 'recv_time_ns': 1660503220129, 'latency': -3599984}
-INFO       2022-08-14 19:53:40,268: Sending topic 'field' as :variables={'currentTimestep': 16, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506820252, 'recv_time_ns': 1660503220268, 'latency': -3599984}
-INFO       2022-08-14 19:53:40,441: Sending topic 'field' as :variables={'currentTimestep': 17, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506820425, 'recv_time_ns': 1660503220441, 'latency': -3599984}
-INFO       2022-08-14 19:53:40,565: Sending topic 'field' as :variables={'currentTimestep': 18, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506820550, 'recv_time_ns': 1660503220565, 'latency': -3599985}
-INFO       2022-08-14 19:53:40,689: Sending topic 'field' as :variables={'currentTimestep': 19, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506820674, 'recv_time_ns': 1660503220689, 'latency': -3599985}
-INFO       2022-08-14 19:53:40,830: Sending topic 'field' as :variables={'currentTimestep': 20, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506820814, 'recv_time_ns': 1660503220830, 'latency': -3599984}
-INFO       2022-08-14 19:53:41,018: Sending topic 'field' as :variables={'currentTimestep': 21, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506821002, 'recv_time_ns': 1660503221018, 'latency': -3599984}
-INFO       2022-08-14 19:53:41,143: Sending topic 'field' as :variables={'currentTimestep': 22, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506821127, 'recv_time_ns': 1660503221143, 'latency': -3599984}
-INFO       2022-08-14 19:53:41,331: Sending topic 'field' as :variables={'currentTimestep': 23, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506821315, 'recv_time_ns': 1660503221331, 'latency': -3599984}
-INFO       2022-08-14 19:53:41,486: Sending topic 'field' as :variables={'currentTimestep': 24, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506821454, 'recv_time_ns': 1660503221486, 'latency': -3599968}
-INFO       2022-08-14 19:53:41,655: Sending topic 'field' as :variables={'currentTimestep': 25, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506821639, 'recv_time_ns': 1660503221655, 'latency': -3599984}
-INFO       2022-08-14 19:53:41,812: Sending topic 'field' as :variables={'currentTimestep': 26, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506821797, 'recv_time_ns': 1660503221812, 'latency': -3599985}
-INFO       2022-08-14 19:53:41,935: Sending topic 'field' as :variables={'currentTimestep': 27, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506821920, 'recv_time_ns': 1660503221935, 'latency': -3599985}
-INFO       2022-08-14 19:53:42,072: Sending topic 'field' as :variables={'currentTimestep': 28, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506822057, 'recv_time_ns': 1660503222072, 'latency': -3599985}
-INFO       2022-08-14 19:53:42,229: Sending topic 'field' as :variables={'currentTimestep': 29, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506822213, 'recv_time_ns': 1660503222229, 'latency': -3599984}
-INFO       2022-08-14 19:53:42,400: Sending topic 'field' as :variables={'currentTimestep': 30, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506822384, 'recv_time_ns': 1660503222400, 'latency': -3599984}
-INFO       2022-08-14 19:53:42,540: Sending topic 'field' as :variables={'currentTimestep': 31, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506822525, 'recv_time_ns': 1660503222540, 'latency': -3599985}
-INFO       2022-08-14 19:53:42,697: Sending topic 'field' as :variables={'currentTimestep': 32, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506822681, 'recv_time_ns': 1660503222697, 'latency': -3599984}
-INFO       2022-08-14 19:53:42,900: Sending topic 'field' as :variables={'currentTimestep': 33, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506822836, 'recv_time_ns': 1660503222900, 'latency': -3599936}
-INFO       2022-08-14 19:53:43,038: Sending topic 'field' as :variables={'currentTimestep': 34, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506823023, 'recv_time_ns': 1660503223038, 'latency': -3599985}
-INFO       2022-08-14 19:53:43,213: Sending topic 'field' as :variables={'currentTimestep': 35, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506823197, 'recv_time_ns': 1660503223213, 'latency': -3599984}
-INFO       2022-08-14 19:53:43,352: Sending topic 'field' as :variables={'currentTimestep': 36, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506823336, 'recv_time_ns': 1660503223352, 'latency': -3599984}
-INFO       2022-08-14 19:53:43,507: Sending topic 'field' as :variables={'currentTimestep': 37, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506823492, 'recv_time_ns': 1660503223507, 'latency': -3599985}
-INFO       2022-08-14 19:53:43,665: Sending topic 'field' as :variables={'currentTimestep': 38, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506823649, 'recv_time_ns': 1660503223665, 'latency': -3599984}
-INFO       2022-08-14 19:53:43,804: Sending topic 'field' as :variables={'currentTimestep': 39, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506823788, 'recv_time_ns': 1660503223804, 'latency': -3599984}
-INFO       2022-08-14 19:53:43,945: Sending topic 'field' as :variables={'currentTimestep': 40, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506823930, 'recv_time_ns': 1660503223945, 'latency': -3599985}
-INFO       2022-08-14 19:53:44,103: Sending topic 'field' as :variables={'currentTimestep': 41, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506824087, 'recv_time_ns': 1660503224103, 'latency': -3599984}
-INFO       2022-08-14 19:53:44,240: Sending topic 'field' as :variables={'currentTimestep': 42, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506824224, 'recv_time_ns': 1660503224240, 'latency': -3599984}
-INFO       2022-08-14 19:53:44,396: Sending topic 'field' as :variables={'currentTimestep': 43, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506824381, 'recv_time_ns': 1660503224396, 'latency': -3599985}
-INFO       2022-08-14 19:53:44,552: Sending topic 'field' as :variables={'currentTimestep': 44, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506824536, 'recv_time_ns': 1660503224552, 'latency': -3599984}
-INFO       2022-08-14 19:53:44,676: Sending topic 'field' as :variables={'currentTimestep': 45, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506824661, 'recv_time_ns': 1660503224676, 'latency': -3599985}
-INFO       2022-08-14 19:53:44,818: Sending topic 'field' as :variables={'currentTimestep': 46, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506824803, 'recv_time_ns': 1660503224818, 'latency': -3599985}
-INFO       2022-08-14 19:53:44,990: Sending topic 'field' as :variables={'currentTimestep': 47, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506824974, 'recv_time_ns': 1660503224990, 'latency': -3599984}
-INFO       2022-08-14 19:53:45,161: Sending topic 'field' as :variables={'currentTimestep': 48, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506825146, 'recv_time_ns': 1660503225161, 'latency': -3599985}
-INFO       2022-08-14 19:53:45,334: Sending topic 'field' as :variables={'currentTimestep': 49, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506825319, 'recv_time_ns': 1660503225334, 'latency': -3599985}
-INFO       2022-08-14 19:53:45,473: Sending topic 'field' as :variables={'currentTimestep': 50, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506825458, 'recv_time_ns': 1660503225473, 'latency': -3599985}
-INFO       2022-08-14 19:53:45,643: Sending topic 'field' as :variables={'currentTimestep': 51, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506825626, 'recv_time_ns': 1660503225642, 'latency': -3599984}
-INFO       2022-08-14 19:53:45,813: Sending topic 'field' as :variables={'currentTimestep': 52, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506825798, 'recv_time_ns': 1660503225813, 'latency': -3599985}
-INFO       2022-08-14 19:53:45,986: Sending topic 'field' as :variables={'currentTimestep': 53, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506825970, 'recv_time_ns': 1660503225986, 'latency': -3599984}
-INFO       2022-08-14 19:53:46,141: Sending topic 'field' as :variables={'currentTimestep': 54, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506826125, 'recv_time_ns': 1660503226141, 'latency': -3599984}
-INFO       2022-08-14 19:53:46,299: Sending topic 'field' as :variables={'currentTimestep': 55, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506826283, 'recv_time_ns': 1660503226299, 'latency': -3599984}
-INFO       2022-08-14 19:53:46,439: Sending topic 'field' as :variables={'currentTimestep': 56, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506826423, 'recv_time_ns': 1660503226439, 'latency': -3599984}
-INFO       2022-08-14 19:53:46,577: Sending topic 'field' as :variables={'currentTimestep': 57, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506826561, 'recv_time_ns': 1660503226577, 'latency': -3599984}
-INFO       2022-08-14 19:53:46,718: Sending topic 'field' as :variables={'currentTimestep': 58, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506826703, 'recv_time_ns': 1660503226718, 'latency': -3599985}
-INFO       2022-08-14 19:53:46,870: Sending topic 'field' as :variables={'currentTimestep': 59, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506826854, 'recv_time_ns': 1660503226870, 'latency': -3599984}
-INFO       2022-08-14 19:53:47,023: Sending topic 'field' as :variables={'currentTimestep': 60, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506827008, 'recv_time_ns': 1660503227023, 'latency': -3599985}
-INFO       2022-08-14 19:53:47,164: Sending topic 'field' as :variables={'currentTimestep': 61, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506827148, 'recv_time_ns': 1660503227164, 'latency': -3599984}
-INFO       2022-08-14 19:53:47,336: Sending topic 'field' as :variables={'currentTimestep': 62, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506827320, 'recv_time_ns': 1660503227336, 'latency': -3599984}
-INFO       2022-08-14 19:53:47,491: Sending topic 'field' as :variables={'currentTimestep': 63, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506827476, 'recv_time_ns': 1660503227491, 'latency': -3599985}
-INFO       2022-08-14 19:53:47,665: Sending topic 'field' as :variables={'currentTimestep': 64, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506827649, 'recv_time_ns': 1660503227665, 'latency': -3599984}
-INFO       2022-08-14 19:53:47,803: Sending topic 'field' as :variables={'currentTimestep': 65, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506827787, 'recv_time_ns': 1660503227803, 'latency': -3599984}
-INFO       2022-08-14 19:53:47,957: Sending topic 'field' as :variables={'currentTimestep': 66, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506827942, 'recv_time_ns': 1660503227957, 'latency': -3599985}
-INFO       2022-08-14 19:53:48,098: Sending topic 'field' as :variables={'currentTimestep': 67, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506828082, 'recv_time_ns': 1660503228098, 'latency': -3599984}
-INFO       2022-08-14 19:53:48,253: Sending topic 'field' as :variables={'currentTimestep': 68, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506828236, 'recv_time_ns': 1660503228253, 'latency': -3599983}
-INFO       2022-08-14 19:53:48,407: Sending topic 'field' as :variables={'currentTimestep': 69, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506828392, 'recv_time_ns': 1660503228407, 'latency': -3599985}
-INFO       2022-08-14 19:53:48,580: Sending topic 'field' as :variables={'currentTimestep': 70, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506828564, 'recv_time_ns': 1660503228580, 'latency': -3599984}
-INFO       2022-08-14 19:53:48,717: Sending topic 'field' as :variables={'currentTimestep': 71, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506828702, 'recv_time_ns': 1660503228717, 'latency': -3599985}
-INFO       2022-08-14 19:53:48,867: Sending topic 'field' as :variables={'currentTimestep': 72, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506828852, 'recv_time_ns': 1660503228867, 'latency': -3599985}
-INFO       2022-08-14 19:53:49,038: Sending topic 'field' as :variables={'currentTimestep': 73, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506829022, 'recv_time_ns': 1660503229038, 'latency': -3599984}
-INFO       2022-08-14 19:53:49,176: Sending topic 'field' as :variables={'currentTimestep': 74, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506829160, 'recv_time_ns': 1660503229176, 'latency': -3599984}
-INFO       2022-08-14 19:53:49,348: Sending topic 'field' as :variables={'currentTimestep': 75, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506829333, 'recv_time_ns': 1660503229348, 'latency': -3599985}
-INFO       2022-08-14 19:53:49,521: Sending topic 'field' as :variables={'currentTimestep': 76, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506829504, 'recv_time_ns': 1660503229521, 'latency': -3599983}
-INFO       2022-08-14 19:53:49,658: Sending topic 'field' as :variables={'currentTimestep': 77, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506829642, 'recv_time_ns': 1660503229658, 'latency': -3599984}
-INFO       2022-08-14 19:53:49,815: Sending topic 'field' as :variables={'currentTimestep': 78, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506829800, 'recv_time_ns': 1660503229815, 'latency': -3599985}
-INFO       2022-08-14 19:53:49,955: Sending topic 'field' as :variables={'currentTimestep': 79, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506829940, 'recv_time_ns': 1660503229955, 'latency': -3599985}
-INFO       2022-08-14 19:53:50,107: Sending topic 'field' as :variables={'currentTimestep': 80, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506830092, 'recv_time_ns': 1660503230107, 'latency': -3599985}
-INFO       2022-08-14 19:53:50,275: Sending topic 'field' as :variables={'currentTimestep': 81, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506830261, 'recv_time_ns': 1660503230275, 'latency': -3599986}
-INFO       2022-08-14 19:53:50,415: Sending topic 'field' as :variables={'currentTimestep': 82, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506830400, 'recv_time_ns': 1660503230415, 'latency': -3599985}
-INFO       2022-08-14 19:53:50,570: Sending topic 'field' as :variables={'currentTimestep': 83, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506830554, 'recv_time_ns': 1660503230570, 'latency': -3599984}
-INFO       2022-08-14 19:53:50,727: Sending topic 'field' as :variables={'currentTimestep': 84, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506830713, 'recv_time_ns': 1660503230727, 'latency': -3599986}
-INFO       2022-08-14 19:53:50,867: Sending topic 'field' as :variables={'currentTimestep': 85, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506830851, 'recv_time_ns': 1660503230867, 'latency': -3599984}
-INFO       2022-08-14 19:53:51,021: Sending topic 'field' as :variables={'currentTimestep': 86, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506831005, 'recv_time_ns': 1660503231021, 'latency': -3599984}
-INFO       2022-08-14 19:53:51,195: Sending topic 'field' as :variables={'currentTimestep': 87, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506831180, 'recv_time_ns': 1660503231195, 'latency': -3599985}
-INFO       2022-08-14 19:53:51,365: Sending topic 'field' as :variables={'currentTimestep': 88, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506831350, 'recv_time_ns': 1660503231365, 'latency': -3599985}
-INFO       2022-08-14 19:53:51,535: Sending topic 'field' as :variables={'currentTimestep': 89, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506831519, 'recv_time_ns': 1660503231535, 'latency': -3599984}
-INFO       2022-08-14 19:53:51,705: Sending topic 'field' as :variables={'currentTimestep': 90, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506831691, 'recv_time_ns': 1660503231705, 'latency': -3599986}
-INFO       2022-08-14 19:53:51,879: Sending topic 'field' as :variables={'currentTimestep': 91, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506831863, 'recv_time_ns': 1660503231879, 'latency': -3599984}
-INFO       2022-08-14 19:53:52,048: Sending topic 'field' as :variables={'currentTimestep': 92, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506832032, 'recv_time_ns': 1660503232048, 'latency': -3599984}
-INFO       2022-08-14 19:53:52,220: Sending topic 'field' as :variables={'currentTimestep': 93, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506832204, 'recv_time_ns': 1660503232220, 'latency': -3599984}
-INFO       2022-08-14 19:53:52,376: Sending topic 'field' as :variables={'currentTimestep': 94, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506832361, 'recv_time_ns': 1660503232376, 'latency': -3599985}
-INFO       2022-08-14 19:53:52,527: Sending topic 'field' as :variables={'currentTimestep': 95, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506832512, 'recv_time_ns': 1660503232527, 'latency': -3599985}
-INFO       2022-08-14 19:53:52,695: Sending topic 'field' as :variables={'currentTimestep': 96, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506832679, 'recv_time_ns': 1660503232695, 'latency': -3599984}
-INFO       2022-08-14 19:53:52,867: Sending topic 'field' as :variables={'currentTimestep': 97, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506832852, 'recv_time_ns': 1660503232867, 'latency': -3599985}
-INFO       2022-08-14 19:53:53,040: Sending topic 'field' as :variables={'currentTimestep': 98, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506833024, 'recv_time_ns': 1660503233040, 'latency': -3599984}
-INFO       2022-08-14 19:53:53,180: Sending topic 'field' as :variables={'currentTimestep': 99, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506833164, 'recv_time_ns': 1660503233180, 'latency': -3599984}
-INFO       2022-08-14 19:53:53,351: Sending topic 'field' as :variables={'currentTimestep': 100, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506833336, 'recv_time_ns': 1660503233351, 'latency': -3599985}
-INFO       2022-08-14 19:53:53,495: Sending topic 'field' as :variables={'currentTimestep': 101, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506833480, 'recv_time_ns': 1660503233495, 'latency': -3599985}
-INFO       2022-08-14 19:53:53,646: Sending topic 'field' as :variables={'currentTimestep': 102, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506833630, 'recv_time_ns': 1660503233646, 'latency': -3599984}
-INFO       2022-08-14 19:53:53,786: Sending topic 'field' as :variables={'currentTimestep': 103, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506833771, 'recv_time_ns': 1660503233786, 'latency': -3599985}
-INFO       2022-08-14 19:53:53,911: Sending topic 'field' as :variables={'currentTimestep': 104, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506833895, 'recv_time_ns': 1660503233911, 'latency': -3599984}
-INFO       2022-08-14 19:53:54,036: Sending topic 'field' as :variables={'currentTimestep': 105, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506834021, 'recv_time_ns': 1660503234036, 'latency': -3599985}
-INFO       2022-08-14 19:53:54,162: Sending topic 'field' as :variables={'currentTimestep': 106, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506834146, 'recv_time_ns': 1660503234162, 'latency': -3599984}
-INFO       2022-08-14 19:53:54,283: Sending topic 'field' as :variables={'currentTimestep': 107, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506834268, 'recv_time_ns': 1660503234283, 'latency': -3599985}
-INFO       2022-08-14 19:53:54,440: Sending topic 'field' as :variables={'currentTimestep': 108, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506834424, 'recv_time_ns': 1660503234440, 'latency': -3599984}
-INFO       2022-08-14 19:53:54,579: Sending topic 'field' as :variables={'currentTimestep': 109, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506834563, 'recv_time_ns': 1660503234579, 'latency': -3599984}
-INFO       2022-08-14 19:53:54,706: Sending topic 'field' as :variables={'currentTimestep': 110, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506834691, 'recv_time_ns': 1660503234706, 'latency': -3599985}
-INFO       2022-08-14 19:53:54,846: Sending topic 'field' as :variables={'currentTimestep': 111, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506834830, 'recv_time_ns': 1660503234846, 'latency': -3599984}
-INFO       2022-08-14 19:53:54,984: Sending topic 'field' as :variables={'currentTimestep': 112, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506834969, 'recv_time_ns': 1660503234984, 'latency': -3599985}
-INFO       2022-08-14 19:53:55,158: Sending topic 'field' as :variables={'currentTimestep': 113, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506835142, 'recv_time_ns': 1660503235158, 'latency': -3599984}
-INFO       2022-08-14 19:53:55,296: Sending topic 'field' as :variables={'currentTimestep': 114, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506835281, 'recv_time_ns': 1660503235296, 'latency': -3599985}
-INFO       2022-08-14 19:53:55,446: Sending topic 'field' as :variables={'currentTimestep': 115, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506835430, 'recv_time_ns': 1660503235446, 'latency': -3599984}
-INFO       2022-08-14 19:53:55,601: Sending topic 'field' as :variables={'currentTimestep': 116, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506835586, 'recv_time_ns': 1660503235601, 'latency': -3599985}
-INFO       2022-08-14 19:53:55,741: Sending topic 'field' as :variables={'currentTimestep': 117, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506835725, 'recv_time_ns': 1660503235741, 'latency': -3599984}
-INFO       2022-08-14 19:53:55,883: Sending topic 'field' as :variables={'currentTimestep': 118, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506835868, 'recv_time_ns': 1660503235883, 'latency': -3599985}
-INFO       2022-08-14 19:53:56,039: Sending topic 'field' as :variables={'currentTimestep': 119, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506836023, 'recv_time_ns': 1660503236039, 'latency': -3599984}
-INFO       2022-08-14 19:53:56,194: Sending topic 'field' as :variables={'currentTimestep': 120, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506836178, 'recv_time_ns': 1660503236194, 'latency': -3599984}
-INFO       2022-08-14 19:53:56,367: Sending topic 'field' as :variables={'currentTimestep': 121, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506836352, 'recv_time_ns': 1660503236367, 'latency': -3599985}
-INFO       2022-08-14 19:53:56,540: Sending topic 'field' as :variables={'currentTimestep': 122, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506836524, 'recv_time_ns': 1660503236540, 'latency': -3599984}
-INFO       2022-08-14 19:53:56,697: Sending topic 'field' as :variables={'currentTimestep': 123, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506836680, 'recv_time_ns': 1660503236696, 'latency': -3599984}
-INFO       2022-08-14 19:53:56,850: Sending topic 'field' as :variables={'currentTimestep': 124, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506836835, 'recv_time_ns': 1660503236850, 'latency': -3599985}
-INFO       2022-08-14 19:53:57,025: Sending topic 'field' as :variables={'currentTimestep': 125, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506837009, 'recv_time_ns': 1660503237025, 'latency': -3599984}
-INFO       2022-08-14 19:53:57,193: Sending topic 'field' as :variables={'currentTimestep': 126, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506837178, 'recv_time_ns': 1660503237193, 'latency': -3599985}
-INFO       2022-08-14 19:53:57,348: Sending topic 'field' as :variables={'currentTimestep': 127, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506837332, 'recv_time_ns': 1660503237348, 'latency': -3599984}
-INFO       2022-08-14 19:53:57,519: Sending topic 'field' as :variables={'currentTimestep': 128, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506837504, 'recv_time_ns': 1660503237519, 'latency': -3599985}
-INFO       2022-08-14 19:53:57,660: Sending topic 'field' as :variables={'currentTimestep': 129, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506837644, 'recv_time_ns': 1660503237660, 'latency': -3599984}
-INFO       2022-08-14 19:53:57,784: Sending topic 'field' as :variables={'currentTimestep': 130, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506837769, 'recv_time_ns': 1660503237784, 'latency': -3599985}
-INFO       2022-08-14 19:53:57,937: Sending topic 'field' as :variables={'currentTimestep': 131, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506837921, 'recv_time_ns': 1660503237937, 'latency': -3599984}
-INFO       2022-08-14 19:53:58,104: Sending topic 'field' as :variables={'currentTimestep': 132, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506838089, 'recv_time_ns': 1660503238104, 'latency': -3599985}
-INFO       2022-08-14 19:53:58,228: Sending topic 'field' as :variables={'currentTimestep': 133, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506838212, 'recv_time_ns': 1660503238228, 'latency': -3599984}
-INFO       2022-08-14 19:53:58,365: Sending topic 'field' as :variables={'currentTimestep': 134, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506838349, 'recv_time_ns': 1660503238365, 'latency': -3599984}
-INFO       2022-08-14 19:53:58,537: Sending topic 'field' as :variables={'currentTimestep': 135, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506838521, 'recv_time_ns': 1660503238537, 'latency': -3599984}
-INFO       2022-08-14 19:53:58,678: Sending topic 'field' as :variables={'currentTimestep': 136, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506838662, 'recv_time_ns': 1660503238678, 'latency': -3599984}
-INFO       2022-08-14 19:53:58,851: Sending topic 'field' as :variables={'currentTimestep': 137, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506838835, 'recv_time_ns': 1660503238851, 'latency': -3599984}
-INFO       2022-08-14 19:53:58,988: Sending topic 'field' as :variables={'currentTimestep': 138, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506838973, 'recv_time_ns': 1660503238988, 'latency': -3599985}
-INFO       2022-08-14 19:53:59,132: Sending topic 'field' as :variables={'currentTimestep': 139, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506839116, 'recv_time_ns': 1660503239132, 'latency': -3599984}
-INFO       2022-08-14 19:53:59,256: Sending topic 'field' as :variables={'currentTimestep': 140, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506839240, 'recv_time_ns': 1660503239256, 'latency': -3599984}
-INFO       2022-08-14 19:53:59,413: Sending topic 'field' as :variables={'currentTimestep': 141, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506839399, 'recv_time_ns': 1660503239413, 'latency': -3599986}
-INFO       2022-08-14 19:53:59,586: Sending topic 'field' as :variables={'currentTimestep': 142, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506839571, 'recv_time_ns': 1660503239586, 'latency': -3599985}
-INFO       2022-08-14 19:53:59,742: Sending topic 'field' as :variables={'currentTimestep': 143, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506839726, 'recv_time_ns': 1660503239742, 'latency': -3599984}
-INFO       2022-08-14 19:53:59,913: Sending topic 'field' as :variables={'currentTimestep': 144, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506839898, 'recv_time_ns': 1660503239913, 'latency': -3599985}
-INFO       2022-08-14 19:54:00,055: Sending topic 'field' as :variables={'currentTimestep': 145, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506840039, 'recv_time_ns': 1660503240055, 'latency': -3599984}
-INFO       2022-08-14 19:54:00,177: Sending topic 'field' as :variables={'currentTimestep': 146, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506840161, 'recv_time_ns': 1660503240177, 'latency': -3599984}
-INFO       2022-08-14 19:54:00,349: Sending topic 'field' as :variables={'currentTimestep': 147, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506840334, 'recv_time_ns': 1660503240349, 'latency': -3599985}
-INFO       2022-08-14 19:54:00,506: Sending topic 'field' as :variables={'currentTimestep': 148, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506840491, 'recv_time_ns': 1660503240506, 'latency': -3599985}
-INFO       2022-08-14 19:54:00,676: Sending topic 'field' as :variables={'currentTimestep': 149, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506840660, 'recv_time_ns': 1660503240676, 'latency': -3599984}
-INFO       2022-08-14 19:54:00,848: Sending topic 'field' as :variables={'currentTimestep': 150, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506840833, 'recv_time_ns': 1660503240848, 'latency': -3599985}
-INFO       2022-08-14 19:54:00,988: Sending topic 'field' as :variables={'currentTimestep': 151, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506840972, 'recv_time_ns': 1660503240988, 'latency': -3599984}
-INFO       2022-08-14 19:54:01,158: Sending topic 'field' as :variables={'currentTimestep': 152, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506841142, 'recv_time_ns': 1660503241158, 'latency': -3599984}
-INFO       2022-08-14 19:54:01,269: Sending topic 'field' as :variables={'currentTimestep': 153, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506841253, 'recv_time_ns': 1660503241269, 'latency': -3599984}
-INFO       2022-08-14 19:54:01,425: Sending topic 'field' as :variables={'currentTimestep': 154, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506841410, 'recv_time_ns': 1660503241425, 'latency': -3599985}
-INFO       2022-08-14 19:54:01,548: Sending topic 'field' as :variables={'currentTimestep': 155, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506841533, 'recv_time_ns': 1660503241548, 'latency': -3599985}
-INFO       2022-08-14 19:54:01,708: Sending topic 'field' as :variables={'currentTimestep': 156, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506841692, 'recv_time_ns': 1660503241708, 'latency': -3599984}
-INFO       2022-08-14 19:54:01,878: Sending topic 'field' as :variables={'currentTimestep': 157, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506841862, 'recv_time_ns': 1660503241878, 'latency': -3599984}
-INFO       2022-08-14 19:54:02,050: Sending topic 'field' as :variables={'currentTimestep': 158, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506842034, 'recv_time_ns': 1660503242050, 'latency': -3599984}
-INFO       2022-08-14 19:54:02,193: Sending topic 'field' as :variables={'currentTimestep': 159, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506842177, 'recv_time_ns': 1660503242193, 'latency': -3599984}
-INFO       2022-08-14 19:54:02,365: Sending topic 'field' as :variables={'currentTimestep': 160, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506842349, 'recv_time_ns': 1660503242365, 'latency': -3599984}
-INFO       2022-08-14 19:54:02,536: Sending topic 'field' as :variables={'currentTimestep': 161, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506842520, 'recv_time_ns': 1660503242536, 'latency': -3599984}
-INFO       2022-08-14 19:54:02,694: Sending topic 'field' as :variables={'currentTimestep': 162, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506842680, 'recv_time_ns': 1660503242694, 'latency': -3599986}
-INFO       2022-08-14 19:54:02,851: Sending topic 'field' as :variables={'currentTimestep': 163, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506842835, 'recv_time_ns': 1660503242851, 'latency': -3599984}
-INFO       2022-08-14 19:54:03,006: Sending topic 'field' as :variables={'currentTimestep': 164, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506842991, 'recv_time_ns': 1660503243006, 'latency': -3599985}
-INFO       2022-08-14 19:54:03,160: Sending topic 'field' as :variables={'currentTimestep': 165, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506843145, 'recv_time_ns': 1660503243160, 'latency': -3599985}
-INFO       2022-08-14 19:54:03,316: Sending topic 'field' as :variables={'currentTimestep': 166, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506843300, 'recv_time_ns': 1660503243316, 'latency': -3599984}
-INFO       2022-08-14 19:54:03,471: Sending topic 'field' as :variables={'currentTimestep': 167, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506843455, 'recv_time_ns': 1660503243471, 'latency': -3599984}
-INFO       2022-08-14 19:54:03,644: Sending topic 'field' as :variables={'currentTimestep': 168, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506843629, 'recv_time_ns': 1660503243644, 'latency': -3599985}
-INFO       2022-08-14 19:54:03,815: Sending topic 'field' as :variables={'currentTimestep': 169, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506843800, 'recv_time_ns': 1660503243815, 'latency': -3599985}
-INFO       2022-08-14 19:54:03,969: Sending topic 'field' as :variables={'currentTimestep': 170, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506843955, 'recv_time_ns': 1660503243969, 'latency': -3599986}
-INFO       2022-08-14 19:54:04,095: Sending topic 'field' as :variables={'currentTimestep': 171, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506844080, 'recv_time_ns': 1660503244095, 'latency': -3599985}
-INFO       2022-08-14 19:54:04,251: Sending topic 'field' as :variables={'currentTimestep': 172, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506844235, 'recv_time_ns': 1660503244251, 'latency': -3599984}
-INFO       2022-08-14 19:54:04,422: Sending topic 'field' as :variables={'currentTimestep': 173, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506844406, 'recv_time_ns': 1660503244422, 'latency': -3599984}
-INFO       2022-08-14 19:54:04,579: Sending topic 'field' as :variables={'currentTimestep': 174, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506844565, 'recv_time_ns': 1660503244579, 'latency': -3599986}
-INFO       2022-08-14 19:54:04,736: Sending topic 'field' as :variables={'currentTimestep': 175, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506844721, 'recv_time_ns': 1660503244736, 'latency': -3599985}
-INFO       2022-08-14 19:54:04,887: Sending topic 'field' as :variables={'currentTimestep': 176, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506844871, 'recv_time_ns': 1660503244887, 'latency': -3599984}
-INFO       2022-08-14 19:54:05,056: Sending topic 'field' as :variables={'currentTimestep': 177, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506845041, 'recv_time_ns': 1660503245056, 'latency': -3599985}
-INFO       2022-08-14 19:54:05,227: Sending topic 'field' as :variables={'currentTimestep': 178, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506845211, 'recv_time_ns': 1660503245227, 'latency': -3599984}
-INFO       2022-08-14 19:54:05,399: Sending topic 'field' as :variables={'currentTimestep': 179, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506845383, 'recv_time_ns': 1660503245399, 'latency': -3599984}
-INFO       2022-08-14 19:54:05,537: Sending topic 'field' as :variables={'currentTimestep': 180, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506845522, 'recv_time_ns': 1660503245537, 'latency': -3599985}
-INFO       2022-08-14 19:54:05,694: Sending topic 'field' as :variables={'currentTimestep': 181, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506845678, 'recv_time_ns': 1660503245694, 'latency': -3599984}
-INFO       2022-08-14 19:54:05,829: Sending topic 'field' as :variables={'currentTimestep': 182, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506845814, 'recv_time_ns': 1660503245829, 'latency': -3599985}
-INFO       2022-08-14 19:54:05,955: Sending topic 'field' as :variables={'currentTimestep': 183, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506845939, 'recv_time_ns': 1660503245955, 'latency': -3599984}
-INFO       2022-08-14 19:54:06,078: Sending topic 'field' as :variables={'currentTimestep': 184, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506846063, 'recv_time_ns': 1660503246078, 'latency': -3599985}
-INFO       2022-08-14 19:54:06,251: Sending topic 'field' as :variables={'currentTimestep': 185, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506846235, 'recv_time_ns': 1660503246251, 'latency': -3599984}
-INFO       2022-08-14 19:54:06,408: Sending topic 'field' as :variables={'currentTimestep': 186, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506846392, 'recv_time_ns': 1660503246408, 'latency': -3599984}
-INFO       2022-08-14 19:54:06,562: Sending topic 'field' as :variables={'currentTimestep': 187, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506846546, 'recv_time_ns': 1660503246562, 'latency': -3599984}
-INFO       2022-08-14 19:54:06,717: Sending topic 'field' as :variables={'currentTimestep': 188, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506846702, 'recv_time_ns': 1660503246717, 'latency': -3599985}
-INFO       2022-08-14 19:54:06,872: Sending topic 'field' as :variables={'currentTimestep': 189, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506846857, 'recv_time_ns': 1660503246872, 'latency': -3599985}
-INFO       2022-08-14 19:54:07,040: Sending topic 'field' as :variables={'currentTimestep': 190, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506847024, 'recv_time_ns': 1660503247040, 'latency': -3599984}
-INFO       2022-08-14 19:54:07,195: Sending topic 'field' as :variables={'currentTimestep': 191, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506847179, 'recv_time_ns': 1660503247195, 'latency': -3599984}
-INFO       2022-08-14 19:54:07,354: Sending topic 'field' as :variables={'currentTimestep': 192, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506847338, 'recv_time_ns': 1660503247354, 'latency': -3599984}
-INFO       2022-08-14 19:54:07,526: Sending topic 'field' as :variables={'currentTimestep': 193, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506847510, 'recv_time_ns': 1660503247526, 'latency': -3599984}
-INFO       2022-08-14 19:54:07,695: Sending topic 'field' as :variables={'currentTimestep': 194, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506847679, 'recv_time_ns': 1660503247695, 'latency': -3599984}
-INFO       2022-08-14 19:54:07,854: Sending topic 'field' as :variables={'currentTimestep': 195, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506847839, 'recv_time_ns': 1660503247854, 'latency': -3599985}
-INFO       2022-08-14 19:54:08,024: Sending topic 'field' as :variables={'currentTimestep': 196, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506848008, 'recv_time_ns': 1660503248024, 'latency': -3599984}
-INFO       2022-08-14 19:54:08,163: Sending topic 'field' as :variables={'currentTimestep': 197, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506848148, 'recv_time_ns': 1660503248163, 'latency': -3599985}
-INFO       2022-08-14 19:54:08,305: Sending topic 'field' as :variables={'currentTimestep': 198, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506848289, 'recv_time_ns': 1660503248305, 'latency': -3599984}
-INFO       2022-08-14 19:54:08,460: Sending topic 'field' as :variables={'currentTimestep': 199, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506848445, 'recv_time_ns': 1660503248460, 'latency': -3599985}
-INFO       2022-08-14 19:54:08,615: Sending topic 'field' as :variables={'currentTimestep': 200, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506848600, 'recv_time_ns': 1660503248615, 'latency': -3599985}
-INFO       2022-08-14 19:54:08,787: Sending topic 'field' as :variables={'currentTimestep': 201, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506848772, 'recv_time_ns': 1660503248787, 'latency': -3599985}
-INFO       2022-08-14 19:54:08,977: Sending topic 'field' as :variables={'currentTimestep': 202, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506848961, 'recv_time_ns': 1660503248977, 'latency': -3599984}
-INFO       2022-08-14 19:54:09,164: Sending topic 'field' as :variables={'currentTimestep': 203, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506849148, 'recv_time_ns': 1660503249164, 'latency': -3599984}
-INFO       2022-08-14 19:54:09,352: Sending topic 'field' as :variables={'currentTimestep': 204, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506849336, 'recv_time_ns': 1660503249352, 'latency': -3599984}
-INFO       2022-08-14 19:54:09,507: Sending topic 'field' as :variables={'currentTimestep': 205, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506849492, 'recv_time_ns': 1660503249507, 'latency': -3599985}
-INFO       2022-08-14 19:54:09,633: Sending topic 'field' as :variables={'currentTimestep': 206, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506849617, 'recv_time_ns': 1660503249633, 'latency': -3599984}
-INFO       2022-08-14 19:54:09,788: Sending topic 'field' as :variables={'currentTimestep': 207, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506849772, 'recv_time_ns': 1660503249788, 'latency': -3599984}
-INFO       2022-08-14 19:54:09,962: Sending topic 'field' as :variables={'currentTimestep': 208, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506849947, 'recv_time_ns': 1660503249962, 'latency': -3599985}
-INFO       2022-08-14 19:54:10,135: Sending topic 'field' as :variables={'currentTimestep': 209, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506850119, 'recv_time_ns': 1660503250135, 'latency': -3599984}
-INFO       2022-08-14 19:54:10,287: Sending topic 'field' as :variables={'currentTimestep': 210, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506850273, 'recv_time_ns': 1660503250287, 'latency': -3599986}
-INFO       2022-08-14 19:54:10,428: Sending topic 'field' as :variables={'currentTimestep': 211, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506850413, 'recv_time_ns': 1660503250428, 'latency': -3599985}
-INFO       2022-08-14 19:54:10,567: Sending topic 'field' as :variables={'currentTimestep': 212, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506850552, 'recv_time_ns': 1660503250567, 'latency': -3599985}
-INFO       2022-08-14 19:54:10,721: Sending topic 'field' as :variables={'currentTimestep': 213, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506850705, 'recv_time_ns': 1660503250721, 'latency': -3599984}
-INFO       2022-08-14 19:54:10,893: Sending topic 'field' as :variables={'currentTimestep': 214, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506850878, 'recv_time_ns': 1660503250893, 'latency': -3599985}
-INFO       2022-08-14 19:54:11,050: Sending topic 'field' as :variables={'currentTimestep': 215, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506851034, 'recv_time_ns': 1660503251050, 'latency': -3599984}
-INFO       2022-08-14 19:54:11,173: Sending topic 'field' as :variables={'currentTimestep': 216, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506851159, 'recv_time_ns': 1660503251173, 'latency': -3599986}
-INFO       2022-08-14 19:54:11,344: Sending topic 'field' as :variables={'currentTimestep': 217, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506851328, 'recv_time_ns': 1660503251344, 'latency': -3599984}
-INFO       2022-08-14 19:54:11,512: Sending topic 'field' as :variables={'currentTimestep': 218, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506851497, 'recv_time_ns': 1660503251512, 'latency': -3599985}
-INFO       2022-08-14 19:54:11,648: Sending topic 'field' as :variables={'currentTimestep': 219, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506851633, 'recv_time_ns': 1660503251648, 'latency': -3599985}
-INFO       2022-08-14 19:54:11,808: Sending topic 'field' as :variables={'currentTimestep': 220, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506851792, 'recv_time_ns': 1660503251808, 'latency': -3599984}
-INFO       2022-08-14 19:54:11,961: Sending topic 'field' as :variables={'currentTimestep': 221, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506851945, 'recv_time_ns': 1660503251961, 'latency': -3599984}
-INFO       2022-08-14 19:54:12,100: Sending topic 'field' as :variables={'currentTimestep': 222, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506852085, 'recv_time_ns': 1660503252100, 'latency': -3599985}
-INFO       2022-08-14 19:54:12,257: Sending topic 'field' as :variables={'currentTimestep': 223, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506852241, 'recv_time_ns': 1660503252257, 'latency': -3599984}
-INFO       2022-08-14 19:54:12,397: Sending topic 'field' as :variables={'currentTimestep': 224, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506852381, 'recv_time_ns': 1660503252397, 'latency': -3599984}
-INFO       2022-08-14 19:54:12,554: Sending topic 'field' as :variables={'currentTimestep': 225, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506852539, 'recv_time_ns': 1660503252554, 'latency': -3599985}
-INFO       2022-08-14 19:54:12,727: Sending topic 'field' as :variables={'currentTimestep': 226, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506852712, 'recv_time_ns': 1660503252727, 'latency': -3599985}
-INFO       2022-08-14 19:54:12,896: Sending topic 'field' as :variables={'currentTimestep': 227, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506852880, 'recv_time_ns': 1660503252896, 'latency': -3599984}
-INFO       2022-08-14 19:54:13,068: Sending topic 'field' as :variables={'currentTimestep': 228, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506853052, 'recv_time_ns': 1660503253068, 'latency': -3599984}
-INFO       2022-08-14 19:54:13,239: Sending topic 'field' as :variables={'currentTimestep': 229, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506853224, 'recv_time_ns': 1660503253239, 'latency': -3599985}
-INFO       2022-08-14 19:54:13,409: Sending topic 'field' as :variables={'currentTimestep': 230, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506853395, 'recv_time_ns': 1660503253409, 'latency': -3599986}
-INFO       2022-08-14 19:54:13,581: Sending topic 'field' as :variables={'currentTimestep': 231, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506853565, 'recv_time_ns': 1660503253581, 'latency': -3599984}
-INFO       2022-08-14 19:54:13,735: Sending topic 'field' as :variables={'currentTimestep': 232, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506853720, 'recv_time_ns': 1660503253735, 'latency': -3599985}
-INFO       2022-08-14 19:54:13,893: Sending topic 'field' as :variables={'currentTimestep': 233, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506853877, 'recv_time_ns': 1660503253893, 'latency': -3599984}
-INFO       2022-08-14 19:54:14,062: Sending topic 'field' as :variables={'currentTimestep': 234, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506854046, 'recv_time_ns': 1660503254062, 'latency': -3599984}
-INFO       2022-08-14 19:54:14,234: Sending topic 'field' as :variables={'currentTimestep': 235, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506854218, 'recv_time_ns': 1660503254234, 'latency': -3599984}
-INFO       2022-08-14 19:54:14,426: Sending topic 'field' as :variables={'currentTimestep': 236, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506854387, 'recv_time_ns': 1660503254426, 'latency': -3599961}
-INFO       2022-08-14 19:54:14,589: Sending topic 'field' as :variables={'currentTimestep': 237, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506854574, 'recv_time_ns': 1660503254589, 'latency': -3599985}
-INFO       2022-08-14 19:54:14,739: Sending topic 'field' as :variables={'currentTimestep': 238, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506854724, 'recv_time_ns': 1660503254739, 'latency': -3599985}
-INFO       2022-08-14 19:54:14,897: Sending topic 'field' as :variables={'currentTimestep': 239, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506854882, 'recv_time_ns': 1660503254897, 'latency': -3599985}
-INFO       2022-08-14 19:54:15,053: Sending topic 'field' as :variables={'currentTimestep': 240, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506855038, 'recv_time_ns': 1660503255053, 'latency': -3599985}
-INFO       2022-08-14 19:54:15,226: Sending topic 'field' as :variables={'currentTimestep': 241, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506855209, 'recv_time_ns': 1660503255226, 'latency': -3599983}
-INFO       2022-08-14 19:54:15,396: Sending topic 'field' as :variables={'currentTimestep': 242, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506855379, 'recv_time_ns': 1660503255395, 'latency': -3599984}
-INFO       2022-08-14 19:54:15,564: Sending topic 'field' as :variables={'currentTimestep': 243, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506855549, 'recv_time_ns': 1660503255564, 'latency': -3599985}
-INFO       2022-08-14 19:54:15,752: Sending topic 'field' as :variables={'currentTimestep': 244, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506855736, 'recv_time_ns': 1660503255752, 'latency': -3599984}
-INFO       2022-08-14 19:54:15,920: Sending topic 'field' as :variables={'currentTimestep': 245, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506855905, 'recv_time_ns': 1660503255920, 'latency': -3599985}
-INFO       2022-08-14 19:54:16,100: Sending topic 'field' as :variables={'currentTimestep': 246, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1, 'sent_time_ns': 1660506856085, 'recv_time_ns': 1660503256100, 'latency': -3599985}
-INFO       2022-08-14 19:54:16,103: 
-
-
-{
-    "1.0": {
-        "currentTimestep": 0,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1
-    },
-    "1.1": {
-        "currentTimestep": 1,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506817908,
-        "recv_time_ns": 1660503217924,
-        "latency": -3599984
-    },
-    "1.2": {
-        "currentTimestep": 2,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506818080,
-        "recv_time_ns": 1660503218096,
-        "latency": -3599984
-    },
-    "1.3": {
-        "currentTimestep": 3,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506818236,
-        "recv_time_ns": 1660503218252,
-        "latency": -3599984
-    },
-    "1.4": {
-        "currentTimestep": 4,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506818391,
-        "recv_time_ns": 1660503218406,
-        "latency": -3599985
-    },
-    "1.5": {
-        "currentTimestep": 5,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506818564,
-        "recv_time_ns": 1660503218579,
-        "latency": -3599985
-    },
-    "1.6": {
-        "currentTimestep": 6,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506818721,
-        "recv_time_ns": 1660503218737,
-        "latency": -3599984
-    },
-    "1.7": {
-        "currentTimestep": 7,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506818845,
-        "recv_time_ns": 1660503218861,
-        "latency": -3599984
-    },
-    "1.8": {
-        "currentTimestep": 8,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506819018,
-        "recv_time_ns": 1660503219034,
-        "latency": -3599984
-    },
-    "1.9": {
-        "currentTimestep": 9,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506819144,
-        "recv_time_ns": 1660503219160,
-        "latency": -3599984
-    },
-    "1.10": {
-        "currentTimestep": 10,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506819314,
-        "recv_time_ns": 1660503219330,
-        "latency": -3599984
-    },
-    "1.11": {
-        "currentTimestep": 11,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506819458,
-        "recv_time_ns": 1660503219473,
-        "latency": -3599985
-    },
-    "1.12": {
-        "currentTimestep": 12,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506819629,
-        "recv_time_ns": 1660503219645,
-        "latency": -3599984
-    },
-    "1.13": {
-        "currentTimestep": 13,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506819801,
-        "recv_time_ns": 1660503219817,
-        "latency": -3599984
-    },
-    "1.14": {
-        "currentTimestep": 14,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506819942,
-        "recv_time_ns": 1660503219957,
-        "latency": -3599985
-    },
-    "1.15": {
-        "currentTimestep": 15,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506820113,
-        "recv_time_ns": 1660503220129,
-        "latency": -3599984
-    },
-    "1.16": {
-        "currentTimestep": 16,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506820252,
-        "recv_time_ns": 1660503220268,
-        "latency": -3599984
-    },
-    "1.17": {
-        "currentTimestep": 17,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506820425,
-        "recv_time_ns": 1660503220441,
-        "latency": -3599984
-    },
-    "1.18": {
-        "currentTimestep": 18,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506820550,
-        "recv_time_ns": 1660503220565,
-        "latency": -3599985
-    },
-    "1.19": {
-        "currentTimestep": 19,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506820674,
-        "recv_time_ns": 1660503220689,
-        "latency": -3599985
-    },
-    "1.20": {
-        "currentTimestep": 20,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506820814,
-        "recv_time_ns": 1660503220830,
-        "latency": -3599984
-    },
-    "1.21": {
-        "currentTimestep": 21,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506821002,
-        "recv_time_ns": 1660503221018,
-        "latency": -3599984
-    },
-    "1.22": {
-        "currentTimestep": 22,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506821127,
-        "recv_time_ns": 1660503221143,
-        "latency": -3599984
-    },
-    "1.23": {
-        "currentTimestep": 23,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506821315,
-        "recv_time_ns": 1660503221331,
-        "latency": -3599984
-    },
-    "1.24": {
-        "currentTimestep": 24,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506821454,
-        "recv_time_ns": 1660503221486,
-        "latency": -3599968
-    },
-    "1.25": {
-        "currentTimestep": 25,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506821639,
-        "recv_time_ns": 1660503221655,
-        "latency": -3599984
-    },
-    "1.26": {
-        "currentTimestep": 26,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506821797,
-        "recv_time_ns": 1660503221812,
-        "latency": -3599985
-    },
-    "1.27": {
-        "currentTimestep": 27,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506821920,
-        "recv_time_ns": 1660503221935,
-        "latency": -3599985
-    },
-    "1.28": {
-        "currentTimestep": 28,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506822057,
-        "recv_time_ns": 1660503222072,
-        "latency": -3599985
-    },
-    "1.29": {
-        "currentTimestep": 29,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506822213,
-        "recv_time_ns": 1660503222229,
-        "latency": -3599984
-    },
-    "1.30": {
-        "currentTimestep": 30,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506822384,
-        "recv_time_ns": 1660503222400,
-        "latency": -3599984
-    },
-    "1.31": {
-        "currentTimestep": 31,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506822525,
-        "recv_time_ns": 1660503222540,
-        "latency": -3599985
-    },
-    "1.32": {
-        "currentTimestep": 32,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506822681,
-        "recv_time_ns": 1660503222697,
-        "latency": -3599984
-    },
-    "1.33": {
-        "currentTimestep": 33,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506822836,
-        "recv_time_ns": 1660503222900,
-        "latency": -3599936
-    },
-    "1.34": {
-        "currentTimestep": 34,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506823023,
-        "recv_time_ns": 1660503223038,
-        "latency": -3599985
-    },
-    "1.35": {
-        "currentTimestep": 35,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506823197,
-        "recv_time_ns": 1660503223213,
-        "latency": -3599984
-    },
-    "1.36": {
-        "currentTimestep": 36,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506823336,
-        "recv_time_ns": 1660503223352,
-        "latency": -3599984
-    },
-    "1.37": {
-        "currentTimestep": 37,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506823492,
-        "recv_time_ns": 1660503223507,
-        "latency": -3599985
-    },
-    "1.38": {
-        "currentTimestep": 38,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506823649,
-        "recv_time_ns": 1660503223665,
-        "latency": -3599984
-    },
-    "1.39": {
-        "currentTimestep": 39,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506823788,
-        "recv_time_ns": 1660503223804,
-        "latency": -3599984
-    },
-    "1.40": {
-        "currentTimestep": 40,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506823930,
-        "recv_time_ns": 1660503223945,
-        "latency": -3599985
-    },
-    "1.41": {
-        "currentTimestep": 41,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506824087,
-        "recv_time_ns": 1660503224103,
-        "latency": -3599984
-    },
-    "1.42": {
-        "currentTimestep": 42,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506824224,
-        "recv_time_ns": 1660503224240,
-        "latency": -3599984
-    },
-    "1.43": {
-        "currentTimestep": 43,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506824381,
-        "recv_time_ns": 1660503224396,
-        "latency": -3599985
-    },
-    "1.44": {
-        "currentTimestep": 44,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506824536,
-        "recv_time_ns": 1660503224552,
-        "latency": -3599984
-    },
-    "1.45": {
-        "currentTimestep": 45,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506824661,
-        "recv_time_ns": 1660503224676,
-        "latency": -3599985
-    },
-    "1.46": {
-        "currentTimestep": 46,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506824803,
-        "recv_time_ns": 1660503224818,
-        "latency": -3599985
-    },
-    "1.47": {
-        "currentTimestep": 47,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506824974,
-        "recv_time_ns": 1660503224990,
-        "latency": -3599984
-    },
-    "1.48": {
-        "currentTimestep": 48,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506825146,
-        "recv_time_ns": 1660503225161,
-        "latency": -3599985
-    },
-    "1.49": {
-        "currentTimestep": 49,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506825319,
-        "recv_time_ns": 1660503225334,
-        "latency": -3599985
-    },
-    "1.50": {
-        "currentTimestep": 50,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506825458,
-        "recv_time_ns": 1660503225473,
-        "latency": -3599985
-    },
-    "1.51": {
-        "currentTimestep": 51,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506825626,
-        "recv_time_ns": 1660503225642,
-        "latency": -3599984
-    },
-    "1.52": {
-        "currentTimestep": 52,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506825798,
-        "recv_time_ns": 1660503225813,
-        "latency": -3599985
-    },
-    "1.53": {
-        "currentTimestep": 53,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506825970,
-        "recv_time_ns": 1660503225986,
-        "latency": -3599984
-    },
-    "1.54": {
-        "currentTimestep": 54,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506826125,
-        "recv_time_ns": 1660503226141,
-        "latency": -3599984
-    },
-    "1.55": {
-        "currentTimestep": 55,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506826283,
-        "recv_time_ns": 1660503226299,
-        "latency": -3599984
-    },
-    "1.56": {
-        "currentTimestep": 56,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506826423,
-        "recv_time_ns": 1660503226439,
-        "latency": -3599984
-    },
-    "1.57": {
-        "currentTimestep": 57,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506826561,
-        "recv_time_ns": 1660503226577,
-        "latency": -3599984
-    },
-    "1.58": {
-        "currentTimestep": 58,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506826703,
-        "recv_time_ns": 1660503226718,
-        "latency": -3599985
-    },
-    "1.59": {
-        "currentTimestep": 59,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506826854,
-        "recv_time_ns": 1660503226870,
-        "latency": -3599984
-    },
-    "1.60": {
-        "currentTimestep": 60,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506827008,
-        "recv_time_ns": 1660503227023,
-        "latency": -3599985
-    },
-    "1.61": {
-        "currentTimestep": 61,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506827148,
-        "recv_time_ns": 1660503227164,
-        "latency": -3599984
-    },
-    "1.62": {
-        "currentTimestep": 62,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506827320,
-        "recv_time_ns": 1660503227336,
-        "latency": -3599984
-    },
-    "1.63": {
-        "currentTimestep": 63,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506827476,
-        "recv_time_ns": 1660503227491,
-        "latency": -3599985
-    },
-    "1.64": {
-        "currentTimestep": 64,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506827649,
-        "recv_time_ns": 1660503227665,
-        "latency": -3599984
-    },
-    "1.65": {
-        "currentTimestep": 65,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506827787,
-        "recv_time_ns": 1660503227803,
-        "latency": -3599984
-    },
-    "1.66": {
-        "currentTimestep": 66,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506827942,
-        "recv_time_ns": 1660503227957,
-        "latency": -3599985
-    },
-    "1.67": {
-        "currentTimestep": 67,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506828082,
-        "recv_time_ns": 1660503228098,
-        "latency": -3599984
-    },
-    "1.68": {
-        "currentTimestep": 68,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506828236,
-        "recv_time_ns": 1660503228253,
-        "latency": -3599983
-    },
-    "1.69": {
-        "currentTimestep": 69,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506828392,
-        "recv_time_ns": 1660503228407,
-        "latency": -3599985
-    },
-    "1.70": {
-        "currentTimestep": 70,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506828564,
-        "recv_time_ns": 1660503228580,
-        "latency": -3599984
-    },
-    "1.71": {
-        "currentTimestep": 71,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506828702,
-        "recv_time_ns": 1660503228717,
-        "latency": -3599985
-    },
-    "1.72": {
-        "currentTimestep": 72,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506828852,
-        "recv_time_ns": 1660503228867,
-        "latency": -3599985
-    },
-    "1.73": {
-        "currentTimestep": 73,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506829022,
-        "recv_time_ns": 1660503229038,
-        "latency": -3599984
-    },
-    "1.74": {
-        "currentTimestep": 74,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506829160,
-        "recv_time_ns": 1660503229176,
-        "latency": -3599984
-    },
-    "1.75": {
-        "currentTimestep": 75,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506829333,
-        "recv_time_ns": 1660503229348,
-        "latency": -3599985
-    },
-    "1.76": {
-        "currentTimestep": 76,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506829504,
-        "recv_time_ns": 1660503229521,
-        "latency": -3599983
-    },
-    "1.77": {
-        "currentTimestep": 77,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506829642,
-        "recv_time_ns": 1660503229658,
-        "latency": -3599984
-    },
-    "1.78": {
-        "currentTimestep": 78,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506829800,
-        "recv_time_ns": 1660503229815,
-        "latency": -3599985
-    },
-    "1.79": {
-        "currentTimestep": 79,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506829940,
-        "recv_time_ns": 1660503229955,
-        "latency": -3599985
-    },
-    "1.80": {
-        "currentTimestep": 80,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506830092,
-        "recv_time_ns": 1660503230107,
-        "latency": -3599985
-    },
-    "1.81": {
-        "currentTimestep": 81,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506830261,
-        "recv_time_ns": 1660503230275,
-        "latency": -3599986
-    },
-    "1.82": {
-        "currentTimestep": 82,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506830400,
-        "recv_time_ns": 1660503230415,
-        "latency": -3599985
-    },
-    "1.83": {
-        "currentTimestep": 83,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506830554,
-        "recv_time_ns": 1660503230570,
-        "latency": -3599984
-    },
-    "1.84": {
-        "currentTimestep": 84,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506830713,
-        "recv_time_ns": 1660503230727,
-        "latency": -3599986
-    },
-    "1.85": {
-        "currentTimestep": 85,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506830851,
-        "recv_time_ns": 1660503230867,
-        "latency": -3599984
-    },
-    "1.86": {
-        "currentTimestep": 86,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506831005,
-        "recv_time_ns": 1660503231021,
-        "latency": -3599984
-    },
-    "1.87": {
-        "currentTimestep": 87,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506831180,
-        "recv_time_ns": 1660503231195,
-        "latency": -3599985
-    },
-    "1.88": {
-        "currentTimestep": 88,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506831350,
-        "recv_time_ns": 1660503231365,
-        "latency": -3599985
-    },
-    "1.89": {
-        "currentTimestep": 89,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506831519,
-        "recv_time_ns": 1660503231535,
-        "latency": -3599984
-    },
-    "1.90": {
-        "currentTimestep": 90,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506831691,
-        "recv_time_ns": 1660503231705,
-        "latency": -3599986
-    },
-    "1.91": {
-        "currentTimestep": 91,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506831863,
-        "recv_time_ns": 1660503231879,
-        "latency": -3599984
-    },
-    "1.92": {
-        "currentTimestep": 92,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506832032,
-        "recv_time_ns": 1660503232048,
-        "latency": -3599984
-    },
-    "1.93": {
-        "currentTimestep": 93,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506832204,
-        "recv_time_ns": 1660503232220,
-        "latency": -3599984
-    },
-    "1.94": {
-        "currentTimestep": 94,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506832361,
-        "recv_time_ns": 1660503232376,
-        "latency": -3599985
-    },
-    "1.95": {
-        "currentTimestep": 95,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506832512,
-        "recv_time_ns": 1660503232527,
-        "latency": -3599985
-    },
-    "1.96": {
-        "currentTimestep": 96,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506832679,
-        "recv_time_ns": 1660503232695,
-        "latency": -3599984
-    },
-    "1.97": {
-        "currentTimestep": 97,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506832852,
-        "recv_time_ns": 1660503232867,
-        "latency": -3599985
-    },
-    "1.98": {
-        "currentTimestep": 98,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506833024,
-        "recv_time_ns": 1660503233040,
-        "latency": -3599984
-    },
-    "1.99": {
-        "currentTimestep": 99,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506833164,
-        "recv_time_ns": 1660503233180,
-        "latency": -3599984
-    },
-    "1.100": {
-        "currentTimestep": 100,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506833336,
-        "recv_time_ns": 1660503233351,
-        "latency": -3599985
-    },
-    "1.101": {
-        "currentTimestep": 101,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506833480,
-        "recv_time_ns": 1660503233495,
-        "latency": -3599985
-    },
-    "1.102": {
-        "currentTimestep": 102,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506833630,
-        "recv_time_ns": 1660503233646,
-        "latency": -3599984
-    },
-    "1.103": {
-        "currentTimestep": 103,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506833771,
-        "recv_time_ns": 1660503233786,
-        "latency": -3599985
-    },
-    "1.104": {
-        "currentTimestep": 104,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506833895,
-        "recv_time_ns": 1660503233911,
-        "latency": -3599984
-    },
-    "1.105": {
-        "currentTimestep": 105,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506834021,
-        "recv_time_ns": 1660503234036,
-        "latency": -3599985
-    },
-    "1.106": {
-        "currentTimestep": 106,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506834146,
-        "recv_time_ns": 1660503234162,
-        "latency": -3599984
-    },
-    "1.107": {
-        "currentTimestep": 107,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506834268,
-        "recv_time_ns": 1660503234283,
-        "latency": -3599985
-    },
-    "1.108": {
-        "currentTimestep": 108,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506834424,
-        "recv_time_ns": 1660503234440,
-        "latency": -3599984
-    },
-    "1.109": {
-        "currentTimestep": 109,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506834563,
-        "recv_time_ns": 1660503234579,
-        "latency": -3599984
-    },
-    "1.110": {
-        "currentTimestep": 110,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506834691,
-        "recv_time_ns": 1660503234706,
-        "latency": -3599985
-    },
-    "1.111": {
-        "currentTimestep": 111,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506834830,
-        "recv_time_ns": 1660503234846,
-        "latency": -3599984
-    },
-    "1.112": {
-        "currentTimestep": 112,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506834969,
-        "recv_time_ns": 1660503234984,
-        "latency": -3599985
-    },
-    "1.113": {
-        "currentTimestep": 113,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506835142,
-        "recv_time_ns": 1660503235158,
-        "latency": -3599984
-    },
-    "1.114": {
-        "currentTimestep": 114,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506835281,
-        "recv_time_ns": 1660503235296,
-        "latency": -3599985
-    },
-    "1.115": {
-        "currentTimestep": 115,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506835430,
-        "recv_time_ns": 1660503235446,
-        "latency": -3599984
-    },
-    "1.116": {
-        "currentTimestep": 116,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506835586,
-        "recv_time_ns": 1660503235601,
-        "latency": -3599985
-    },
-    "1.117": {
-        "currentTimestep": 117,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506835725,
-        "recv_time_ns": 1660503235741,
-        "latency": -3599984
-    },
-    "1.118": {
-        "currentTimestep": 118,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506835868,
-        "recv_time_ns": 1660503235883,
-        "latency": -3599985
-    },
-    "1.119": {
-        "currentTimestep": 119,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506836023,
-        "recv_time_ns": 1660503236039,
-        "latency": -3599984
-    },
-    "1.120": {
-        "currentTimestep": 120,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506836178,
-        "recv_time_ns": 1660503236194,
-        "latency": -3599984
-    },
-    "1.121": {
-        "currentTimestep": 121,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506836352,
-        "recv_time_ns": 1660503236367,
-        "latency": -3599985
-    },
-    "1.122": {
-        "currentTimestep": 122,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506836524,
-        "recv_time_ns": 1660503236540,
-        "latency": -3599984
-    },
-    "1.123": {
-        "currentTimestep": 123,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506836680,
-        "recv_time_ns": 1660503236696,
-        "latency": -3599984
-    },
-    "1.124": {
-        "currentTimestep": 124,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506836835,
-        "recv_time_ns": 1660503236850,
-        "latency": -3599985
-    },
-    "1.125": {
-        "currentTimestep": 125,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506837009,
-        "recv_time_ns": 1660503237025,
-        "latency": -3599984
-    },
-    "1.126": {
-        "currentTimestep": 126,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506837178,
-        "recv_time_ns": 1660503237193,
-        "latency": -3599985
-    },
-    "1.127": {
-        "currentTimestep": 127,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506837332,
-        "recv_time_ns": 1660503237348,
-        "latency": -3599984
-    },
-    "1.128": {
-        "currentTimestep": 128,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506837504,
-        "recv_time_ns": 1660503237519,
-        "latency": -3599985
-    },
-    "1.129": {
-        "currentTimestep": 129,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506837644,
-        "recv_time_ns": 1660503237660,
-        "latency": -3599984
-    },
-    "1.130": {
-        "currentTimestep": 130,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506837769,
-        "recv_time_ns": 1660503237784,
-        "latency": -3599985
-    },
-    "1.131": {
-        "currentTimestep": 131,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506837921,
-        "recv_time_ns": 1660503237937,
-        "latency": -3599984
-    },
-    "1.132": {
-        "currentTimestep": 132,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506838089,
-        "recv_time_ns": 1660503238104,
-        "latency": -3599985
-    },
-    "1.133": {
-        "currentTimestep": 133,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506838212,
-        "recv_time_ns": 1660503238228,
-        "latency": -3599984
-    },
-    "1.134": {
-        "currentTimestep": 134,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506838349,
-        "recv_time_ns": 1660503238365,
-        "latency": -3599984
-    },
-    "1.135": {
-        "currentTimestep": 135,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506838521,
-        "recv_time_ns": 1660503238537,
-        "latency": -3599984
-    },
-    "1.136": {
-        "currentTimestep": 136,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506838662,
-        "recv_time_ns": 1660503238678,
-        "latency": -3599984
-    },
-    "1.137": {
-        "currentTimestep": 137,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506838835,
-        "recv_time_ns": 1660503238851,
-        "latency": -3599984
-    },
-    "1.138": {
-        "currentTimestep": 138,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506838973,
-        "recv_time_ns": 1660503238988,
-        "latency": -3599985
-    },
-    "1.139": {
-        "currentTimestep": 139,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506839116,
-        "recv_time_ns": 1660503239132,
-        "latency": -3599984
-    },
-    "1.140": {
-        "currentTimestep": 140,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506839240,
-        "recv_time_ns": 1660503239256,
-        "latency": -3599984
-    },
-    "1.141": {
-        "currentTimestep": 141,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506839399,
-        "recv_time_ns": 1660503239413,
-        "latency": -3599986
-    },
-    "1.142": {
-        "currentTimestep": 142,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506839571,
-        "recv_time_ns": 1660503239586,
-        "latency": -3599985
-    },
-    "1.143": {
-        "currentTimestep": 143,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506839726,
-        "recv_time_ns": 1660503239742,
-        "latency": -3599984
-    },
-    "1.144": {
-        "currentTimestep": 144,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506839898,
-        "recv_time_ns": 1660503239913,
-        "latency": -3599985
-    },
-    "1.145": {
-        "currentTimestep": 145,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506840039,
-        "recv_time_ns": 1660503240055,
-        "latency": -3599984
-    },
-    "1.146": {
-        "currentTimestep": 146,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506840161,
-        "recv_time_ns": 1660503240177,
-        "latency": -3599984
-    },
-    "1.147": {
-        "currentTimestep": 147,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506840334,
-        "recv_time_ns": 1660503240349,
-        "latency": -3599985
-    },
-    "1.148": {
-        "currentTimestep": 148,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506840491,
-        "recv_time_ns": 1660503240506,
-        "latency": -3599985
-    },
-    "1.149": {
-        "currentTimestep": 149,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506840660,
-        "recv_time_ns": 1660503240676,
-        "latency": -3599984
-    },
-    "1.150": {
-        "currentTimestep": 150,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506840833,
-        "recv_time_ns": 1660503240848,
-        "latency": -3599985
-    },
-    "1.151": {
-        "currentTimestep": 151,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506840972,
-        "recv_time_ns": 1660503240988,
-        "latency": -3599984
-    },
-    "1.152": {
-        "currentTimestep": 152,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506841142,
-        "recv_time_ns": 1660503241158,
-        "latency": -3599984
-    },
-    "1.153": {
-        "currentTimestep": 153,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506841253,
-        "recv_time_ns": 1660503241269,
-        "latency": -3599984
-    },
-    "1.154": {
-        "currentTimestep": 154,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506841410,
-        "recv_time_ns": 1660503241425,
-        "latency": -3599985
-    },
-    "1.155": {
-        "currentTimestep": 155,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506841533,
-        "recv_time_ns": 1660503241548,
-        "latency": -3599985
-    },
-    "1.156": {
-        "currentTimestep": 156,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506841692,
-        "recv_time_ns": 1660503241708,
-        "latency": -3599984
-    },
-    "1.157": {
-        "currentTimestep": 157,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506841862,
-        "recv_time_ns": 1660503241878,
-        "latency": -3599984
-    },
-    "1.158": {
-        "currentTimestep": 158,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506842034,
-        "recv_time_ns": 1660503242050,
-        "latency": -3599984
-    },
-    "1.159": {
-        "currentTimestep": 159,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506842177,
-        "recv_time_ns": 1660503242193,
-        "latency": -3599984
-    },
-    "1.160": {
-        "currentTimestep": 160,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506842349,
-        "recv_time_ns": 1660503242365,
-        "latency": -3599984
-    },
-    "1.161": {
-        "currentTimestep": 161,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506842520,
-        "recv_time_ns": 1660503242536,
-        "latency": -3599984
-    },
-    "1.162": {
-        "currentTimestep": 162,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506842680,
-        "recv_time_ns": 1660503242694,
-        "latency": -3599986
-    },
-    "1.163": {
-        "currentTimestep": 163,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506842835,
-        "recv_time_ns": 1660503242851,
-        "latency": -3599984
-    },
-    "1.164": {
-        "currentTimestep": 164,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506842991,
-        "recv_time_ns": 1660503243006,
-        "latency": -3599985
-    },
-    "1.165": {
-        "currentTimestep": 165,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506843145,
-        "recv_time_ns": 1660503243160,
-        "latency": -3599985
-    },
-    "1.166": {
-        "currentTimestep": 166,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506843300,
-        "recv_time_ns": 1660503243316,
-        "latency": -3599984
-    },
-    "1.167": {
-        "currentTimestep": 167,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506843455,
-        "recv_time_ns": 1660503243471,
-        "latency": -3599984
-    },
-    "1.168": {
-        "currentTimestep": 168,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506843629,
-        "recv_time_ns": 1660503243644,
-        "latency": -3599985
-    },
-    "1.169": {
-        "currentTimestep": 169,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506843800,
-        "recv_time_ns": 1660503243815,
-        "latency": -3599985
-    },
-    "1.170": {
-        "currentTimestep": 170,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506843955,
-        "recv_time_ns": 1660503243969,
-        "latency": -3599986
-    },
-    "1.171": {
-        "currentTimestep": 171,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506844080,
-        "recv_time_ns": 1660503244095,
-        "latency": -3599985
-    },
-    "1.172": {
-        "currentTimestep": 172,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506844235,
-        "recv_time_ns": 1660503244251,
-        "latency": -3599984
-    },
-    "1.173": {
-        "currentTimestep": 173,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506844406,
-        "recv_time_ns": 1660503244422,
-        "latency": -3599984
-    },
-    "1.174": {
-        "currentTimestep": 174,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506844565,
-        "recv_time_ns": 1660503244579,
-        "latency": -3599986
-    },
-    "1.175": {
-        "currentTimestep": 175,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506844721,
-        "recv_time_ns": 1660503244736,
-        "latency": -3599985
-    },
-    "1.176": {
-        "currentTimestep": 176,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506844871,
-        "recv_time_ns": 1660503244887,
-        "latency": -3599984
-    },
-    "1.177": {
-        "currentTimestep": 177,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506845041,
-        "recv_time_ns": 1660503245056,
-        "latency": -3599985
-    },
-    "1.178": {
-        "currentTimestep": 178,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506845211,
-        "recv_time_ns": 1660503245227,
-        "latency": -3599984
-    },
-    "1.179": {
-        "currentTimestep": 179,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506845383,
-        "recv_time_ns": 1660503245399,
-        "latency": -3599984
-    },
-    "1.180": {
-        "currentTimestep": 180,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506845522,
-        "recv_time_ns": 1660503245537,
-        "latency": -3599985
-    },
-    "1.181": {
-        "currentTimestep": 181,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506845678,
-        "recv_time_ns": 1660503245694,
-        "latency": -3599984
-    },
-    "1.182": {
-        "currentTimestep": 182,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506845814,
-        "recv_time_ns": 1660503245829,
-        "latency": -3599985
-    },
-    "1.183": {
-        "currentTimestep": 183,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506845939,
-        "recv_time_ns": 1660503245955,
-        "latency": -3599984
-    },
-    "1.184": {
-        "currentTimestep": 184,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506846063,
-        "recv_time_ns": 1660503246078,
-        "latency": -3599985
-    },
-    "1.185": {
-        "currentTimestep": 185,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506846235,
-        "recv_time_ns": 1660503246251,
-        "latency": -3599984
-    },
-    "1.186": {
-        "currentTimestep": 186,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506846392,
-        "recv_time_ns": 1660503246408,
-        "latency": -3599984
-    },
-    "1.187": {
-        "currentTimestep": 187,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506846546,
-        "recv_time_ns": 1660503246562,
-        "latency": -3599984
-    },
-    "1.188": {
-        "currentTimestep": 188,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506846702,
-        "recv_time_ns": 1660503246717,
-        "latency": -3599985
-    },
-    "1.189": {
-        "currentTimestep": 189,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506846857,
-        "recv_time_ns": 1660503246872,
-        "latency": -3599985
-    },
-    "1.190": {
-        "currentTimestep": 190,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506847024,
-        "recv_time_ns": 1660503247040,
-        "latency": -3599984
-    },
-    "1.191": {
-        "currentTimestep": 191,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506847179,
-        "recv_time_ns": 1660503247195,
-        "latency": -3599984
-    },
-    "1.192": {
-        "currentTimestep": 192,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506847338,
-        "recv_time_ns": 1660503247354,
-        "latency": -3599984
-    },
-    "1.193": {
-        "currentTimestep": 193,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506847510,
-        "recv_time_ns": 1660503247526,
-        "latency": -3599984
-    },
-    "1.194": {
-        "currentTimestep": 194,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506847679,
-        "recv_time_ns": 1660503247695,
-        "latency": -3599984
-    },
-    "1.195": {
-        "currentTimestep": 195,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506847839,
-        "recv_time_ns": 1660503247854,
-        "latency": -3599985
-    },
-    "1.196": {
-        "currentTimestep": 196,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506848008,
-        "recv_time_ns": 1660503248024,
-        "latency": -3599984
-    },
-    "1.197": {
-        "currentTimestep": 197,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506848148,
-        "recv_time_ns": 1660503248163,
-        "latency": -3599985
-    },
-    "1.198": {
-        "currentTimestep": 198,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506848289,
-        "recv_time_ns": 1660503248305,
-        "latency": -3599984
-    },
-    "1.199": {
-        "currentTimestep": 199,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506848445,
-        "recv_time_ns": 1660503248460,
-        "latency": -3599985
-    },
-    "1.200": {
-        "currentTimestep": 200,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506848600,
-        "recv_time_ns": 1660503248615,
-        "latency": -3599985
-    },
-    "1.201": {
-        "currentTimestep": 201,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506848772,
-        "recv_time_ns": 1660503248787,
-        "latency": -3599985
-    },
-    "1.202": {
-        "currentTimestep": 202,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506848961,
-        "recv_time_ns": 1660503248977,
-        "latency": -3599984
-    },
-    "1.203": {
-        "currentTimestep": 203,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506849148,
-        "recv_time_ns": 1660503249164,
-        "latency": -3599984
-    },
-    "1.204": {
-        "currentTimestep": 204,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506849336,
-        "recv_time_ns": 1660503249352,
-        "latency": -3599984
-    },
-    "1.205": {
-        "currentTimestep": 205,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506849492,
-        "recv_time_ns": 1660503249507,
-        "latency": -3599985
-    },
-    "1.206": {
-        "currentTimestep": 206,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506849617,
-        "recv_time_ns": 1660503249633,
-        "latency": -3599984
-    },
-    "1.207": {
-        "currentTimestep": 207,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506849772,
-        "recv_time_ns": 1660503249788,
-        "latency": -3599984
-    },
-    "1.208": {
-        "currentTimestep": 208,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506849947,
-        "recv_time_ns": 1660503249962,
-        "latency": -3599985
-    },
-    "1.209": {
-        "currentTimestep": 209,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506850119,
-        "recv_time_ns": 1660503250135,
-        "latency": -3599984
-    },
-    "1.210": {
-        "currentTimestep": 210,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506850273,
-        "recv_time_ns": 1660503250287,
-        "latency": -3599986
-    },
-    "1.211": {
-        "currentTimestep": 211,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506850413,
-        "recv_time_ns": 1660503250428,
-        "latency": -3599985
-    },
-    "1.212": {
-        "currentTimestep": 212,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506850552,
-        "recv_time_ns": 1660503250567,
-        "latency": -3599985
-    },
-    "1.213": {
-        "currentTimestep": 213,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506850705,
-        "recv_time_ns": 1660503250721,
-        "latency": -3599984
-    },
-    "1.214": {
-        "currentTimestep": 214,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506850878,
-        "recv_time_ns": 1660503250893,
-        "latency": -3599985
-    },
-    "1.215": {
-        "currentTimestep": 215,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506851034,
-        "recv_time_ns": 1660503251050,
-        "latency": -3599984
-    },
-    "1.216": {
-        "currentTimestep": 216,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506851159,
-        "recv_time_ns": 1660503251173,
-        "latency": -3599986
-    },
-    "1.217": {
-        "currentTimestep": 217,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506851328,
-        "recv_time_ns": 1660503251344,
-        "latency": -3599984
-    },
-    "1.218": {
-        "currentTimestep": 218,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506851497,
-        "recv_time_ns": 1660503251512,
-        "latency": -3599985
-    },
-    "1.219": {
-        "currentTimestep": 219,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506851633,
-        "recv_time_ns": 1660503251648,
-        "latency": -3599985
-    },
-    "1.220": {
-        "currentTimestep": 220,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506851792,
-        "recv_time_ns": 1660503251808,
-        "latency": -3599984
-    },
-    "1.221": {
-        "currentTimestep": 221,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506851945,
-        "recv_time_ns": 1660503251961,
-        "latency": -3599984
-    },
-    "1.222": {
-        "currentTimestep": 222,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506852085,
-        "recv_time_ns": 1660503252100,
-        "latency": -3599985
-    },
-    "1.223": {
-        "currentTimestep": 223,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506852241,
-        "recv_time_ns": 1660503252257,
-        "latency": -3599984
-    },
-    "1.224": {
-        "currentTimestep": 224,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506852381,
-        "recv_time_ns": 1660503252397,
-        "latency": -3599984
-    },
-    "1.225": {
-        "currentTimestep": 225,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506852539,
-        "recv_time_ns": 1660503252554,
-        "latency": -3599985
-    },
-    "1.226": {
-        "currentTimestep": 226,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506852712,
-        "recv_time_ns": 1660503252727,
-        "latency": -3599985
-    },
-    "1.227": {
-        "currentTimestep": 227,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506852880,
-        "recv_time_ns": 1660503252896,
-        "latency": -3599984
-    },
-    "1.228": {
-        "currentTimestep": 228,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506853052,
-        "recv_time_ns": 1660503253068,
-        "latency": -3599984
-    },
-    "1.229": {
-        "currentTimestep": 229,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506853224,
-        "recv_time_ns": 1660503253239,
-        "latency": -3599985
-    },
-    "1.230": {
-        "currentTimestep": 230,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506853395,
-        "recv_time_ns": 1660503253409,
-        "latency": -3599986
-    },
-    "1.231": {
-        "currentTimestep": 231,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506853565,
-        "recv_time_ns": 1660503253581,
-        "latency": -3599984
-    },
-    "1.232": {
-        "currentTimestep": 232,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506853720,
-        "recv_time_ns": 1660503253735,
-        "latency": -3599985
-    },
-    "1.233": {
-        "currentTimestep": 233,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506853877,
-        "recv_time_ns": 1660503253893,
-        "latency": -3599984
-    },
-    "1.234": {
-        "currentTimestep": 234,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506854046,
-        "recv_time_ns": 1660503254062,
-        "latency": -3599984
-    },
-    "1.235": {
-        "currentTimestep": 235,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506854218,
-        "recv_time_ns": 1660503254234,
-        "latency": -3599984
-    },
-    "1.236": {
-        "currentTimestep": 236,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506854387,
-        "recv_time_ns": 1660503254426,
-        "latency": -3599961
-    },
-    "1.237": {
-        "currentTimestep": 237,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506854574,
-        "recv_time_ns": 1660503254589,
-        "latency": -3599985
-    },
-    "1.238": {
-        "currentTimestep": 238,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506854724,
-        "recv_time_ns": 1660503254739,
-        "latency": -3599985
-    },
-    "1.239": {
-        "currentTimestep": 239,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506854882,
-        "recv_time_ns": 1660503254897,
-        "latency": -3599985
-    },
-    "1.240": {
-        "currentTimestep": 240,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506855038,
-        "recv_time_ns": 1660503255053,
-        "latency": -3599985
-    },
-    "1.241": {
-        "currentTimestep": 241,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506855209,
-        "recv_time_ns": 1660503255226,
-        "latency": -3599983
-    },
-    "1.242": {
-        "currentTimestep": 242,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506855379,
-        "recv_time_ns": 1660503255395,
-        "latency": -3599984
-    },
-    "1.243": {
-        "currentTimestep": 243,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506855549,
-        "recv_time_ns": 1660503255564,
-        "latency": -3599985
-    },
-    "1.244": {
-        "currentTimestep": 244,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506855736,
-        "recv_time_ns": 1660503255752,
-        "latency": -3599984
-    },
-    "1.245": {
-        "currentTimestep": 245,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506855905,
-        "recv_time_ns": 1660503255920,
-        "latency": -3599985
-    },
-    "1.246": {
-        "currentTimestep": 246,
-        "currentTime": 0,
-        "totalTimestepsRun": 0,
-        "versions": 1,
-        "sent_time_ns": 1660506856085,
-        "recv_time_ns": 1660503256100,
-        "latency": -3599985
-    }
-}
+INFO       2022-08-25 10:48:03,787: Listening while loop started
+INFO       2022-08-25 10:48:27,226: Sending topic 'field' as :variables={'currentTimestep': 0, 'currentTime': 0, 'totalTimestepsRun': 0, 'versions': 1}
+INFO       2022-08-25 10:48:27,462: Sending topic 'field' as :variables={'currentTimestep': 1, 'currentTime': 1.0, 'totalTimestepsRun': 1, 'versions': 1, 'sent_time_ns': 38907434, 'recv_time_ns': 38907462, 'latency': 28}
+INFO       2022-08-25 10:48:27,602: Sending topic 'field' as :variables={'currentTimestep': 2, 'currentTime': 2.0, 'totalTimestepsRun': 2, 'versions': 1, 'sent_time_ns': 38907586, 'recv_time_ns': 38907602, 'latency': 16}
+INFO       2022-08-25 10:48:27,738: Sending topic 'field' as :variables={'currentTimestep': 3, 'currentTime': 3.0, 'totalTimestepsRun': 3, 'versions': 1, 'sent_time_ns': 38907722, 'recv_time_ns': 38907738, 'latency': 16}
+INFO       2022-08-25 10:48:27,882: Sending topic 'field' as :variables={'currentTimestep': 4, 'currentTime': 4.0, 'totalTimestepsRun': 4, 'versions': 1, 'sent_time_ns': 38907866, 'recv_time_ns': 38907882, 'latency': 16}
+INFO       2022-08-25 10:48:28,054: Sending topic 'field' as :variables={'currentTimestep': 5, 'currentTime': 5.0, 'totalTimestepsRun': 5, 'versions': 1, 'sent_time_ns': 38908038, 'recv_time_ns': 38908054, 'latency': 16}
+INFO       2022-08-25 10:48:28,230: Sending topic 'field' as :variables={'currentTimestep': 6, 'currentTime': 6.0, 'totalTimestepsRun': 6, 'versions': 1, 'sent_time_ns': 38908214, 'recv_time_ns': 38908230, 'latency': 16}
+INFO       2022-08-25 10:48:28,290: Sending topic 'field' as :variables={'currentTimestep': 1, 'currentTime': 1, 'totalTimestepsRun': 6, 'versions': 1, 'sent_time_ns': 38908290, 'recv_time_ns': 38908290, 'latency': 0}
+DEBUG      2022-08-25 10:48:28,290: Received Updation : variables={'currentTimestep': 1, 'currentTime': 1, 'totalTimestepsRun': 6, 'versions': 1, 'sent_time_ns': 38908290, 'recv_time_ns': 38908290, 'latency': 0}
+INFO       2022-08-25 10:48:28,370: Sending topic 'field' as :variables={'currentTimestep': 2, 'currentTime': 2.0, 'totalTimestepsRun': 7, 'versions': 2, 'sent_time_ns': 38908354, 'recv_time_ns': 38908370, 'latency': 16}
+INFO       2022-08-25 10:48:28,543: Sending topic 'field' as :variables={'currentTimestep': 3, 'currentTime': 3.0, 'totalTimestepsRun': 8, 'versions': 2, 'sent_time_ns': 38908527, 'recv_time_ns': 38908543, 'latency': 16}
+INFO       2022-08-25 10:48:28,651: Sending topic 'field' as :variables={'currentTimestep': 4, 'currentTime': 4.0, 'totalTimestepsRun': 9, 'versions': 2, 'sent_time_ns': 38908635, 'recv_time_ns': 38908651, 'latency': 16}
+INFO       2022-08-25 10:48:28,775: Sending topic 'field' as :variables={'currentTimestep': 5, 'currentTime': 5.0, 'totalTimestepsRun': 10, 'versions': 2, 'sent_time_ns': 38908763, 'recv_time_ns': 38908775, 'latency': 12}
+INFO       2022-08-25 10:48:28,879: Sending topic 'field' as :variables={'currentTimestep': 6, 'currentTime': 6.0, 'totalTimestepsRun': 11, 'versions': 2, 'sent_time_ns': 38908867, 'recv_time_ns': 38908879, 'latency': 12}
+INFO       2022-08-25 10:48:29,022: Sending topic 'field' as :variables={'currentTimestep': 7, 'currentTime': 7.0, 'totalTimestepsRun': 12, 'versions': 2, 'sent_time_ns': 38909007, 'recv_time_ns': 38909022, 'latency': 15}
+INFO       2022-08-25 10:48:29,191: Sending topic 'field' as :variables={'currentTimestep': 8, 'currentTime': 8.0, 'totalTimestepsRun': 13, 'versions': 2, 'sent_time_ns': 38909175, 'recv_time_ns': 38909191, 'latency': 16}
+INFO       2022-08-25 10:48:29,335: Sending topic 'field' as :variables={'currentTimestep': 9, 'currentTime': 9.0, 'totalTimestepsRun': 14, 'versions': 2, 'sent_time_ns': 38909319, 'recv_time_ns': 38909335, 'latency': 16}
+INFO       2022-08-25 10:48:29,479: Sending topic 'field' as :variables={'currentTimestep': 10, 'currentTime': 10.0, 'totalTimestepsRun': 15, 'versions': 2, 'sent_time_ns': 38909463, 'recv_time_ns': 38909479, 'latency': 16}
+INFO       2022-08-25 10:48:29,639: Sending topic 'field' as :variables={'currentTimestep': 11, 'currentTime': 11.0, 'totalTimestepsRun': 16, 'versions': 2, 'sent_time_ns': 38909623, 'recv_time_ns': 38909639, 'latency': 16}
+INFO       2022-08-25 10:48:29,812: Sending topic 'field' as :variables={'currentTimestep': 12, 'currentTime': 12.0, 'totalTimestepsRun': 17, 'versions': 2, 'sent_time_ns': 38909783, 'recv_time_ns': 38909812, 'latency': 29}
+INFO       2022-08-25 10:48:29,968: Sending topic 'field' as :variables={'currentTimestep': 13, 'currentTime': 13.0, 'totalTimestepsRun': 18, 'versions': 2, 'sent_time_ns': 38909952, 'recv_time_ns': 38909968, 'latency': 16}
+INFO       2022-08-25 10:48:30,092: Sending topic 'field' as :variables={'currentTimestep': 14, 'currentTime': 14.0, 'totalTimestepsRun': 19, 'versions': 2, 'sent_time_ns': 38910076, 'recv_time_ns': 38910092, 'latency': 16}
+INFO       2022-08-25 10:48:30,228: Sending topic 'field' as :variables={'currentTimestep': 15, 'currentTime': 15.0, 'totalTimestepsRun': 20, 'versions': 2, 'sent_time_ns': 38910212, 'recv_time_ns': 38910228, 'latency': 16}
+INFO       2022-08-25 10:48:30,416: Sending topic 'field' as :variables={'currentTimestep': 16, 'currentTime': 16.0, 'totalTimestepsRun': 21, 'versions': 2, 'sent_time_ns': 38910400, 'recv_time_ns': 38910416, 'latency': 16}
+INFO       2022-08-25 10:48:30,612: Sending topic 'field' as :variables={'currentTimestep': 17, 'currentTime': 17.0, 'totalTimestepsRun': 22, 'versions': 2, 'sent_time_ns': 38910588, 'recv_time_ns': 38910612, 'latency': 24}
+INFO       2022-08-25 10:48:30,764: Sending topic 'field' as :variables={'currentTimestep': 18, 'currentTime': 18.0, 'totalTimestepsRun': 23, 'versions': 2, 'sent_time_ns': 38910748, 'recv_time_ns': 38910764, 'latency': 16}
+INFO       2022-08-25 10:48:30,924: Sending topic 'field' as :variables={'currentTimestep': 19, 'currentTime': 19.0, 'totalTimestepsRun': 24, 'versions': 2, 'sent_time_ns': 38910892, 'recv_time_ns': 38910924, 'latency': 32}
+INFO       2022-08-25 10:48:31,084: Sending topic 'field' as :variables={'currentTimestep': 20, 'currentTime': 20.0, 'totalTimestepsRun': 25, 'versions': 2, 'sent_time_ns': 38911068, 'recv_time_ns': 38911084, 'latency': 16}
+INFO       2022-08-25 10:48:31,224: Sending topic 'field' as :variables={'currentTimestep': 21, 'currentTime': 21.0, 'totalTimestepsRun': 26, 'versions': 2, 'sent_time_ns': 38911212, 'recv_time_ns': 38911224, 'latency': 12}
+INFO       2022-08-25 10:48:31,352: Sending topic 'field' as :variables={'currentTimestep': 22, 'currentTime': 22.0, 'totalTimestepsRun': 27, 'versions': 2, 'sent_time_ns': 38911336, 'recv_time_ns': 38911352, 'latency': 16}
+INFO       2022-08-25 10:48:31,512: Sending topic 'field' as :variables={'currentTimestep': 23, 'currentTime': 23.0, 'totalTimestepsRun': 28, 'versions': 2, 'sent_time_ns': 38911496, 'recv_time_ns': 38911512, 'latency': 16}
+INFO       2022-08-25 10:48:31,680: Sending topic 'field' as :variables={'currentTimestep': 24, 'currentTime': 24.0, 'totalTimestepsRun': 29, 'versions': 2, 'sent_time_ns': 38911664, 'recv_time_ns': 38911680, 'latency': 16}
+INFO       2022-08-25 10:48:31,856: Sending topic 'field' as :variables={'currentTimestep': 25, 'currentTime': 25.0, 'totalTimestepsRun': 30, 'versions': 2, 'sent_time_ns': 38911840, 'recv_time_ns': 38911856, 'latency': 16}
+INFO       2022-08-25 10:48:31,996: Sending topic 'field' as :variables={'currentTimestep': 26, 'currentTime': 26.0, 'totalTimestepsRun': 31, 'versions': 2, 'sent_time_ns': 38911980, 'recv_time_ns': 38911996, 'latency': 16}
+INFO       2022-08-25 10:48:32,120: Sending topic 'field' as :variables={'currentTimestep': 27, 'currentTime': 27.0, 'totalTimestepsRun': 32, 'versions': 2, 'sent_time_ns': 38912104, 'recv_time_ns': 38912120, 'latency': 16}
+INFO       2022-08-25 10:48:32,291: Sending topic 'field' as :variables={'currentTimestep': 28, 'currentTime': 28.0, 'totalTimestepsRun': 33, 'versions': 2, 'sent_time_ns': 38912259, 'recv_time_ns': 38912291, 'latency': 32}
+INFO       2022-08-25 10:48:32,445: Sending topic 'field' as :variables={'currentTimestep': 29, 'currentTime': 29.0, 'totalTimestepsRun': 34, 'versions': 2, 'sent_time_ns': 38912430, 'recv_time_ns': 38912445, 'latency': 15}
+INFO       2022-08-25 10:48:32,612: Sending topic 'field' as :variables={'currentTimestep': 30, 'currentTime': 30.0, 'totalTimestepsRun': 35, 'versions': 2, 'sent_time_ns': 38912596, 'recv_time_ns': 38912612, 'latency': 16}
+INFO       2022-08-25 10:48:32,768: Sending topic 'field' as :variables={'currentTimestep': 31, 'currentTime': 31.0, 'totalTimestepsRun': 36, 'versions': 2, 'sent_time_ns': 38912752, 'recv_time_ns': 38912768, 'latency': 16}
+INFO       2022-08-25 10:48:32,909: Sending topic 'field' as :variables={'currentTimestep': 32, 'currentTime': 32.0, 'totalTimestepsRun': 37, 'versions': 2, 'sent_time_ns': 38912893, 'recv_time_ns': 38912909, 'latency': 16}
+INFO       2022-08-25 10:48:33,065: Sending topic 'field' as :variables={'currentTimestep': 33, 'currentTime': 33.0, 'totalTimestepsRun': 38, 'versions': 2, 'sent_time_ns': 38913050, 'recv_time_ns': 38913065, 'latency': 15}
+INFO       2022-08-25 10:48:33,240: Sending topic 'field' as :variables={'currentTimestep': 34, 'currentTime': 34.0, 'totalTimestepsRun': 39, 'versions': 2, 'sent_time_ns': 38913223, 'recv_time_ns': 38913240, 'latency': 17}
+INFO       2022-08-25 10:48:33,397: Sending topic 'field' as :variables={'currentTimestep': 35, 'currentTime': 35.0, 'totalTimestepsRun': 40, 'versions': 2, 'sent_time_ns': 38913381, 'recv_time_ns': 38913397, 'latency': 16}
+INFO       2022-08-25 10:48:33,537: Sending topic 'field' as :variables={'currentTimestep': 36, 'currentTime': 36.0, 'totalTimestepsRun': 41, 'versions': 2, 'sent_time_ns': 38913525, 'recv_time_ns': 38913537, 'latency': 12}
+INFO       2022-08-25 10:48:33,681: Sending topic 'field' as :variables={'currentTimestep': 37, 'currentTime': 37.0, 'totalTimestepsRun': 42, 'versions': 2, 'sent_time_ns': 38913665, 'recv_time_ns': 38913681, 'latency': 16}
+INFO       2022-08-25 10:48:33,813: Sending topic 'field' as :variables={'currentTimestep': 38, 'currentTime': 38.0, 'totalTimestepsRun': 43, 'versions': 2, 'sent_time_ns': 38913797, 'recv_time_ns': 38913813, 'latency': 16}
+INFO       2022-08-25 10:48:33,969: Sending topic 'field' as :variables={'currentTimestep': 39, 'currentTime': 39.0, 'totalTimestepsRun': 44, 'versions': 2, 'sent_time_ns': 38913957, 'recv_time_ns': 38913969, 'latency': 12}
+INFO       2022-08-25 10:48:34,142: Sending topic 'field' as :variables={'currentTimestep': 40, 'currentTime': 40.0, 'totalTimestepsRun': 45, 'versions': 2, 'sent_time_ns': 38914125, 'recv_time_ns': 38914142, 'latency': 17}
+INFO       2022-08-25 10:48:34,317: Sending topic 'field' as :variables={'currentTimestep': 41, 'currentTime': 41.0, 'totalTimestepsRun': 46, 'versions': 2, 'sent_time_ns': 38914301, 'recv_time_ns': 38914317, 'latency': 16}
+INFO       2022-08-25 10:48:34,472: Sending topic 'field' as :variables={'currentTimestep': 42, 'currentTime': 42.0, 'totalTimestepsRun': 47, 'versions': 2, 'sent_time_ns': 38914456, 'recv_time_ns': 38914472, 'latency': 16}
+INFO       2022-08-25 10:48:34,630: Sending topic 'field' as :variables={'currentTimestep': 43, 'currentTime': 43.0, 'totalTimestepsRun': 48, 'versions': 2, 'sent_time_ns': 38914614, 'recv_time_ns': 38914630, 'latency': 16}
+INFO       2022-08-25 10:48:34,818: Sending topic 'field' as :variables={'currentTimestep': 44, 'currentTime': 44.0, 'totalTimestepsRun': 49, 'versions': 2, 'sent_time_ns': 38914786, 'recv_time_ns': 38914818, 'latency': 32}
+INFO       2022-08-25 10:48:34,990: Sending topic 'field' as :variables={'currentTimestep': 45, 'currentTime': 45.0, 'totalTimestepsRun': 50, 'versions': 2, 'sent_time_ns': 38914958, 'recv_time_ns': 38914990, 'latency': 32}
+INFO       2022-08-25 10:48:35,127: Sending topic 'field' as :variables={'currentTimestep': 46, 'currentTime': 46.0, 'totalTimestepsRun': 51, 'versions': 2, 'sent_time_ns': 38915111, 'recv_time_ns': 38915127, 'latency': 16}
+INFO       2022-08-25 10:48:35,284: Sending topic 'field' as :variables={'currentTimestep': 47, 'currentTime': 47.0, 'totalTimestepsRun': 52, 'versions': 2, 'sent_time_ns': 38915268, 'recv_time_ns': 38915284, 'latency': 16}
+INFO       2022-08-25 10:48:35,440: Sending topic 'field' as :variables={'currentTimestep': 48, 'currentTime': 48.0, 'totalTimestepsRun': 53, 'versions': 2, 'sent_time_ns': 38915424, 'recv_time_ns': 38915440, 'latency': 16}
+INFO       2022-08-25 10:48:35,576: Sending topic 'field' as :variables={'currentTimestep': 49, 'currentTime': 49.0, 'totalTimestepsRun': 54, 'versions': 2, 'sent_time_ns': 38915560, 'recv_time_ns': 38915576, 'latency': 16}
+INFO       2022-08-25 10:48:35,700: Sending topic 'field' as :variables={'currentTimestep': 50, 'currentTime': 50.0, 'totalTimestepsRun': 55, 'versions': 2, 'sent_time_ns': 38915684, 'recv_time_ns': 38915700, 'latency': 16}
+INFO       2022-08-25 10:48:35,860: Sending topic 'field' as :variables={'currentTimestep': 51, 'currentTime': 51.0, 'totalTimestepsRun': 56, 'versions': 2, 'sent_time_ns': 38915844, 'recv_time_ns': 38915860, 'latency': 16}
+INFO       2022-08-25 10:48:36,007: Sending topic 'field' as :variables={'currentTimestep': 52, 'currentTime': 52.0, 'totalTimestepsRun': 57, 'versions': 2, 'sent_time_ns': 38915991, 'recv_time_ns': 38916007, 'latency': 16}
+INFO       2022-08-25 10:48:36,139: Sending topic 'field' as :variables={'currentTimestep': 53, 'currentTime': 53.0, 'totalTimestepsRun': 58, 'versions': 2, 'sent_time_ns': 38916123, 'recv_time_ns': 38916139, 'latency': 16}
+INFO       2022-08-25 10:48:36,308: Sending topic 'field' as :variables={'currentTimestep': 54, 'currentTime': 54.0, 'totalTimestepsRun': 59, 'versions': 2, 'sent_time_ns': 38916295, 'recv_time_ns': 38916308, 'latency': 13}
+INFO       2022-08-25 10:48:36,456: Sending topic 'field' as :variables={'currentTimestep': 55, 'currentTime': 55.0, 'totalTimestepsRun': 60, 'versions': 2, 'sent_time_ns': 38916440, 'recv_time_ns': 38916456, 'latency': 16}
+INFO       2022-08-25 10:48:36,632: Sending topic 'field' as :variables={'currentTimestep': 56, 'currentTime': 56.0, 'totalTimestepsRun': 61, 'versions': 2, 'sent_time_ns': 38916616, 'recv_time_ns': 38916632, 'latency': 16}
+INFO       2022-08-25 10:48:36,840: Sending topic 'field' as :variables={'currentTimestep': 57, 'currentTime': 57.0, 'totalTimestepsRun': 62, 'versions': 2, 'sent_time_ns': 38916824, 'recv_time_ns': 38916840, 'latency': 16}
+INFO       2022-08-25 10:48:37,016: Sending topic 'field' as :variables={'currentTimestep': 58, 'currentTime': 58.0, 'totalTimestepsRun': 63, 'versions': 2, 'sent_time_ns': 38917000, 'recv_time_ns': 38917016, 'latency': 16}
+INFO       2022-08-25 10:48:37,192: Sending topic 'field' as :variables={'currentTimestep': 59, 'currentTime': 59.0, 'totalTimestepsRun': 64, 'versions': 2, 'sent_time_ns': 38917176, 'recv_time_ns': 38917192, 'latency': 16}
+INFO       2022-08-25 10:48:37,364: Sending topic 'field' as :variables={'currentTimestep': 60, 'currentTime': 60.0, 'totalTimestepsRun': 65, 'versions': 2, 'sent_time_ns': 38917348, 'recv_time_ns': 38917364, 'latency': 16}
+INFO       2022-08-25 10:48:37,548: Sending topic 'field' as :variables={'currentTimestep': 61, 'currentTime': 61.0, 'totalTimestepsRun': 66, 'versions': 2, 'sent_time_ns': 38917536, 'recv_time_ns': 38917548, 'latency': 12}
+INFO       2022-08-25 10:48:37,736: Sending topic 'field' as :variables={'currentTimestep': 62, 'currentTime': 62.0, 'totalTimestepsRun': 67, 'versions': 2, 'sent_time_ns': 38917704, 'recv_time_ns': 38917736, 'latency': 32}
+INFO       2022-08-25 10:48:37,924: Sending topic 'field' as :variables={'currentTimestep': 63, 'currentTime': 63.0, 'totalTimestepsRun': 68, 'versions': 2, 'sent_time_ns': 38917908, 'recv_time_ns': 38917924, 'latency': 16}
+INFO       2022-08-25 10:48:38,108: Sending topic 'field' as :variables={'currentTimestep': 64, 'currentTime': 64.0, 'totalTimestepsRun': 69, 'versions': 2, 'sent_time_ns': 38918092, 'recv_time_ns': 38918108, 'latency': 16}
+INFO       2022-08-25 10:48:38,268: Sending topic 'field' as :variables={'currentTimestep': 65, 'currentTime': 65.0, 'totalTimestepsRun': 70, 'versions': 2, 'sent_time_ns': 38918252, 'recv_time_ns': 38918268, 'latency': 16}
+INFO       2022-08-25 10:48:38,460: Sending topic 'field' as :variables={'currentTimestep': 66, 'currentTime': 66.0, 'totalTimestepsRun': 71, 'versions': 2, 'sent_time_ns': 38918444, 'recv_time_ns': 38918460, 'latency': 16}
+INFO       2022-08-25 10:48:38,608: Sending topic 'field' as :variables={'currentTimestep': 67, 'currentTime': 67.0, 'totalTimestepsRun': 72, 'versions': 2, 'sent_time_ns': 38918596, 'recv_time_ns': 38918608, 'latency': 12}
+INFO       2022-08-25 10:48:38,807: Sending topic 'field' as :variables={'currentTimestep': 68, 'currentTime': 68.0, 'totalTimestepsRun': 73, 'versions': 2, 'sent_time_ns': 38918791, 'recv_time_ns': 38918807, 'latency': 16}
+INFO       2022-08-25 10:48:38,968: Sending topic 'field' as :variables={'currentTimestep': 69, 'currentTime': 69.0, 'totalTimestepsRun': 74, 'versions': 2, 'sent_time_ns': 38918952, 'recv_time_ns': 38918968, 'latency': 16}
+INFO       2022-08-25 10:48:39,128: Sending topic 'field' as :variables={'currentTimestep': 70, 'currentTime': 70.0, 'totalTimestepsRun': 75, 'versions': 2, 'sent_time_ns': 38919112, 'recv_time_ns': 38919128, 'latency': 16}
+INFO       2022-08-25 10:48:39,312: Sending topic 'field' as :variables={'currentTimestep': 71, 'currentTime': 71.0, 'totalTimestepsRun': 76, 'versions': 2, 'sent_time_ns': 38919296, 'recv_time_ns': 38919312, 'latency': 16}
+INFO       2022-08-25 10:48:39,516: Sending topic 'field' as :variables={'currentTimestep': 72, 'currentTime': 72.0, 'totalTimestepsRun': 77, 'versions': 2, 'sent_time_ns': 38919500, 'recv_time_ns': 38919516, 'latency': 16}
+INFO       2022-08-25 10:48:39,708: Sending topic 'field' as :variables={'currentTimestep': 73, 'currentTime': 73.0, 'totalTimestepsRun': 78, 'versions': 2, 'sent_time_ns': 38919692, 'recv_time_ns': 38919708, 'latency': 16}
+INFO       2022-08-25 10:48:39,891: Sending topic 'field' as :variables={'currentTimestep': 74, 'currentTime': 74.0, 'totalTimestepsRun': 79, 'versions': 2, 'sent_time_ns': 38919875, 'recv_time_ns': 38919891, 'latency': 16}
+INFO       2022-08-25 10:48:40,064: Sending topic 'field' as :variables={'currentTimestep': 75, 'currentTime': 75.0, 'totalTimestepsRun': 80, 'versions': 2, 'sent_time_ns': 38920048, 'recv_time_ns': 38920064, 'latency': 16}
+INFO       2022-08-25 10:48:40,240: Sending topic 'field' as :variables={'currentTimestep': 76, 'currentTime': 76.0, 'totalTimestepsRun': 81, 'versions': 2, 'sent_time_ns': 38920224, 'recv_time_ns': 38920240, 'latency': 16}
+INFO       2022-08-25 10:48:40,432: Sending topic 'field' as :variables={'currentTimestep': 77, 'currentTime': 77.0, 'totalTimestepsRun': 82, 'versions': 2, 'sent_time_ns': 38920416, 'recv_time_ns': 38920432, 'latency': 16}
+INFO       2022-08-25 10:48:40,624: Sending topic 'field' as :variables={'currentTimestep': 78, 'currentTime': 78.0, 'totalTimestepsRun': 83, 'versions': 2, 'sent_time_ns': 38920608, 'recv_time_ns': 38920624, 'latency': 16}
+INFO       2022-08-25 10:48:40,816: Sending topic 'field' as :variables={'currentTimestep': 79, 'currentTime': 79.0, 'totalTimestepsRun': 84, 'versions': 2, 'sent_time_ns': 38920800, 'recv_time_ns': 38920816, 'latency': 16}
+INFO       2022-08-25 10:48:41,020: Sending topic 'field' as :variables={'currentTimestep': 80, 'currentTime': 80.0, 'totalTimestepsRun': 85, 'versions': 2, 'sent_time_ns': 38921004, 'recv_time_ns': 38921020, 'latency': 16}
+INFO       2022-08-25 10:48:41,211: Sending topic 'field' as :variables={'currentTimestep': 81, 'currentTime': 81.0, 'totalTimestepsRun': 86, 'versions': 2, 'sent_time_ns': 38921195, 'recv_time_ns': 38921211, 'latency': 16}
+INFO       2022-08-25 10:48:41,384: Sending topic 'field' as :variables={'currentTimestep': 82, 'currentTime': 82.0, 'totalTimestepsRun': 87, 'versions': 2, 'sent_time_ns': 38921368, 'recv_time_ns': 38921384, 'latency': 16}
+INFO       2022-08-25 10:48:41,524: Sending topic 'field' as :variables={'currentTimestep': 83, 'currentTime': 83.0, 'totalTimestepsRun': 88, 'versions': 2, 'sent_time_ns': 38921508, 'recv_time_ns': 38921524, 'latency': 16}
+INFO       2022-08-25 10:48:41,708: Sending topic 'field' as :variables={'currentTimestep': 84, 'currentTime': 84.0, 'totalTimestepsRun': 89, 'versions': 2, 'sent_time_ns': 38921692, 'recv_time_ns': 38921708, 'latency': 16}
+INFO       2022-08-25 10:48:41,880: Sending topic 'field' as :variables={'currentTimestep': 85, 'currentTime': 85.0, 'totalTimestepsRun': 90, 'versions': 2, 'sent_time_ns': 38921864, 'recv_time_ns': 38921880, 'latency': 16}
+INFO       2022-08-25 10:48:42,068: Sending topic 'field' as :variables={'currentTimestep': 86, 'currentTime': 86.0, 'totalTimestepsRun': 91, 'versions': 2, 'sent_time_ns': 38922052, 'recv_time_ns': 38922068, 'latency': 16}
+INFO       2022-08-25 10:48:42,260: Sending topic 'field' as :variables={'currentTimestep': 87, 'currentTime': 87.0, 'totalTimestepsRun': 92, 'versions': 2, 'sent_time_ns': 38922244, 'recv_time_ns': 38922260, 'latency': 16}
+INFO       2022-08-25 10:48:42,452: Sending topic 'field' as :variables={'currentTimestep': 88, 'currentTime': 88.0, 'totalTimestepsRun': 93, 'versions': 2, 'sent_time_ns': 38922436, 'recv_time_ns': 38922452, 'latency': 16}
+INFO       2022-08-25 10:48:42,607: Sending topic 'field' as :variables={'currentTimestep': 89, 'currentTime': 89.0, 'totalTimestepsRun': 94, 'versions': 2, 'sent_time_ns': 38922591, 'recv_time_ns': 38922607, 'latency': 16}
+INFO       2022-08-25 10:48:42,792: Sending topic 'field' as :variables={'currentTimestep': 90, 'currentTime': 90.0, 'totalTimestepsRun': 95, 'versions': 2, 'sent_time_ns': 38922776, 'recv_time_ns': 38922792, 'latency': 16}
+INFO       2022-08-25 10:48:42,984: Sending topic 'field' as :variables={'currentTimestep': 91, 'currentTime': 91.0, 'totalTimestepsRun': 96, 'versions': 2, 'sent_time_ns': 38922968, 'recv_time_ns': 38922984, 'latency': 16}
+INFO       2022-08-25 10:48:43,176: Sending topic 'field' as :variables={'currentTimestep': 92, 'currentTime': 92.0, 'totalTimestepsRun': 97, 'versions': 2, 'sent_time_ns': 38923160, 'recv_time_ns': 38923176, 'latency': 16}
+INFO       2022-08-25 10:48:43,348: Sending topic 'field' as :variables={'currentTimestep': 93, 'currentTime': 93.0, 'totalTimestepsRun': 98, 'versions': 2, 'sent_time_ns': 38923332, 'recv_time_ns': 38923348, 'latency': 16}
+INFO       2022-08-25 10:48:43,520: Sending topic 'field' as :variables={'currentTimestep': 94, 'currentTime': 94.0, 'totalTimestepsRun': 99, 'versions': 2, 'sent_time_ns': 38923504, 'recv_time_ns': 38923520, 'latency': 16}
+INFO       2022-08-25 10:48:43,720: Sending topic 'field' as :variables={'currentTimestep': 95, 'currentTime': 95.0, 'totalTimestepsRun': 100, 'versions': 2, 'sent_time_ns': 38923704, 'recv_time_ns': 38923720, 'latency': 16}
+INFO       2022-08-25 10:48:43,895: Sending topic 'field' as :variables={'currentTimestep': 96, 'currentTime': 96.0, 'totalTimestepsRun': 101, 'versions': 2, 'sent_time_ns': 38923880, 'recv_time_ns': 38923895, 'latency': 15}
+INFO       2022-08-25 10:48:44,092: Sending topic 'field' as :variables={'currentTimestep': 97, 'currentTime': 97.0, 'totalTimestepsRun': 102, 'versions': 2, 'sent_time_ns': 38924076, 'recv_time_ns': 38924092, 'latency': 16}
+INFO       2022-08-25 10:48:44,252: Sending topic 'field' as :variables={'currentTimestep': 98, 'currentTime': 98.0, 'totalTimestepsRun': 103, 'versions': 2, 'sent_time_ns': 38924236, 'recv_time_ns': 38924252, 'latency': 16}
+INFO       2022-08-25 10:48:44,452: Sending topic 'field' as :variables={'currentTimestep': 99, 'currentTime': 99.0, 'totalTimestepsRun': 104, 'versions': 2, 'sent_time_ns': 38924436, 'recv_time_ns': 38924452, 'latency': 16}
+INFO       2022-08-25 10:48:44,636: Sending topic 'field' as :variables={'currentTimestep': 100, 'currentTime': 100.0, 'totalTimestepsRun': 105, 'versions': 2, 'sent_time_ns': 38924620, 'recv_time_ns': 38924636, 'latency': 16}
+INFO       2022-08-25 10:48:44,824: Sending topic 'field' as :variables={'currentTimestep': 101, 'currentTime': 101.0, 'totalTimestepsRun': 106, 'versions': 2, 'sent_time_ns': 38924808, 'recv_time_ns': 38924824, 'latency': 16}
+INFO       2022-08-25 10:48:44,980: Sending topic 'field' as :variables={'currentTimestep': 102, 'currentTime': 102.0, 'totalTimestepsRun': 107, 'versions': 2, 'sent_time_ns': 38924964, 'recv_time_ns': 38924980, 'latency': 16}
+INFO       2022-08-25 10:48:45,156: Sending topic 'field' as :variables={'currentTimestep': 103, 'currentTime': 103.0, 'totalTimestepsRun': 108, 'versions': 2, 'sent_time_ns': 38925140, 'recv_time_ns': 38925156, 'latency': 16}
+INFO       2022-08-25 10:48:45,346: Sending topic 'field' as :variables={'currentTimestep': 104, 'currentTime': 104.0, 'totalTimestepsRun': 109, 'versions': 2, 'sent_time_ns': 38925330, 'recv_time_ns': 38925346, 'latency': 16}
+INFO       2022-08-25 10:48:45,538: Sending topic 'field' as :variables={'currentTimestep': 105, 'currentTime': 105.0, 'totalTimestepsRun': 110, 'versions': 2, 'sent_time_ns': 38925522, 'recv_time_ns': 38925538, 'latency': 16}
+INFO       2022-08-25 10:48:45,714: Sending topic 'field' as :variables={'currentTimestep': 106, 'currentTime': 106.0, 'totalTimestepsRun': 111, 'versions': 2, 'sent_time_ns': 38925698, 'recv_time_ns': 38925714, 'latency': 16}
+INFO       2022-08-25 10:48:45,906: Sending topic 'field' as :variables={'currentTimestep': 107, 'currentTime': 107.0, 'totalTimestepsRun': 112, 'versions': 2, 'sent_time_ns': 38925890, 'recv_time_ns': 38925906, 'latency': 16}
+INFO       2022-08-25 10:48:46,114: Sending topic 'field' as :variables={'currentTimestep': 108, 'currentTime': 108.0, 'totalTimestepsRun': 113, 'versions': 2, 'sent_time_ns': 38926097, 'recv_time_ns': 38926114, 'latency': 17}
+INFO       2022-08-25 10:48:46,310: Sending topic 'field' as :variables={'currentTimestep': 109, 'currentTime': 109.0, 'totalTimestepsRun': 114, 'versions': 2, 'sent_time_ns': 38926294, 'recv_time_ns': 38926310, 'latency': 16}
+INFO       2022-08-25 10:48:46,498: Sending topic 'field' as :variables={'currentTimestep': 110, 'currentTime': 110.0, 'totalTimestepsRun': 115, 'versions': 2, 'sent_time_ns': 38926482, 'recv_time_ns': 38926498, 'latency': 16}
+INFO       2022-08-25 10:48:46,703: Sending topic 'field' as :variables={'currentTimestep': 111, 'currentTime': 111.0, 'totalTimestepsRun': 116, 'versions': 2, 'sent_time_ns': 38926686, 'recv_time_ns': 38926703, 'latency': 17}
+INFO       2022-08-25 10:48:46,875: Sending topic 'field' as :variables={'currentTimestep': 112, 'currentTime': 112.0, 'totalTimestepsRun': 117, 'versions': 2, 'sent_time_ns': 38926859, 'recv_time_ns': 38926875, 'latency': 16}
+INFO       2022-08-25 10:48:47,047: Sending topic 'field' as :variables={'currentTimestep': 113, 'currentTime': 113.0, 'totalTimestepsRun': 118, 'versions': 2, 'sent_time_ns': 38927015, 'recv_time_ns': 38927047, 'latency': 32}
+INFO       2022-08-25 10:48:47,187: Sending topic 'field' as :variables={'currentTimestep': 114, 'currentTime': 114.0, 'totalTimestepsRun': 119, 'versions': 2, 'sent_time_ns': 38927175, 'recv_time_ns': 38927187, 'latency': 12}
+INFO       2022-08-25 10:48:47,391: Sending topic 'field' as :variables={'currentTimestep': 115, 'currentTime': 115.0, 'totalTimestepsRun': 120, 'versions': 2, 'sent_time_ns': 38927375, 'recv_time_ns': 38927391, 'latency': 16}
+INFO       2022-08-25 10:48:47,567: Sending topic 'field' as :variables={'currentTimestep': 116, 'currentTime': 116.0, 'totalTimestepsRun': 121, 'versions': 2, 'sent_time_ns': 38927551, 'recv_time_ns': 38927567, 'latency': 16}
+INFO       2022-08-25 10:48:47,655: Sending topic 'field' as :variables={'currentTimestep': 20, 'currentTime': 20, 'totalTimestepsRun': 121, 'versions': 1, 'sent_time_ns': 38927655, 'recv_time_ns': 38927655, 'latency': 0}
+DEBUG      2022-08-25 10:48:47,655: Received Updation : variables={'currentTimestep': 20, 'currentTime': 20, 'totalTimestepsRun': 121, 'versions': 1, 'sent_time_ns': 38927655, 'recv_time_ns': 38927655, 'latency': 0}
+INFO       2022-08-25 10:48:47,743: Sending topic 'field' as :variables={'currentTimestep': 21, 'currentTime': 21.0, 'totalTimestepsRun': 122, 'versions': 2, 'sent_time_ns': 38927727, 'recv_time_ns': 38927743, 'latency': 16}
+DEBUG      2022-08-25 10:48:47,743: Received Updation : variables={'currentTimestep': 21, 'currentTime': 21.0, 'totalTimestepsRun': 122, 'versions': 2, 'sent_time_ns': 38927727, 'recv_time_ns': 38927743, 'latency': 16}
+INFO       2022-08-25 10:48:47,835: Sending topic 'field' as :variables={'currentTimestep': 22, 'currentTime': 22.0, 'totalTimestepsRun': 123, 'versions': 3, 'sent_time_ns': 38927819, 'recv_time_ns': 38927835, 'latency': 16}
+INFO       2022-08-25 10:48:47,929: Sending topic 'field' as :variables={'currentTimestep': 23, 'currentTime': 23.0, 'totalTimestepsRun': 124, 'versions': 3, 'sent_time_ns': 38927912, 'recv_time_ns': 38927928, 'latency': 16}
+INFO       2022-08-25 10:48:48,019: Sending topic 'field' as :variables={'currentTimestep': 24, 'currentTime': 24.0, 'totalTimestepsRun': 125, 'versions': 3, 'sent_time_ns': 38928003, 'recv_time_ns': 38928019, 'latency': 16}
+INFO       2022-08-25 10:48:48,113: Sending topic 'field' as :variables={'currentTimestep': 25, 'currentTime': 25.0, 'totalTimestepsRun': 126, 'versions': 3, 'sent_time_ns': 38928097, 'recv_time_ns': 38928113, 'latency': 16}
+INFO       2022-08-25 10:48:48,209: Sending topic 'field' as :variables={'currentTimestep': 26, 'currentTime': 26.0, 'totalTimestepsRun': 127, 'versions': 3, 'sent_time_ns': 38928193, 'recv_time_ns': 38928209, 'latency': 16}
+INFO       2022-08-25 10:48:48,289: Sending topic 'field' as :variables={'currentTimestep': 27, 'currentTime': 27.0, 'totalTimestepsRun': 128, 'versions': 3, 'sent_time_ns': 38928273, 'recv_time_ns': 38928289, 'latency': 16}
+INFO       2022-08-25 10:48:48,425: Sending topic 'field' as :variables={'currentTimestep': 28, 'currentTime': 28.0, 'totalTimestepsRun': 129, 'versions': 3, 'sent_time_ns': 38928409, 'recv_time_ns': 38928425, 'latency': 16}
+INFO       2022-08-25 10:48:48,537: Sending topic 'field' as :variables={'currentTimestep': 29, 'currentTime': 29.0, 'totalTimestepsRun': 130, 'versions': 3, 'sent_time_ns': 38928521, 'recv_time_ns': 38928537, 'latency': 16}
+INFO       2022-08-25 10:48:48,649: Sending topic 'field' as :variables={'currentTimestep': 30, 'currentTime': 30.0, 'totalTimestepsRun': 131, 'versions': 3, 'sent_time_ns': 38928633, 'recv_time_ns': 38928649, 'latency': 16}
+INFO       2022-08-25 10:48:48,725: Sending topic 'field' as :variables={'currentTimestep': 31, 'currentTime': 31.0, 'totalTimestepsRun': 132, 'versions': 3, 'sent_time_ns': 38928709, 'recv_time_ns': 38928725, 'latency': 16}
+INFO       2022-08-25 10:48:48,833: Sending topic 'field' as :variables={'currentTimestep': 32, 'currentTime': 32.0, 'totalTimestepsRun': 133, 'versions': 3, 'sent_time_ns': 38928817, 'recv_time_ns': 38928833, 'latency': 16}
+INFO       2022-08-25 10:48:48,941: Sending topic 'field' as :variables={'currentTimestep': 33, 'currentTime': 33.0, 'totalTimestepsRun': 134, 'versions': 3, 'sent_time_ns': 38928929, 'recv_time_ns': 38928941, 'latency': 12}
+INFO       2022-08-25 10:48:49,065: Sending topic 'field' as :variables={'currentTimestep': 34, 'currentTime': 34.0, 'totalTimestepsRun': 135, 'versions': 3, 'sent_time_ns': 38929049, 'recv_time_ns': 38929065, 'latency': 16}
+INFO       2022-08-25 10:48:49,173: Sending topic 'field' as :variables={'currentTimestep': 35, 'currentTime': 35.0, 'totalTimestepsRun': 136, 'versions': 3, 'sent_time_ns': 38929157, 'recv_time_ns': 38929173, 'latency': 16}
+INFO       2022-08-25 10:48:49,285: Sending topic 'field' as :variables={'currentTimestep': 36, 'currentTime': 36.0, 'totalTimestepsRun': 137, 'versions': 3, 'sent_time_ns': 38929269, 'recv_time_ns': 38929285, 'latency': 16}
+INFO       2022-08-25 10:48:49,391: Sending topic 'field' as :variables={'currentTimestep': 37, 'currentTime': 37.0, 'totalTimestepsRun': 138, 'versions': 3, 'sent_time_ns': 38929375, 'recv_time_ns': 38929391, 'latency': 16}
+INFO       2022-08-25 10:48:49,496: Sending topic 'field' as :variables={'currentTimestep': 38, 'currentTime': 38.0, 'totalTimestepsRun': 139, 'versions': 3, 'sent_time_ns': 38929480, 'recv_time_ns': 38929496, 'latency': 16}
+INFO       2022-08-25 10:48:49,592: Sending topic 'field' as :variables={'currentTimestep': 39, 'currentTime': 39.0, 'totalTimestepsRun': 140, 'versions': 3, 'sent_time_ns': 38929576, 'recv_time_ns': 38929592, 'latency': 16}
+INFO       2022-08-25 10:48:49,716: Sending topic 'field' as :variables={'currentTimestep': 40, 'currentTime': 40.0, 'totalTimestepsRun': 141, 'versions': 3, 'sent_time_ns': 38929684, 'recv_time_ns': 38929716, 'latency': 32}
+INFO       2022-08-25 10:48:49,812: Sending topic 'field' as :variables={'currentTimestep': 41, 'currentTime': 41.0, 'totalTimestepsRun': 142, 'versions': 3, 'sent_time_ns': 38929796, 'recv_time_ns': 38929812, 'latency': 16}
+INFO       2022-08-25 10:48:49,888: Sending topic 'field' as :variables={'currentTimestep': 42, 'currentTime': 42.0, 'totalTimestepsRun': 143, 'versions': 3, 'sent_time_ns': 38929876, 'recv_time_ns': 38929888, 'latency': 12}
+INFO       2022-08-25 10:48:49,996: Sending topic 'field' as :variables={'currentTimestep': 43, 'currentTime': 43.0, 'totalTimestepsRun': 144, 'versions': 3, 'sent_time_ns': 38929980, 'recv_time_ns': 38929996, 'latency': 16}
+INFO       2022-08-25 10:48:50,104: Sending topic 'field' as :variables={'currentTimestep': 44, 'currentTime': 44.0, 'totalTimestepsRun': 145, 'versions': 3, 'sent_time_ns': 38930088, 'recv_time_ns': 38930104, 'latency': 16}
+INFO       2022-08-25 10:48:50,232: Sending topic 'field' as :variables={'currentTimestep': 45, 'currentTime': 45.0, 'totalTimestepsRun': 146, 'versions': 3, 'sent_time_ns': 38930200, 'recv_time_ns': 38930232, 'latency': 32}
+INFO       2022-08-25 10:48:50,328: Sending topic 'field' as :variables={'currentTimestep': 46, 'currentTime': 46.0, 'totalTimestepsRun': 147, 'versions': 3, 'sent_time_ns': 38930312, 'recv_time_ns': 38930328, 'latency': 16}
+INFO       2022-08-25 10:48:50,440: Sending topic 'field' as :variables={'currentTimestep': 47, 'currentTime': 47.0, 'totalTimestepsRun': 148, 'versions': 3, 'sent_time_ns': 38930424, 'recv_time_ns': 38930440, 'latency': 16}
+INFO       2022-08-25 10:48:50,562: Sending topic 'field' as :variables={'currentTimestep': 48, 'currentTime': 48.0, 'totalTimestepsRun': 149, 'versions': 3, 'sent_time_ns': 38930546, 'recv_time_ns': 38930562, 'latency': 16}
+INFO       2022-08-25 10:48:50,674: Sending topic 'field' as :variables={'currentTimestep': 49, 'currentTime': 49.0, 'totalTimestepsRun': 150, 'versions': 3, 'sent_time_ns': 38930658, 'recv_time_ns': 38930674, 'latency': 16}
+INFO       2022-08-25 10:48:50,783: Sending topic 'field' as :variables={'currentTimestep': 50, 'currentTime': 50.0, 'totalTimestepsRun': 151, 'versions': 3, 'sent_time_ns': 38930771, 'recv_time_ns': 38930783, 'latency': 12}
+INFO       2022-08-25 10:48:50,907: Sending topic 'field' as :variables={'currentTimestep': 51, 'currentTime': 51.0, 'totalTimestepsRun': 152, 'versions': 3, 'sent_time_ns': 38930891, 'recv_time_ns': 38930907, 'latency': 16}
+INFO       2022-08-25 10:48:51,028: Sending topic 'field' as :variables={'currentTimestep': 52, 'currentTime': 52.0, 'totalTimestepsRun': 153, 'versions': 3, 'sent_time_ns': 38931015, 'recv_time_ns': 38931028, 'latency': 13}
+INFO       2022-08-25 10:48:51,138: Sending topic 'field' as :variables={'currentTimestep': 53, 'currentTime': 53.0, 'totalTimestepsRun': 154, 'versions': 3, 'sent_time_ns': 38931122, 'recv_time_ns': 38931138, 'latency': 16}
+INFO       2022-08-25 10:48:51,248: Sending topic 'field' as :variables={'currentTimestep': 54, 'currentTime': 54.0, 'totalTimestepsRun': 155, 'versions': 3, 'sent_time_ns': 38931232, 'recv_time_ns': 38931248, 'latency': 16}
+INFO       2022-08-25 10:48:51,388: Sending topic 'field' as :variables={'currentTimestep': 55, 'currentTime': 55.0, 'totalTimestepsRun': 156, 'versions': 3, 'sent_time_ns': 38931372, 'recv_time_ns': 38931388, 'latency': 16}
+INFO       2022-08-25 10:48:51,524: Sending topic 'field' as :variables={'currentTimestep': 56, 'currentTime': 56.0, 'totalTimestepsRun': 157, 'versions': 3, 'sent_time_ns': 38931508, 'recv_time_ns': 38931524, 'latency': 16}
+INFO       2022-08-25 10:48:51,692: Sending topic 'field' as :variables={'currentTimestep': 57, 'currentTime': 57.0, 'totalTimestepsRun': 158, 'versions': 3, 'sent_time_ns': 38931676, 'recv_time_ns': 38931692, 'latency': 16}
+INFO       2022-08-25 10:48:51,820: Sending topic 'field' as :variables={'currentTimestep': 58, 'currentTime': 58.0, 'totalTimestepsRun': 159, 'versions': 3, 'sent_time_ns': 38931804, 'recv_time_ns': 38931820, 'latency': 16}
+INFO       2022-08-25 10:48:51,980: Sending topic 'field' as :variables={'currentTimestep': 59, 'currentTime': 59.0, 'totalTimestepsRun': 160, 'versions': 3, 'sent_time_ns': 38931964, 'recv_time_ns': 38931980, 'latency': 16}
+INFO       2022-08-25 10:48:52,135: Sending topic 'field' as :variables={'currentTimestep': 60, 'currentTime': 60.0, 'totalTimestepsRun': 161, 'versions': 3, 'sent_time_ns': 38932119, 'recv_time_ns': 38932135, 'latency': 16}
+INFO       2022-08-25 10:48:52,276: Sending topic 'field' as :variables={'currentTimestep': 61, 'currentTime': 61.0, 'totalTimestepsRun': 162, 'versions': 3, 'sent_time_ns': 38932260, 'recv_time_ns': 38932276, 'latency': 16}
+INFO       2022-08-25 10:48:52,449: Sending topic 'field' as :variables={'currentTimestep': 62, 'currentTime': 62.0, 'totalTimestepsRun': 163, 'versions': 3, 'sent_time_ns': 38932433, 'recv_time_ns': 38932449, 'latency': 16}
+INFO       2022-08-25 10:48:52,604: Sending topic 'field' as :variables={'currentTimestep': 63, 'currentTime': 63.0, 'totalTimestepsRun': 164, 'versions': 3, 'sent_time_ns': 38932592, 'recv_time_ns': 38932604, 'latency': 12}
+INFO       2022-08-25 10:48:52,776: Sending topic 'field' as :variables={'currentTimestep': 64, 'currentTime': 64.0, 'totalTimestepsRun': 165, 'versions': 3, 'sent_time_ns': 38932764, 'recv_time_ns': 38932776, 'latency': 12}
+INFO       2022-08-25 10:48:52,952: Sending topic 'field' as :variables={'currentTimestep': 65, 'currentTime': 65.0, 'totalTimestepsRun': 166, 'versions': 3, 'sent_time_ns': 38932936, 'recv_time_ns': 38932952, 'latency': 16}
+INFO       2022-08-25 10:48:53,112: Sending topic 'field' as :variables={'currentTimestep': 66, 'currentTime': 66.0, 'totalTimestepsRun': 167, 'versions': 3, 'sent_time_ns': 38933096, 'recv_time_ns': 38933112, 'latency': 16}
+INFO       2022-08-25 10:48:53,272: Sending topic 'field' as :variables={'currentTimestep': 67, 'currentTime': 67.0, 'totalTimestepsRun': 168, 'versions': 3, 'sent_time_ns': 38933256, 'recv_time_ns': 38933272, 'latency': 16}
+INFO       2022-08-25 10:48:53,427: Sending topic 'field' as :variables={'currentTimestep': 68, 'currentTime': 68.0, 'totalTimestepsRun': 169, 'versions': 3, 'sent_time_ns': 38933414, 'recv_time_ns': 38933427, 'latency': 13}
+INFO       2022-08-25 10:48:53,564: Sending topic 'field' as :variables={'currentTimestep': 69, 'currentTime': 69.0, 'totalTimestepsRun': 170, 'versions': 3, 'sent_time_ns': 38933548, 'recv_time_ns': 38933564, 'latency': 16}
+INFO       2022-08-25 10:48:53,699: Sending topic 'field' as :variables={'currentTimestep': 70, 'currentTime': 70.0, 'totalTimestepsRun': 171, 'versions': 3, 'sent_time_ns': 38933683, 'recv_time_ns': 38933699, 'latency': 16}
+INFO       2022-08-25 10:48:53,836: Sending topic 'field' as :variables={'currentTimestep': 71, 'currentTime': 71.0, 'totalTimestepsRun': 172, 'versions': 3, 'sent_time_ns': 38933820, 'recv_time_ns': 38933836, 'latency': 16}
+INFO       2022-08-25 10:48:53,964: Sending topic 'field' as :variables={'currentTimestep': 72, 'currentTime': 72.0, 'totalTimestepsRun': 173, 'versions': 3, 'sent_time_ns': 38933948, 'recv_time_ns': 38933964, 'latency': 16}
+INFO       2022-08-25 10:48:54,106: Sending topic 'field' as :variables={'currentTimestep': 73, 'currentTime': 73.0, 'totalTimestepsRun': 174, 'versions': 3, 'sent_time_ns': 38934090, 'recv_time_ns': 38934106, 'latency': 16}
+INFO       2022-08-25 10:48:54,254: Sending topic 'field' as :variables={'currentTimestep': 74, 'currentTime': 74.0, 'totalTimestepsRun': 175, 'versions': 3, 'sent_time_ns': 38934238, 'recv_time_ns': 38934254, 'latency': 16}
+INFO       2022-08-25 10:48:54,414: Sending topic 'field' as :variables={'currentTimestep': 75, 'currentTime': 75.0, 'totalTimestepsRun': 176, 'versions': 3, 'sent_time_ns': 38934398, 'recv_time_ns': 38934414, 'latency': 16}
+INFO       2022-08-25 10:48:54,558: Sending topic 'field' as :variables={'currentTimestep': 76, 'currentTime': 76.0, 'totalTimestepsRun': 177, 'versions': 3, 'sent_time_ns': 38934542, 'recv_time_ns': 38934558, 'latency': 16}
+INFO       2022-08-25 10:48:54,694: Sending topic 'field' as :variables={'currentTimestep': 77, 'currentTime': 77.0, 'totalTimestepsRun': 178, 'versions': 3, 'sent_time_ns': 38934678, 'recv_time_ns': 38934694, 'latency': 16}
+INFO       2022-08-25 10:48:54,851: Sending topic 'field' as :variables={'currentTimestep': 78, 'currentTime': 78.0, 'totalTimestepsRun': 179, 'versions': 3, 'sent_time_ns': 38934834, 'recv_time_ns': 38934851, 'latency': 17}
+INFO       2022-08-25 10:48:55,040: Sending topic 'field' as :variables={'currentTimestep': 79, 'currentTime': 79.0, 'totalTimestepsRun': 180, 'versions': 3, 'sent_time_ns': 38935024, 'recv_time_ns': 38935040, 'latency': 16}
+INFO       2022-08-25 10:48:55,200: Sending topic 'field' as :variables={'currentTimestep': 80, 'currentTime': 80.0, 'totalTimestepsRun': 181, 'versions': 3, 'sent_time_ns': 38935184, 'recv_time_ns': 38935200, 'latency': 16}
+INFO       2022-08-25 10:48:55,340: Sending topic 'field' as :variables={'currentTimestep': 81, 'currentTime': 81.0, 'totalTimestepsRun': 182, 'versions': 3, 'sent_time_ns': 38935324, 'recv_time_ns': 38935340, 'latency': 16}
+INFO       2022-08-25 10:48:55,492: Sending topic 'field' as :variables={'currentTimestep': 82, 'currentTime': 82.0, 'totalTimestepsRun': 183, 'versions': 3, 'sent_time_ns': 38935476, 'recv_time_ns': 38935492, 'latency': 16}
+INFO       2022-08-25 10:48:55,636: Sending topic 'field' as :variables={'currentTimestep': 83, 'currentTime': 83.0, 'totalTimestepsRun': 184, 'versions': 3, 'sent_time_ns': 38935620, 'recv_time_ns': 38935636, 'latency': 16}
+INFO       2022-08-25 10:48:55,812: Sending topic 'field' as :variables={'currentTimestep': 84, 'currentTime': 84.0, 'totalTimestepsRun': 185, 'versions': 3, 'sent_time_ns': 38935796, 'recv_time_ns': 38935812, 'latency': 16}
+INFO       2022-08-25 10:48:55,984: Sending topic 'field' as :variables={'currentTimestep': 85, 'currentTime': 85.0, 'totalTimestepsRun': 186, 'versions': 3, 'sent_time_ns': 38935968, 'recv_time_ns': 38935984, 'latency': 16}
+INFO       2022-08-25 10:48:56,135: Sending topic 'field' as :variables={'currentTimestep': 86, 'currentTime': 86.0, 'totalTimestepsRun': 187, 'versions': 3, 'sent_time_ns': 38936119, 'recv_time_ns': 38936135, 'latency': 16}
+INFO       2022-08-25 10:48:56,260: Sending topic 'field' as :variables={'currentTimestep': 87, 'currentTime': 87.0, 'totalTimestepsRun': 188, 'versions': 3, 'sent_time_ns': 38936244, 'recv_time_ns': 38936260, 'latency': 16}
+INFO       2022-08-25 10:48:56,420: Sending topic 'field' as :variables={'currentTimestep': 88, 'currentTime': 88.0, 'totalTimestepsRun': 189, 'versions': 3, 'sent_time_ns': 38936404, 'recv_time_ns': 38936420, 'latency': 16}
+INFO       2022-08-25 10:48:56,576: Sending topic 'field' as :variables={'currentTimestep': 89, 'currentTime': 89.0, 'totalTimestepsRun': 190, 'versions': 3, 'sent_time_ns': 38936560, 'recv_time_ns': 38936576, 'latency': 16}
+INFO       2022-08-25 10:48:56,736: Sending topic 'field' as :variables={'currentTimestep': 90, 'currentTime': 90.0, 'totalTimestepsRun': 191, 'versions': 3, 'sent_time_ns': 38936720, 'recv_time_ns': 38936736, 'latency': 16}
+INFO       2022-08-25 10:48:56,896: Sending topic 'field' as :variables={'currentTimestep': 91, 'currentTime': 91.0, 'totalTimestepsRun': 192, 'versions': 3, 'sent_time_ns': 38936881, 'recv_time_ns': 38936896, 'latency': 15}
+INFO       2022-08-25 10:48:57,072: Sending topic 'field' as :variables={'currentTimestep': 92, 'currentTime': 92.0, 'totalTimestepsRun': 193, 'versions': 3, 'sent_time_ns': 38937056, 'recv_time_ns': 38937072, 'latency': 16}
+INFO       2022-08-25 10:48:57,233: Sending topic 'field' as :variables={'currentTimestep': 93, 'currentTime': 93.0, 'totalTimestepsRun': 194, 'versions': 3, 'sent_time_ns': 38937216, 'recv_time_ns': 38937233, 'latency': 17}
+INFO       2022-08-25 10:48:57,384: Sending topic 'field' as :variables={'currentTimestep': 94, 'currentTime': 94.0, 'totalTimestepsRun': 195, 'versions': 3, 'sent_time_ns': 38937368, 'recv_time_ns': 38937384, 'latency': 16}
+INFO       2022-08-25 10:48:57,536: Sending topic 'field' as :variables={'currentTimestep': 95, 'currentTime': 95.0, 'totalTimestepsRun': 196, 'versions': 3, 'sent_time_ns': 38937520, 'recv_time_ns': 38937536, 'latency': 16}
+INFO       2022-08-25 10:48:57,709: Sending topic 'field' as :variables={'currentTimestep': 96, 'currentTime': 96.0, 'totalTimestepsRun': 197, 'versions': 3, 'sent_time_ns': 38937677, 'recv_time_ns': 38937709, 'latency': 32}
+INFO       2022-08-25 10:48:57,865: Sending topic 'field' as :variables={'currentTimestep': 97, 'currentTime': 97.0, 'totalTimestepsRun': 198, 'versions': 3, 'sent_time_ns': 38937849, 'recv_time_ns': 38937865, 'latency': 16}
+INFO       2022-08-25 10:48:58,021: Sending topic 'field' as :variables={'currentTimestep': 98, 'currentTime': 98.0, 'totalTimestepsRun': 199, 'versions': 3, 'sent_time_ns': 38938005, 'recv_time_ns': 38938021, 'latency': 16}
+INFO       2022-08-25 10:48:58,193: Sending topic 'field' as :variables={'currentTimestep': 99, 'currentTime': 99.0, 'totalTimestepsRun': 200, 'versions': 3, 'sent_time_ns': 38938177, 'recv_time_ns': 38938193, 'latency': 16}
+INFO       2022-08-25 10:48:58,333: Sending topic 'field' as :variables={'currentTimestep': 100, 'currentTime': 100.0, 'totalTimestepsRun': 201, 'versions': 3, 'sent_time_ns': 38938317, 'recv_time_ns': 38938333, 'latency': 16}
+INFO       2022-08-25 10:48:58,473: Sending topic 'field' as :variables={'currentTimestep': 101, 'currentTime': 101.0, 'totalTimestepsRun': 202, 'versions': 3, 'sent_time_ns': 38938457, 'recv_time_ns': 38938473, 'latency': 16}
+INFO       2022-08-25 10:48:58,629: Sending topic 'field' as :variables={'currentTimestep': 102, 'currentTime': 102.0, 'totalTimestepsRun': 203, 'versions': 3, 'sent_time_ns': 38938613, 'recv_time_ns': 38938629, 'latency': 16}
+INFO       2022-08-25 10:48:58,765: Sending topic 'field' as :variables={'currentTimestep': 103, 'currentTime': 103.0, 'totalTimestepsRun': 204, 'versions': 3, 'sent_time_ns': 38938749, 'recv_time_ns': 38938765, 'latency': 16}
+INFO       2022-08-25 10:48:58,889: Sending topic 'field' as :variables={'currentTimestep': 104, 'currentTime': 104.0, 'totalTimestepsRun': 205, 'versions': 3, 'sent_time_ns': 38938873, 'recv_time_ns': 38938889, 'latency': 16}
+INFO       2022-08-25 10:48:58,998: Sending topic 'field' as :variables={'currentTimestep': 105, 'currentTime': 105.0, 'totalTimestepsRun': 206, 'versions': 3, 'sent_time_ns': 38938982, 'recv_time_ns': 38938998, 'latency': 16}
+INFO       2022-08-25 10:48:59,138: Sending topic 'field' as :variables={'currentTimestep': 106, 'currentTime': 106.0, 'totalTimestepsRun': 207, 'versions': 3, 'sent_time_ns': 38939122, 'recv_time_ns': 38939138, 'latency': 16}
+INFO       2022-08-25 10:48:59,294: Sending topic 'field' as :variables={'currentTimestep': 107, 'currentTime': 107.0, 'totalTimestepsRun': 208, 'versions': 3, 'sent_time_ns': 38939278, 'recv_time_ns': 38939294, 'latency': 16}
+INFO       2022-08-25 10:48:59,462: Sending topic 'field' as :variables={'currentTimestep': 108, 'currentTime': 108.0, 'totalTimestepsRun': 209, 'versions': 3, 'sent_time_ns': 38939434, 'recv_time_ns': 38939462, 'latency': 28}
+INFO       2022-08-25 10:48:59,606: Sending topic 'field' as :variables={'currentTimestep': 109, 'currentTime': 109.0, 'totalTimestepsRun': 210, 'versions': 3, 'sent_time_ns': 38939590, 'recv_time_ns': 38939606, 'latency': 16}
+INFO       2022-08-25 10:48:59,765: Sending topic 'field' as :variables={'currentTimestep': 110, 'currentTime': 110.0, 'totalTimestepsRun': 211, 'versions': 3, 'sent_time_ns': 38939749, 'recv_time_ns': 38939765, 'latency': 16}
+INFO       2022-08-25 10:48:59,909: Sending topic 'field' as :variables={'currentTimestep': 111, 'currentTime': 111.0, 'totalTimestepsRun': 212, 'versions': 3, 'sent_time_ns': 38939893, 'recv_time_ns': 38939909, 'latency': 16}
+INFO       2022-08-25 10:49:00,068: Sending topic 'field' as :variables={'currentTimestep': 112, 'currentTime': 112.0, 'totalTimestepsRun': 213, 'versions': 3, 'sent_time_ns': 38940052, 'recv_time_ns': 38940068, 'latency': 16}
+INFO       2022-08-25 10:49:00,252: Sending topic 'field' as :variables={'currentTimestep': 113, 'currentTime': 113.0, 'totalTimestepsRun': 214, 'versions': 3, 'sent_time_ns': 38940236, 'recv_time_ns': 38940252, 'latency': 16}
+INFO       2022-08-25 10:49:00,409: Sending topic 'field' as :variables={'currentTimestep': 114, 'currentTime': 114.0, 'totalTimestepsRun': 215, 'versions': 3, 'sent_time_ns': 38940393, 'recv_time_ns': 38940409, 'latency': 16}
+INFO       2022-08-25 10:49:00,585: Sending topic 'field' as :variables={'currentTimestep': 115, 'currentTime': 115.0, 'totalTimestepsRun': 216, 'versions': 3, 'sent_time_ns': 38940569, 'recv_time_ns': 38940585, 'latency': 16}
+INFO       2022-08-25 10:49:00,753: Sending topic 'field' as :variables={'currentTimestep': 116, 'currentTime': 116.0, 'totalTimestepsRun': 217, 'versions': 3, 'sent_time_ns': 38940737, 'recv_time_ns': 38940753, 'latency': 16}
+INFO       2022-08-25 10:49:00,925: Sending topic 'field' as :variables={'currentTimestep': 117, 'currentTime': 117.0, 'totalTimestepsRun': 218, 'versions': 3, 'sent_time_ns': 38940913, 'recv_time_ns': 38940925, 'latency': 12}
+INFO       2022-08-25 10:49:01,096: Sending topic 'field' as :variables={'currentTimestep': 118, 'currentTime': 118.0, 'totalTimestepsRun': 219, 'versions': 3, 'sent_time_ns': 38941081, 'recv_time_ns': 38941096, 'latency': 15}
+INFO       2022-08-25 10:49:01,269: Sending topic 'field' as :variables={'currentTimestep': 119, 'currentTime': 119.0, 'totalTimestepsRun': 220, 'versions': 3, 'sent_time_ns': 38941253, 'recv_time_ns': 38941269, 'latency': 16}
+INFO       2022-08-25 10:49:01,445: Sending topic 'field' as :variables={'currentTimestep': 120, 'currentTime': 120.0, 'totalTimestepsRun': 221, 'versions': 3, 'sent_time_ns': 38941429, 'recv_time_ns': 38941445, 'latency': 16}
+INFO       2022-08-25 10:49:01,599: Sending topic 'field' as :variables={'currentTimestep': 121, 'currentTime': 121.0, 'totalTimestepsRun': 222, 'versions': 3, 'sent_time_ns': 38941565, 'recv_time_ns': 38941599, 'latency': 34}
+INFO       2022-08-25 10:49:01,753: Sending topic 'field' as :variables={'currentTimestep': 122, 'currentTime': 122.0, 'totalTimestepsRun': 223, 'versions': 3, 'sent_time_ns': 38941737, 'recv_time_ns': 38941753, 'latency': 16}
+INFO       2022-08-25 10:49:01,909: Sending topic 'field' as :variables={'currentTimestep': 123, 'currentTime': 123.0, 'totalTimestepsRun': 224, 'versions': 3, 'sent_time_ns': 38941893, 'recv_time_ns': 38941909, 'latency': 16}
+INFO       2022-08-25 10:49:02,057: Sending topic 'field' as :variables={'currentTimestep': 124, 'currentTime': 124.0, 'totalTimestepsRun': 225, 'versions': 3, 'sent_time_ns': 38942041, 'recv_time_ns': 38942057, 'latency': 16}
+INFO       2022-08-25 10:49:02,217: Sending topic 'field' as :variables={'currentTimestep': 125, 'currentTime': 125.0, 'totalTimestepsRun': 226, 'versions': 3, 'sent_time_ns': 38942201, 'recv_time_ns': 38942217, 'latency': 16}
+INFO       2022-08-25 10:49:02,373: Sending topic 'field' as :variables={'currentTimestep': 126, 'currentTime': 126.0, 'totalTimestepsRun': 227, 'versions': 3, 'sent_time_ns': 38942357, 'recv_time_ns': 38942373, 'latency': 16}
+INFO       2022-08-25 10:49:02,533: Sending topic 'field' as :variables={'currentTimestep': 127, 'currentTime': 127.0, 'totalTimestepsRun': 228, 'versions': 3, 'sent_time_ns': 38942517, 'recv_time_ns': 38942533, 'latency': 16}
+INFO       2022-08-25 10:49:02,685: Sending topic 'field' as :variables={'currentTimestep': 128, 'currentTime': 128.0, 'totalTimestepsRun': 229, 'versions': 3, 'sent_time_ns': 38942669, 'recv_time_ns': 38942685, 'latency': 16}
+INFO       2022-08-25 10:49:02,861: Sending topic 'field' as :variables={'currentTimestep': 129, 'currentTime': 129.0, 'totalTimestepsRun': 230, 'versions': 3, 'sent_time_ns': 38942845, 'recv_time_ns': 38942861, 'latency': 16}
+INFO       2022-08-25 10:49:03,068: Sending topic 'field' as :variables={'currentTimestep': 130, 'currentTime': 130.0, 'totalTimestepsRun': 231, 'versions': 3, 'sent_time_ns': 38943051, 'recv_time_ns': 38943068, 'latency': 17}
+INFO       2022-08-25 10:49:03,240: Sending topic 'field' as :variables={'currentTimestep': 131, 'currentTime': 131.0, 'totalTimestepsRun': 232, 'versions': 3, 'sent_time_ns': 38943224, 'recv_time_ns': 38943240, 'latency': 16}
+INFO       2022-08-25 10:49:03,412: Sending topic 'field' as :variables={'currentTimestep': 132, 'currentTime': 132.0, 'totalTimestepsRun': 233, 'versions': 3, 'sent_time_ns': 38943396, 'recv_time_ns': 38943412, 'latency': 16}
+INFO       2022-08-25 10:49:03,584: Sending topic 'field' as :variables={'currentTimestep': 133, 'currentTime': 133.0, 'totalTimestepsRun': 234, 'versions': 3, 'sent_time_ns': 38943556, 'recv_time_ns': 38943584, 'latency': 28}
+INFO       2022-08-25 10:49:03,708: Sending topic 'field' as :variables={'currentTimestep': 134, 'currentTime': 134.0, 'totalTimestepsRun': 235, 'versions': 3, 'sent_time_ns': 38943692, 'recv_time_ns': 38943708, 'latency': 16}
+INFO       2022-08-25 10:49:03,880: Sending topic 'field' as :variables={'currentTimestep': 135, 'currentTime': 135.0, 'totalTimestepsRun': 236, 'versions': 3, 'sent_time_ns': 38943852, 'recv_time_ns': 38943880, 'latency': 28}
+INFO       2022-08-25 10:49:04,036: Sending topic 'field' as :variables={'currentTimestep': 136, 'currentTime': 136.0, 'totalTimestepsRun': 237, 'versions': 3, 'sent_time_ns': 38944020, 'recv_time_ns': 38944036, 'latency': 16}
+INFO       2022-08-25 10:49:04,188: Sending topic 'field' as :variables={'currentTimestep': 137, 'currentTime': 137.0, 'totalTimestepsRun': 238, 'versions': 3, 'sent_time_ns': 38944172, 'recv_time_ns': 38944188, 'latency': 16}
+INFO       2022-08-25 10:49:04,371: Sending topic 'field' as :variables={'currentTimestep': 138, 'currentTime': 138.0, 'totalTimestepsRun': 239, 'versions': 3, 'sent_time_ns': 38944355, 'recv_time_ns': 38944371, 'latency': 16}
+INFO       2022-08-25 10:49:04,524: Sending topic 'field' as :variables={'currentTimestep': 139, 'currentTime': 139.0, 'totalTimestepsRun': 240, 'versions': 3, 'sent_time_ns': 38944508, 'recv_time_ns': 38944524, 'latency': 16}
+INFO       2022-08-25 10:49:04,664: Sending topic 'field' as :variables={'currentTimestep': 140, 'currentTime': 140.0, 'totalTimestepsRun': 241, 'versions': 3, 'sent_time_ns': 38944648, 'recv_time_ns': 38944664, 'latency': 16}
+INFO       2022-08-25 10:49:04,836: Sending topic 'field' as :variables={'currentTimestep': 141, 'currentTime': 141.0, 'totalTimestepsRun': 242, 'versions': 3, 'sent_time_ns': 38944820, 'recv_time_ns': 38944836, 'latency': 16}
+INFO       2022-08-25 10:49:04,976: Sending topic 'field' as :variables={'currentTimestep': 142, 'currentTime': 142.0, 'totalTimestepsRun': 243, 'versions': 3, 'sent_time_ns': 38944964, 'recv_time_ns': 38944976, 'latency': 12}
+INFO       2022-08-25 10:49:05,148: Sending topic 'field' as :variables={'currentTimestep': 143, 'currentTime': 143.0, 'totalTimestepsRun': 244, 'versions': 3, 'sent_time_ns': 38945132, 'recv_time_ns': 38945148, 'latency': 16}
+INFO       2022-08-25 10:49:05,288: Sending topic 'field' as :variables={'currentTimestep': 144, 'currentTime': 144.0, 'totalTimestepsRun': 245, 'versions': 3, 'sent_time_ns': 38945272, 'recv_time_ns': 38945287, 'latency': 15}
+INFO       2022-08-25 10:49:05,444: Sending topic 'field' as :variables={'currentTimestep': 145, 'currentTime': 145.0, 'totalTimestepsRun': 246, 'versions': 3, 'sent_time_ns': 38945428, 'recv_time_ns': 38945444, 'latency': 16}
+INFO       2022-08-25 10:49:05,600: Sending topic 'field' as :variables={'currentTimestep': 146, 'currentTime': 146.0, 'totalTimestepsRun': 247, 'versions': 3, 'sent_time_ns': 38945584, 'recv_time_ns': 38945600, 'latency': 16}
+INFO       2022-08-25 10:49:05,792: Sending topic 'field' as :variables={'currentTimestep': 147, 'currentTime': 147.0, 'totalTimestepsRun': 248, 'versions': 3, 'sent_time_ns': 38945775, 'recv_time_ns': 38945792, 'latency': 17}
+INFO       2022-08-25 10:49:05,944: Sending topic 'field' as :variables={'currentTimestep': 148, 'currentTime': 148.0, 'totalTimestepsRun': 249, 'versions': 3, 'sent_time_ns': 38945928, 'recv_time_ns': 38945944, 'latency': 16}
+INFO       2022-08-25 10:49:06,096: Sending topic 'field' as :variables={'currentTimestep': 149, 'currentTime': 149.0, 'totalTimestepsRun': 250, 'versions': 3, 'sent_time_ns': 38946069, 'recv_time_ns': 38946096, 'latency': 27}
+INFO       2022-08-25 10:49:06,253: Sending topic 'field' as :variables={'currentTimestep': 150, 'currentTime': 150.0, 'totalTimestepsRun': 251, 'versions': 3, 'sent_time_ns': 38946237, 'recv_time_ns': 38946253, 'latency': 16}
+INFO       2022-08-25 10:49:06,413: Sending topic 'field' as :variables={'currentTimestep': 151, 'currentTime': 151.0, 'totalTimestepsRun': 252, 'versions': 3, 'sent_time_ns': 38946397, 'recv_time_ns': 38946413, 'latency': 16}
+INFO       2022-08-25 10:49:06,585: Sending topic 'field' as :variables={'currentTimestep': 152, 'currentTime': 152.0, 'totalTimestepsRun': 253, 'versions': 3, 'sent_time_ns': 38946569, 'recv_time_ns': 38946585, 'latency': 16}
+INFO       2022-08-25 10:49:06,725: Sending topic 'field' as :variables={'currentTimestep': 153, 'currentTime': 153.0, 'totalTimestepsRun': 254, 'versions': 3, 'sent_time_ns': 38946709, 'recv_time_ns': 38946725, 'latency': 16}
+INFO       2022-08-25 10:49:06,881: Sending topic 'field' as :variables={'currentTimestep': 154, 'currentTime': 154.0, 'totalTimestepsRun': 255, 'versions': 3, 'sent_time_ns': 38946865, 'recv_time_ns': 38946881, 'latency': 16}
+INFO       2022-08-25 10:49:07,017: Sending topic 'field' as :variables={'currentTimestep': 40, 'currentTime': 40, 'totalTimestepsRun': 255, 'versions': 1, 'sent_time_ns': 38947013, 'recv_time_ns': 38947017, 'latency': 4}
+DEBUG      2022-08-25 10:49:07,017: Received Updation : variables={'currentTimestep': 40, 'currentTime': 40, 'totalTimestepsRun': 255, 'versions': 1, 'sent_time_ns': 38947013, 'recv_time_ns': 38947017, 'latency': 4}
+INFO       2022-08-25 10:49:07,021: Sending topic 'field' as :variables={'currentTimestep': 155, 'currentTime': 155.0, 'totalTimestepsRun': 256, 'versions': 3, 'sent_time_ns': 38947005, 'recv_time_ns': 38947021, 'latency': 16}
+INFO       2022-08-25 10:49:07,112: Sending topic 'field' as :variables={'currentTimestep': 156, 'currentTime': 156.0, 'totalTimestepsRun': 257, 'versions': 3, 'sent_time_ns': 38947096, 'recv_time_ns': 38947112, 'latency': 16}
+INFO       2022-08-25 10:49:07,249: Sending topic 'field' as :variables={'currentTimestep': 157, 'currentTime': 157.0, 'totalTimestepsRun': 258, 'versions': 3, 'sent_time_ns': 38947233, 'recv_time_ns': 38947249, 'latency': 16}
+INFO       2022-08-25 10:49:07,409: Sending topic 'field' as :variables={'currentTimestep': 158, 'currentTime': 158.0, 'totalTimestepsRun': 259, 'versions': 3, 'sent_time_ns': 38947393, 'recv_time_ns': 38947409, 'latency': 16}
+INFO       2022-08-25 10:49:07,517: Sending topic 'field' as :variables={'currentTimestep': 159, 'currentTime': 159.0, 'totalTimestepsRun': 260, 'versions': 3, 'sent_time_ns': 38947501, 'recv_time_ns': 38947517, 'latency': 16}
+INFO       2022-08-25 10:49:07,605: Sending topic 'field' as :variables={'currentTimestep': 160, 'currentTime': 160.0, 'totalTimestepsRun': 261, 'versions': 3, 'sent_time_ns': 38947589, 'recv_time_ns': 38947605, 'latency': 16}
+INFO       2022-08-25 10:49:07,685: Sending topic 'field' as :variables={'currentTimestep': 161, 'currentTime': 161.0, 'totalTimestepsRun': 262, 'versions': 3, 'sent_time_ns': 38947669, 'recv_time_ns': 38947685, 'latency': 16}
+INFO       2022-08-25 10:49:07,777: Sending topic 'field' as :variables={'currentTimestep': 162, 'currentTime': 162.0, 'totalTimestepsRun': 263, 'versions': 3, 'sent_time_ns': 38947761, 'recv_time_ns': 38947777, 'latency': 16}
+INFO       2022-08-25 10:49:07,869: Sending topic 'field' as :variables={'currentTimestep': 163, 'currentTime': 163.0, 'totalTimestepsRun': 264, 'versions': 3, 'sent_time_ns': 38947857, 'recv_time_ns': 38947869, 'latency': 12}
+INFO       2022-08-25 10:49:07,949: Sending topic 'field' as :variables={'currentTimestep': 164, 'currentTime': 164.0, 'totalTimestepsRun': 265, 'versions': 3, 'sent_time_ns': 38947933, 'recv_time_ns': 38947949, 'latency': 16}
+INFO       2022-08-25 10:49:08,069: Sending topic 'field' as :variables={'currentTimestep': 165, 'currentTime': 165.0, 'totalTimestepsRun': 266, 'versions': 3, 'sent_time_ns': 38948045, 'recv_time_ns': 38948069, 'latency': 24}
+INFO       2022-08-25 10:49:08,185: Sending topic 'field' as :variables={'currentTimestep': 166, 'currentTime': 166.0, 'totalTimestepsRun': 267, 'versions': 3, 'sent_time_ns': 38948157, 'recv_time_ns': 38948185, 'latency': 28}
+INFO       2022-08-25 10:49:08,277: Sending topic 'field' as :variables={'currentTimestep': 167, 'currentTime': 167.0, 'totalTimestepsRun': 268, 'versions': 3, 'sent_time_ns': 38948261, 'recv_time_ns': 38948277, 'latency': 16}
+INFO       2022-08-25 10:49:08,420: Sending topic 'field' as :variables={'currentTimestep': 168, 'currentTime': 168.0, 'totalTimestepsRun': 269, 'versions': 3, 'sent_time_ns': 38948369, 'recv_time_ns': 38948420, 'latency': 51}
+INFO       2022-08-25 10:49:08,524: Sending topic 'field' as :variables={'currentTimestep': 169, 'currentTime': 169.0, 'totalTimestepsRun': 270, 'versions': 3, 'sent_time_ns': 38948508, 'recv_time_ns': 38948524, 'latency': 16}
+INFO       2022-08-25 10:49:08,601: Sending topic 'field' as :variables={'currentTimestep': 170, 'currentTime': 170.0, 'totalTimestepsRun': 271, 'versions': 3, 'sent_time_ns': 38948585, 'recv_time_ns': 38948601, 'latency': 16}
+INFO       2022-08-25 10:49:08,708: Sending topic 'field' as :variables={'currentTimestep': 171, 'currentTime': 171.0, 'totalTimestepsRun': 272, 'versions': 3, 'sent_time_ns': 38948692, 'recv_time_ns': 38948708, 'latency': 16}
+INFO       2022-08-25 10:49:08,830: Sending topic 'field' as :variables={'currentTimestep': 172, 'currentTime': 172.0, 'totalTimestepsRun': 273, 'versions': 3, 'sent_time_ns': 38948814, 'recv_time_ns': 38948830, 'latency': 16}
+INFO       2022-08-25 10:49:08,926: Sending topic 'field' as :variables={'currentTimestep': 173, 'currentTime': 173.0, 'totalTimestepsRun': 274, 'versions': 3, 'sent_time_ns': 38948910, 'recv_time_ns': 38948926, 'latency': 16}
+INFO       2022-08-25 10:49:09,053: Sending topic 'field' as :variables={'currentTimestep': 174, 'currentTime': 174.0, 'totalTimestepsRun': 275, 'versions': 3, 'sent_time_ns': 38949038, 'recv_time_ns': 38949053, 'latency': 15}
+INFO       2022-08-25 10:49:09,162: Sending topic 'field' as :variables={'currentTimestep': 175, 'currentTime': 175.0, 'totalTimestepsRun': 276, 'versions': 3, 'sent_time_ns': 38949146, 'recv_time_ns': 38949162, 'latency': 16}
+INFO       2022-08-25 10:49:09,271: Sending topic 'field' as :variables={'currentTimestep': 176, 'currentTime': 176.0, 'totalTimestepsRun': 277, 'versions': 3, 'sent_time_ns': 38949255, 'recv_time_ns': 38949271, 'latency': 16}
+INFO       2022-08-25 10:49:09,395: Sending topic 'field' as :variables={'currentTimestep': 177, 'currentTime': 177.0, 'totalTimestepsRun': 278, 'versions': 3, 'sent_time_ns': 38949379, 'recv_time_ns': 38949395, 'latency': 16}
+INFO       2022-08-25 10:49:09,507: Sending topic 'field' as :variables={'currentTimestep': 178, 'currentTime': 178.0, 'totalTimestepsRun': 279, 'versions': 3, 'sent_time_ns': 38949491, 'recv_time_ns': 38949507, 'latency': 16}
+INFO       2022-08-25 10:49:09,643: Sending topic 'field' as :variables={'currentTimestep': 179, 'currentTime': 179.0, 'totalTimestepsRun': 280, 'versions': 3, 'sent_time_ns': 38949627, 'recv_time_ns': 38949643, 'latency': 16}
+INFO       2022-08-25 10:49:09,786: Sending topic 'field' as :variables={'currentTimestep': 180, 'currentTime': 180.0, 'totalTimestepsRun': 281, 'versions': 3, 'sent_time_ns': 38949768, 'recv_time_ns': 38949786, 'latency': 18}
+INFO       2022-08-25 10:49:09,895: Sending topic 'field' as :variables={'currentTimestep': 181, 'currentTime': 181.0, 'totalTimestepsRun': 282, 'versions': 3, 'sent_time_ns': 38949883, 'recv_time_ns': 38949895, 'latency': 12}
+INFO       2022-08-25 10:49:10,039: Sending topic 'field' as :variables={'currentTimestep': 182, 'currentTime': 182.0, 'totalTimestepsRun': 283, 'versions': 3, 'sent_time_ns': 38950023, 'recv_time_ns': 38950039, 'latency': 16}
+INFO       2022-08-25 10:49:10,195: Sending topic 'field' as :variables={'currentTimestep': 183, 'currentTime': 183.0, 'totalTimestepsRun': 284, 'versions': 3, 'sent_time_ns': 38950179, 'recv_time_ns': 38950195, 'latency': 16}
+INFO       2022-08-25 10:49:10,355: Sending topic 'field' as :variables={'currentTimestep': 184, 'currentTime': 184.0, 'totalTimestepsRun': 285, 'versions': 3, 'sent_time_ns': 38950339, 'recv_time_ns': 38950355, 'latency': 16}
+INFO       2022-08-25 10:49:10,499: Sending topic 'field' as :variables={'currentTimestep': 185, 'currentTime': 185.0, 'totalTimestepsRun': 286, 'versions': 3, 'sent_time_ns': 38950483, 'recv_time_ns': 38950499, 'latency': 16}
+INFO       2022-08-25 10:49:10,667: Sending topic 'field' as :variables={'currentTimestep': 186, 'currentTime': 186.0, 'totalTimestepsRun': 287, 'versions': 3, 'sent_time_ns': 38950655, 'recv_time_ns': 38950667, 'latency': 12}
+INFO       2022-08-25 10:49:10,811: Sending topic 'field' as :variables={'currentTimestep': 187, 'currentTime': 187.0, 'totalTimestepsRun': 288, 'versions': 3, 'sent_time_ns': 38950795, 'recv_time_ns': 38950811, 'latency': 16}
+INFO       2022-08-25 10:49:10,987: Sending topic 'field' as :variables={'currentTimestep': 188, 'currentTime': 188.0, 'totalTimestepsRun': 289, 'versions': 3, 'sent_time_ns': 38950971, 'recv_time_ns': 38950987, 'latency': 16}
+INFO       2022-08-25 10:49:11,158: Sending topic 'field' as :variables={'currentTimestep': 189, 'currentTime': 189.0, 'totalTimestepsRun': 290, 'versions': 3, 'sent_time_ns': 38951142, 'recv_time_ns': 38951158, 'latency': 16}
+INFO       2022-08-25 10:49:11,299: Sending topic 'field' as :variables={'currentTimestep': 190, 'currentTime': 190.0, 'totalTimestepsRun': 291, 'versions': 3, 'sent_time_ns': 38951283, 'recv_time_ns': 38951299, 'latency': 16}
+INFO       2022-08-25 10:49:11,443: Sending topic 'field' as :variables={'currentTimestep': 191, 'currentTime': 191.0, 'totalTimestepsRun': 292, 'versions': 3, 'sent_time_ns': 38951427, 'recv_time_ns': 38951443, 'latency': 16}
+INFO       2022-08-25 10:49:11,611: Sending topic 'field' as :variables={'currentTimestep': 192, 'currentTime': 192.0, 'totalTimestepsRun': 293, 'versions': 3, 'sent_time_ns': 38951595, 'recv_time_ns': 38951611, 'latency': 16}
+INFO       2022-08-25 10:49:11,755: Sending topic 'field' as :variables={'currentTimestep': 193, 'currentTime': 193.0, 'totalTimestepsRun': 294, 'versions': 3, 'sent_time_ns': 38951739, 'recv_time_ns': 38951755, 'latency': 16}
+INFO       2022-08-25 10:49:11,931: Sending topic 'field' as :variables={'currentTimestep': 194, 'currentTime': 194.0, 'totalTimestepsRun': 295, 'versions': 3, 'sent_time_ns': 38951915, 'recv_time_ns': 38951931, 'latency': 16}
+INFO       2022-08-25 10:49:12,091: Sending topic 'field' as :variables={'currentTimestep': 195, 'currentTime': 195.0, 'totalTimestepsRun': 296, 'versions': 3, 'sent_time_ns': 38952075, 'recv_time_ns': 38952091, 'latency': 16}
+INFO       2022-08-25 10:49:12,235: Sending topic 'field' as :variables={'currentTimestep': 196, 'currentTime': 196.0, 'totalTimestepsRun': 297, 'versions': 3, 'sent_time_ns': 38952219, 'recv_time_ns': 38952235, 'latency': 16}
+INFO       2022-08-25 10:49:12,403: Sending topic 'field' as :variables={'currentTimestep': 197, 'currentTime': 197.0, 'totalTimestepsRun': 298, 'versions': 3, 'sent_time_ns': 38952387, 'recv_time_ns': 38952403, 'latency': 16}
+INFO       2022-08-25 10:49:12,546: Sending topic 'field' as :variables={'currentTimestep': 198, 'currentTime': 198.0, 'totalTimestepsRun': 299, 'versions': 3, 'sent_time_ns': 38952530, 'recv_time_ns': 38952546, 'latency': 16}
+INFO       2022-08-25 10:49:12,713: Sending topic 'field' as :variables={'currentTimestep': 199, 'currentTime': 199.0, 'totalTimestepsRun': 300, 'versions': 3, 'sent_time_ns': 38952697, 'recv_time_ns': 38952713, 'latency': 16}
+INFO       2022-08-25 10:49:12,873: Sending topic 'field' as :variables={'currentTimestep': 200, 'currentTime': 200.0, 'totalTimestepsRun': 301, 'versions': 3, 'sent_time_ns': 38952857, 'recv_time_ns': 38952873, 'latency': 16}
+INFO       2022-08-25 10:49:13,033: Sending topic 'field' as :variables={'currentTimestep': 201, 'currentTime': 201.0, 'totalTimestepsRun': 302, 'versions': 3, 'sent_time_ns': 38953017, 'recv_time_ns': 38953033, 'latency': 16}
+INFO       2022-08-25 10:49:13,192: Sending topic 'field' as :variables={'currentTimestep': 202, 'currentTime': 202.0, 'totalTimestepsRun': 303, 'versions': 3, 'sent_time_ns': 38953177, 'recv_time_ns': 38953192, 'latency': 15}
+INFO       2022-08-25 10:49:13,367: Sending topic 'field' as :variables={'currentTimestep': 203, 'currentTime': 203.0, 'totalTimestepsRun': 304, 'versions': 3, 'sent_time_ns': 38953351, 'recv_time_ns': 38953367, 'latency': 16}
+INFO       2022-08-25 10:49:13,495: Sending topic 'field' as :variables={'currentTimestep': 204, 'currentTime': 204.0, 'totalTimestepsRun': 305, 'versions': 3, 'sent_time_ns': 38953479, 'recv_time_ns': 38953495, 'latency': 16}
+INFO       2022-08-25 10:49:13,635: Sending topic 'field' as :variables={'currentTimestep': 205, 'currentTime': 205.0, 'totalTimestepsRun': 306, 'versions': 3, 'sent_time_ns': 38953619, 'recv_time_ns': 38953635, 'latency': 16}
+INFO       2022-08-25 10:49:13,785: Sending topic 'field' as :variables={'currentTimestep': 206, 'currentTime': 206.0, 'totalTimestepsRun': 307, 'versions': 3, 'sent_time_ns': 38953768, 'recv_time_ns': 38953785, 'latency': 17}
+INFO       2022-08-25 10:49:13,941: Sending topic 'field' as :variables={'currentTimestep': 207, 'currentTime': 207.0, 'totalTimestepsRun': 308, 'versions': 3, 'sent_time_ns': 38953925, 'recv_time_ns': 38953941, 'latency': 16}
+INFO       2022-08-25 10:49:14,086: Sending topic 'field' as :variables={'currentTimestep': 208, 'currentTime': 208.0, 'totalTimestepsRun': 309, 'versions': 3, 'sent_time_ns': 38954070, 'recv_time_ns': 38954086, 'latency': 16}
+INFO       2022-08-25 10:49:14,258: Sending topic 'field' as :variables={'currentTimestep': 209, 'currentTime': 209.0, 'totalTimestepsRun': 310, 'versions': 3, 'sent_time_ns': 38954242, 'recv_time_ns': 38954258, 'latency': 16}
+INFO       2022-08-25 10:49:14,410: Sending topic 'field' as :variables={'currentTimestep': 210, 'currentTime': 210.0, 'totalTimestepsRun': 311, 'versions': 3, 'sent_time_ns': 38954394, 'recv_time_ns': 38954410, 'latency': 16}
+INFO       2022-08-25 10:49:14,570: Sending topic 'field' as :variables={'currentTimestep': 211, 'currentTime': 211.0, 'totalTimestepsRun': 312, 'versions': 3, 'sent_time_ns': 38954554, 'recv_time_ns': 38954570, 'latency': 16}
+INFO       2022-08-25 10:49:14,722: Sending topic 'field' as :variables={'currentTimestep': 212, 'currentTime': 212.0, 'totalTimestepsRun': 313, 'versions': 3, 'sent_time_ns': 38954706, 'recv_time_ns': 38954722, 'latency': 16}
+INFO       2022-08-25 10:49:14,898: Sending topic 'field' as :variables={'currentTimestep': 213, 'currentTime': 213.0, 'totalTimestepsRun': 314, 'versions': 3, 'sent_time_ns': 38954882, 'recv_time_ns': 38954898, 'latency': 16}
+INFO       2022-08-25 10:49:15,070: Sending topic 'field' as :variables={'currentTimestep': 214, 'currentTime': 214.0, 'totalTimestepsRun': 315, 'versions': 3, 'sent_time_ns': 38955054, 'recv_time_ns': 38955070, 'latency': 16}
+INFO       2022-08-25 10:49:15,209: Sending topic 'field' as :variables={'currentTimestep': 215, 'currentTime': 215.0, 'totalTimestepsRun': 316, 'versions': 3, 'sent_time_ns': 38955194, 'recv_time_ns': 38955209, 'latency': 15}
+INFO       2022-08-25 10:49:15,362: Sending topic 'field' as :variables={'currentTimestep': 216, 'currentTime': 216.0, 'totalTimestepsRun': 317, 'versions': 3, 'sent_time_ns': 38955345, 'recv_time_ns': 38955362, 'latency': 17}
+INFO       2022-08-25 10:49:15,522: Sending topic 'field' as :variables={'currentTimestep': 217, 'currentTime': 217.0, 'totalTimestepsRun': 318, 'versions': 3, 'sent_time_ns': 38955506, 'recv_time_ns': 38955522, 'latency': 16}
+INFO       2022-08-25 10:49:15,682: Sending topic 'field' as :variables={'currentTimestep': 218, 'currentTime': 218.0, 'totalTimestepsRun': 319, 'versions': 3, 'sent_time_ns': 38955666, 'recv_time_ns': 38955682, 'latency': 16}
+INFO       2022-08-25 10:49:15,840: Sending topic 'field' as :variables={'currentTimestep': 219, 'currentTime': 219.0, 'totalTimestepsRun': 320, 'versions': 3, 'sent_time_ns': 38955824, 'recv_time_ns': 38955840, 'latency': 16}
+INFO       2022-08-25 10:49:16,016: Sending topic 'field' as :variables={'currentTimestep': 220, 'currentTime': 220.0, 'totalTimestepsRun': 321, 'versions': 3, 'sent_time_ns': 38956000, 'recv_time_ns': 38956016, 'latency': 16}
+INFO       2022-08-25 10:49:16,140: Sending topic 'field' as :variables={'currentTimestep': 221, 'currentTime': 221.0, 'totalTimestepsRun': 322, 'versions': 3, 'sent_time_ns': 38956124, 'recv_time_ns': 38956140, 'latency': 16}
+INFO       2022-08-25 10:49:16,306: Sending topic 'field' as :variables={'currentTimestep': 222, 'currentTime': 222.0, 'totalTimestepsRun': 323, 'versions': 3, 'sent_time_ns': 38956290, 'recv_time_ns': 38956306, 'latency': 16}

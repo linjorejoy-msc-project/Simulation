@@ -79,6 +79,7 @@ def fill_init_topic_data():
 
 
 def run_one_cycle():
+    global data_dict
 
     topic_data["pressure"], topic_data["temperature"] = external_pressure_temperature(
         data_dict["currentAltitude"]

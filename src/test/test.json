@@ -1,0 +1,20 @@
+{
+  "currentAcceleration": 5.683050528993097,
+  "currentAltitude": 5.683050528993097,
+  "currentAltitudeDelta": 5.683050528993097,
+  "currentTime": 0,
+  "currentTimestep": 0,
+  "currentVelocity": 5.683050528993097,
+  "currentVelocityDelta": 5.683050528993097,
+  "density": 1.2259456871825118,
+  "drag": 21162.872348734669,
+  "latency_ms": 3.60002e6,
+  "netThrust": 4.5188045853658527e7,
+  "pressure": 101.33272818959871,
+  "recv_time_ns": 1.660658794547e12,
+  "requiredThrustChange": 63.318711712983479,
+  "sent_time_ns": 1.660655194527e12,
+  "temperature": 15.003117002066833,
+  "totalTimestepsRun": 0,
+  "versions": 1
+}

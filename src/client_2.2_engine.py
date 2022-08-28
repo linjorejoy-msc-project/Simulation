@@ -83,6 +83,8 @@ def fill_init_topic_data():
 def run_one_cycle():
     # Run one simulation
     global server_socket
+    global data_dict
+
     topic_data["currentThrust"] = (
         CONSTANTS["specificImpulse"]
         * CONSTANTS["gravitationalAcceleration"]
